@@ -1,23 +1,17 @@
-FROM richarvey/nginx-php-fpm:3.1.6
+FROM serversideup/php:8.3-fpm-nginx
 
-COPY . /var/www/html
+# Switch to root to configure file permissions
+USER root
 
-# Image configurations
-ENV WEBROOT /var/www/html/public
-ENV PHP_ERRORS_STDERR 1
-ENV RUN_SCRIPTS 1
-ENV REAL_IP_HEADER 1
+# Copy application files with correct ownership for www-data
+COPY --chown=www-data:www-data . /var/www/html
 
-# Laravel environment defaults
-ENV APP_ENV production
-ENV APP_DEBUG false
-ENV LOG_CHANNEL stderr
+# Copy deploy script into entrypoint.d directory so it runs on startup
+COPY --chown=www-data:www-data scripts/00-laravel-deploy.sh /etc/entrypoint.d/99-laravel-deploy.sh
+RUN chmod 755 /etc/entrypoint.d/99-laravel-deploy.sh
 
-# Allow composer to run as root
-ENV COMPOSER_ALLOW_SUPERUSER 1
+# Switch back to www-data user
+USER www-data
 
 # Install composer dependencies
 RUN composer install --no-dev --optimize-autoloader
-
-# Start the server using the default entrypoint
-CMD ["/start.sh"]

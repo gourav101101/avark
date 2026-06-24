@@ -1,15 +1,15 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 # Make sure SQLite database exists
 echo "Creating database file..."
-touch database/database.sqlite
+touch /var/www/html/database/database.sqlite
 
 # Run migrations
 echo "Running migrations..."
-php artisan migrate --force
+php /var/www/html/artisan migrate --force
 
 # Cache Laravel config & routes for performance
 echo "Caching config and routes..."
-php artisan config:cache
-php artisan route:cache
-php artisan view:cache
+php /var/www/html/artisan config:cache
+php /var/www/html/artisan route:cache
+php /var/www/html/artisan view:cache
