@@ -62,14 +62,14 @@
                         </p>
 
                         <div class="hero__content-wrap">
-                            <a href="{{ url('contact') }}" class="rr-btn-green">
+                            <a href="{{ route('contact-us') }}" class="rr-btn-green">
                                 <span class="btn-wrap">
                                     <span class="text-one">Get a Free Consultation</span>
                                     <span class="text-two">Get a Free Consultation</span>
                                 </span>
                             </a>
 
-                            <a href="{{ url('service') }}" class="rr-btn-green green-2">
+                            <a href="{{ route('services') }}" class="rr-btn-green green-2">
                                 <span class="btn-wrap">
                                     <span class="text-one">Explore Our Solutions</span>
                                     <span class="text-two">Explore Our Solutions</span>
@@ -158,7 +158,7 @@
                             <h2 class="title rr-title-anim-1">Transforming Operations with Intelligent Technology</h2>
                             <p class="desc">From enterprise software to custom development, Avark builds smart digital ecosystems that automate workflows, improve efficiency, and empower businesses to scale confidently.</p>
 
-                            <a href="about.html" class="rr-btn-green">
+                            <a href="{{ route('about') }}" class="rr-btn-green">
                                 <span class="btn-wrap">
                                     <span class="text-one">Discover More</span>
                                     <span class="text-two">Discover More</span>
@@ -214,7 +214,7 @@
                 <div class="swiper-slide">
                     <div class="service__item">
                         <span class="icon"><img src="assets/imgs/home-1/service/erp.png" alt="image"></span>
-                        <h3 class="title"><a href="service-details.html">ERP System Development</a></h3>
+                        <h3 class="title"><a href="{{ route('erp-system') }}">ERP System Development</a></h3>
                         <p class="desc">Streamline operations, manage resources efficiently, and gain real-time business insights with our scalable ERP solutions.</p>
                         <span class="service">Service _ 01</span>
                     </div>
@@ -222,7 +222,7 @@
                 <div class="swiper-slide">
                     <div class="service__item">
                         <span class="icon"><img src="assets/imgs/home-1/service/crm-kp.png" alt="image"></span>
-                        <h3 class="title"><a href="service-details.html">CRM Solutions</a></h3>
+                        <h3 class="title"><a href="{{ route('crm-solutions') }}">CRM Solutions</a></h3>
                         <p class="desc">Improve customer relationships, automate sales processes, and boost engagement with intelligent CRM systems.</p>
                         <span class="service">Service _ 02</span>
                     </div>
@@ -231,7 +231,7 @@
                 <div class="swiper-slide">
                     <div class="service__item">
                         <span class="icon"><img src="assets/imgs/home-1/service/CustomSoftwareDevelopment-kp.png" alt="image"></span>
-                        <h3 class="title"><a href="service-details.html">Custom Software Development</a></h3>
+                        <h3 class="title"><a href="{{ route('custom-software-development') }}">Custom Software Development</a></h3>
                         <p class="desc">Tailor-made software solutions designed specifically to match your business workflows and operational requirements.</p>
                         <span class="service">Service _ 04</span>
                     </div>
@@ -240,7 +240,7 @@
                 <div class="swiper-slide">
                     <div class="service__item">
                         <span class="icon"><img src="assets/imgs/home-1/service/WebApplicationDevelopment-kp.png" alt="image"></span>
-                        <h3 class="title"><a href="service-details.html">Web Application Development</a></h3>
+                        <h3 class="title"><a href="{{ route('web-application-development') }}">Web Application Development</a></h3>
                         <p class="desc">Secure, responsive, and high-performance web platforms built using modern technologies for scalable growth.</p>
                         <span class="service">Service _ 05</span>
                     </div>
@@ -249,7 +249,7 @@
                 <div class="swiper-slide">
                     <div class="service__item">
                         <span class="icon"><img src="assets/imgs/home-1/service/mobile-development.png" alt="image"></span>
-                        <h3 class="title"><a href="service-details.html">Mobile App Development</a></h3>
+                        <h3 class="title"><a href="{{ route('mobile-app-development') }}">Mobile App Development</a></h3>
                         <p class="desc">User-friendly Android & iOS applications that enhance customer experience and expand your digital reach.</p>
                         <span class="service">Service _ 06</span>
                     </div>
@@ -258,7 +258,7 @@
                 <div class="swiper-slide">
                     <div class="service__item">
                         <span class="icon"><img src="assets/imgs/home-1/service/cloud-computing-kpm.png" alt="image"></span>
-                        <h3 class="title"><a href="service-details.html">Cloud & Data Migration</a></h3>
+                        <h3 class="title"><a href="{{ route('cloud-and-data-migration') }}">Cloud & Data Migration</a></h3>
                         <p class="desc">Smooth and secure migration of legacy systems and business data to modern cloud-based infrastructure.</p>
                         <span class="service">Service _ 07</span>
                     </div>
@@ -267,7 +267,7 @@
                 <div class="swiper-slide">
                     <div class="service__item">
                         <span class="icon"><img src="assets/imgs/home-1/service/digital-transformation-kpm.png" alt="image"></span>
-                        <h3 class="title"><a href="service-details.html">Enterprise Integration Services</a></h3>
+                        <h3 class="title"><a href="{{ route('enterprise-integration-services') }}">Enterprise Integration Services</a></h3>
                         <p class="desc">Seamlessly integrate ERP, CRM, third-party tools, and APIs into one unified digital ecosystem.</p>
                         <span class="service">Service _ 08</span>
                     </div>
@@ -357,7 +357,7 @@
                             <h3 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Powering Growth with Intelligent Technology</h3>
                             <p class="desc" data-aos="fade-up" data-aos-duration="900">Avark delivers secure, scalable, and high-performance software solutions designed to streamline operations, enhance productivity, and accelerate digital transformation. From ERP and CRM systems to custom enterprise applications, we help businesses operate smarter and grow with confidence.</p>
 
-                            <a href="contact.html" class="rr-btn-green has--drk-gren" data-aos="fade-up"
+                            <a href="{{ route('contact-us') }}" class="rr-btn-green has--drk-gren" data-aos="fade-up"
                                 data-aos-duration="900">
                                 <span class="btn-wrap">
                                     <span class="text-one">Get a Free Consultation</span>
@@ -390,21 +390,21 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="choose-us__item" data-aos="fade-right" data-aos-duration="900">
                             <h2 class="title"><span class="icon"><img src="assets/imgs/home-1/choose-us/icon-3.png"
-                                        alt="image"></span><a href="contact.html">High-Performance Systems</a></h2>
+                                        alt="image"></span><a href="{{ route('contact-us') }}">High-Performance Systems</a></h2>
                             <p> Optimized software solutions built for speed, reliability, and seamless business operations.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="choose-us__item" data-aos="fade-up" data-aos-duration="900">
                             <h2 class="title"><span class="icon"><img src="assets/imgs/home-1/choose-us/icon-4.png"
-                                        alt="image"></span><a href="contact.html">Enterprise-Grade Security</a></h2>
+                                        alt="image"></span><a href="{{ route('contact-us') }}">Enterprise-Grade Security</a></h2>
                             <p> Advanced architecture and data protection standards to ensure complete system integrity.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="choose-us__item" data-aos="fade-left" data-aos-duration="900">
                             <h2 class="title"><span class="icon"><img src="assets/imgs/home-1/choose-us/icon-5.png"
-                                        alt="image"></span><a href="contact.html">Trusted Technology Partner</a></h2>
+                                        alt="image"></span><a href="{{ route('contact-us') }}">Trusted Technology Partner</a></h2>
                             <p> Businesses rely on Avark for scalable ERP, CRM, and custom software solutions that deliver measurable results. </p>
                         </div>
                     </div>
@@ -498,7 +498,7 @@
                     </ul>
                 </div>
                 <div class="pricing__price__btn">
-                    <a href="contact.html" class="rr-btn-green">
+                    <a href="{{ route('contact-us') }}" class="rr-btn-green">
                         <span class="btn-wrap">
                             <span class="text-one">Request Demo</span>
                             <span class="text-two">Request Demo</span>
@@ -524,7 +524,7 @@
                     </ul>
                 </div>
                 <div class="pricing__price__btn">
-                    <a href="contact.html" class="rr-btn-green">
+                    <a href="{{ route('contact-us') }}" class="rr-btn-green">
                         <span class="btn-wrap">
                             <span class="text-one">Get ERP Demo</span>
                             <span class="text-two">Get ERP Demo</span>
@@ -658,7 +658,7 @@
                         </p>
                     </div>
 
-                    <a href="contact.html" class="rr-btn-green">
+                    <a href="{{ route('contact-us') }}" class="rr-btn-green">
                         <span class="btn-wrap">
                             <span class="text-one">Get a Free Consultation</span>
                             <span class="text-two">Get a Free Consultation</span>
@@ -766,7 +766,7 @@
                         <h2 class="title rr-title-anim-1">Got Questions? We’ve Got Answers </h2>
                         <p class="desc">Find clear answers to common questions about Avark’s ERP, Inventory Management, and PACS solutions — covering features, pricing, security, and implementation.</p>
 
-                        <a href="contact.html" class="rr-btn-green">
+                        <a href="{{ route('contact-us') }}" class="rr-btn-green">
                             <span class="btn-wrap">
                                 <span class="text-one">CONTACT US</span>
                                 <span class="text-two">CONTACT US</span>
