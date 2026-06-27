@@ -17,7 +17,7 @@
                  <div class="col-lg-5">
                      <div class="footer-4__content" data-background="assets/imgs/home-4/footer/footer-4_shape_03.png" style="background-image: url(&quot;assets/imgs/home-4/footer/footer-4_shape_03.png&quot;);">
                          <div class="footer-4__text">
-                             <h3 class="footer-4__main-title">Download The App Or tHE aPP Store Or Play Store</h3>
+                             <h3 class="footer-4__main-title">Download The App On The App Store Or Play Store</h3>
                          </div>
                          <div class="footer-4__thumb" style="text-align:center">
                              <img src="assets/imgs/home-1/ARkpng.png" alt="image not found" style="width:50%;">
