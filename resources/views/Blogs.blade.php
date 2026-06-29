@@ -17,7 +17,7 @@
             <div class="breadcrumb-section__content text_center breadcrumb-section__space">
                 <h3 class="breadcrumb-section__title">Blogs</h3>
                 <ul class="breadcrumb-section__page">
-                    <li><a href="index.html">Home <i class="fa-regular fa-angle-right"></i></a></li>
+                    <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                     <li>Blogs</li>
             </div>
         </div>
@@ -55,9 +55,9 @@
                       <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
                     </ul>
 
-                    <h3 class="title"><a href="blog-details.html">How to Choose the Right ERP or Inventory System for Your Business</a></h3>
+                    <h3 class="title"><a href="{{ route('blog-details') }}">How to Choose the Right ERP or Inventory System for Your Business</a></h3>
                     <div class="blog-3__media">
-                      <a href="blog-details.html"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blog-details') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Avark</li>
                         <li class="date">Oct 04,2026</li>
@@ -74,9 +74,9 @@
                       <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
                     </ul>
 
-                    <h3 class="title"><a href="blog-details.html">How CRM Helps <br> Startups Scale<br> Faster</a></h3>
+                    <h3 class="title"><a href="{{ route('blog-details') }}">How CRM Helps <br> Startups Scale<br> Faster</a></h3>
                     <div class="blog-3__media">
-                      <a href="blog-details.html"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blog-details') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Avark</li>
                         <li class="date">Oct 04,6</li>
@@ -94,9 +94,9 @@
                       <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
                     </ul>
 
-                    <h3 class="title"><a href="blog-details.html">The Future of ERP Systems: Trends to Watch in <br> 2026</a></h3>
+                    <h3 class="title"><a href="{{ route('blogs') }}">The Future of ERP Systems: Trends to Watch in <br> 2026</a></h3>
                     <div class="blog-3__media">
-                      <a href="blog-details.html"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blogs') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Agency</li>
                         <li class="date">Oct 04,2026</li>
@@ -115,7 +115,7 @@
 
                     <h3 class="title"><a href="{{ route('blog-details') }}">How to Choose the Right ERP or Inventory System for Your Business</a></h3>
                     <div class="blog-3__media">
-                      <a href="blog-details.html"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blogs') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Avark</li>
                         <li class="date">Oct 04,2026</li>
@@ -132,9 +132,9 @@
                       <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
                     </ul>
 
-                    <h3 class="title"><a href="blog-details.html">How CRM Helps <br> Startups Scale<br> Faster</a></h3>
+                    <h3 class="title"><a href="{{ route('blogs') }}">How CRM Helps <br> Startups Scale<br> Faster</a></h3>
                     <div class="blog-3__media">
-                      <a href="blog-details.html"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blogs') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Avark</li>
                         <li class="date">Oct 04,6</li>
@@ -176,7 +176,7 @@
                     <span class="text-two">view our demo</span>
                   </span>
                 </a>
-                <a href="contact.html" class="rr-btn rr-btn-3">
+                <a href="{{ route('contact-us') }}" class="rr-btn rr-btn-3">
                   <span class="btn-wrap">
                     <span class="text-one">start free trial now</span>
                     <span class="text-two">start free trial now</span>

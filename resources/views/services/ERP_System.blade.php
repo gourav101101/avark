@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 
 @section('title', 'ERP System Development')
 @section('meta_description', 'ERP System Development')
@@ -13,7 +13,7 @@
               <div class="breadcrumb-section__content text_center breadcrumb-section__space">
                 <h3 class="breadcrumb-section__title">Service</h3>
                 <ul class="breadcrumb-section__page">
-                  <li><a href="index.html">Home <i class="fa-regular fa-angle-right"></i></a></li>
+                  <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                   <li> Service</li>
                   <li> ERP System Development</li>
                 </ul>
@@ -188,13 +188,13 @@
                 <p class="cta-section__dec">Start your 30-day free trial. Cancel anytime.</p>
               </div>
               <div class="cta-section__btn">
-                <a href="#" class="rr-btn">
+                <a href="{{ route('contact-us') }}" class="rr-btn">
                   <span class="btn-wrap">
                     <span class="text-one">view our demo</span>
                     <span class="text-two">view our demo</span>
                   </span>
                 </a>
-                <a href="contact.html" class="rr-btn rr-btn-3">
+                <a href="{{ route('contact-us') }}" class="rr-btn rr-btn-3">
                   <span class="btn-wrap">
                     <span class="text-one">start free trial now</span>
                     <span class="text-two">start free trial now</span>

@@ -13,7 +13,7 @@
             <div class="breadcrumb-section__content text_center breadcrumb-section__space">
                 <h3 class="breadcrumb-section__title">Blog Details</h3>
                 <ul class="breadcrumb-section__page">
-                    <li><a href="index.html">Home <i class="fa-regular fa-angle-right"></i></a></li>
+                    <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                     <li><i class="fa-regular fa-angle-right"></i>Blogs</li>
                     <li><i class="fa-regular fa-angle-right"></i>Blog Details</li>
             </div>
@@ -166,13 +166,13 @@
                                     <div class="head d-flex flex-wrap gap-2 align-items-center justify-content-between">
                                         <div class="con">
                                             <h2>
-                                                <a href="blog-details.html">
+                                                <a href="{{ route('blog-details') }}">
                                                     Adam Jhon
                                                 </a>
                                             </h2>
                                             <span>February 10, 2024 at 2:37 pm</span>
                                         </div>
-                                        <a href="blog-details.html" class="reply">Reply</a>
+                                        <a href="{{ route('blog-details') }}" class="reply">Reply</a>
                                     </div>
                                     <p class="mt-2 mb-4">
                                         Mauris non dignissim purus, ac commodo diam. Donec sit amet lacinia nulla. Aliquam quis
@@ -187,10 +187,10 @@
                                 <div class="content">
                                     <div class="head d-flex flex-wrap gap-2 align-items-center justify-content-between">
                                         <div class="con">
-                                            <h2><a href="blog-details.html">Kristin Watsons</a></h2>
+                                            <h2><a href="{{ route('blog-details') }}">Kristin Watsons</a></h2>
                                             <span>February 10, 2024 at 2:37 pm</span>
                                         </div>
-                                        <a href="blog-details.html" class="reply">Reply</a>
+                                        <a href="{{ route('blog-details') }}" class="reply">Reply</a>
                                     </div>
                                     <p class="mt-2 mb-4">
                                         Mauris non dignissim purus, ac commodo diam. Donec sit amet lacinia nulla. Aliquam quis
@@ -275,7 +275,7 @@
                                     </div>
                                     <div class="recent-content">
                                         <h3>
-                                            <a href="blog-details.html">
+                                            <a href="{{ route('blog-details') }}">
                                                 Why Your Business Needs a Custom ERP Solution
                                             </a>
                                         </h3>
@@ -292,7 +292,7 @@
                                     </div>
                                     <div class="recent-content">
                                         <h3>
-                                            <a href="blog-details.html">
+                                            <a href="{{ route('blog-details') }}">
                                                 Cloud Migration: A Complete Guide for Enterprises
                                             </a>
                                         </h3>
@@ -309,7 +309,7 @@
                                     </div>
                                     <div class="recent-content">
                                         <h3>
-                                            <a href="blog-details.html">
+                                            <a href="{{ route('blog-details') }}">
                                                 ERP vs CRM: Understanding the Key Differences
                                             </a>
                                         </h3>
@@ -328,14 +328,14 @@
                             </div>
                             <div class="news-widget-categories">
                                 <div class="tagcloud">
-                                    <a href="blog-details.html">Litigation</a>
-                                    <a href="blog-details.html">Legal Risk</a>
-                                    <a href="blog-details.html">Lawsuits</a>
-                                    <a href="blog-details.html">Contracts</a>
-                                    <a href="blog-details.html">Compliance</a>
-                                    <a href="blog-details.html">Disputes</a>
-                                    <a href="blog-details.html">Management</a>
-                                    <a href="blog-details.html">Resolution</a>
+                                    <a href="{{ route('blog-details') }}">Litigation</a>
+                                    <a href="{{ route('blog-details') }}">Legal Risk</a>
+                                    <a href="{{ route('blog-details') }}">Lawsuits</a>
+                                    <a href="{{ route('blog-details') }}">Contracts</a>
+                                    <a href="{{ route('blog-details') }}">Compliance</a>
+                                    <a href="{{ route('blog-details') }}">Disputes</a>
+                                    <a href="{{ route('blog-details') }}">Management</a>
+                                    <a href="{{ route('blog-details') }}">Resolution</a>
                                 </div>
                             </div>
                         </div>
@@ -363,7 +363,7 @@
                         <span class="text-two">view our demo</span>
                     </span>
                 </a>
-                <a href="contact.html" class="rr-btn rr-btn-3">
+                <a href="{{ route('contact-us') }}" class="rr-btn rr-btn-3">
                     <span class="btn-wrap">
                         <span class="text-one">start free trial now</span>
                         <span class="text-two">start free trial now</span>

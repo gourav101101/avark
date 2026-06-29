@@ -13,7 +13,7 @@
               <div class="breadcrumb-section__content text_center breadcrumb-section__space">
                 <h3 class="breadcrumb-section__title">Service</h3>
                 <ul class="breadcrumb-section__page">
-                  <li><a href="index.html">Home <i class="fa-regular fa-angle-right"></i></a></li>
+                  <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                   <li> Service</li>
                 </ul>
               </div>
@@ -60,7 +60,7 @@
                   </div>
                   <h2 class="title">Custom Software Development</h2>
                   <p>Tailor-made software solutions designed specifically to match your business workflows and operational requirements.</p>
-                  <a href="service-details.html">MORE DETAILS</a>
+                  <a href="{{ route('custom-software-development') }}">MORE DETAILS</a>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
@@ -70,7 +70,7 @@
                   </div>
                   <h2 class="title">Web Application Development</h2>
                   <p>Secure, responsive, and high-performance web platforms built using modern technologies for scalable growth.</p>
-                  <a href="service-details.html">MORE DETAILS</a>
+                  <a href="{{ route('web-application-development') }}">MORE DETAILS</a>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
@@ -80,7 +80,7 @@
                   </div>
                   <h2 class="title">Mobile App Development</h2>
                   <p>User-friendly Android & iOS applications that enhance customer experience and expand your digital reach.</p>
-                  <a href="service-details.html">MORE DETAILS</a>
+                  <a href="{{ route('mobile-app-development') }}">MORE DETAILS</a>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
@@ -90,7 +90,7 @@
                   </div>
                   <h2 class="title">Cloud & Data Migration</h2>
                   <p>Smooth and secure migration of legacy systems and business data to modern cloud-based infrastructure.</p>
-                  <a href="service-details.html">MORE DETAILS</a>
+                  <a href="{{ route('cloud-and-data-migration') }}">MORE DETAILS</a>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
@@ -100,7 +100,7 @@
                   </div>
                   <h2 class="title">Enterprise Integration Services</h2>
                   <p>Seamlessly integrate ERP, CRM, third-party tools, and APIs into one unified digital ecosystem.</p>
-                  <a href="service-details.html">MORE DETAILS</a>
+                  <a href="{{ route('enterprise-integration-services') }}">MORE DETAILS</a>
                 </div>
               </div>
             </div>
@@ -143,7 +143,7 @@
                 </div>
               </div>
               <div class="our-integrations__btn">
-                <a href="service.html" class="rr-btn">
+                <a href="{{ route('contact-us') }}" class="rr-btn">
                   <span class="btn-wrap">
                     <span class="text-one">Get a Free Consultation</span>
                     <span class="text-two">Get a Free Consultation</span>
@@ -164,9 +164,9 @@
               <div class="testimonial-section__author d-none d-xxl-block">
                 <div class="about-3__author">
                   <ul>
-                    <li><img src="assets/imgs/home-3/about/author.png" alt="image"></li>
-                    <li><img src="assets/imgs/home-3/about/author-2.png" alt="image"></li>
-                    <li><img src="assets/imgs/home-3/about/author-3.png" alt="image"></li>
+                    <li><img src="{{ asset('assets/imgs/home-1/testimonial/author-1.jpg') }}" alt="image"></li>
+                    <li><img src="{{ asset('assets/imgs/home-1/testimonial/author-2.jpg') }}" alt="image"></li>
+                    <li><img src="{{ asset('assets/imgs/home-1/testimonial/author-3.jpg') }}" alt="image"></li>
                     <li class="plus-icon"><i class="fa-solid fa-plus"></i></li>
                   </ul>
 
@@ -192,7 +192,7 @@
                     <div class="swiper-slide">
                       <div class="testimonial-section__item">
                         <div class="testimonial-section__thumb">
-                          <img src="assets/imgs/home-3/testimonial/testimonial-01.jpg" alt="image not found">
+                          <img src="{{ asset('assets/imgs/home-1/testimonial/kptestimonails01.png') }}" alt="image not found">
                         </div>
                         <div class="testimonial-section__content">
                           <p class="testimonial-section__dec">"This CRM has transformed how we manage campaigns. Simple,
@@ -213,7 +213,7 @@
                     <div class="swiper-slide">
                       <div class="testimonial-section__item">
                         <div class="testimonial-section__thumb">
-                          <img src="assets/imgs/home-3/testimonial/testimonial-01.jpg" alt="image not found">
+                          <img src="{{ asset('assets/imgs/home-1/testimonial/kptestimonails02.png') }}" alt="image not found">
                         </div>
                         <div class="testimonial-section__content">
                           <p class="testimonial-section__dec">"This CRM has transformed how we manage campaigns. Simple,
@@ -287,7 +287,7 @@
                     </ul>
                   </div>
                   <div class="pricing-plans-3__btn">
-                    <a href="contact.html" class="rr-btn">
+                    <a href="{{ route('contact-us') }}" class="rr-btn">
                       <span class="btn-wrap">
                         <span class="text-one">Contact Sales</span>
                         <span class="text-two">Contact Sales</span>
@@ -319,7 +319,7 @@
                     </ul>
                   </div>
                   <div class="pricing-plans-3__btn">
-                    <a href="contact.html" class="rr-btn">
+                    <a href="{{ route('contact-us') }}" class="rr-btn">
                       <span class="btn-wrap">
                         <span class="text-one">Contact Sales</span>
                         <span class="text-two">Contact Sales</span>
@@ -343,13 +343,13 @@
                 <p class="cta-section__dec">Start your 30-day free trial. Cancel anytime.</p>
               </div>
               <div class="cta-section__btn">
-                <a href="#" class="rr-btn">
+                <a href="{{ route('contact-us') }}" class="rr-btn">
                   <span class="btn-wrap">
                     <span class="text-one">view our demo</span>
                     <span class="text-two">view our demo</span>
                   </span>
                 </a>
-                <a href="contact.html" class="rr-btn rr-btn-3">
+                <a href="{{ route('contact-us') }}" class="rr-btn rr-btn-3">
                   <span class="btn-wrap">
                     <span class="text-one">start free trial now</span>
                     <span class="text-two">start free trial now</span>

@@ -1,4 +1,4 @@
-    @extends('layout.app')
+    @extends('layouts.app')
 
     @section('title', 'Mobile Application Development')
     @section('meta_description', 'Mobile Application Development')
@@ -13,7 +13,7 @@
                 <div class="breadcrumb-section__content text_center breadcrumb-section__space">
                     <h3 class="breadcrumb-section__title">Service</h3>
                     <ul class="breadcrumb-section__page">
-                    <li><a href="index.html">Home <i class="fa-regular fa-angle-right"></i></a></li>
+                    <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                     <li> Service <i class="fa-regular fa-angle-right"></i></li>
                     <li> Mobile Application Development </li>
                     </ul>

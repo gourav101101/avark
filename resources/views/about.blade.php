@@ -33,7 +33,7 @@
       <div class="breadcrumb-section__content text_center breadcrumb-section__space">
         <h3 class="breadcrumb-section__title rr-title-anim-1">About Us</h3>
         <ul class="breadcrumb-section__page">
-          <li><a href="{/}">Home <i class="fa-regular fa-angle-right"></i></a></li>
+          <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
           <li> About Us</li>
         </ul>
       </div>
@@ -179,7 +179,7 @@
             <img src="assets/imgs/home-1/blog/kpm/Vision.png" alt="image not fond">
           </div>
           <div class="content">
-            <h2 class="title rr-title-anim-1"><a href="blog-details.html">Vision</a></h2>
+            <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Vision</a></h2>
 
             <p class="crm-benefits__dec mt-1">To be the preferred and trusted medical technology company,
               setting the highest standards on products and services,
@@ -196,7 +196,7 @@
             <img src="assets/imgs/home-1/blog/kpm/Ethics.png" alt="image not fond">
           </div>
           <div class="content">
-            <h2 class="title rr-title-anim-1"><a href="blog-details.html">Ethics</a></h2>
+            <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Ethics</a></h2>
 
             <p class="crm-benefits__dec mt-1">We uphold the ehtics & believe in team work every action and decision of ours. <br> We
               pursue our goals with honour, integrity, trust, and fairness towards our employees,
@@ -212,7 +212,7 @@
             <img src="assets/imgs/home-1/blog/kpm/CustomerFocus.png" alt="image not fond">
           </div>
           <div class="content">
-            <h2 class="title rr-title-anim-1"><a href="blog-details.html">Customer Focus</a></h2>
+            <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Customer Focus</a></h2>
 
             <p class="crm-benefits__dec mt-1">We believe in upholding our commitments,
               we strive for the best in quality in whatever we do, we drive on innovation, all of it,
@@ -232,7 +232,7 @@
             <img src="assets/imgs/home-1/blog/kpm/Accountability.png" alt="image not fond">
           </div>
           <div class="content">
-            <h2 class="title rr-title-anim-1"><a href="blog-details.html">Accountability</a></h2>
+            <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Accountability</a></h2>
 
             <p class="crm-benefits__dec mt-1">We are all Champions of our Company, driven by the same purpose to ‘Help Save Lives’,
               from taking ownership, to remaining committed from start to finish,
@@ -249,7 +249,7 @@
             <img src="assets/imgs/home-1/blog/kpm/Respect.png" alt="image not fond">
           </div>
           <div class="content">
-            <h2 class="title rr-title-anim-1"><a href="blog-details.html">Respect</a></h2>
+            <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Respect</a></h2>
 
             <p class="crm-benefits__dec mt-1">
               We believe in listening, sharing, and being open to people, valuing their individual strengths and leveraging them.
@@ -266,7 +266,7 @@
             <img src="assets/imgs/home-1/blog/kpm/Speed.png" alt="image not fond">
           </div>
           <div class="content">
-            <h2 class="title rr-title-anim-1"><a href="blog-details.html">Speed</a></h2>
+            <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Speed</a></h2>
 
             <p class="crm-benefits__dec mt-1">
               Challenging the status quo, racing against competition,
@@ -544,44 +544,7 @@
     <div class="our-integrations__top">
       <div class="section-title-3__wrapper tx-center">
         <h2 class="sub-title"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left.png" alt="image">Digital Integrations <img class="right-shape" src="assets/imgs/home-3/shape/shape-right.png" alt="image"></h2>
-        <h2 class="title rr-title-anim-1">
-          <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
-            <div style="position:relative;display:inline-block;">C</div>
-            <div style="position:relative;display:inline-block;">o</div>
-            <div style="position:relative;display:inline-block;">n</div>
-            <div style="position:relative;display:inline-block;">n</div>
-            <div style="position:relative;display:inline-block;">e</div>
-            <div style="position:relative;display:inline-block;">c</div>
-            <div style="position:relative;display:inline-block;">t</div>
-          </div>
-          <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
-            <div style="position:relative;display:inline-block;">Y</div>
-            <div style="position:relative;display:inline-block;">o</div>
-            <div style="position:relative;display:inline-block;">u</div>
-            <div style="position:relative;display:inline-block;">r</div>
-          </div>
-          <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
-            <div style="position:relative;display:inline-block;">D</div>
-            <div style="position:relative;display:inline-block;">i</div>
-            <div style="position:relative;display:inline-block;">g</div>
-            <div style="position:relative;display:inline-block;">i</div>
-            <div style="position:relative;display:inline-block;">t</div>
-            <div style="position:relative;display:inline-block;">a</div>
-            <div style="position:relative;display:inline-block;">l</div>
-          </div>
-          <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
-            <div style="position:relative;display:inline-block;">E</div>
-            <div style="position:relative;display:inline-block;">c</div>
-            <div style="position:relative;display:inline-block;">o</div>
-            <div style="position:relative;display:inline-block;">s</div>
-            <div style="position:relative;display:inline-block;">y</div>
-            <div style="position:relative;display:inline-block;">s</div>
-            <div style="position:relative;display:inline-block;">t</div>
-            <div style="position:relative;display:inline-block;">e</div>
-            <div style="position:relative;display:inline-block;">m</div>
-          </div>
-
-        </h2>
+        <h2 class="title rr-title-anim-1">Connect Your Digital Ecosystem</h2>
         <p class="desc">Enhance your IT infrastructure by integrating with the tools and platforms your business already relies on. 
           From cloud services and CRM systems to payment gateways and enterprise applications — everything works together seamlessly for maximum efficiency.</p>
       </div>
@@ -611,7 +574,7 @@
         </div>
       </div>
       <div class="our-integrations__btn">
-        <a href="service.html" class="rr-btn">
+        <a href="{{ route('services') }}" class="rr-btn">
           <span class="btn-wrap">
             <span class="text-one">Get Services</span>
             <span class="text-two">Get Services</span>

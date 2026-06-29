@@ -13,7 +13,7 @@
       <div class="breadcrumb-section__content text_center breadcrumb-section__space">
         <h3 class="breadcrumb-section__title">Products</h3>
         <ul class="breadcrumb-section__page">
-          <li><a href="index.html">Home <i class="fa-regular fa-angle-right"></i></a></li>
+          <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
           <li> Products <i class="fa-regular fa-angle-right"></i> </li>
 
           <li> Enterprise Support Management </li>

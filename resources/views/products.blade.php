@@ -27,7 +27,7 @@
             <div class="breadcrumb-section__content text_center breadcrumb-section__space">
                 <h3 class="breadcrumb-section__title">Products for you..</h3>
                 <ul class="breadcrumb-section__page">
-                    <li><a href="index.html">Home <i class="fa-regular fa-angle-right"></i></a></li>
+                    <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                     <li> Products </li>
                 </ul>
             </div>
@@ -231,7 +231,7 @@
                 </div>
             </div>
             <div class="our-integrations__btn">
-                <a href="service.html" class="rr-btn">
+                <a href="{{ route('contact-us') }}" class="rr-btn">
                     <span class="btn-wrap">
                         <span class="text-one">Get a Free Consultation</span>
                         <span class="text-two">Get a Free Consultation</span>
@@ -252,9 +252,9 @@
             <div class="testimonial-section__author d-none d-xxl-block">
                 <div class="about-3__author">
                     <ul>
-                        <li><img src="assets/imgs/home-3/about/author.png" alt="image"></li>
-                        <li><img src="assets/imgs/home-3/about/author-2.png" alt="image"></li>
-                        <li><img src="assets/imgs/home-3/about/author-3.png" alt="image"></li>
+                        <li><img src="{{ asset('assets/imgs/home-1/testimonial/author-1.jpg') }}" alt="image"></li>
+                        <li><img src="{{ asset('assets/imgs/home-1/testimonial/author-2.jpg') }}" alt="image"></li>
+                        <li><img src="{{ asset('assets/imgs/home-1/testimonial/author-3.jpg') }}" alt="image"></li>
                         <li class="plus-icon"><i class="fa-solid fa-plus"></i></li>
                     </ul>
 
@@ -343,13 +343,13 @@
                 <p class="cta-section__dec">Transform Your Business with Smart Technology</p>
             </div>
             <div class="cta-section__btn">
-                <a href="#" class="rr-btn">
+                <a href="{{ route('contact-us') }}" class="rr-btn">
                     <span class="btn-wrap">
                         <span class="text-one">view our demo</span>
                         <span class="text-two">view our demo</span>
                     </span>
                 </a>
-                <a href="contact.html" class="rr-btn rr-btn-3">
+                <a href="{{ route('contact-us') }}" class="rr-btn rr-btn-3">
                     <span class="btn-wrap">
                         <span class="text-one">Request Free Consultation</span>
                         <span class="text-two">Request Free Consultation</span>

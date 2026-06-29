@@ -68,11 +68,11 @@
                              <div class="footer-4__menu">
                                  <h3 class="footer-4__title">Our Company</h3>
                                  <ul>
-                                     <li><a href="about.html">About Us</a></li>
-                                     <li><a href="#">Services</a></li>
-                                     <li><a href="blog.html">Products </a></li>
-                                     <li><a href="pricing.html">Pricing</a></li>
-                                     <li><a href="contact.html">Contact Us</a></li>
+                                     <li><a href="{{ route('about') }}">About Us</a></li>
+                                     <li><a href="{{ route('services') }}">Services</a></li>
+                                     <li><a href="{{ route('products') }}">Products </a></li>
+                                     <li><a href="{{ route('contact-us') }}">Pricing</a></li>
+                                     <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                                  </ul>
                              </div>
                              <div class="footer-4__menu">
@@ -82,7 +82,7 @@
                                      <li><a href="#">Collaboration</a></li>
                                      <li><a href="#">Technical Partner</a></li>
                                      <li><a href="#">Marketing Partner</a></li>
-                                     <li><a href="#">Blogs</a></li>
+                                     <li><a href="{{ route('blogs') }}">Blogs</a></li>
                                  </ul>
                              </div>
                              <div class="footer-4__menu">

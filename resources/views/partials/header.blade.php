@@ -27,7 +27,7 @@
       <div class="side-info-content">
         <div class="offset-widget offset-header">
           <div class="offset-logo">
-            <a href="index.html">
+            <a href="{{ route('home') }}">
               <img class="show-light" src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="site logo" />
             </a>
           </div>
@@ -71,6 +71,27 @@
   <div id="smooth-wrapper">
     <div id="smooth-content">
       <!-- Header area start -->
+      <style>
+        /* On inner pages with breadcrumb, overlay header on top of the breadcrumb */
+        body:has(.breadcrumb-section__area) .header-area-1 {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: 100;
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .header-main {
+          background: transparent;
+        }
+        /* Make the logo appear white on inner pages */
+        body:has(.breadcrumb-section__area) .header__logo img {
+          filter: brightness(0) invert(1);
+        }
+        /* Push breadcrumb content down so it's not hidden behind the header */
+        body:has(.breadcrumb-section__area) .breadcrumb-section__wrapper {
+          padding-top: 100px;
+        }
+      </style>
       <header class="header-area-1">
             <div class="header-main">
                 <div class="container rr-container-1800">

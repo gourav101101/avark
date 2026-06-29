@@ -1,4 +1,4 @@
-    @extends('layout.app')
+    @extends('layouts.app')
 
     @section('title', 'CRM Solutions')
     @section('meta_description', 'CRM Solutions')
@@ -13,7 +13,7 @@
                 <div class="breadcrumb-section__content text_center breadcrumb-section__space">
                     <h3 class="breadcrumb-section__title">Service</h3>
                     <ul class="breadcrumb-section__page">
-                    <li><a href="index.html">Home <i class="fa-regular fa-angle-right"></i></a></li>
+                    <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                     <li> Service <i class="fa-regular fa-angle-right"></i></li>
                     <li> CRM Solutions</li>
                     </ul>
@@ -161,7 +161,7 @@
                     <p class="cta-section__dec">Transform Your Customer Relationships Today</p>
                 </div>
                 <div class="cta-section__btn">
-                    <a href="#" class="rr-btn">
+                    <a href="{{ route('contact-us') }}" class="rr-btn">
                     <span class="btn-wrap">
                         <span class="text-one">Request a Free Consultation</span>
                         <span class="text-two">Request a Free Consultation</span>
