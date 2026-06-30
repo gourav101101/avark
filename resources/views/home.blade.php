@@ -50,29 +50,29 @@
                                 <li><img src="{{ asset('assets/imgs/home-1/hero/author-3.png') }}" alt=""></li>
                             </ul>
 
-                            <p>Building the Future of Business Technology</p>
+                            <p>Trusted by 10,000+ Users Across the World</p>
                         </div>
 
                         <h1 class="title rr-title-anim-2">
-                            Build Smart Digital Solutions for Modern Businesses
+                            Transform Your Hospital with ARK Hospital Management Software
                         </h1>
 
                         <p class="desc">
-                            We empower organizations with innovative software, ERP systems, CRM solutions, and enterprise technology that streamline operations, enhance productivity, and drive scalable business growth.
+                            Avark Healthcare Technology Pvt. Ltd. is a healthcare-focused technology company committed to helping hospitals, clinics, and healthcare organizations operate smarter, faster, and more efficiently.
                         </p>
 
                         <div class="hero__content-wrap">
                             <a href="{{ route('contact-us') }}" class="rr-btn-green">
                                 <span class="btn-wrap">
-                                    <span class="text-one">Get a Free Consultation</span>
-                                    <span class="text-two">Get a Free Consultation</span>
+                                    <span class="text-one">Book a Demo</span>
+                                    <span class="text-two">Book a Demo</span>
                                 </span>
                             </a>
 
                             <a href="{{ route('services') }}" class="rr-btn-green green-2">
                                 <span class="btn-wrap">
-                                    <span class="text-one">Explore Our Solutions</span>
-                                    <span class="text-two">Explore Our Solutions</span>
+                                    <span class="text-one">Explore Our Products</span>
+                                    <span class="text-two">Explore Our Products</span>
                                 </span>
                             </a>
                         </div>
@@ -85,123 +85,6 @@
     </div>
 </section>
 
-<section class="brand-1 section-spacing-top-100">
-    <div class="container rr-container-1350">
-        <div class="section-title__wrapper">
-            <h2 class="title rr-title-anim-1">Trusted Technology Partner for Growing Businesses</h2>
-        </div>
-        <div class="swiper brand-1__active">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="brand-1__item">
-                        <img src="assets/imgs/home-1/brand/makd.png" alt="image">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="brand-1__item">
-                        <img src="assets/imgs/home-1/brand/bigrock.png" alt="image">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="brand-1__item">
-                        <img src="assets/imgs/home-1/brand/amazonwebservices.png" alt="image">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="brand-1__item">
-                        <img src="assets/imgs/home-1/brand/oracle.png" alt="image">
-                    </div>
-                </div>
-                <!--<div class="swiper-slide">-->
-                <!--    <div class="brand-1__item">-->
-                <!--        <img src="assets/imgs/home-1/brand/kuldeep.png" alt="image">-->
-                <!--    </div>-->
-                <!--</div>-->
-                <!--<div class="swiper-slide">-->
-                <!--    <div class="brand-1__item">-->
-                <!--        <img src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">-->
-                <!--    </div>-->
-                <!--</div>-->
-                <!--<div class="swiper-slide">-->
-                <!--    <div class="brand-1__item">-->
-                <!--        <img src="assets/imgs/home-1/brand/kuldeep.png" alt="image">-->
-                <!--    </div>-->
-                <!--</div>-->
-                <!--<div class="swiper-slide">-->
-                <!--    <div class="brand-1__item">-->
-                <!--        <img src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">-->
-                <!--    </div>-->
-                <!--</div>-->
-                <!--<div class="swiper-slide">-->
-                <!--    <div class="brand-1__item">-->
-                <!--        <img src="assets/imgs/home-1/brand/kuldeep.png" alt="image">-->
-                <!--    </div>-->
-                <!--</div>-->
-                <!--<div class="swiper-slide">-->
-                <!--    <div class="brand-1__item">-->
-                <!--        <img src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">-->
-                <!--    </div>-->
-                <!--</div>-->
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="features-1 section-spacing-top-120 rr-ov-hidden">
-    <div class="container rr-container-1350">
-        <div class="row">
-            <div class="col-xl-8">
-                <div class="features-1">
-                    <div class="features-1__content" data-aos="fade-right" data-aos-duration="900">
-                        <div class="section-title__wrapper">
-                            <h2 class="sub-title">Avark Digital Systems</h2>
-                            <h2 class="title rr-title-anim-1">Transforming Operations with Intelligent Technology</h2>
-                            <p class="desc">From enterprise software to custom development, Avark builds smart digital ecosystems that automate workflows, improve efficiency, and empower businesses to scale confidently.</p>
-
-                            <a href="{{ route('about') }}" class="rr-btn-green">
-                                <span class="btn-wrap">
-                                    <span class="text-one">Discover More</span>
-                                    <span class="text-two">Discover More</span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="features-1__shape-1 shape-animaiton1" data-aos="fade-down-left" data-aos-duration="900">
-                            <img src="assets/imgs/home-1/features/hand-shape-kuldeep.png" alt="image">
-                        </div>
-                        <div class="features-1__shape-2 rotate"><img src="assets/imgs/home-1/features/line-shape.png"
-                                alt="image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="features-1__wrapper">
-                    <div class="features-1__item" data-aos="fade-up" data-aos-duration="500">
-                        <span><img src="assets/imgs/home-1/features/icon-1.png" alt="image"></span>
-                        <div class="text">
-                            <h2 class="title">Advanced Technology</h2>
-                            <p>Built with secure, scalable, and performance-driven architecture.</p>
-                        </div>
-                    </div>
-                    <div class="features-1__item" data-aos="fade-up" data-aos-duration="700">
-                        <span><img src="assets/imgs/home-1/features/icon-2.png" alt="image"></span>
-                        <div class="text">
-                            <h2 class="title">Enterprise-Ready Systems</h2>
-                            <p>Designed to support multi-location, multi-user, and growing businesses.</p>
-                        </div>
-                    </div>
-                    <div class="features-1__item" data-aos="fade-up" data-aos-duration="900">
-                        <span><img src="assets/imgs/home-1/features/icon-3.png" alt="image"></span>
-                        <div class="text">
-                            <h2 class="title">Custom & Flexible Solutions</h2>
-                            <p>ERP, CRM, Web, Mobile, and tailor-made software as per your business needs.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="service rr-bg-gray section-spacing rr-ov-hidden">
     <div class="container rr-container-1350">
@@ -213,7 +96,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="service__item">
-                        <span class="icon"><img src="assets/imgs/home-1/service/erp.png" alt="image"></span>
+                        <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/erp.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('erp-system') }}">ERP System Development</a></h3>
                         <p class="desc">Streamline operations, manage resources efficiently, and gain real-time business insights with our scalable ERP solutions.</p>
                         <span class="service">Service _ 01</span>
@@ -221,7 +104,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="service__item">
-                        <span class="icon"><img src="assets/imgs/home-1/service/crm-kp.png" alt="image"></span>
+                        <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/crm-kp.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('crm-solutions') }}">CRM Solutions</a></h3>
                         <p class="desc">Improve customer relationships, automate sales processes, and boost engagement with intelligent CRM systems.</p>
                         <span class="service">Service _ 02</span>
@@ -230,7 +113,7 @@
 
                 <div class="swiper-slide">
                     <div class="service__item">
-                        <span class="icon"><img src="assets/imgs/home-1/service/CustomSoftwareDevelopment-kp.png" alt="image"></span>
+                        <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/CustomSoftwareDevelopment-kp.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('custom-software-development') }}">Custom Software Development</a></h3>
                         <p class="desc">Tailor-made software solutions designed specifically to match your business workflows and operational requirements.</p>
                         <span class="service">Service _ 04</span>
@@ -239,7 +122,7 @@
 
                 <div class="swiper-slide">
                     <div class="service__item">
-                        <span class="icon"><img src="assets/imgs/home-1/service/WebApplicationDevelopment-kp.png" alt="image"></span>
+                        <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/WebApplicationDevelopment-kp.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('web-application-development') }}">Web Application Development</a></h3>
                         <p class="desc">Secure, responsive, and high-performance web platforms built using modern technologies for scalable growth.</p>
                         <span class="service">Service _ 05</span>
@@ -248,7 +131,7 @@
 
                 <div class="swiper-slide">
                     <div class="service__item">
-                        <span class="icon"><img src="assets/imgs/home-1/service/mobile-development.png" alt="image"></span>
+                        <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/mobile-development.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('mobile-app-development') }}">Mobile App Development</a></h3>
                         <p class="desc">User-friendly Android & iOS applications that enhance customer experience and expand your digital reach.</p>
                         <span class="service">Service _ 06</span>
@@ -257,7 +140,7 @@
 
                 <div class="swiper-slide">
                     <div class="service__item">
-                        <span class="icon"><img src="assets/imgs/home-1/service/cloud-computing-kpm.png" alt="image"></span>
+                        <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/cloud-computing-kpm.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('cloud-and-data-migration') }}">Cloud & Data Migration</a></h3>
                         <p class="desc">Smooth and secure migration of legacy systems and business data to modern cloud-based infrastructure.</p>
                         <span class="service">Service _ 07</span>
@@ -266,7 +149,7 @@
 
                 <div class="swiper-slide">
                     <div class="service__item">
-                        <span class="icon"><img src="assets/imgs/home-1/service/digital-transformation-kpm.png" alt="image"></span>
+                        <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/digital-transformation-kpm.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('enterprise-integration-services') }}">Enterprise Integration Services</a></h3>
                         <p class="desc">Seamlessly integrate ERP, CRM, third-party tools, and APIs into one unified digital ecosystem.</p>
                         <span class="service">Service _ 08</span>
@@ -284,6 +167,131 @@
     </div>
 </section>
 
+<section class="brand-1 section-spacing-top-100">
+    <div class="container rr-container-1350">
+        <div class="section-title__wrapper">
+            <h2 class="title rr-title-anim-1">Our Partners</h2>
+        </div>
+        <div class="swiper brand-1__active">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="brand-1__item">
+                        <img loading="lazy" src="assets/imgs/home-1/brand/makd.png" alt="image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand-1__item">
+                        <img loading="lazy" src="assets/imgs/home-1/brand/bigrock.png" alt="image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand-1__item">
+                        <img loading="lazy" src="assets/imgs/home-1/brand/amazonwebservices.png" alt="image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand-1__item">
+                        <img loading="lazy" src="assets/imgs/home-1/brand/oracle.png" alt="image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand-1__item">
+                        <img loading="lazy" src="assets/imgs/home-1/brand/emegh-logo.png" alt="eMEGH Partner">
+                    </div>
+                </div>
+                <!--<div class="swiper-slide">-->
+                <!--    <div class="brand-1__item">-->
+                <!--        <img loading="lazy" src="assets/imgs/home-1/brand/kuldeep.png" alt="image">-->
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<div class="swiper-slide">-->
+                <!--    <div class="brand-1__item">-->
+                <!--        <img loading="lazy" src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">-->
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<div class="swiper-slide">-->
+                <!--    <div class="brand-1__item">-->
+                <!--        <img loading="lazy" src="assets/imgs/home-1/brand/kuldeep.png" alt="image">-->
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<div class="swiper-slide">-->
+                <!--    <div class="brand-1__item">-->
+                <!--        <img loading="lazy" src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">-->
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<div class="swiper-slide">-->
+                <!--    <div class="brand-1__item">-->
+                <!--        <img loading="lazy" src="assets/imgs/home-1/brand/kuldeep.png" alt="image">-->
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<div class="swiper-slide">-->
+                <!--    <div class="brand-1__item">-->
+                <!--        <img loading="lazy" src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">-->
+                <!--    </div>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features-1 section-spacing-top-120 rr-ov-hidden">
+    <div class="container rr-container-1350">
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="features-1">
+                    <div class="features-1__content" data-aos="fade-right" data-aos-duration="900">
+                        <div class="section-title__wrapper">
+                            <h2 class="sub-title">About Us — Who We Are</h2>
+                            <h2 class="title rr-title-anim-1">Transforming Healthcare Through Technology Since 2019</h2>
+                            <p class="desc">Avark Healthcare Technology Pvt. Ltd. is a healthcare-focused technology company committed to helping hospitals, clinics, and healthcare organizations operate smarter, faster, and more efficiently. Our integrated digital platform empowers healthcare providers to replace fragmented processes with a centralized, intelligent, and data-driven system.</p>
+
+                            <a href="{{ route('about') }}" class="rr-btn-green">
+                                <span class="btn-wrap">
+                                    <span class="text-one">Discover More</span>
+                                    <span class="text-two">Discover More</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="features-1__shape-1 shape-animaiton1" data-aos="fade-down-left" data-aos-duration="900">
+                            <img loading="lazy" src="assets/imgs/home-1/features/hand-shape-kuldeep.png" alt="image">
+                        </div>
+                        <div class="features-1__shape-2 rotate"><img loading="lazy" src="assets/imgs/home-1/features/line-shape.png"
+                                alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="features-1__wrapper">
+                    <div class="features-1__item" data-aos="fade-up" data-aos-duration="500">
+                        <span><img loading="lazy" src="assets/imgs/home-1/features/icon-1.png" alt="image"></span>
+                        <div class="text">
+                            <h2 class="title">Healthcare-Focused Solution</h2>
+                            <p>Designed exclusively for hospitals, clinics, and healthcare organizations with workflows that match real-world hospital operations.</p>
+                        </div>
+                    </div>
+                    <div class="features-1__item" data-aos="fade-up" data-aos-duration="700">
+                        <span><img loading="lazy" src="assets/imgs/home-1/features/icon-2.png" alt="image"></span>
+                        <div class="text">
+                            <h2 class="title">Centralized Patient Records</h2>
+                            <p>Doctors and staff can access patient information quickly and securely from anywhere.</p>
+                        </div>
+                    </div>
+                    <div class="features-1__item" data-aos="fade-up" data-aos-duration="900">
+                        <span><img loading="lazy" src="assets/imgs/home-1/features/icon-3.png" alt="image"></span>
+                        <div class="text">
+                            <h2 class="title">Integration Across Departments</h2>
+                            <p>Pharmacy, laboratory, radiology, HR, inventory, wards, and billing operate on a unified platform.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 <section class="ai-features-2 section-spacing fade-wrapper">
     <div class="container rr-container-1350">
         <div class="section-title__wrapper text-center" data-aos="fade-up" data-aos-duration="700">
@@ -293,7 +301,7 @@
         <div class="ai-features-2__wrapper fade-top">
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900">
                 <div class="icon">
-                    <img src="assets/imgs/icon/ai-features-icon-1.png" alt="icon">
+                    <img loading="lazy" src="assets/imgs/icon/ai-features-icon-1.png" alt="icon">
                 </div>
                 <div class="content">
                     <h3 class="title">Advance Hospital Management System</h3>
@@ -301,7 +309,7 @@
             </div>
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
                 <div class="icon">
-                    <img src="assets/imgs/icon/ai-features-icon-6.png" alt="icon">
+                    <img loading="lazy" src="assets/imgs/icon/ai-features-icon-6.png" alt="icon">
                 </div>
                 <div class="content">
                     <h3 class="title">Inventory or Stock Management System</h3>
@@ -309,7 +317,7 @@
             </div>
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-left" data-aos-duration="900">
                 <div class="icon">
-                    <img src="assets/imgs/icon/ai-features-icon-3.png" alt="icon">
+                    <img loading="lazy" src="assets/imgs/icon/ai-features-icon-3.png" alt="icon">
                 </div>
                 <div class="content">
                     <h3 class="title">Pathology & Diagnostic Management System </h3>
@@ -317,7 +325,7 @@
             </div>
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900">
                 <div class="icon">
-                    <img src="assets/imgs/icon/ai-features-icon-4.png" alt="icon">
+                    <img loading="lazy" src="assets/imgs/icon/ai-features-icon-4.png" alt="icon">
                 </div>
                 <div class="content">
                     <h3 class="title">White Label Practice Management Application </h3>
@@ -325,7 +333,7 @@
             </div>
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
                 <div class="icon">
-                    <img src="assets/imgs/icon/ai-features-icon-5.png" alt="icon">
+                    <img loading="lazy" src="assets/imgs/icon/ai-features-icon-5.png" alt="icon">
                 </div>
                 <div class="content">
                     <h3 class="title">Dialysis Management System </h3>
@@ -335,7 +343,7 @@
 
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-left" data-aos-duration="900">
                 <div class="icon">
-                    <img src="assets/imgs/icon/ai-features-icon-6.png" alt="icon">
+                    <img loading="lazy" src="assets/imgs/icon/ai-features-icon-6.png" alt="icon">
                 </div>
                 <div class="content">
                     <h3 class="title">Real-time data on <br> latest topics</h3>
@@ -344,7 +352,6 @@
         </div>
     </div>
 </section>
-
 <section class="choose-us">
     <div class="choose-us__inner section-spacing">
         <div class="container rr-container-1350">
@@ -352,16 +359,16 @@
                 <div class="col-xl-6">
                     <div class="choose-us__content">
                         <div class="section-title__wrapper">
-                            <h2 class="sub-title has--green" data-aos="fade-up" data-aos-duration="500">Smarter Way to Run Your Business
+                            <h2 class="sub-title has--green" data-aos="fade-up" data-aos-duration="500">Why Choose ARK?
                             </h2>
-                            <h3 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Powering Growth with Intelligent Technology</h3>
-                            <p class="desc" data-aos="fade-up" data-aos-duration="900">Avark delivers secure, scalable, and high-performance software solutions designed to streamline operations, enhance productivity, and accelerate digital transformation. From ERP and CRM systems to custom enterprise applications, we help businesses operate smarter and grow with confidence.</p>
+                            <h3 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Future-Ready Hospital Technology</h3>
+                            <p class="desc" data-aos="fade-up" data-aos-duration="900">ARK HIMS combines intelligent automation, real-time analytics, cloud technology, mobility, and seamless integrations to help healthcare organizations stay ahead in an evolving digital healthcare landscape. Designed to scale with your growth, ARK HIMS empowers hospitals to deliver better patient outcomes, optimize operations, and embrace the future of connected healthcare.</p>
 
                             <a href="{{ route('contact-us') }}" class="rr-btn-green has--drk-gren" data-aos="fade-up"
                                 data-aos-duration="900">
                                 <span class="btn-wrap">
-                                    <span class="text-one">Get a Free Consultation</span>
-                                    <span class="text-two">Get a Free Consultation</span>
+                                    <span class="text-one">Book a Demo</span>
+                                    <span class="text-two">Book a Demo</span>
                                 </span>
                             </a>
                         </div>
@@ -369,11 +376,11 @@
                 </div>
                 <div class="col-xl-6">
                     <div class="choose-us__media" data-aos="fade-up" data-aos-duration="900">
-                        <img class="image-1" src="assets/imgs/home-1/choose-us/KPM-Choose02.png" alt="image">
-                        <img class="image-2" src="assets/imgs/home-1/choose-us/KPM-Choose01.png" alt="image">
-                        <!-- <img class="image-3" src="assets/imgs/home-1/choose-us/choose-3.png" alt="image"> -->
-                        <img class="image-4" src="assets/imgs/home-1/choose-us/icon-1.png" alt="image">
-                        <img class="image-5" src="assets/imgs/home-1/choose-us/icon-2.png" alt="image">
+                        <img loading="lazy" class="image-1" src="assets/imgs/home-1/choose-us/KPM-Choose02.png" alt="image">
+                        <img loading="lazy" class="image-2" src="assets/imgs/home-1/choose-us/KPM-Choose01.png" alt="image">
+                        <!-- <img loading="lazy" class="image-3" src="assets/imgs/home-1/choose-us/choose-3.png" alt="image"> -->
+                        <img loading="lazy" class="image-4" src="assets/imgs/home-1/choose-us/icon-1.png" alt="image">
+                        <img loading="lazy" class="image-5" src="assets/imgs/home-1/choose-us/icon-2.png" alt="image">
 
                         <div class="rotation-container">
                             <div class="ring ring1"></div>
@@ -389,23 +396,23 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="choose-us__item" data-aos="fade-right" data-aos-duration="900">
-                            <h2 class="title"><span class="icon"><img src="assets/imgs/home-1/choose-us/icon-3.png"
-                                        alt="image"></span><a href="{{ route('contact-us') }}">High-Performance Systems</a></h2>
-                            <p> Optimized software solutions built for speed, reliability, and seamless business operations.</p>
+                            <h2 class="title"><span class="icon"><img loading="lazy" src="assets/imgs/home-1/choose-us/icon-3.png"
+                                        alt="image"></span><a href="{{ route('contact-us') }}">Faster Patient Care</a></h2>
+                            <p>Reduce waiting times and improve patient satisfaction through streamlined workflows.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="choose-us__item" data-aos="fade-up" data-aos-duration="900">
-                            <h2 class="title"><span class="icon"><img src="assets/imgs/home-1/choose-us/icon-4.png"
-                                        alt="image"></span><a href="{{ route('contact-us') }}">Enterprise-Grade Security</a></h2>
-                            <p> Advanced architecture and data protection standards to ensure complete system integrity.</p>
+                            <h2 class="title"><span class="icon"><img loading="lazy" src="assets/imgs/home-1/choose-us/icon-4.png"
+                                        alt="image"></span><a href="{{ route('contact-us') }}">Built for Quality & Compliance</a></h2>
+                            <p>Support accreditation and quality initiatives with NABH-Ready workflows, clinical documentation, and compliance monitoring.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="choose-us__item" data-aos="fade-left" data-aos-duration="900">
-                            <h2 class="title"><span class="icon"><img src="assets/imgs/home-1/choose-us/icon-5.png"
-                                        alt="image"></span><a href="{{ route('contact-us') }}">Trusted Technology Partner</a></h2>
-                            <p> Businesses rely on Avark for scalable ERP, CRM, and custom software solutions that deliver measurable results. </p>
+                            <h2 class="title"><span class="icon"><img loading="lazy" src="assets/imgs/home-1/choose-us/icon-5.png"
+                                        alt="image"></span><a href="{{ route('contact-us') }}">Multi-Location Support</a></h2>
+                            <p>Manage multiple hospitals, clinics, or branches from a single platform with centralized reporting.</p>
                         </div>
                     </div>
                 </div>
@@ -422,13 +429,13 @@
                     <div class="control-plan__left-icon">
                         <h2 class="title">We mentioned your business on Instagram </h2>
                         <a href="https://www.facebook.com/"><i class="fa-solid fa-s"></i></a>
-                        <img class="line-1" src="assets/imgs/home-1/control-plan/line-1.png" alt="image">
+                        <img loading="lazy" class="line-1" src="assets/imgs/home-1/control-plan/line-1.png" alt="image">
                     </div>
 
                     <div class="control-plan__left-icon icon-2">
-                        <img class="dot-shape" src="assets/imgs/home-1/control-plan/dot-shape.png" alt="image">
+                        <img loading="lazy" class="dot-shape" src="assets/imgs/home-1/control-plan/dot-shape.png" alt="image">
                         <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
-                        <img class="line-2" src="assets/imgs/home-1/control-plan/line-2.png" alt="image">
+                        <img loading="lazy" class="line-2" src="assets/imgs/home-1/control-plan/line-2.png" alt="image">
                     </div>
                 </div>
             </div>
@@ -452,21 +459,21 @@
                 <div class="control-plan__right" data-aos="fade-left" data-aos-duration="900">
 
                     <div class="control-plan__right-icon icon-3">
-                        <img class="dot-shape" src="assets/imgs/home-1/control-plan/dot-shape.png" alt="image">
+                        <img loading="lazy" class="dot-shape" src="assets/imgs/home-1/control-plan/dot-shape.png" alt="image">
                         <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                        <img class="line-3" src="assets/imgs/home-1/control-plan/line-3.png" alt="image">
+                        <img loading="lazy" class="line-3" src="assets/imgs/home-1/control-plan/line-3.png" alt="image">
                     </div>
 
                     <div class="control-plan__right-icon has--4">
                         <h2 class="title">We metioned your business on facebook</h2>
                         <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                        <img class="line-4" src="assets/imgs/home-1/control-plan/line-4.png" alt="image">
+                        <img loading="lazy" class="line-4" src="assets/imgs/home-1/control-plan/line-4.png" alt="image">
                     </div>
                 </div>
             </div>
         </div>
         <div class="media" data-aos="fade-up" data-aos-duration="900">
-            <img src="assets/imgs/home-1/control-plan/control-plan.png" alt="image ">
+            <img loading="lazy" src="assets/imgs/home-1/control-plan/control-plan.png" alt="image ">
 
             <!-- Elfsight Google Reviews | Untitled Google Reviews
             <script src="https://elfsightcdn.com/platform.js" async></script>
@@ -554,25 +561,25 @@
 
 <section class="testimonial">
     <div class="testimonial__inner section-spacing rr-pos-rel">
-        <div class="shape-1"><img src="assets/imgs/home-1/testimonial/shape.png" alt="image"></div>
+        <div class="shape-1"><img loading="lazy" src="assets/imgs/home-1/testimonial/shape.png" alt="image"></div>
         <div class="container rr-container-1350">
             <div class="row">
                 <div class="col-lg-5">
                     <div class="testimonial__content" data-aos="fade-right" data-aos-duration="900">
                         <div class="section-title__wrapper ">
                             <h2 class="sub-title has--green">Testimonials</h2>
-                            <h2 class="title rr-title-anim-1">Why Businesses Trust Avark</h2>
+                            <h2 class="title rr-title-anim-1">What Our Clients Say</h2>
                         </div>
 
                         <div class="testimonial__author">
                             <ul>
-                                <li><img src="assets/imgs/home-1/testimonial/author-1.jpg" alt="image"></li>
-                                <li><img src="assets/imgs/home-1/testimonial/author-2.jpg" alt="image"></li>
-                                <li><img src="assets/imgs/home-1/testimonial/author-3.jpg" alt="image"></li>
+                                <li><img loading="lazy" src="assets/imgs/home-1/testimonial/author-1.jpg" alt="image"></li>
+                                <li><img loading="lazy" src="assets/imgs/home-1/testimonial/author-2.jpg" alt="image"></li>
+                                <li><img loading="lazy" src="assets/imgs/home-1/testimonial/author-3.jpg" alt="image"></li>
                                 <li><i class="fa-solid fa-plus"></i></li>
                             </ul>
 
-                            <h3 class="active">669k+ Active
+                            <h3 class="active">10,000+ Active
                                 users world-wide</h3>
                         </div>
                     </div>
@@ -591,49 +598,48 @@
                             </button>
                         </div>
                         <div class="testimonial__item" data-index="0">
-                            <div class="logo"><img src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
-                            <p class="desc">“The Inventory Management System helped us gain complete stock visibility and reduce manual errors.
-                                The support team is highly professional and responsive.”</p>
+                            <div class="logo"><img loading="lazy" src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
+                            <p class="desc">“ARK HIMS has transformed our hospital operations. Patient registration, billing, pharmacy, and laboratory processes are now faster and more accurate. The real-time dashboard helps management make informed decisions every day.”</p>
                             <div class="testimonial__info">
                                 <div class="testimonial__info__media">
-                                    <img src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
                                 </div>
                                 <div class="testimonial__info__content">
-                                    <h2 class="title">Anita Verma</h2>
-                                    <span class="sub-title">Supply Chain Head</span>
+                                    <h2 class="title">Hospital Administrator</h2>
+                                    <span class="sub-title">Multi-Specialty Hospital</span>
                                 </div>
                             </div>
-                            <div class="shape"><img src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
+                            <div class="shape"><img loading="lazy" src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
                         </div>
                         <div class="testimonial__item item-2" data-index="1">
-                            <div class="logo"><img src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
+                            <div class="logo"><img loading="lazy" src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
                             <p class="desc">“On the Windows talking painted pasture yet its express parties use. Sure last
                                 upon he same as knew next. Of believed or diverted no.”</p>
                             <div class="testimonial__info">
                                 <div class="testimonial__info__media">
-                                    <img src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
                                 </div>
                                 <div class="testimonial__info__content">
                                     <h2 class="title">Kevin Martin</h2>
                                     <span class="sub-title">Web Designer</span>
                                 </div>
                             </div>
-                            <div class="shape"><img src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
+                            <div class="shape"><img loading="lazy" src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
                         </div>
                         <div class="testimonial__item item-3" data-index="2">
-                            <div class="logo"><img src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
+                            <div class="logo"><img loading="lazy" src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
                             <p class="desc">“On the Windows talking painted pasture yet its express parties use. Sure last
                                 upon he same as knew next. Of believed or diverted no.”</p>
                             <div class="testimonial__info">
                                 <div class="testimonial__info__media">
-                                    <img src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
                                 </div>
                                 <div class="testimonial__info__content">
                                     <h2 class="title">Kevin Martin</h2>
                                     <span class="sub-title">Web Designer</span>
                                 </div>
                             </div>
-                            <div class="shape"><img src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
+                            <div class="shape"><img loading="lazy" src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
                         </div>
                     </div>
                 </div>
@@ -647,21 +653,21 @@
         <div class="row">
             <div class="col-lg-7" data-aos="fade-right" data-aos-duration="900">
                 <div class="technology__card" data-background="assets/imgs/home-1/technology/bg.png">
-                    <img class="shape-1" src="assets/imgs/home-1/technology/kuldeep01.png" alt="image">
-                    <!-- <img class="shape-2" src="assets/imgs/home-1/technology/shape-2.png" alt="image"> -->
+                    <img loading="lazy" class="shape-1" src="assets/imgs/home-1/technology/kuldeep01.png" alt="image">
+                    <!-- <img loading="lazy" class="shape-2" src="assets/imgs/home-1/technology/shape-2.png" alt="image"> -->
                     <div class="section-title__wrapper ">
-                        <h2 class="sub-title">Technology That Powers Modern Enterprises</h2>
-                        <h2 class="title rr-title-anim-1 color-white">Secure. Scalable. Performance-Driven. </h2>
+                        <h2 class="sub-title">Healthcare Operations Powered Every Day</h2>
+                        <h2 class="title rr-title-anim-1 color-white">Future-Ready Hospital Technology</h2>
 
-                        <p class="decs">Avark leverages modern, scalable, and secure technologies to build high-performance ERP systems,
-                            inventory management solutions, and enterprise software that drive efficiency, automation, and business growth.
+
+                        <p class="decs">ARK HIMS combines intelligent automation, real-time analytics, cloud technology, mobility, and seamless integrations to help healthcare organizations stay ahead in an evolving digital healthcare landscape.
                         </p>
                     </div>
 
                     <a href="{{ route('contact-us') }}" class="rr-btn-green">
                         <span class="btn-wrap">
-                            <span class="text-one">Get a Free Consultation</span>
-                            <span class="text-two">Get a Free Consultation</span>
+                            <span class="text-one">Book a Demo</span>
+                            <span class="text-two">Book a Demo</span>
                         </span>
                     </a>
                 </div>
@@ -669,82 +675,82 @@
             <div class="col-lg-5" data-aos="fade-left" data-aos-duration="900">
                 <div class="technology__wrapper" data-background="assets/imgs/home-1/technology/bg-2.png">
 
-                    <h2 class="title">Scalable Technology Architecture</h2>
+                    <h2 class="title">Secure, Scalable & Future Ready</h2>
                     <div class="client-capsule-wrapper-box" data-t-throwable-scene="true">
                         <div class="client-capsule-wrapper">
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s1.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s1.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s2.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s2.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s3.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s3.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s4.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s4.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s5.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s5.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s6.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s6.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s7.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s7.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s8.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s8.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s9.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s9.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s10.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s10.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s11.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s11.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s12.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s12.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s13.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s13.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s14.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s14.png" alt="image">
                                 </span>
                             </p>
                             <p data-t-throwable-el="">
                                 <span class="client-box ">
-                                    <img src="assets/imgs/home-1/technology/kuldeep/s15.png" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/technology/kuldeep/s15.png" alt="image">
                                 </span>
                             </p>
                         </div>
@@ -761,10 +767,10 @@
             <div class="col-lg-5">
                 <div class="faq__content" data-aos="fade-right" data-aos-duration="500">
                     <div class="section-title__wrapper">
-                        <h2 class="sub-title"><span><img src="assets/imgs/icon/massage.png" alt="image"></span>Support &
+                        <h2 class="sub-title"><span><img loading="lazy" src="assets/imgs/icon/massage.png" alt="image"></span>Support &
                             Help</h2>
                         <h2 class="title rr-title-anim-1">Got Questions? We’ve Got Answers </h2>
-                        <p class="desc">Find clear answers to common questions about Avark’s ERP, Inventory Management, and PACS solutions — covering features, pricing, security, and implementation.</p>
+                        <p class="desc">Find clear answers to common questions about ARK Hospital Management Software, Inventory Management, Pathology & Diagnostic solutions — covering features, pricing, security, and implementation.</p>
 
                         <a href="{{ route('contact-us') }}" class="rr-btn-green">
                             <span class="btn-wrap">

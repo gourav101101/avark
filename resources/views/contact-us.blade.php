@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Contact Us')
-@section('meta_description', 'Contact Us Avark')
-@section('meta_keywords', 'home, Avark Pvt. Ltd.')
+@section('meta_description', 'Contact Avark Healthcare Technology Pvt. Ltd. for ARK Hospital Management Software')
+@section('meta_keywords', 'contact, Avark Healthcare Technology, ARK HIMS, hospital software')
 
 @section('content')
 
@@ -150,7 +150,7 @@
                     <div class="contact-us__info">
                         <div class="text">
                             <h2 class="title">Get in touch with us</h2>
-                            <p>Lorem ipsum is simply free text available dolor sit amet consectetur notted adipisicing elit
+                            <p>Connect with us for healthcare technology solutions, demos, and support.
                             </p>
                         </div>
                         <div class="contact-us-box">
@@ -159,9 +159,12 @@
                             </div>
                             <div class="contact-us-content">
                                 <h3>
-                                    <a href="tel:9399489997">+91-93994 89997</a>
+                                    <a href="tel:917400920717">+91-7400920717</a>
                                 </h3>
-                                <p>Call us any kind suppor,we will wait for it.</p>
+                                <h3>
+                                    <a href="tel:919977699982">+91-9977699982</a>
+                                </h3>
+                                <p>Call us for any support, we are happy to help.</p>
                             </div>
                         </div>
                         <div class="contact-us-box ">
@@ -170,9 +173,12 @@
                             </div>
                             <div class="contact-us-content">
                                 <h3>
+                                    <a href="mailto:sales@avark.in">sales@avark.in</a>
+                                </h3>
+                                <h3>
                                     <a href="mailto:support@avark.in">support@avark.in</a>
                                 </h3>
-                                <p>Email us anytime for anykind ofquety.</p>
+                                <p>Email us anytime for any query.</p>
                             </div>
                         </div>
                         <div class="contact-us-box mb-0">
@@ -183,7 +189,8 @@
                                 <h3>
                                     Our Address
                                 </h3>
-                                <p>A-81, Vistara City, Indore,452001</p>
+                                <p><strong>Indore Office:</strong> A-81, Vistara City, Indore – 452001, Madhya Pradesh, India</p>
+                                <p><strong>Bangalore Office:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru – 560016, Karnataka, India</p>
                             </div>
                         </div>
                     </div>
@@ -209,20 +216,20 @@
                 <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
                         alt="image">Connect With Us <img class="right-shape"
                         src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
-                <h2 class="title rr-title-anim-1 white">Let’s Discuss Your Business Needs</h2>
-                <p class="cta-section__dec">Have questions about our products or services? Our team is here to provide the right guidance and solutions tailored to your business.</p>
+                <h2 class="title rr-title-anim-1 white">Let’s Talk — Experience the Future of Healthcare Management</h2>
+                <p class="cta-section__dec">Have questions about ARK HIMS or our healthcare solutions? Our team is here to provide the right guidance and solutions tailored to your hospital.</p>
             </div>
             <div class="cta-section__btn">
                 <a href="{{ route('contact-us') }}" class="rr-btn">
                     <span class="btn-wrap">
-                        <span class="text-one">view our demo</span>
-                        <span class="text-two">view our demo</span>
+                        <span class="text-one">Book a Demo</span>
+                        <span class="text-two">Book a Demo</span>
                     </span>
                 </a>
                 <a href="{{ route('contact-us') }}" class="rr-btn rr-btn-3">
                     <span class="btn-wrap">
-                        <span class="text-one">start free trial now</span>
-                        <span class="text-two">start free trial now</span>
+                        <span class="text-one">Request a Quote</span>
+                        <span class="text-two">Request a Quote</span>
                     </span>
                 </a>
             </div>

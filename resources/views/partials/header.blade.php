@@ -57,7 +57,7 @@
             </div>
             <div class="contact-item">
               <span class="icon"><i class="fa-solid fa-phone"></i></span>
-              <span class="text"><a href="tel:919399489997">+91-93994 89997</a></span>
+              <span class="text"><a href="tel:917400920717">+91-7400920717</a></span>
             </div>
           </div>
         </div>
@@ -117,7 +117,7 @@
                                   
 
                                     <li>
-                                        <a href="{{ route('about') }}">About Us</a>
+                                        <a href="{{ route('about') }}">Company</a>
                                     </li>
 
                                     <!-- <li>
@@ -130,7 +130,7 @@
 
                                       <li class="">
                                         <!-- <li class="menu-item-has-children"> -->
-                                        <a href="{{ route('services') }}">Service</a>
+                                        <a href="{{ route('services') }}">Services</a>
                                         <ul class="dp-menu column-2">
                                             <li>
                                                 <a href="{{ route('erp-system') }}">ERP System Development</a>
@@ -203,11 +203,7 @@
 
 
                                     <li>
-                                        <a href="{{ route('blogs') }}">Blog</a>
-                                        <!-- <ul class="dp-menu">
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Blog Details</a></li>
-                                        </ul> -->
+                                        <a href="#">Partners</a>
                                     </li>
 
                                     <!-- <li>

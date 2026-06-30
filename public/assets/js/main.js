@@ -100,9 +100,9 @@
     new Swiper(".brand-1__active", {
       slidesPerView: "auto",
       speed: 5000,
-      loop: true,
-      allowTouchMove: false,
-      autoplay: { delay: 1 },
+      loop: false,
+      allowTouchMove: true,
+      autoplay: { delay: 2000, disableOnInteraction: false },
     });
   }
 
