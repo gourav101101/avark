@@ -19,6 +19,12 @@
     .brand-1__item img{
         width: 120px;
     }
+
+    .hero__media .shape-1 {
+        width: 465px;
+        max-width: 100%;
+        height: auto;
+    }
 </style>
 
 <section class="hero">
@@ -31,7 +37,7 @@
                 <div class="col-xl-6">
                     <div class="hero__media">
                         <img class="shape-1" data-aos="zoom-in" data-aos-duration="900"
-                            src="{{ asset('assets/imgs/home-1/hero/kp01.png') }}" alt="image">
+                            src="{{ asset('assets/imgs/home-1/hero/new2-kp01.png') }}" alt="image">
 
                         <img class="shape-2 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/shape-2.png') }}" alt="">
                         <img class="shape-3 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/kp03.png') }}" alt="">
