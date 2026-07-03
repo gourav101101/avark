@@ -49,7 +49,7 @@
                          <div class="footer-4__top">
                              <div class="footer-4__info">
                                  <div class="footer-4__logo">
-                                     <a href="avark.in"><img src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="Kuldeep Meena "></a>
+                                     <a href="avark.in"><img src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="Kuldeep Meena " style="filter: brightness(0) invert(1);"></a>
                                  </div>
                                  <p class="footer-4__dec">Avark Healthcare Technology Pvt. Ltd. — Transforming healthcare through technology since 2019.
                                  </p>
@@ -99,7 +99,7 @@
                          <div class="copyright-4__area">
                              <div class="copyright-4__wrap">
                                  <div class="copyright-4__text">
-                                     <p class="text">Copyright © 2026 Avark Healthcare Technology Pvt. Ltd. All Rights Reserved. <a href="#">Powered by Avark Healthcare Technology Pvt. Ltd.</a></p>
+                                     <p class="text">Copyright © 2026 Avark Healthcare Technology Pvt. Ltd. All Rights Reserved.</p>
                                  </div>
                              </div>
                          </div>

@@ -17,6 +17,8 @@ Route::get('/web-application-development', [PageController::class, 'WebApplicati
 Route::get('/mobile-app-development', [PageController::class, 'MobileAppDevelopment'])->name('mobile-app-development');
 Route::get('/cloud-and-data-migration', [PageController::class, 'CloudandDataMigration'])->name('cloud-and-data-migration');
 Route::get('/enterprise-integration-services', [PageController::class, 'enterpriseIntegrationServices'])->name('enterprise-integration-services');
+Route::get('/digital-healthcare-solution', [PageController::class, 'DigitalHealthcareSolution'])->name('digital-healthcare-solution');
+Route::get('/tele-consultation', [PageController::class, 'TeleConsultation'])->name('tele-consultation');
 // service details page  Kp End
 
 

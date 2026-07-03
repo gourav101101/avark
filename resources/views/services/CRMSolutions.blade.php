@@ -48,101 +48,164 @@
                     </div>
                     </div>
                     <div class="media" data-aos="fade-up" data-aos-duration="900">
-                        <img src="assets/imgs/inner/service-detils/crmkp02.webp" alt="img">
+                        <img src="{{ asset('assets/imgs/inner/service-detils/Solution-PNG.png') }}" alt="CRM Solutions">
                     </div>
                 </div>
                 <div class="col-lg-8 col-12">
                     <div class="service-details__content">
-                    <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Drive Growth with Intelligent CRM Solutions</h2>
-                    <p class="desc" data-aos="fade-up" data-aos-duration="900">Our CRM platform helps businesses streamline communication, automate sales processes, and enhance customer engagement. By organizing every customer touchpoint in one place, you can ensure faster response times, improved conversions, and long-term customer loyalty.</p>
+                    <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">CRM System</h2>
+                    <p class="desc" data-aos="fade-up" data-aos-duration="900">A Customer Relationship Management (CRM) system is a software solution designed to manage and improve interactions with customers, prospects, and business partners.</p>
+                    <p class="desc" data-aos="fade-up" data-aos-duration="900">CRM acts as a centralized platform to store, track, and analyze customer information, enabling organizations to build stronger relationships, improve customer satisfaction, and drive sustainable business growth.</p>
+                    <p class="desc" data-aos="fade-up" data-aos-duration="900">By providing a complete view of customer interactions, CRM systems help businesses deliver personalized experiences, improve communication, and increase operational efficiency.</p>
 
-                        <p class="desc" data-aos="fade-up" data-aos-duration="900">Our CRM Service is designed to centralize and optimize your entire customer lifecycle—from lead generation to deal closure and post-sales support. Instead of relying on spreadsheets or disconnected systems, CRM connects your marketing, sales, and support teams into a single intelligent ecosystem.</p>
+                    <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our CRM Solutions?</h2>
+                    <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                        <ul>
+                            <li><i class="fa-solid fa-angles-right"></i><span><strong>Fast Services:</strong> We provide quick implementation, seamless deployment, and dedicated support to help businesses streamline customer management and accelerate growth.</span></li>
+                            <li><i class="fa-solid fa-angles-right"></i><span><strong>Transparency:</strong> Our CRM solutions offer complete visibility into customer interactions, sales pipelines, and business performance, ensuring informed decision-making.</span></li>
+                            <li><i class="fa-solid fa-angles-right"></i><span><strong>Trustable:</strong> Trusted by businesses across industries, our CRM platform is built to strengthen customer relationships while ensuring data security and reliability.</span></li>
+                        </ul>
+                    </div>
 
-                    <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Detailed Description</h2>
-                    <p data-aos="fade-up" data-aos-duration="900">Our CRM Service is designed to centralize and optimize your entire customer lifecycle—from lead generation to deal closure and post-sales support. Instead of relying on spreadsheets or disconnected systems, CRM connects your marketing, sales, and support teams into a single intelligent ecosystem.</p>
-
-                        <p data-aos="fade-up" data-aos-duration="900">Our CRM Service is designed to centralize and optimize your entire customer lifecycle—from lead generation to deal closure and post-sales support. Instead of relying on spreadsheets or disconnected systems, CRM connects your marketing, sales, and support teams into a single intelligent ecosystem.</p>
-
-                    <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Key Benefits :</h2>
-
+                    <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Aspects of CRM Systems</h2>
+                    
+                    <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Customer Data Management</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">Efficiently store, organize, and manage customer information, including:</p>
                     <ul data-aos="fade-up" data-aos-duration="900">
-                        <li><i class="fa-solid fa-angles-right"></i>Centralized customer data and interaction history</li>
-                        <li><i class="fa-solid fa-angles-right"></i>Real-time sales pipeline tracking
-                        </li>
-                        <li><i class="fa-solid fa-angles-right"></i>Automated follow-ups and task reminders</li>
-                        <li><i class="fa-solid fa-angles-right"></i>Improved customer engagement and retention</li>
-                        <li><i class="fa-solid fa-angles-right"></i>Better sales forecasting and performance analysis</li>
-                        <li><i class="fa-solid fa-angles-right"></i>Scalable CRM solution that grows with your business</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Contact details</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Purchase history</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Communication records</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Customer preferences</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Interaction history</li>
+                    </ul>
+                    <p data-aos="fade-up" data-aos-duration="900">A centralized customer database enables quick access to information and improves collaboration across teams.</p>
+
+                    <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Sales Automation</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">Streamline sales processes by managing:</p>
+                    <ul data-aos="fade-up" data-aos-duration="900">
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Leads and prospects</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Opportunities and deals</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Sales pipelines</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Follow-ups and reminders</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Quotation and proposal management</li>
+                    </ul>
+                    <p data-aos="fade-up" data-aos-duration="900">Sales automation helps improve productivity and increases conversion rates.</p>
+
+                    <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Marketing Automation</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">Create, manage, and execute targeted marketing campaigns with features such as:</p>
+                    <ul data-aos="fade-up" data-aos-duration="900">
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Email marketing</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Campaign management</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Audience segmentation</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Lead nurturing</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Marketing analytics</li>
+                    </ul>
+                    <p data-aos="fade-up" data-aos-duration="900">Marketing automation enables businesses to engage customers more effectively and improve campaign performance.</p>
+
+                    <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Customer Service & Support</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">Deliver exceptional customer experiences by efficiently handling:</p>
+                    <ul data-aos="fade-up" data-aos-duration="900">
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Customer inquiries</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Complaint management</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Ticketing and issue resolution</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Service requests</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Customer feedback</li>
+                    </ul>
+                    <p data-aos="fade-up" data-aos-duration="900">A robust CRM system ensures timely support and improved customer satisfaction.</p>
+
+                    <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Reporting & Analytics</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">Generate meaningful insights from customer data through:</p>
+                    <ul data-aos="fade-up" data-aos-duration="900">
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Sales reports</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Customer behavior analysis</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Performance dashboards</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Revenue forecasting</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Business intelligence reports</li>
+                    </ul>
+                    <p data-aos="fade-up" data-aos-duration="900">Advanced analytics support better decision-making and strategic planning.</p>
+
+                    <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Improved Customer Relationships</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">CRM systems help organizations better understand customer needs, preferences, and behaviors, enabling personalized interactions and stronger long-term relationships.</p>
+
+                    <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Increased Sales</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">By improving sales efficiency, managing opportunities effectively, and identifying cross-selling and upselling opportunities, CRM systems contribute significantly to revenue growth.</p>
+
+                    <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Features</h2>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Introduction to CRM</h4>
+                            <ul data-aos="fade-up" data-aos-duration="900">
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Definition and importance of CRM systems.</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Understanding the role of CRM in modern businesses.</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> How CRM enhances customer engagement and business relationships.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Key Features of CRM</h4>
+                            <ul data-aos="fade-up" data-aos-duration="900">
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Customer Database Management</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Lead & Opportunity Management</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Sales Pipeline Tracking</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Marketing Automation</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Task & Activity Management</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Customer Support Management</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Reporting & Dashboards</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Benefits of CRM</h4>
+                            <ul data-aos="fade-up" data-aos-duration="900">
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Improved Customer Relationships</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Increased Customer Retention</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Enhanced Sales Performance</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Better Team Collaboration</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Increased Productivity</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Data-Driven Decision Making</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">CRM Implementation</h4>
+                            <ul data-aos="fade-up" data-aos-duration="900">
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Business Requirement Analysis</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> CRM Configuration & Customization</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Data Migration</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> User Training</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Deployment & Go-Live</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Ongoing Support & Maintenance</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h4 class="mt-5" data-aos="fade-up" data-aos-duration="900">Types of CRM Systems</h4>
+                    <ul data-aos="fade-up" data-aos-duration="900">
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Operational CRM</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Analytical CRM</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Collaborative CRM</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Strategic CRM</li>
                     </ul>
 
-                    <h2 class="title rr-title-anim-1">Core Features:</h2>
+                    <h4 class="mt-5" data-aos="fade-up" data-aos-duration="900">CRM and Marketing</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">CRM enables organizations to create personalized marketing campaigns, track customer engagement, and measure campaign effectiveness for better marketing ROI.</p>
 
-                    <div class="features" data-aos="fade-up" data-aos-duration="900">
-                        <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><span>Lead & Contact Management</span></li>
-                        <li><i class="fa-solid fa-angles-right"></i><span>Sales Pipeline & Opportunity Tracking</span></li>
-                        <li><i class="fa-solid fa-angles-right"></i><span>Marketing Automation Tools</span></li>
-                        <li><i class="fa-solid fa-angles-right"></i><span>Email & Communication Integration</span></li>
-                        <li><i class="fa-solid fa-angles-right"></i><span>Task & Activity Management </span></li>
-                        <li><i class="fa-solid fa-angles-right"></i><span>Customer Support & Ticket Management </span></li>
-                        <li><i class="fa-solid fa-angles-right"></i><span>Advanced Reporting & Analytics Dashboard </span></li>
-                        </ul>
+                    <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">CRM and Sales</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">CRM improves sales performance through lead management, pipeline visibility, sales forecasting, and automated follow-up processes.</p>
 
-                    </div>
+                    <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">CRM and Customer Service</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">Provide exceptional customer support through case management, ticket tracking, service automation, and customer interaction history.</p>
 
-                    <div class="faq-2-area " style="display: none;">
-                        <div class="faq-2-area-inner ">
-                        <div class="accordion-wrapper fade-anim">
-                            <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                <span class="title"><span></span>What is an ERP system and why does my business need it? </span>
-                                </button>
-
-                                <div id="collapseOne" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p> An ERP (Enterprise Resource Planning) system integrates all core business functions—such as finance, HR, inventory, 
-                                        sales, and operations—into one centralized platform. It eliminates data silos,
-                                        improves efficiency, and provides real-time insights to help you make smarter business decisions. </p>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                <span class="title"><span></span> Can the ERP system be customized for my industry? </span>
-                                </button>
-                                <div id="collapseTwo" class="accordion-collapse collapse show"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Yes. Our ERP solutions are fully customizable based on your industry requirements and business processes.
-                                        Whether you operate in manufacturing, retail, healthcare, 
-                                        or services, we tailor modules and workflows to match your operational needs.
-                                    </p>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <span class="title"><span></span> How long does ERP implementation take? </span>
-                                </button>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>The implementation timeline depends on the size and complexity of your organization. Typically, small to mid-sized businesses can go live within a few weeks, 
-                                        while larger enterprises may require a phased rollout. 
-                                        Our team ensures smooth deployment with minimal disruption.
-                                    </p>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+                    <h4 class="mt-5" data-aos="fade-up" data-aos-duration="900">Integration & Data Security</h4>
+                    <p data-aos="fade-up" data-aos-duration="900">CRM systems integrate seamlessly with existing business applications while ensuring data protection through:</p>
+                    <ul data-aos="fade-up" data-aos-duration="900">
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Role-Based Access Control</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Secure Data Encryption</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Regular Data Backup</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Compliance & Audit Trails</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> API Integrations</li>
+                    </ul>
                     </div>
                 </div>
                 </div>
@@ -153,28 +216,22 @@
             <section class="cta-section__area">
             <div class="container rr-container-1350">
                 <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
-                <div class="section-title-3__wrapper tx-center">
+                    <div class="section-title-3__wrapper tx-center">
                     <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-                        alt="image">Connect With Us <img class="right-shape"
+                        alt="image">Call to Action <img class="right-shape"
                         src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
-                    <h2 class="title rr-title-anim-1 white">Connect With Avark CRM Experts</h2>
-                    <p class="cta-section__dec">Transform Your Customer Relationships Today</p>
+                    <h2 class="title rr-title-anim-1 white">Ready to Transform Your Business?</h2>
+                    <p class="cta-section__dec">Experience how our CRM solution can transform your customer relationships and accelerate business growth. Schedule a personalized demo today.</p>
                 </div>
-                <div class="cta-section__btn">
+                <div class="cta-section__btn d-flex justify-content-center">
                     <a href="{{ route('contact-us') }}" class="rr-btn">
                     <span class="btn-wrap">
-                        <span class="text-one">Request a Free Consultation</span>
-                        <span class="text-two">Request a Free Consultation</span>
+                        <span class="text-one">Book a Demo</span>
+                        <span class="text-two">Book a Demo</span>
                     </span>
                     </a>
                 </div>
-                <div class="cta-section__list">
-                    <ul>
-                    <li><i class="fa-regular fa-angles-right"></i> Industry-Specific Customization </li>
-                    <li><i class="fa-regular fa-angles-right"></i> Secure & Scalable Cloud Deployment </li>
-                    </ul>
-                </div>
-                </div>
+            </div>
             </div>
             </section>
     @endsection

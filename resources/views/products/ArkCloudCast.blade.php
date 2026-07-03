@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'ARK Cloud Cast')
-@section('meta_description', 'ARK Cloud Cast')
-@section('meta_keywords', 'home, ARK Cloud Cast')
+@section('title', 'Business Marketing Tool')
+@section('meta_description', 'Business Marketing Tool')
+@section('meta_keywords', 'home, Business Marketing Tool')
 
 @section('content')
 
@@ -15,7 +15,7 @@
         <ul class="breadcrumb-section__page">
           <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
           <li> Products <i class="fa-regular fa-angle-right"></i> </li>
-          <li> ARK Cloud Cast</li>
+          <li> Business Marketing Tool </li>
         </ul>
       </div>
     </div>
@@ -27,7 +27,7 @@
   <div class="container rr-container-1350">
     <div class="service-details__top">
       <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img">
+        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
       </div>
     </div>
     <div class="row">
@@ -36,211 +36,198 @@
           <h4 class="title">Product Categories</h4>
           <div class="service-details-sidebar-categories">
             <ul>
-              <li><a href="{{route('hms')}}">Advance Hospital Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('kiosk-management-system')}}">KIOSK Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('feedback-management')}}">Feedback Management</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('inventory-stock management')}}">Inventory or Stock Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('hms')}}">Advance Hospital Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('inventory-stock management')}}">Inventory or Stock Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
               <li><a href="{{route('white-label-practice-management')}}">White Label Practice Management Application</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('dialysis-management')}}">Dialysis Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('enterprise-support-management')}}">Business Marketing Tool </a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('opd-management-system')}}">OPD Management System </a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('digital-signage-solutions')}}">Digital Signages </a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('industrial-asset-management')}}">Industrial Asset Management System </a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('dialysis-management')}}">Dialysis Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('enterprise-support-management')}}">Enterprise Support Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('ark-cloud-cast')}}">Business Marketing Tool</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('opd-management-system')}}">OPD Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('industrial-asset-management')}}">Industrial Asset Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-lg-8 col-12">
         <div class="service-details__content">
-          <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Secure, Scalable & Smart Cloud Broadcasting Solution</h2>
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Empower your organization with ARK Cloud Cast, a powerful cloud-based platform designed for seamless content delivery, secure data streaming, and centralized cloud management.</p>
+            <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Business Marketing Tool</h2>
+            
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our Business Marketing Tool?</h2>
+            
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <h4 class="title mb-2"><i class="fa-solid fa-bolt text-warning me-2"></i> Fast Services</h4>
+                <p class="desc">Automate and simplify your marketing activities with a centralized and intelligent marketing platform.</p>
 
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Stream, manage, and distribute your digital assets effortlessly — anytime, anywhere.</p>
+                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-magnifying-glass text-info me-2"></i> Transparency</h4>
+                <p class="desc">Gain complete visibility into your marketing campaigns, customer engagement, and business performance from a single dashboard.</p>
 
-          <div class="service-details__top">
-            <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-              <img src="assets/imgs/inner/service-detils/p2.png" alt="img">
+                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-handshake text-success me-2"></i> Trustable</h4>
+                <p class="desc">Trusted by businesses across industries, our platform helps organizations streamline marketing operations and improve customer engagement.</p>
             </div>
-          </div>
 
-          <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Product Overview</h2>
-          <p data-aos="fade-up" data-aos-duration="900">ARK Cloud Cast is a modern cloud-powered solution that enables businesses to host, manage, and broadcast content securely across multiple devices and locations.</p>
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Business Marketing Tool</h2>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Our Business Marketing Tool is a cloud-based marketing solution designed to simplify, automate, and optimize your marketing activities with minimal effort.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">The platform connects seamlessly with digital screens installed across your premises, social media platforms, and customer engagement channels, enabling businesses to manage all marketing activities from a centralized system.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Whether you want to promote products, engage customers, manage digital displays, or collect real-time feedback, our Business Marketing Tool provides everything you need to strengthen your brand presence and improve customer experiences.</p>
 
-          <p data-aos="fade-up" data-aos-duration="900">Whether it’s internal communication, digital displays, announcements, training sessions, or multimedia broadcasting — ARK Cloud Cast ensures smooth, reliable, and real-time content delivery.</p>
-          <p data-aos="fade-up" data-aos-duration="900">With centralized control and scalable infrastructure, you can manage everything from a single dashboard.</p>
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Features</h2>
+            
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <h4 class="title mb-2">Centralized Content & Feedback Management</h4>
+                <p class="desc">Manage all your marketing activities from a single platform.</p>
+                <p class="desc mt-2">Features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Manage Social Media Content</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Handle Customer Feedback</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Monitor Engagement Activities</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Centralized Campaign Management</span></li>
+                </ul>
+                <p class="desc mt-2">This eliminates the need to use multiple systems and improves operational efficiency.</p>
 
-        </div>
-      </div>
+                <h4 class="title mt-4 mb-2">Social Media Integration</h4>
+                <p class="desc">Integrate and manage popular social media platforms directly from the platform.</p>
+                <p class="desc mt-2">Supported channels include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Facebook</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Instagram</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Digital Display Screens</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Other Connected Marketing Channels</span></li>
+                </ul>
+                <p class="desc mt-2">Manage and monitor your digital presence effortlessly.</p>
 
-    </div>
-  </div>
-</section>
+                <h4 class="title mt-4 mb-2">Video Upload & Content Management</h4>
+                <p class="desc">Upload and manage promotional videos, advertisements, and branded content through a centralized dashboard.</p>
+                <p class="desc mt-2">Capabilities include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Video Upload & Scheduling</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Multimedia Content Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Promotional Campaign Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Digital Signage Content Control</span></li>
+                </ul>
+                <p class="desc mt-2">Deliver engaging visual experiences to your customers.</p>
 
-<section class="service-details">
-  <div class="container rr-container-1350">
-    <div class="row">
+                <h4 class="title mt-4 mb-2">Live Streaming Management</h4>
+                <p class="desc">Broadcast live events, announcements, promotions, or other business-related content across connected displays and digital channels.</p>
+                <p class="desc mt-2">Features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Live Streaming Support</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Content Broadcasting</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Event Promotion</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Screen Display Management</span></li>
+                </ul>
+                <p class="desc mt-2">Enhance customer engagement through dynamic content experiences.</p>
 
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-    </div>
+                <h4 class="title mt-4 mb-2">Real-Time Customer Feedback</h4>
+                <p class="desc">Collect valuable customer feedback instantly through digital channels.</p>
+                <p class="desc mt-2">Benefits include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Live Customer Feedback Collection</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Satisfaction Monitoring</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Experience Evaluation</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Service Improvement Insights</span></li>
+                </ul>
+                <p class="desc mt-2">Real-time feedback helps businesses continuously improve customer experiences.</p>
 
-    <div class="col-lg-12 col-12">
-      <div class="service-details__content">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Key Features </h2>
-
-            <ul data-aos="fade-up" data-aos-duration="900">
-              <li><i class="fa-solid fa-angles-right"></i>Cloud-Based Content Management</li>
-              <li><i class="fa-solid fa-angles-right"></i>Real-Time Streaming & Broadcasting</li>
-              <li><i class="fa-solid fa-angles-right"></i>Multi-Device & Multi-Location Support</li>
-              <li><i class="fa-solid fa-angles-right"></i>Secure Data Encryption</li>
-              <li><i class="fa-solid fa-angles-right"></i>Centralized Admin Dashboard</li>
-              <li><i class="fa-solid fa-angles-right"></i>Role-Based Access Control</li>
-              <li><i class="fa-solid fa-angles-right"></i>Automated Scheduling & Content Updates</li>
-              <li><i class="fa-solid fa-angles-right"></i>Scalable Infrastructure</li>
-              <li><i class="fa-solid fa-angles-right"></i>Performance & Usage Analytics</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <div>
-              <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">How It Helps Your Organization</h2>
-              <ul>
-                <li> <i class="fa-regular fa-angle-right"></i> Centralized Cloud Control</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Real-Time Delivery</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Secure & Reliable</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Smart Analytics</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Access Anywhere</li>
-              </ul>
+                <h4 class="title mt-4 mb-2">Multi-Screen Management</h4>
+                <p class="desc">Manage and control content displayed across multiple screens installed at various business locations from a single centralized platform.</p>
+                <p class="desc mt-2">Features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Centralized Screen Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Content Scheduling</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Remote Content Updates</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Location Display Control</span></li>
+                </ul>
+                <p class="desc mt-2">Perfect for retail stores, hospitals, restaurants, clinics, and corporate environments.</p>
             </div>
-          </div>
 
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Benefits</h2>
+            
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <h4 class="title mb-2">Reduced Marketing Costs</h4>
+                <p class="desc">Automating marketing activities and centralizing content management can reduce overall marketing costs by up to 50%.</p>
+
+                <h4 class="title mt-4 mb-2">Increased Customer Engagement</h4>
+                <p class="desc">Deliver targeted, interactive, and engaging content that enhances customer experiences and strengthens brand loyalty.</p>
+
+                <h4 class="title mt-4 mb-2">Improved Brand Visibility</h4>
+                <p class="desc">Maintain a consistent and professional brand presence across all digital touchpoints.</p>
+
+                <h4 class="title mt-4 mb-2">Simplified Marketing Operations</h4>
+                <p class="desc">Manage campaigns, digital displays, social media, and customer interactions through a single platform.</p>
+
+                <h4 class="title mt-4 mb-2">Real-Time Communication</h4>
+                <p class="desc">Instantly share announcements, promotions, offers, and important information with your audience.</p>
+
+                <h4 class="title mt-4 mb-2">Better Decision-Making</h4>
+                <p class="desc">Leverage customer feedback and marketing analytics to optimize campaigns and improve business performance.</p>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Additional Features</h2>
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <ul>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Campaign Scheduling</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Social Media Publishing</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Digital Signage Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Customer Feedback Analytics</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Content Approval Workflow</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Notification Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Dashboard & MIS Reports</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Cloud-Based Access</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Role-Based User Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Branch Support</span></li>
+                </ul>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Industries We Serve</h2>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Our Business Marketing Tool is ideal for:</p>
+            <div class="features mt-3" data-aos="fade-up" data-aos-duration="900">
+                <ul>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Hospitals & Healthcare Organizations</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Retail Stores</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Restaurants & Cafes</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Hotels</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Shopping Malls</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Educational Institutions</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Corporate Offices</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Clinics & Diagnostic Centers</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Branch Businesses</span></li>
+                </ul>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our Business Marketing Tool?</h2>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Our intelligent cloud-based marketing platform empowers organizations to automate marketing operations, improve customer engagement, reduce costs, and strengthen their digital presence.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">By connecting social media, digital displays, and customer feedback channels into a single ecosystem, businesses can deliver impactful marketing experiences with minimal effort.</p>
+
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
+            
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <h4 class="title mb-2">Connect With Us</h4>
+                <ul class="mt-2">
+                    <li><i class="fa-brands fa-facebook text-primary me-2"></i><span>Facebook</span></li>
+                    <li><i class="fa-brands fa-instagram text-danger me-2"></i><span>Instagram</span></li>
+                    <li><i class="fa-brands fa-linkedin text-info me-2"></i><span>LinkedIn</span></li>
+                    <li><i class="fa-brands fa-whatsapp text-success me-2"></i><span>WhatsApp</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">Contact Information</h4>
+                <p class="desc"><strong>Mobile:</strong> <a href="tel:+917400920717">+91-7400920717</a>, <a href="tel:+919977699982">+91-9977699982</a></p>
+                <p class="desc mt-2"><strong>Sales Enquiry:</strong> <a href="mailto:sales@avark.in">sales@avark.in</a></p>
+                <p class="desc mt-2"><strong>Support:</strong> <a href="mailto:support@avark.in">support@avark.in</a></p>
+
+                <h4 class="title mt-4 mb-2">Office Addresses</h4>
+                <p class="desc mt-2"><strong>Indore Office:</strong> A-81, Vistara City, Indore - 452001, Madhya Pradesh, India</p>
+                <p class="desc mt-2"><strong>Bangalore Office:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</p>
+
+                <h4 class="title mt-4 mb-2">Book a Demo</h4>
+                <p class="desc">Transform your marketing activities with our intelligent Business Marketing Tool. Schedule a personalized demo today.</p>
+                <p class="desc mt-4"><strong>Copyright &copy; 2026 Avark Healthcare Technology Pvt. Ltd.</strong></p>
+                <p class="desc mt-2"><strong>Powered by Avark Healthcare Technology Pvt. Ltd.</strong></p>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cta-section__area">
-  <div class="container rr-container-1350">
-    <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
-      <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-            alt="image">Connect With Us <img class="right-shape"
-            src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
-        <h2 class="title rr-title-anim-1 white">Ready to Transform Your Cloud Broadcasting?</h2>
-        <p class="cta-section__dec">Take control of your digital content with ARK Cloud Cast.</p>
-      </div>
-      <div class="cta-section__btn">
-        <a href="{{ route ('contact-us') }}" class="rr-btn">
-          <span class="btn-wrap">
-            <span class="text-one">Request a Demo</span>
-            <span class="text-two">Request a Demo</span>
-          </span>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="cta-section__area py-5">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-10">
-
-        <div class="accordion" id="accordionExample">
-
-          <!-- Item 1 -->
-          <div class="accordion-item mb-3 border-0 shadow-sm">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="false"
-                aria-controls="collapseOne">
-                What is ARK Cloud Cast and how does it work?
-              </button>
-            </h2>
-
-            <div id="collapseOne" class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body text-muted text-justify">
-                ARK Cloud Cast is a cloud-based content broadcasting and management platform that allows organizations to securely stream, manage, and distribute digital content across multiple devices and locations. It operates through a centralized dashboard, enabling real-time content updates and scheduling from anywhere.
-              </div>
-            </div>
-          </div>
-
-          <!-- Item 2 -->
-          <div class="accordion-item mb-3 border-0 shadow-sm">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo">
-                Is ARK Cloud Cast secure for enterprise use?
-              </button>
-            </h2>
-
-            <div id="collapseTwo" class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body text-muted text-justify">
-                Yes. ARK Cloud Cast is built with secure cloud architecture, encrypted data transmission, and role-based access control. This ensures that only authorized users can manage or broadcast content, making it suitable for enterprise-level deployments.
-              </div>
-            </div>
-          </div>
-
-          <!-- Item 3 -->
-          <div class="accordion-item border-0 shadow-sm">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree">
-                Can ARK Cloud Cast support multiple locations and devices?
-              </button>
-            </h2>
-
-            <div id="collapseThree" class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body text-muted text-justify">
-                Absolutely. The platform is designed to support multi-location and multi-device environments. Whether you operate across branches, offices, or digital display networks, ARK Cloud Cast allows centralized control and seamless content synchronization.
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
     </div>
   </div>
 </section>
-
-
-
-
-
 
 @endsection

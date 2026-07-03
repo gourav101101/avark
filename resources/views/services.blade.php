@@ -27,80 +27,101 @@
           <div class="container rr-container-1350">
             <div class="section-title-3__wrapper tx-center">
               <h2 class="sub-title"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left.png"
-                  alt="image">IT Solutions for Every Business<img class="right-shape" src="assets/imgs/home-3/shape/shape-right.png"
+                  alt="image">Our Best Services For You<img class="right-shape" src="assets/imgs/home-3/shape/shape-right.png"
                   alt="image"></h2>
               <h2 class="title rr-title-anim-1">Digital Solutions That Scale</h2>
+              <p class="desc mt-3 mx-auto text-center" style="max-width: 800px;">At Avark Healthcare Technology, we deliver innovative, reliable, and scalable technology solutions designed to empower businesses and healthcare organizations in their digital transformation journey.</p>
             </div>
 
-            <div class="row  mb-minus-30">
-              <div class="col-md-4 col-sm-6">
-                <div class="service-2__item">
+            <div class="row mb-minus-30">
+              <div class="col-md-4 col-sm-6 mb-30">
+                <div class="service-2__item h-100 d-flex flex-column">
                   <div class="icon">
                     <img src="assets/imgs/icon/icon-08.png" alt="image">
                   </div>
-                  <h2 class="title">ERP System Development</h2>
-                  <p>Streamline operations, manage resources efficiently, and gain real-time business insights with our scalable ERP solutions.</p>
-                  <a href="{{ route('erp-system') }}">MORE DETAILS</a>
+                  <h2 class="title">ERP System</h2>
+                  <p>An Enterprise Resource Planning (ERP) system is a powerful software solution designed to integrate and manage various business processes across an organization. It centralizes data, automates workflows, improves operational efficiency, and enhances decision-making across departments.</p>
+                  <a href="{{ route('erp-system') }}" class="mt-auto">MORE DETAILS</a>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="service-2__item">
+              <div class="col-md-4 col-sm-6 mb-30">
+                <div class="service-2__item h-100 d-flex flex-column">
                   <div class="icon">
                     <img src="assets/imgs/icon/icon-09.png" alt="image">
                   </div>
-                  <h2 class="title">CRM Solutions </h2>
-                  <p>Improve customer relationships, automate sales processes, and boost engagement with intelligent CRM systems.</p>
-                  <a href="{{ route('crm-solutions') }}">MORE DETAILS</a>
+                  <h2 class="title">CRM System</h2>
+                  <p>A Customer Relationship Management (CRM) system is a software solution designed to manage customer interactions, streamline sales processes, improve customer engagement, and strengthen long-term business relationships.</p>
+                  <a href="{{ route('crm-solutions') }}" class="mt-auto">MORE DETAILS</a>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="service-2__item">
+              <div class="col-md-4 col-sm-6 mb-30">
+                <div class="service-2__item h-100 d-flex flex-column">
                   <div class="icon">
                     <img src="assets/imgs/icon/icon-10.png" alt="image">
                   </div>
-                  <h2 class="title">Custom Software Development</h2>
-                  <p>Tailor-made software solutions designed specifically to match your business workflows and operational requirements.</p>
-                  <a href="{{ route('custom-software-development') }}">MORE DETAILS</a>
+                  <h2 class="title">Web Development</h2>
+                  <p>Web development is the process of designing, developing, and maintaining websites and web applications tailored to meet business requirements. We create responsive, secure, and scalable digital experiences that drive business growth.</p>
+                  <a href="{{ route('web-application-development') }}" class="mt-auto">MORE DETAILS</a>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="service-2__item">
+              <div class="col-md-4 col-sm-6 mb-30">
+                <div class="service-2__item h-100 d-flex flex-column">
                   <div class="icon">
                     <img src="assets/imgs/icon/icon-08.png" alt="image">
                   </div>
-                  <h2 class="title">Web Application Development</h2>
-                  <p>Secure, responsive, and high-performance web platforms built using modern technologies for scalable growth.</p>
-                  <a href="{{ route('web-application-development') }}">MORE DETAILS</a>
+                  <h2 class="title">Digital Healthcare Solutions</h2>
+                  <p>Our Digital Healthcare Solutions leverage advanced technologies to connect patients, healthcare providers, and healthcare organizations. These solutions improve patient care, streamline clinical workflows, and enhance healthcare accessibility.</p>
+                  <a href="{{ route('digital-healthcare-solution') }}" class="mt-auto">MORE DETAILS</a>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="service-2__item">
+              <div class="col-md-4 col-sm-6 mb-30">
+                <div class="service-2__item h-100 d-flex flex-column">
                   <div class="icon">
                     <img src="assets/imgs/icon/icon-09.png" alt="image">
                   </div>
-                  <h2 class="title">Mobile App Development</h2>
-                  <p>User-friendly Android & iOS applications that enhance customer experience and expand your digital reach.</p>
-                  <a href="{{ route('mobile-app-development') }}">MORE DETAILS</a>
+                  <h2 class="title">Application Development</h2>
+                  <p>Our application development services focus on understanding project goals, business objectives, and target audiences to deliver customized, user-friendly, and scalable mobile and web applications.</p>
+                  <a href="{{ route('mobile-app-development') }}" class="mt-auto">MORE DETAILS</a>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="service-2__item">
+              <div class="col-md-4 col-sm-6 mb-30">
+                <div class="service-2__item h-100 d-flex flex-column">
                   <div class="icon">
                     <img src="assets/imgs/icon/icon-10.png" alt="image">
                   </div>
-                  <h2 class="title">Cloud & Data Migration</h2>
-                  <p>Smooth and secure migration of legacy systems and business data to modern cloud-based infrastructure.</p>
-                  <a href="{{ route('cloud-and-data-migration') }}">MORE DETAILS</a>
+                  <h2 class="title">Tele-Consultation</h2>
+                  <p>Tele-consultation enables patients and healthcare professionals to communicate remotely through secure digital platforms. It improves healthcare accessibility, reduces waiting times, and enhances patient convenience.</p>
+                  <a href="{{ route('tele-consultation') }}" class="mt-auto">MORE DETAILS</a>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="service-2__item">
+              <div class="col-md-4 col-sm-6 mb-30">
+                <div class="service-2__item h-100 d-flex flex-column">
+                  <div class="icon">
+                    <img src="assets/imgs/icon/icon-08.png" alt="image">
+                  </div>
+                  <h2 class="title">Content Management System (CMS)</h2>
+                  <p>A Content Management System (CMS) is a software application that allows users to create, manage, modify, and publish digital content on the web without requiring extensive technical expertise.</p>
+                  <a href="{{ route('contact-us') }}" class="mt-auto">MORE DETAILS</a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-30">
+                <div class="service-2__item h-100 d-flex flex-column">
+                  <div class="icon">
+                    <img src="assets/imgs/icon/icon-09.png" alt="image">
+                  </div>
+                  <h2 class="title">Data Migration</h2>
+                  <p>Data migration refers to the process of transferring data from one storage system, format, or location to another while ensuring data integrity, security, and minimal disruption to business operations.</p>
+                  <a href="{{ route('cloud-and-data-migration') }}" class="mt-auto">MORE DETAILS</a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-30">
+                <div class="service-2__item h-100 d-flex flex-column">
                   <div class="icon">
                     <img src="assets/imgs/icon/icon-10.png" alt="image">
                   </div>
-                  <h2 class="title">Enterprise Integration Services</h2>
-                  <p>Seamlessly integrate ERP, CRM, third-party tools, and APIs into one unified digital ecosystem.</p>
-                  <a href="{{ route('enterprise-integration-services') }}">MORE DETAILS</a>
+                  <h2 class="title">Other Services</h2>
+                  <p>We are continuously expanding our service portfolio to deliver more innovative technology solutions. Stay connected for upcoming services and offerings.</p>
+                  <a href="{{ route('contact-us') }}" class="mt-auto">Available Soon</a>
                 </div>
               </div>
             </div>
@@ -337,30 +358,18 @@
             <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
               <div class="section-title-3__wrapper tx-center">
                 <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-                    alt="image">Connect With Us <img class="right-shape"
+                    alt="image">Call to Action <img class="right-shape"
                     src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
-                <h2 class="title rr-title-anim-1 white">Freedom Without Commitments.</h2>
-                <p class="cta-section__dec">Start your 30-day free trial. Cancel anytime.</p>
+                <h2 class="title rr-title-anim-1 white">Ready to Transform Your Business?</h2>
+                <p class="cta-section__dec">Get in touch with our experts today and discover how Avark can help accelerate your digital transformation journey.</p>
               </div>
-              <div class="cta-section__btn">
+              <div class="cta-section__btn d-flex justify-content-center">
                 <a href="{{ route('contact-us') }}" class="rr-btn">
                   <span class="btn-wrap">
-                    <span class="text-one">view our demo</span>
-                    <span class="text-two">view our demo</span>
+                    <span class="text-one">Book a Demo</span>
+                    <span class="text-two">Book a Demo</span>
                   </span>
                 </a>
-                <a href="{{ route('contact-us') }}" class="rr-btn rr-btn-3">
-                  <span class="btn-wrap">
-                    <span class="text-one">start free trial now</span>
-                    <span class="text-two">start free trial now</span>
-                  </span>
-                </a>
-              </div>
-              <div class="cta-section__list">
-                <ul>
-                  <li><i class="fa-regular fa-angles-right"></i> 14-day free trial</li>
-                  <li><i class="fa-regular fa-angles-right"></i> No credit card required</li>
-                </ul>
               </div>
             </div>
           </div>

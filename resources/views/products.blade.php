@@ -46,147 +46,129 @@
         </div>
         <div class="ai-features-2__wrapper fade-top">
 
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900">
-
+            <!-- 01 -->
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
-                    <a href="{{route('kiosk-management-system')}}">
+                    <a href="{{route('hms')}}">
                         <img src="assets/imgs/icon/ai-features-icon-1.png" alt="icon">
                     </a>
                 </div>
-                <div class="content">
-                    <h3 class="title"> <a href="{{route('kiosk-management-system')}}"> KIOSK Management System </a> </h3>
+                <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="title"> <a href="{{route('hms')}}"> Advance Hospital Management Software </a> </h3>
+                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">ARK HIMS is a next-generation Hospital Management System built to connect people, processes, and technology on a unified platform. By automating critical workflows and providing real-time visibility across departments, ARK HIMS enables healthcare organizations to improve patient outcomes, increase operational efficiency, and drive sustainable growth.</p>
+                    <a href="{{route('hms')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
-
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900">
-                <div class="icon">
-                     <a href="{{route('feedback-management')}}">
-                    <img src="assets/imgs/icon/ai-features-icon-1.png" alt="icon">
-                     </a>
-                </div>
-                <div class="content">
-                    <h3 class="title"> <a href="{{route('digital-signage-solutions')}}"> Digital Signage Solutions </a> </h3>
-                </div>
-            </div>
-
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900">
-                <div class="icon">
-                     <a href="{{route('digital-signage-solutions')}}">
-                    <img src="assets/imgs/icon/ai-features-icon-1.png" alt="icon">
-                     </a>
-                </div>
-                <div class="content">
-                    <h3 class="title">  <a href="{{route('feedback-management')}}"> Feedback Management </a></h3>
-                </div>
-            </div>
-
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900">
-                <div class="icon">
-                     <a href="{{route('ark-cloud-cast')}}">
-                    <img src="assets/imgs/icon/ai-features-icon-1.png" alt="icon">
-                     </a>
-                </div>
-                <div class="content">
-                    <h3 class="title">  <a href="{{route('ark-cloud-cast')}}"> ARK Cloud Cast </a> </h3>
-                </div>
-            </div>
-
-
-
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900">
-                <div class="icon">
-                     <a href="{{route('hms')}}">
-                    <img src="assets/imgs/icon/ai-features-icon-1.png" alt="icon">
-                     </a>
-                </div>
-                <div class="content">
-                    <h3 class="title">  <a href="{{route('hms')}}"> Advance Hospital Management System </a> </h3>
-                </div>
-            </div>
-
-
-
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+            <!-- 02 -->
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
                      <a href="{{route('inventory-stock management')}}">
                     <img src="assets/imgs/icon/ai-features-icon-6.png" alt="icon">
                      </a>
                 </div>
-                <div class="content">
-                    <h3 class="title">  <a href="{{route('inventory-stock management')}}"> Inventory or Stock Management System </a> </h3>
+                <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="title">  <a href="{{route('inventory-stock management')}}"> Inventory or Stock Management Software </a> </h3>
+                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">ARK Inventory Management Software helps organizations streamline inventory control, stock tracking, purchase management, and warehouse operations through a centralized digital platform. With real-time monitoring, automated alerts, and detailed analytics, businesses can improve efficiency, reduce costs, and maintain accurate inventory records.</p>
+                    <a href="{{route('inventory-stock management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-left" data-aos-duration="900">
+
+            <!-- 03 -->
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
                      <a href="{{route('pathology-diagnostic-management')}}">
                     <img src="assets/imgs/icon/ai-features-icon-3.png" alt="icon">
                      </a>
                 </div>
-                <div class="content">
-                    <h3 class="title">  <a href="{{route('pathology-diagnostic-management')}}"> Pathology & Diagnostic Management System </a> </h3>
+                <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="title">  <a href="{{route('pathology-diagnostic-management')}}"> Pathology & Diagnostic Management Software </a> </h3>
+                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">Empower your laboratory with intelligent diagnostics management. ARK Pathology & Diagnostic Management System connects patients, clinicians, and laboratory teams through a unified platform, enabling faster test processing, automated workflows, real-time tracking, and accurate reporting for superior diagnostic excellence.</p>
+                    <a href="{{route('pathology-diagnostic-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900">
+
+            <!-- 04 -->
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
                      <a href="{{route('white-label-practice-management')}}">
                     <img src="assets/imgs/icon/ai-features-icon-4.png" alt="icon">
                      </a>
                 </div>
-                <div class="content">
+                <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
                     <h3 class="title"> <a href="{{route('white-label-practice-management')}}"> White Label Practice Management Application </a> </h3>
+                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">Launch your own healthcare app in weeks, not months. ARK White Label Practice Management Solution empowers healthcare providers with a fully branded mobile platform for teleconsultation, patient management, appointment scheduling, digital health records, and online healthcare delivery—all under your organization’s identity.</p>
+                    <a href="{{route('white-label-practice-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+
+            <!-- 05 -->
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
                      <a href="{{route('dialysis-management')}}">
                     <img src="assets/imgs/icon/ai-features-icon-5.png" alt="icon">
                      </a>
                 </div>
-                <div class="content">
-                    <h3 class="title">  <a href="{{route('dialysis-management')}}"> Dialysis Management System </a> </h3>
+                <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="title">  <a href="{{route('dialysis-management')}}"> Dialysis Management Software </a> </h3>
+                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">A Dialysis Management System is a specialized software solution designed to streamline and automate the various processes involved in managing dialysis treatment for patients with kidney failure or chronic kidney disease.</p>
+                    <a href="{{route('dialysis-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+            <!-- 06 -->
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
                      <a href="{{route('enterprise-support-management')}}">
                     <img src="assets/imgs/icon/ai-features-icon-5.png" alt="icon">
                      </a>
                 </div>
-                <div class="content">
-                    <h3 class="title">  <a href="{{route('enterprise-support-management')}}"> Enterprise Support Management System </a> </h3>
+                <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="title">  <a href="{{route('enterprise-support-management')}}"> Enterprise Support Management Software </a> </h3>
+                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">An Enterprise Support Management System (ESMS) is a comprehensive software solution designed to facilitate and streamline the management of customer support and service requests within an organization.</p>
+                    <a href="{{route('enterprise-support-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
-            <!-- <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+            <!-- 07 -->
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
+                     <a href="{{route('ark-cloud-cast')}}">
                     <img src="assets/imgs/icon/ai-features-icon-5.png" alt="icon">
+                     </a>
                 </div>
-                <div class="content">
-                    <h3 class="title">Business Marketing Tool </h3>
+                <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="title"> <a href="{{route('ark-cloud-cast')}}"> Business Marketing Tool </a> </h3>
+                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">Our unique marketing tool is a cloud based solution to makes your marekting activity flawless with less efforts.</p>
+                    <a href="{{route('ark-cloud-cast')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-            </div> -->
+            </div>
 
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+            <!-- 08 -->
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
                      <a href="{{route('opd-management-system')}}">
                     <img src="assets/imgs/icon/ai-features-icon-5.png" alt="icon">
                      </a>
                 </div>
-                <div class="content">
-                    <h3 class="title">  <a href="{{route('opd-management-system')}}"> OPD Management System  </a></h3>
+                <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="title">  <a href="{{route('opd-management-system')}}"> OPD Management Software </a></h3>
+                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">An OPD (Outpatient Department) Management System is a specialized software solution designed to manage and automate the processes and workflows in a healthcare facility’s outpatient department.</p>
+                    <a href="{{route('opd-management-system')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+            <!-- 09 -->
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
                      <a href="{{route('industrial-asset-management')}}">
                     <img src="assets/imgs/icon/ai-features-icon-5.png" alt="icon">
                      </a>
                 </div>
-                <div class="content">
-                    <h3 class="title"> <a href="{{route('industrial-asset-management')}}"> Industrial Asset Management System </a> </h3>
+                <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="title"> <a href="{{route('industrial-asset-management')}}"> Industrial Asset Management Software </a> </h3>
+                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">Asset management refers to the systematic and strategic management of an organization’s assets to optimize their value, performance, and lifecycle.</p>
+                    <a href="{{route('industrial-asset-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 

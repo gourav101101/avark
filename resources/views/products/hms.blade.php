@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Advance Hospital Management System')
-@section('meta_description', 'Advance Hospital Management')
+@section('title', 'ARK HIMS – Hospital Management Software')
+@section('meta_description', 'ARK HIMS – Hospital Management Software')
 @section('meta_keywords', 'home, Advance Hospital Management System')
 
 @section('content')
@@ -27,7 +27,7 @@
   <div class="container rr-container-1350">
     <div class="service-details__top">
       <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img">
+        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
       </div>
     </div>
     <div class="row">
@@ -36,228 +36,305 @@
           <h4 class="title">Product Categories</h4>
           <div class="service-details-sidebar-categories">
             <ul>
-              <li><a href="{{route('kiosk-management-system')}}">KIOSK Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('feedback-management')}}">Feedback Management</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('ark-cloud-cast')}}">ARK Cloud Cast</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('inventory-stock management')}}">Inventory or Stock Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('hms')}}">Advance Hospital Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('inventory-stock management')}}">Inventory or Stock Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
               <li><a href="{{route('white-label-practice-management')}}">White Label Practice Management Application</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('dialysis-management')}}">Dialysis Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('enterprise-support-management')}}">Business Marketing Tool </a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('opd-management-system')}}">OPD Management System </a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('digital-signage-solutions')}}">Digital Signages </a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('industrial-asset-management')}}">Industrial Asset Management System </a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('dialysis-management')}}">Dialysis Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('enterprise-support-management')}}">Enterprise Support Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('ark-cloud-cast')}}">Business Marketing Tool</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('opd-management-system')}}">OPD Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('industrial-asset-management')}}">Industrial Asset Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-lg-8 col-12">
         <div class="service-details__content">
-          <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Streamline Hospital Operations with Intelligent HMS Solutions</h2>
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Transform the way your hospital or clinic operates with a powerful Hospital Management System (HMS). Our solution integrates all critical hospital processes—patient registration, OPD/IPD management, billing, pharmacy, laboratory, HR, and administration—into one unified platform.</p>
+            <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">ARK HIMS – Hospital Management Software</h2>
+            <h2 class="title rr-title-anim-1 mt-4" data-aos="fade-up" data-aos-duration="900">Transforming Healthcare Through Intelligent Automation</h2>
 
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Gain real-time visibility, improve coordination between departments, reduce paperwork, and deliver better patient care with confidence.</p>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">ARK Hospital Management Software (HIMS) is a comprehensive healthcare management platform designed to streamline, automate, and optimize administrative, clinical, financial, and operational processes within hospitals and healthcare facilities.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">The primary objective of ARK HIMS is to improve operational efficiency, enhance patient care, reduce manual paperwork, minimize errors, and empower healthcare professionals to focus more on delivering quality healthcare services.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">ARK HIMS provides an integrated digital ecosystem that connects every department within a healthcare organization, ensuring seamless coordination, real-time information access, and better decision-making.</p>
 
-          <div class="service-details__top">
-            <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-              <img src="assets/imgs/inner/service-detils/p2.png" alt="img">
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">ARK HIMS Features</h2>
+            
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <h4 class="title mb-2">Easy Fingerprint Registration</h4>
+                <p class="desc">ARK HIMS offers advanced biometric patient identification capabilities, enabling hospitals to accurately identify and match patients using fingerprint and photo-based registration systems.</p>
+                <p class="desc mt-2">Benefits include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Faster Patient Registration</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Accurate Patient Identification</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Reduced Duplicate Records</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Enhanced Patient Safety</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">Self-Service Kiosk</h4>
+                <p class="desc">Hospital kiosks simplify patient registration and administrative processes while significantly reducing waiting times.</p>
+                <p class="desc mt-2">Key benefits:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Faster Check-In Process</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Reduced Administrative Workload</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Improved Patient Experience</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Enhanced Safety and Contactless Services</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">Queue Management System</h4>
+                <p class="desc">ARK HIMS includes an intelligent queue management system that optimizes patient flow and reduces waiting times.</p>
+                <p class="desc mt-2">Features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Digital Queue Monitoring</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Notifications</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Token Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Improved OPD Efficiency</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">Advanced Reports</h4>
+                <p class="desc">Generate comprehensive reports that provide valuable insights into hospital operations.</p>
+                <p class="desc mt-2">Reports include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Financial Reports</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Department Performance Reports</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Revenue Analysis</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Operational Analytics</span></li>
+                </ul>
+                <p class="desc mt-2">This enables improved administration, strict cost control, and enhanced profitability.</p>
+
+                <h4 class="title mt-4 mb-2">Statistical Reports</h4>
+                <p class="desc">Advanced statistical analysis helps healthcare organizations measure efficiency, monitor performance, and make informed business decisions.</p>
             </div>
-          </div>
 
-          <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Detailed Description</h2>
-          <p data-aos="fade-up" data-aos-duration="900">Our Hospital Management System is designed to centralize and automate your entire healthcare ecosystem. Instead of managing multiple disconnected systems and manual records, HMS connects every department into a single intelligent digital platform.</p>
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Other Key Features</h2>
+            
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <h4 class="title mb-2">NABH / NABL / JCI / CAP Compliance</h4>
+                <p class="desc">ARK supports healthcare organizations in implementing and maintaining accreditation standards, including:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>NABH</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>NABL</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>JCI</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>CAP</span></li>
+                </ul>
+                <p class="desc mt-2">This helps healthcare facilities achieve quality and compliance objectives.</p>
 
-          <p data-aos="fade-up" data-aos-duration="900">From patient admission to discharge, billing to inventory management, laboratory reports to pharmacy tracking—everything is managed efficiently within one system.</p>
+                <h4 class="title mt-4 mb-2">ICD-10 Coding</h4>
+                <p class="desc">Integrated ICD-10 coding provides a standardized language for recording, reporting, and monitoring diseases, enabling consistent healthcare documentation and analytics.</p>
 
-          <p data-aos="fade-up" data-aos-duration="900">Improve operational efficiency, reduce errors, eliminate data silos, and empower your medical and administrative teams with accurate, real-time insights—all in one secure platform.</p>
-        </div>
-      </div>
+                <h4 class="title mt-4 mb-2">Visual EMR</h4>
+                <p class="desc">Specialty-wise Electronic Medical Records (EMR) with visual case sheets enable healthcare professionals to:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Create Follow-Up Visits</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Access Patient History</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Record Diagnoses and Treatments</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Eliminate Paper-Based Documentation</span></li>
+                </ul>
 
-    </div>
-  </div>
-</section>
+                <h4 class="title mt-4 mb-2">Complete OT Management</h4>
+                <p class="desc">Comprehensive Operation Theatre management with:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>OT Scheduling</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Surgeon Allocation</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Anaesthetist Scheduling</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Calendar Views</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Rescheduling & Cancellation Management</span></li>
+                </ul>
 
-<section class="service-details">
-  <div class="container rr-container-1350">
-    <div class="row">
+                <h4 class="title mt-4 mb-2">MIS (Management Information System)</h4>
+                <p class="desc">Detailed MIS reports provide insights into:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Current Stock</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Product Margins</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Sales Reports</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Pharmacy Collections</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Discount Analysis</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Inventory Adjustments</span></li>
+                </ul>
 
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-    </div>
+                <h4 class="title mt-4 mb-2">Pharmacy Management</h4>
+                <p class="desc">Integrated pharmacy management supports both OPD and IPD operations.</p>
+                <p class="desc mt-2">Features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Ward Requests</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Stock Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Prescription Processing</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Daily Collection Reports</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>FSN Analysis</span></li>
+                </ul>
 
-    <div class="col-lg-12 col-12">
-      <div class="service-details__content">
-        <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Streamline Healthcare with Intelligent HMS</h2>
-        <p class="desc" data-aos="fade-up" data-aos-duration="900">Transform your healthcare facility with a system that simplifies operations and enhances patient experience.</p>
+                <h4 class="title mt-4 mb-2">Invoice Generation</h4>
+                <p class="desc">Generate invoices for:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Franchise Operations</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Outsourcing Laboratories</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Corporate Billing</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Service Charges</span></li>
+                </ul>
+                <p class="desc mt-2">Maintain complete control over expenses and billing thresholds.</p>
 
-        <p class="desc" data-aos="fade-up" data-aos-duration="900">Our Hospital Management System ensures smooth coordination between reception, doctors, nurses, pharmacy, laboratory, and accounts—creating a seamless workflow across departments.</p>
+                <h4 class="title mt-4 mb-2">FSN Analysis</h4>
+                <p class="desc">Monitor inventory movement through Fast, Slow, and Non-Moving (FSN) analysis to optimize inventory utilization and reduce unnecessary costs.</p>
 
-      </div>
-    </div>
+                <h4 class="title mt-4 mb-2">Laboratory Management</h4>
+                <p class="desc">Comprehensive laboratory automation features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Sample Registration</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Barcode Generation</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Sample Tracking</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Collection Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Lab Machine Integration</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Automated Reporting</span></li>
+                </ul>
 
-    <div class="col-lg-12 col-12">
-      <div class="service-details__content">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Key Features of Our Hospital Management System </h2>
+                <h4 class="title mt-4 mb-2">Dialysis Management</h4>
+                <p class="desc">Simplifies dialysis workflows and supports efficient patient monitoring, scheduling, and treatment documentation.</p>
 
-            <ul data-aos="fade-up" data-aos-duration="900">
-              <li><i class="fa-solid fa-angles-right"></i>Patient Registration & Appointment Scheduling</li>
-              <li><i class="fa-solid fa-angles-right"></i>OPD & IPD Management</li>
-              <li><i class="fa-solid fa-angles-right"></i>Pharmacy & Inventory Management</li>
-              <li><i class="fa-solid fa-angles-right"></i>Laboratory Management System (LMS)</li>
-              <li><i class="fa-solid fa-angles-right"></i>Billing & Insurance Management</li>
-              <li><i class="fa-solid fa-angles-right"></i>Doctor & Staff Management</li>
-              <li><i class="fa-solid fa-angles-right"></i>Reports & Analytics Dashboard</li>
-              <li><i class="fa-solid fa-angles-right"></i>Secure Patient Data & Compliance Support</li>
+                <h4 class="title mt-4 mb-2">HR & Payroll Management</h4>
+                <p class="desc">Automate employee management processes including:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Payroll Processing</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Attendance Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Leave Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Salary Generation</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>HR Reporting</span></li>
+                </ul>
+                <p class="desc mt-2">Available in both cloud and on-premise deployment models.</p>
+
+                <h4 class="title mt-4 mb-2">Appointment Scheduling</h4>
+                <p class="desc">Efficient appointment management with support for:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Multiple Appointment Types</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Doctor Scheduling</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Online Appointment Booking</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Appointment Reminders</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">Nursing Management</h4>
+                <p class="desc">Comprehensive nursing management features designed to improve scheduling efficiency and optimize nursing workflows.</p>
+
+                <h4 class="title mt-4 mb-2">Doctor Management</h4>
+                <p class="desc">Doctors can easily:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Access Patient History</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Record Diagnoses</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Manage Prescriptions</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Maintain Clinical Documentation</span></li>
+                </ul>
+                <p class="desc mt-2">All through a centralized and user-friendly interface.</p>
+
+                <h4 class="title mt-4 mb-2">User Management</h4>
+                <p class="desc">Create and manage multiple user roles, including:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Doctors</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Nurses</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Reception Staff</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Pharmacists</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>HR Personnel</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Inventory Managers</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Diagnostic Staff</span></li>
+                </ul>
+                <p class="desc mt-2">Role-based access ensures security and workflow efficiency.</p>
+
+                <h4 class="title mt-4 mb-2">Bed Management</h4>
+                <p class="desc">Efficient bed allocation and management with:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Bed Availability</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Room Transfers</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Maintenance Tracking</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Multiple Tariff Plans</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">ESIC / CGHS / Ayushman Integration</h4>
+                <p class="desc">Support for government healthcare schemes including:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>ESIC</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>CGHS</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Ayushman Bharat</span></li>
+                </ul>
+                <p class="desc mt-2">Facilitates seamless billing and reimbursement processes.</p>
+
+                <h4 class="title mt-4 mb-2">Discharge Summary</h4>
+                <p class="desc">Generate template-based discharge summaries with:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>ICD-10 Integration</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Automated Documentation</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Billing Validation</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Revenue Leakage Prevention</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">Mediclaim Management</h4>
+                <p class="desc">Integrated insurance management enables:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Eligibility Verification</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Claim Processing</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Reimbursement Tracking</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Insurance Billing Management</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">OPD Token Management</h4>
+                <p class="desc">Streamline OPD patient flow through:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Digital Token System</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Notifications</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Queue Display Systems</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Reduced Waiting Time</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">IPD Management</h4>
+                <p class="desc">Comprehensive IPD management features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Admission Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Ward Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Room Transfers</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Billing Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Tracking</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">Asset Management</h4>
+                <p class="desc">Track and manage hospital assets efficiently through:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Asset Monitoring</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Maintenance Scheduling</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Work Orders</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Inventory Tracking</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">Hospital Inventory Management</h4>
+                <p class="desc">Optimize inventory processes through:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Stock Monitoring</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Procurement Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Inventory Alerts</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Inventory Visibility</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">Quality Control</h4>
+                <p class="desc">Advanced quality control tools help healthcare organizations maintain and improve healthcare standards.</p>
+
+                <h4 class="title mt-4 mb-2">Time Management</h4>
+                <p class="desc">Effective scheduling and workflow management improve productivity across all hospital departments.</p>
+
+                <h4 class="title mt-4 mb-2">Technically Advanced Platform</h4>
+                <p class="desc">ARK HIMS is a technologically advanced, automated, scalable, and future-ready healthcare platform designed to support hospitals of all sizes.</p>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">How ARK Helps Hospitals Around the Globe</h2>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">ARK HIMS is a cutting-edge, efficient, and cost-effective hospital information system that provides focused, actionable, and insightful data for healthcare organizations.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">It serves as a one-stop healthcare management solution that can be customized and deployed in hospitals, clinics, diagnostic centers, and healthcare networks worldwide.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">ARK HIMS seamlessly integrates with:</p>
+            <ul data-aos="fade-up" data-aos-duration="900" class="mt-3">
+                <li><i class="fa-solid fa-angles-right"></i><strong>Laboratory Information Systems (LIS)</strong></li>
+                <li><i class="fa-solid fa-angles-right"></i><strong>Picture Archiving and Communication Systems (PACS)</strong></li>
+                <li><i class="fa-solid fa-angles-right"></i><strong>Electronic Medical Records (EMR)</strong></li>
+                <li><i class="fa-solid fa-angles-right"></i><strong>Third-Party Healthcare Applications</strong></li>
             </ul>
-          </div>
-          <div class="col-md-6">
-            <div>
-              <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Why Choose Our HMS?</h2>
-              <ul>
-                <li> <i class="fa-regular fa-angle-right"></i> Faster Patient Processing</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Reduced Administrative Burden</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Real-Time Data Access</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Improved Financial Transparency</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Enhanced Patient Satisfaction</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Scalable for Clinics, Multi-Specialty Hospitals & Healthcare Chains </li>
-              </ul>
-            </div>
-          </div>
-
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">By connecting people, processes, and technology, ARK HIMS empowers healthcare organizations to deliver superior patient care while achieving operational excellence.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-<section class="cta-section__area">
-  <div class="container rr-container-1350">
-    <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
-      <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-            alt="image">Connect With Us <img class="right-shape"
-            src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
-        <h2 class="title rr-title-anim-1 white">Experience Smart Hospital Management<br> — Risk Free</h2>
-        <p class="cta-section__dec">Digitize your hospital operations, streamline patient management, and improve efficiency — all from one powerful platform.</p>
-      </div>
-      <div class="cta-section__btn">
-        <a href="{{ route ('contact-us') }}" class="rr-btn">
-          <span class="btn-wrap">
-            <span class="text-one">view our demo</span>
-            <span class="text-two">view our demo</span>
-          </span>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="cta-section__area py-5">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-10">
-
-        <div class="accordion" id="accordionExample">
-
-          <!-- Item 1 -->
-          <div class="accordion-item mb-3 border-0 shadow-sm">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="false"
-                aria-controls="collapseOne">
-                What is a Hospital Management System and why does my hospital need it?
-              </button>
-            </h2>
-
-            <div id="collapseOne" class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body text-muted text-justify">
-                A Hospital Management System (HMS) integrates all core hospital functions such as patient registration,
-                billing, pharmacy, laboratory, HR, and administration into one centralized platform.
-                It improves efficiency, reduces paperwork, eliminates errors, and enhances patient care
-                with real-time data access.
-              </div>
-            </div>
-          </div>
-
-          <!-- Item 2 -->
-          <div class="accordion-item mb-3 border-0 shadow-sm">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo">
-                Can the HMS be customized for my hospital?
-              </button>
-            </h2>
-
-            <div id="collapseTwo" class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body text-muted text-justify">
-                Yes. Our HMS solution is fully customizable according to your hospital size, specialties,
-                and operational requirements. Whether you run a clinic, diagnostic center,
-                or multi-specialty hospital, we tailor modules and workflows to match your exact needs.
-              </div>
-            </div>
-          </div>
-
-          <!-- Item 3 -->
-          <div class="accordion-item border-0 shadow-sm">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree">
-                How long does HMS implementation take?
-              </button>
-            </h2>
-
-            <div id="collapseThree" class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body text-muted text-justify">
-                Implementation time depends on the size and complexity of your hospital.
-                Small clinics can go live within a few days, while larger hospitals may require
-                a few weeks for full setup, integration, and staff training.
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
 
 @endsection
+

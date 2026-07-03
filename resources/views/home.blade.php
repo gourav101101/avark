@@ -37,7 +37,7 @@
                 <div class="col-xl-6">
                     <div class="hero__media">
                         <img class="shape-1" data-aos="zoom-in" data-aos-duration="900"
-                            src="{{ asset('assets/imgs/home-1/hero/new2-kp01.png') }}" alt="image">
+                            src="{{ asset('assets/imgs/home-1/hero/new3-kp01.png') }}" alt="image">
 
                         <img class="shape-2 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/shape-2.png') }}" alt="">
                         <img class="shape-3 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/kp03.png') }}" alt="">
@@ -75,7 +75,7 @@
                                 </span>
                             </a>
 
-                            <a href="{{ route('services') }}" class="rr-btn-green green-2">
+                            <a href="{{ route('products') }}" class="rr-btn-green green-2">
                                 <span class="btn-wrap">
                                     <span class="text-one">Explore Our Products</span>
                                     <span class="text-two">Explore Our Products</span>
@@ -251,7 +251,7 @@
                             <h2 class="title rr-title-anim-1">Transforming Healthcare Through Technology Since 2019</h2>
                             <p class="desc">Avark Healthcare Technology Pvt. Ltd. is a healthcare-focused technology company committed to helping hospitals, clinics, and healthcare organizations operate smarter, faster, and more efficiently. Our integrated digital platform empowers healthcare providers to replace fragmented processes with a centralized, intelligent, and data-driven system.</p>
 
-                            <a href="{{ route('about') }}" class="rr-btn-green">
+                            <a href="{{ route('products') }}" class="rr-btn-green">
                                 <span class="btn-wrap">
                                     <span class="text-one">Discover More</span>
                                     <span class="text-two">Discover More</span>
@@ -305,54 +305,54 @@
             <h2 class="title rr-title-anim-1"> Intelligent Products Built for Business Growth </h2>
         </div>
         <div class="ai-features-2__wrapper fade-top">
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900">
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('hms')}}'">
                 <div class="icon">
                     <img loading="lazy" src="assets/imgs/icon/ai-features-icon-1.png" alt="icon">
                 </div>
                 <div class="content">
-                    <h3 class="title">Advance Hospital Management System</h3>
+                    <h3 class="title"><a href="{{route('hms')}}">Advance Hospital Management System</a></h3>
                 </div>
             </div>
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('inventory-stock management')}}'">
                 <div class="icon">
                     <img loading="lazy" src="assets/imgs/icon/ai-features-icon-6.png" alt="icon">
                 </div>
                 <div class="content">
-                    <h3 class="title">Inventory or Stock Management System</h3>
+                    <h3 class="title"><a href="{{route('inventory-stock management')}}">Inventory or Stock Management System</a></h3>
                 </div>
             </div>
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-left" data-aos-duration="900">
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-left" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('pathology-diagnostic-management')}}'">
                 <div class="icon">
                     <img loading="lazy" src="assets/imgs/icon/ai-features-icon-3.png" alt="icon">
                 </div>
                 <div class="content">
-                    <h3 class="title">Pathology & Diagnostic Management System </h3>
+                    <h3 class="title"><a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management System</a></h3>
                 </div>
             </div>
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900">
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('white-label-practice-management')}}'">
                 <div class="icon">
                     <img loading="lazy" src="assets/imgs/icon/ai-features-icon-4.png" alt="icon">
                 </div>
                 <div class="content">
-                    <h3 class="title">White Label Practice Management Application </h3>
+                    <h3 class="title"><a href="{{route('white-label-practice-management')}}">White Label Practice Management Application</a></h3>
                 </div>
             </div>
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('dialysis-management')}}'">
                 <div class="icon">
                     <img loading="lazy" src="assets/imgs/icon/ai-features-icon-5.png" alt="icon">
                 </div>
                 <div class="content">
-                    <h3 class="title">Dialysis Management System </h3>
+                    <h3 class="title"><a href="{{route('dialysis-management')}}">Dialysis Management System</a></h3>
                 </div>
             </div>
 
 
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-left" data-aos-duration="900">
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-left" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('enterprise-support-management')}}'">
                 <div class="icon">
                     <img loading="lazy" src="assets/imgs/icon/ai-features-icon-6.png" alt="icon">
                 </div>
                 <div class="content">
-                    <h3 class="title">Real-time data on <br> latest topics</h3>
+                    <h3 class="title"><a href="{{route('enterprise-support-management')}}">Enterprise Support Management System</a></h3>
                 </div>
             </div>
         </div>
@@ -401,21 +401,21 @@
             <div class="choose-us__wrapper">
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="choose-us__item" data-aos="fade-right" data-aos-duration="900">
+                        <div class="choose-us__item" data-aos="fade-right" data-aos-duration="900" style="height: 100%;">
                             <h2 class="title"><span class="icon"><img loading="lazy" src="assets/imgs/home-1/choose-us/icon-3.png"
                                         alt="image"></span><a href="{{ route('contact-us') }}">Faster Patient Care</a></h2>
                             <p>Reduce waiting times and improve patient satisfaction through streamlined workflows.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="choose-us__item" data-aos="fade-up" data-aos-duration="900">
+                        <div class="choose-us__item" data-aos="fade-up" data-aos-duration="900" style="height: 100%;">
                             <h2 class="title"><span class="icon"><img loading="lazy" src="assets/imgs/home-1/choose-us/icon-4.png"
                                         alt="image"></span><a href="{{ route('contact-us') }}">Built for Quality & Compliance</a></h2>
-                            <p>Support accreditation and quality initiatives with NABH-Ready workflows, clinical documentation, and compliance monitoring.</p>
+                            <p>Support accreditation and quality initiatives with NABH-Ready workflows, ABHA integration, clinical documentation, and compliance monitoring.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="choose-us__item" data-aos="fade-left" data-aos-duration="900">
+                        <div class="choose-us__item" data-aos="fade-left" data-aos-duration="900" style="height: 100%;">
                             <h2 class="title"><span class="icon"><img loading="lazy" src="assets/imgs/home-1/choose-us/icon-5.png"
                                         alt="image"></span><a href="{{ route('contact-us') }}">Multi-Location Support</a></h2>
                             <p>Manage multiple hospitals, clinics, or branches from a single platform with centralized reporting.</p>

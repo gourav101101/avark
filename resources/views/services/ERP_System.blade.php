@@ -28,7 +28,7 @@
           <div class="container rr-container-1350">
             <div class="service-details__top">
               <div class="media" data-aos="zoom-in" data-aos-duration="900">
-                <img src="assets/imgs/inner/service-detils/kp-inner-2.png" alt="img">
+                <img src="{{ asset('assets/imgs/inner/service-detils/kp-inner-2.png') }}" alt="ERP System">
               </div>
             </div>
             <div class="row">
@@ -48,128 +48,106 @@
                   </div>
                 </div>
                  <div class="media" data-aos="fade-up" data-aos-duration="900">
-                    <img src="assets/imgs/inner/service-detils/service-erp-kp-02.jpg" alt="img">
+                    <img src="{{ asset('assets/imgs/inner/service-detils/erpservie.png') }}" alt="ERP System">
                   </div>
               </div>
               <div class="col-lg-8 col-12">
                 <div class="service-details__content">
-                  <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Streamline Operations with Intelligent ERP Solutions</h2>
-                  <p class="desc" data-aos="fade-up" data-aos-duration="900">Transform the way your business operates with a powerful Enterprise Resource Planning system. 
-                    Our ERP solution integrates all your core processes—finance, inventory, HR, sales, and operations—into one unified platform. Gain real-time visibility, 
-                    improve collaboration, and make smarter decisions with confidence.</p>
+                  <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">ERP System</h2>
+                  <p class="desc" data-aos="fade-up" data-aos-duration="900">An Enterprise Resource Planning (ERP) system is a powerful software solution designed to integrate and manage various business processes across an organization.</p>
+                  <p class="desc" data-aos="fade-up" data-aos-duration="900">ERP serves as a centralized platform that enables efficient coordination and communication among different departments, streamlining operations and improving overall productivity.</p>
+                  <p class="desc" data-aos="fade-up" data-aos-duration="900">By connecting various functions within a single platform, organizations can eliminate manual processes, reduce errors, improve collaboration, and gain real-time insights for smarter business decisions.</p>
 
-                     <p class="desc" data-aos="fade-up" data-aos-duration="900">Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion consectetur elit. 
-                        Vesti at bulum nec at odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit to the consectetur elit.</p>
+                  <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our ERP Solutions?</h2>
+                  <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                    <ul>
+                      <li><i class="fa-solid fa-angles-right"></i><span><strong>Fast Services:</strong> We ensure rapid implementation, seamless deployment, and dedicated support to help your organization achieve operational efficiency without delays.</span></li>
+                      <li><i class="fa-solid fa-angles-right"></i><span><strong>Transparency:</strong> Our ERP solutions provide complete visibility across all business processes, enabling better monitoring, reporting, and informed decision-making.</span></li>
+                      <li><i class="fa-solid fa-angles-right"></i><span><strong>Trustable:</strong> Trusted by organizations across various industries, our ERP solutions are built with reliability, security, and long-term business growth in mind.</span></li>
+                    </ul>
+                  </div>
 
+                  <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Aspects of ERP Systems</h2>
+                  <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Functionality</h4>
+                  <p data-aos="fade-up" data-aos-duration="900">A robust ERP system provides features that align with specific industry requirements and business objectives, ensuring streamlined operations across departments.</p>
 
-                  <div class="sideber" data-aos="fade-up" data-aos-duration="900" style="display: none;">
-                    <h3 data-aos="fade-up" data-aos-duration="900">
-                      Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion consectetur elit. Vesti at bulum
-                      nec at odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit to the
-                      consectetur elit
-                    </h3>
-                    <div class="client-info-item" data-aos="fade-up" data-aos-duration="900">
-                      <div class="client-info">
-                        <div class="image">
-                          <img src="assets/imgs/inner/blog-details/author.jpg" alt="img">
-                        </div>
-                        <h4>Michel Clarck</h4>
-                      </div>
-                      <div class="icon">
-                        <i class="fa-regular fa-quote-right"></i>
-                      </div>
+                  <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Integration</h4>
+                  <p data-aos="fade-up" data-aos-duration="900">ERP integrates multiple business functions such as finance, inventory, human resources, procurement, sales, and customer management into a unified platform. This integration ensures real-time data availability, eliminates information silos, and enhances collaboration across the organization.</p>
+
+                  <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Scalability</h4>
+                  <p data-aos="fade-up" data-aos-duration="900">A quality ERP system is designed to grow with your business. It can accommodate increasing data volumes, additional users, and expanded functionalities without compromising performance.</p>
+
+                  <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Data Accuracy & Security</h4>
+                  <p data-aos="fade-up" data-aos-duration="900">Reliable ERP solutions ensure data accuracy and integrity through advanced validation mechanisms, role-based access controls, encryption, and secure data management practices.</p>
+
+                  <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Performance & Reliability</h4>
+                  <p data-aos="fade-up" data-aos-duration="900">High-performing ERP systems deliver consistent performance, minimize downtime, and ensure uninterrupted business operations through reliable infrastructure and optimized architecture.</p>
+
+                  <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Training & Documentation</h4>
+                  <p data-aos="fade-up" data-aos-duration="900">Comprehensive training resources, user guides, and documentation help organizations maximize system adoption and empower users to utilize the ERP platform effectively.</p>
+
+                  <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Features</h2>
+                  
+                  <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Introduction to ERP</h4>
+                        <ul data-aos="fade-up" data-aos-duration="900">
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Definition and purpose of ERP systems.</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Understanding how ERP software works.</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Benefits of implementing ERP within an organization.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Key Features of ERP</h4>
+                        <ul data-aos="fade-up" data-aos-duration="900">
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Centralized Database</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Workflow Automation</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Real-Time Reporting & Analytics</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Multi-Department Integration</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Role-Based Access Control</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Dashboard & MIS Reports</li>
+                        </ul>
                     </div>
                   </div>
 
-                  <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Detailed Description</h2>
-                  <p data-aos="fade-up" data-aos-duration="900">Our Customer Management Service is designed to simplify
-                   Our ERP Service is designed to centralize and automate your entire business ecosystem. Instead of managing multiple disconnected systems,
-                    ERP connects every department into a single intelligent platform.</p>
+                  <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">ERP Implementation</h4>
+                        <ul data-aos="fade-up" data-aos-duration="900">
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Requirement Analysis</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> System Configuration</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Data Migration</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> User Training</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Go-Live Support</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Continuous Maintenance</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Functional ERP Modules</h4>
+                        <ul data-aos="fade-up" data-aos-duration="900">
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Finance & Accounting</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Human Resource Management</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Inventory & Procurement</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Sales & Customer Management</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Production Management</li>
+                          <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Asset Management</li>
+                        </ul>
+                    </div>
+                  </div>
 
-                     <p data-aos="fade-up" data-aos-duration="900">Improve efficiency, reduce operational costs,
-                         eliminate data silos, and empower your team with accurate, 
-                        up-to-date insights—all in one system.</p>
-
-                  <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Key Benefits :</h2>
-
+                  <h4 class="mt-5" data-aos="fade-up" data-aos-duration="900">Integration & Data Management</h4>
                   <ul data-aos="fade-up" data-aos-duration="900">
-                    <li><i class="fa-solid fa-angles-right"></i>Centralized system integrating all departments</li>
-                    <li><i class="fa-solid fa-angles-right"></i>Real-time business visibility and reporting
-                    </li>
-                    <li><i class="fa-solid fa-angles-right"></i>Automation to reduce manual errors</li>
-                    <li><i class="fa-solid fa-angles-right"></i>Improved productivity and operational efficiency</li>
-                    <li><i class="fa-solid fa-angles-right"></i>Better forecasting and data-driven decisions</li>
-                    <li><i class="fa-solid fa-angles-right"></i>Scalable solution that grows with your business</li>
+                    <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Third-Party Integrations</li>
+                    <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> API Connectivity</li>
+                    <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Data Synchronization</li>
+                    <li><i class="fa-solid fa-circle-check" style="color: #0b5edd; margin-right: 8px;"></i> Centralized Information Management</li>
                   </ul>
 
-                  <h2 class="title rr-title-anim-1">Core Features:</h2>
+                  <h4 class="mt-5" data-aos="fade-up" data-aos-duration="900">Mobile ERP</h4>
+                  <p data-aos="fade-up" data-aos-duration="900">Access critical business information anytime, anywhere through secure mobile applications, enabling remote workforce management and decision-making.</p>
 
-                  <div class="features" data-aos="fade-up" data-aos-duration="900">
-                    <ul>
-                      <li><i class="fa-solid fa-angles-right"></i><span>Unified Business Dashboard</span></li>
-                      <li><i class="fa-solid fa-angles-right"></i><span>Financial Management</span></li>
-                      <li><i class="fa-solid fa-angles-right"></i><span>Inventory & Supply Chain Management</span></li>
-                      <li><i class="fa-solid fa-angles-right"></i><span>Automated Workflows </span></li>
-                      <li><i class="fa-solid fa-angles-right"></i><span>HR & Payroll Automation </span></li>
-                      <li><i class="fa-solid fa-angles-right"></i><span>Workflow Automation </span></li>
-                      <li><i class="fa-solid fa-angles-right"></i><span>Advanced Reporting & Analytics </span></li>
-                    </ul>
-
-                  </div>
-
-                  <div class="faq-2-area " style="display: none;">
-                    <div class="faq-2-area-inner ">
-                      <div class="accordion-wrapper fade-anim">
-                        <div class="accordion" id="accordionExample">
-                          <div class="accordion-item">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                              <span class="title"><span></span>What is an ERP system and why does my business need it? </span>
-                            </button>
-
-                            <div id="collapseOne" class="accordion-collapse collapse"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p> An ERP (Enterprise Resource Planning) system integrates all core business functions—such as finance, HR, inventory, 
-                                    sales, and operations—into one centralized platform. It eliminates data silos,
-                                     improves efficiency, and provides real-time insights to help you make smarter business decisions. </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="accordion-item">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                              <span class="title"><span></span> Can the ERP system be customized for my industry? </span>
-                            </button>
-                            <div id="collapseTwo" class="accordion-collapse collapse show"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>Yes. Our ERP solutions are fully customizable based on your industry requirements and business processes.
-                                     Whether you operate in manufacturing, retail, healthcare, 
-                                    or services, we tailor modules and workflows to match your operational needs.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="accordion-item">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              <span class="title"><span></span> How long does ERP implementation take? </span>
-                            </button>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>The implementation timeline depends on the size and complexity of your organization. Typically, small to mid-sized businesses can go live within a few weeks, 
-                                    while larger enterprises may require a phased rollout. 
-                                    Our team ensures smooth deployment with minimal disruption.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <h4 class="mt-4" data-aos="fade-up" data-aos-duration="900">Case Studies & Success Stories</h4>
+                  <p data-aos="fade-up" data-aos-duration="900">Discover how organizations have transformed their operations, improved productivity, and achieved business growth through ERP implementation.</p>
                 </div>
               </div>
             </div>
@@ -182,30 +160,18 @@
             <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
               <div class="section-title-3__wrapper tx-center">
                 <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-                    alt="image">Connect With Us <img class="right-shape"
+                    alt="image">Call to Action <img class="right-shape"
                     src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
-                <h2 class="title rr-title-anim-1 white">Freedom Without Commitments.</h2>
-                <p class="cta-section__dec">Start your 30-day free trial. Cancel anytime.</p>
+                <h2 class="title rr-title-anim-1 white">Ready to Transform Your Business?</h2>
+                <p class="cta-section__dec">Experience the power of our ERP solutions. Schedule a personalized demo with our experts today.</p>
               </div>
-              <div class="cta-section__btn">
+              <div class="cta-section__btn d-flex justify-content-center">
                 <a href="{{ route('contact-us') }}" class="rr-btn">
                   <span class="btn-wrap">
-                    <span class="text-one">view our demo</span>
-                    <span class="text-two">view our demo</span>
+                    <span class="text-one">Book a Demo</span>
+                    <span class="text-two">Book a Demo</span>
                   </span>
                 </a>
-                <a href="{{ route('contact-us') }}" class="rr-btn rr-btn-3">
-                  <span class="btn-wrap">
-                    <span class="text-one">start free trial now</span>
-                    <span class="text-two">start free trial now</span>
-                  </span>
-                </a>
-              </div>
-              <div class="cta-section__list">
-                <ul>
-                  <li><i class="fa-regular fa-angles-right"></i> 14-day free trial</li>
-                  <li><i class="fa-regular fa-angles-right"></i> No credit card required</li>
-                </ul>
               </div>
             </div>
           </div>

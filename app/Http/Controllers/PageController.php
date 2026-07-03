@@ -39,6 +39,10 @@ class PageController extends Controller
     {
         return view('services/WebApplicationDevelopment');
     }
+     public function MobileAppDevelopment()
+    {
+        return view('services/MobileAppDevelopment');
+    }
      public function CloudandDataMigration()
     {
         return view('services/CloudandDataMigration');
@@ -48,6 +52,15 @@ class PageController extends Controller
         return view('services/enterpriseIntegrationServices');
     }
 
+     public function DigitalHealthcareSolution()
+    {
+        return view('services/DigitalHealthcareSolution');
+    }
+
+     public function TeleConsultation()
+    {
+        return view('services/TeleConsultation');
+    }
 
 
      public function products()

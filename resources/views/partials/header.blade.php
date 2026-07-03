@@ -28,7 +28,7 @@
         <div class="offset-widget offset-header">
           <div class="offset-logo">
             <a href="{{ route('home') }}">
-              <img class="show-light" src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="site logo" />
+              <img class="show-light" src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="site logo" style="filter: brightness(0) invert(1);" />
             </a>
           </div>
           <button id="side-info-close" class="side-info-close">
@@ -83,8 +83,8 @@
         body:has(.breadcrumb-section__area) .header-area-1 .header-main {
           background: transparent;
         }
-        /* Make the logo appear white on inner pages */
-        body:has(.breadcrumb-section__area) .header__logo img {
+        /* Make the logo appear white globally */
+        .header__logo img {
           filter: brightness(0) invert(1);
         }
         /* Push breadcrumb content down so it's not hidden behind the header */
@@ -116,9 +116,6 @@
                                     </li>
                                   
 
-                                    <li>
-                                        <a href="{{ route('about') }}">Company</a>
-                                    </li>
 
                                     <!-- <li>
                                         <a href="#">Service</a>

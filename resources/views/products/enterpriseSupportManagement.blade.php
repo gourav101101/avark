@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Enterprise Support Management')
-@section('meta_description', 'Enterprise Support Management')
-@section('meta_keywords', 'home, Enterprise Support Management')
+@section('title', 'Enterprise Support Management System')
+@section('meta_description', 'Enterprise Support Management System')
+@section('meta_keywords', 'home, Enterprise Support Management System')
 
 @section('content')
 
@@ -15,8 +15,7 @@
         <ul class="breadcrumb-section__page">
           <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
           <li> Products <i class="fa-regular fa-angle-right"></i> </li>
-
-          <li> Enterprise Support Management </li>
+          <li> Enterprise Support Management System </li>
         </ul>
       </div>
     </div>
@@ -28,7 +27,7 @@
   <div class="container rr-container-1350">
     <div class="service-details__top">
       <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img">
+        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
       </div>
     </div>
     <div class="row">
@@ -37,203 +36,250 @@
           <h4 class="title">Product Categories</h4>
           <div class="service-details-sidebar-categories">
             <ul>
-              <li><a href="{{route('hms')}}">Advance Hospital Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('kiosk-management-system')}}">KIOSK Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('feedback-management')}}">Feedback Management</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('ark-cloud-cast')}}">ARK Cloud Cast</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('inventory-stock management')}}">Inventory or Stock Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('hms')}}">Advance Hospital Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('inventory-stock management')}}">Inventory or Stock Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
               <li><a href="{{route('white-label-practice-management')}}">White Label Practice Management Application</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('dialysis-management')}}">Dialysis Management System</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('enterprise-support-management')}}">Business Marketing Tool </a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('opd-management-system')}}">OPD Management System </a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('industrial-asset-management')}}">Industrial Asset Management System </a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('dialysis-management')}}">Dialysis Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('enterprise-support-management')}}">Enterprise Support Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('ark-cloud-cast')}}">Business Marketing Tool</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('opd-management-system')}}">OPD Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('industrial-asset-management')}}">Industrial Asset Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-lg-8 col-12">
         <div class="service-details__content">
-          <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Centralized Support. Faster Resolution. Smarter Operations.</h2>
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Empower your organization with Enterprise Support Management, a comprehensive solution designed to streamline support operations, manage service requests, and improve response times across departments.</p>
+            <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Enterprise Support Management System (ESMS)</h2>
+            
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our Enterprise Support Solution?</h2>
+            
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <h4 class="title mb-2"><i class="fa-solid fa-bolt text-warning me-2"></i> Fast Services</h4>
+                <p class="desc">We enable organizations to deliver faster, more efficient, and highly responsive customer support experiences.</p>
 
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Deliver structured support workflows, real-time tracking, and measurable performance insights — all from one unified platform.</p>
+                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-magnifying-glass text-info me-2"></i> Transparency</h4>
+                <p class="desc">Our centralized support platform ensures complete visibility into customer interactions, ticket status, and service performance.</p>
 
-          <div class="service-details__top">
-            <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-              <img src="assets/imgs/inner/service-detils/p2.png" alt="img">
+                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-handshake text-success me-2"></i> Trustable</h4>
+                <p class="desc">Trusted by organizations across industries, our Enterprise Support Management System ensures reliable, secure, and high-quality customer service delivery.</p>
             </div>
-          </div>
 
-          <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Product Overview</h2>
-          <p data-aos="fade-up" data-aos-duration="900">Enterprise Support Management enables businesses to manage internal and external support requests efficiently.</p>
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Enterprise Support Management System</h2>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">An Enterprise Support Management System (ESMS) is a comprehensive software solution designed to streamline and optimize customer support, service management, and issue resolution processes within an organization.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">The platform provides a centralized environment for managing customer inquiries, complaints, technical issues, and service requests, enabling organizations to deliver efficient, consistent, and high-quality support experiences.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">ESMS is particularly beneficial for organizations managing high volumes of customer interactions while striving to improve customer satisfaction, loyalty, and operational efficiency.</p>
 
-          <p data-aos="fade-up" data-aos-duration="900">From ticket creation and issue tracking to escalation management and reporting — every support process is automated and centrally monitored.</p>
-          <p data-aos="fade-up" data-aos-duration="900">Whether handling IT support, customer service, technical assistance, or enterprise-level service requests, the platform ensures smooth coordination and faster issue resolution.
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Features</h2>
+            
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <h4 class="title mb-2">Ticketing System</h4>
+                <p class="desc">Capture, manage, and track customer requests through a centralized ticket management system.</p>
+                <p class="desc mt-2">Features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Ticket Creation & Tracking</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Automatic Ticket Assignment</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Priority-Based Ticket Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Issue Categorization</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Status Monitoring</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Resolution Tracking</span></li>
+                </ul>
+                <p class="desc mt-2">This ensures that every customer inquiry is properly addressed and resolved.</p>
 
+                <h4 class="title mt-4 mb-2">Multichannel Support</h4>
+                <p class="desc">Enable customers to connect through their preferred communication channels.</p>
+                <p class="desc mt-2">Supported channels include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Email</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Phone</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Live Chat</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Web Portals</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Social Media Platforms</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Mobile Applications</span></li>
+                </ul>
+                <p class="desc mt-2">A unified communication platform ensures seamless customer engagement.</p>
+
+                <h4 class="title mt-4 mb-2">Automated Routing & Escalation</h4>
+                <p class="desc">Automatically route support tickets to the appropriate teams or agents based on predefined rules.</p>
+                <p class="desc mt-2">Capabilities include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Skill-Based Routing</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Department-Wise Assignment</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Priority Escalation</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>SLA-Based Escalation</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Automated Notifications</span></li>
+                </ul>
+                <p class="desc mt-2">This ensures faster issue resolution and improved service quality.</p>
+
+                <h4 class="title mt-4 mb-2">Knowledge Base Management</h4>
+                <p class="desc">Provide customers and support agents with access to a centralized knowledge repository.</p>
+                <p class="desc mt-2">Knowledge base content may include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Frequently Asked Questions (FAQs)</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>User Guides</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Troubleshooting Articles</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Help Documentation</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Self-Service Resources</span></li>
+                </ul>
+                <p class="desc mt-2">Self-service capabilities reduce support workload and improve customer satisfaction.</p>
+
+                <h4 class="title mt-4 mb-2">Service Level Agreement (SLA) Management</h4>
+                <p class="desc">Monitor and enforce Service Level Agreements to ensure timely response and resolution.</p>
+                <p class="desc mt-2">Features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>SLA Configuration</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Response Time Monitoring</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Escalation Rules</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Compliance Tracking</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>SLA Performance Reports</span></li>
+                </ul>
+                <p class="desc mt-2">SLA management helps maintain consistent service standards.</p>
+
+                <h4 class="title mt-4 mb-2">Collaboration & Communication</h4>
+                <p class="desc">Enable effective collaboration among support teams for faster issue resolution.</p>
+                <p class="desc mt-2">Features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Internal Notes</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Team Discussions</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Task Assignment</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Shared Workspaces</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Collaboration Tools</span></li>
+                </ul>
+                <p class="desc mt-2">Seamless communication enhances team productivity and efficiency.</p>
+
+                <h4 class="title mt-4 mb-2">Customer Profiles & Interaction History</h4>
+                <p class="desc">Maintain comprehensive customer records including:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Contact Information</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Service History</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Previous Interactions</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Support Tickets</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Preferences</span></li>
+                </ul>
+                <p class="desc mt-2">Context-aware support improves personalization and customer experience.</p>
+
+                <h4 class="title mt-4 mb-2">Automation & Artificial Intelligence</h4>
+                <p class="desc">Leverage automation and AI to streamline support operations.</p>
+                <p class="desc mt-2">Capabilities include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Automated Responses</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Chatbots</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Workflow Automation</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Intelligent Ticket Categorization</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Predictive Support</span></li>
+                </ul>
+                <p class="desc mt-2">Automation reduces manual effort and accelerates service delivery.</p>
+
+                <h4 class="title mt-4 mb-2">Feedback & Survey Management</h4>
+                <p class="desc">Collect customer feedback to continuously improve support quality.</p>
+                <p class="desc mt-2">Features include:</p>
+                <ul class="mt-2">
+                    <li><i class="fa-solid fa-angles-right"></i><span>Customer Satisfaction Surveys</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Feedback Forms</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Net Promoter Score (NPS)</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Service Quality Evaluation</span></li>
+                </ul>
+                <p class="desc mt-2">Insights from customer feedback support ongoing improvement initiatives.</p>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Benefits</h2>
+            
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <h4 class="title mb-2">Improved Customer Experience</h4>
+                <p class="desc">Deliver timely, personalized, and efficient support experiences that increase customer satisfaction and loyalty.</p>
+
+                <h4 class="title mt-4 mb-2">Efficient Ticket Management</h4>
+                <p class="desc">Centralized ticket management ensures that no customer issue is overlooked and every request is tracked through resolution.</p>
+
+                <h4 class="title mt-4 mb-2">Enhanced Team Collaboration</h4>
+                <p class="desc">Promotes seamless communication and collaboration among support teams to efficiently resolve complex customer issues.</p>
+
+                <h4 class="title mt-4 mb-2">Reduced Response Times</h4>
+                <p class="desc">Automation, intelligent routing, and escalation mechanisms significantly reduce response and resolution times.</p>
+
+                <h4 class="title mt-4 mb-2">Knowledge Sharing</h4>
+                <p class="desc">Empowers customers and support teams through self-service resources and centralized knowledge management.</p>
+
+                <h4 class="title mt-4 mb-2">Data-Driven Decision Making</h4>
+                <p class="desc">Advanced analytics provide valuable insights into support operations, helping organizations optimize processes and improve service delivery.</p>
+
+                <h4 class="title mt-4 mb-2">Consistent Service Quality</h4>
+                <p class="desc">Standardized workflows and SLA enforcement ensure consistent and predictable support experiences.</p>
+
+                <h4 class="title mt-4 mb-2">Increased Productivity</h4>
+                <p class="desc">Automation of repetitive tasks enables support agents to focus on higher-value and more complex issues.</p>
+
+                <h4 class="title mt-4 mb-2">Customer Insights</h4>
+                <p class="desc">Gain meaningful insights into customer behavior, preferences, pain points, and satisfaction levels to improve products and services.</p>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Additional Features</h2>
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <ul>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Dashboard & MIS Reports</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Analytics</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Customizable Workflows</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Mobile Accessibility</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Role-Based User Access</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Notification & Alert Management</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Third-Party Integrations</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Cloud & On-Premise Deployment</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Department Support</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Audit Trails & Activity Logs</span></li>
+                </ul>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our Enterprise Support Management System?</h2>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">An Enterprise Support Management System is essential for organizations committed to delivering exceptional customer service.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">By streamlining support operations, empowering service teams, automating routine tasks, and providing actionable insights, our solution helps organizations strengthen customer relationships, improve brand reputation, and increase customer loyalty.</p>
+
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Industries We Serve</h2>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Our Enterprise Support Management Solution is suitable for:</p>
+            <div class="features mt-3" data-aos="fade-up" data-aos-duration="900">
+                <ul>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Healthcare Organizations</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>IT & Software Companies</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Banking & Financial Services</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Retail & E-Commerce</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Telecommunications</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Manufacturing Industries</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Government Organizations</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Educational Institutions</span></li>
+                    <li><i class="fa-solid fa-angles-right"></i><span>Service-Based Enterprises</span></li>
+                </ul>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
+            
+            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
+                <h4 class="title mb-2">Connect With Us</h4>
+                <ul class="mt-2">
+                    <li><i class="fa-brands fa-facebook text-primary me-2"></i><span>Facebook</span></li>
+                    <li><i class="fa-brands fa-instagram text-danger me-2"></i><span>Instagram</span></li>
+                    <li><i class="fa-brands fa-linkedin text-info me-2"></i><span>LinkedIn</span></li>
+                    <li><i class="fa-brands fa-whatsapp text-success me-2"></i><span>WhatsApp</span></li>
+                </ul>
+
+                <h4 class="title mt-4 mb-2">Contact Information</h4>
+                <p class="desc"><strong>Mobile:</strong> <a href="tel:+917400920717">+91-7400920717</a>, <a href="tel:+919977699982">+91-9977699982</a></p>
+                <p class="desc mt-2"><strong>Sales Enquiry:</strong> <a href="mailto:sales@avark.in">sales@avark.in</a></p>
+                <p class="desc mt-2"><strong>Support:</strong> <a href="mailto:support@avark.in">support@avark.in</a></p>
+
+                <h4 class="title mt-4 mb-2">Office Addresses</h4>
+                <p class="desc mt-2"><strong>Indore Office:</strong> A-81, Vistara City, Indore - 452001, Madhya Pradesh, India</p>
+                <p class="desc mt-2"><strong>Bangalore Office:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</p>
+
+                <h4 class="title mt-4 mb-2">Book a Demo</h4>
+                <p class="desc">Transform your customer support operations with our intelligent Enterprise Support Management System. Schedule a personalized demo today.</p>
+                <p class="desc mt-4"><strong>Copyright &copy; 2026 Avark Healthcare Technology Pvt. Ltd.</strong></p>
+                <p class="desc mt-2"><strong>Powered by Avark Healthcare Technology Pvt. Ltd.</strong></p>
+            </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
-
-<section class="service-details">
-  <div class="container rr-container-1350">
-    <div class="row">
-
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-12 col-12">
-      <div class="service-details__content">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Key Features </h2>
-
-            <ul data-aos="fade-up" data-aos-duration="900">
-              <li><i class="fa-solid fa-angles-right"></i>Corporate Enterprises</li>
-              <li><i class="fa-solid fa-angles-right"></i>IT Support Teams</li>
-              <li><i class="fa-solid fa-angles-right"></i>SaaS Companies</li>
-              <li><i class="fa-solid fa-angles-right"></i>Multi-Branch Organizations</li>
-              <li><i class="fa-solid fa-angles-right"></i>Service-Based Businesses</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <div>
-              <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Why Choose Enterprise Support Management?</h2>
-              <ul>
-                <li> <i class="fa-regular fa-angle-right"></i> Easy-to-Use Dashboard </li>
-                <li> <i class="fa-regular fa-angle-right"></i> Customizable Workflows </li>
-                <li> <i class="fa-regular fa-angle-right"></i> Secure & Scalable Architecture </li>
-                <li> <i class="fa-regular fa-angle-right"></i> Automated Notifications & Alerts </li>
-                <li> <i class="fa-regular fa-angle-right"></i> Dedicated Technical Support </li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cta-section__area">
-  <div class="container rr-container-1350">
-    <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
-      <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-            alt="image">Connect With Us <img class="right-shape"
-            src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
-        <h2 class="title rr-title-anim-1 white">Ready to Optimize Your Support Operations? </h2>
-        <p class="cta-section__dec">Improve service efficiency, increase accountability, and deliver better support experiences. </p>
-      </div>
-      <div class="cta-section__btn">
-        <a href="{{ route ('contact-us') }}" class="rr-btn">
-          <span class="btn-wrap">
-            <span class="text-one">Request a Demo</span>
-            <span class="text-two">Request a Demo</span>
-          </span>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="cta-section__area py-5">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-10">
-
-        <div class="accordion" id="accordionExample">
-
-          <!-- Item 1 -->
-          <div class="accordion-item mb-3 border-0 shadow-sm">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="false"
-                aria-controls="collapseOne">
-                What is Enterprise Support Management?
-              </button>
-            </h2>
-
-            <div id="collapseOne" class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body text-muted text-justify">
-                Enterprise Support Management is a centralized platform that helps organizations manage service requests, support tickets, escalations, and issue resolution across multiple departments. It ensures structured workflows, faster response times, and improved service efficiency.
-              </div>
-            </div>
-          </div>
-
-          <!-- Item 2 -->
-          <div class="accordion-item mb-3 border-0 shadow-sm">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo">
-                Can the system handle multiple departments and teams?
-              </button>
-            </h2>
-
-            <div id="collapseTwo" class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body text-muted text-justify">
-                Yes. The solution supports multi-department and multi-team environments. Tickets can be automatically assigned based on category, priority, or SLA rules, ensuring smooth collaboration and efficient workload distribution.
-              </div>
-            </div>
-          </div>
-
-          <!-- Item 3 -->
-          <div class="accordion-item border-0 shadow-sm">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree">
-                Does it provide SLA tracking and performance reports?
-              </button>
-            </h2>
-
-            <div id="collapseThree" class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body text-muted text-justify">
-                Absolutely. The platform includes SLA management, escalation rules, and detailed analytics dashboards. Organizations can monitor response times, resolution rates, team performance, and overall service quality in real time.
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
 
 @endsection
+
