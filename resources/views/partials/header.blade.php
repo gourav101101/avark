@@ -159,48 +159,48 @@
                                         <!-- <li class="menu-item-has-children"> -->
                                         <a href="{{ route('products') }}">Products</a>
                                         <ul class="dp-menu column-2">
-                                            <li> 
+                                            <li>
+                                                <a href="{{route('hms')}}">Advance Hospital Management Software</a>
+                                            </li>
+                                            <li>
                                                 <a href="{{route('kiosk-management-system')}}">KIOSK Management System</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('feedback-management')}}">Feedback Management</a>
+                                                <a href="{{route('feedback-management')}}">Feedback Management Software</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('ark-cloud-cast')}}">ARK Cloud Cast </a>
+                                                <a href="{{route('ark-cloud-cast')}}">Business Marketing Tool</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('hms')}}">Advance Hospital Management System</a>
+                                                <a href="{{route('inventory-stock management')}}">Inventory or Stock Management Software</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('inventory-stock management')}}">Inventory or Stock Management System</a>
-                                            </li>
-                                            <li>
-                                                <a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management System</a>
+                                                <a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management Software</a>
                                             </li>
                                             <li>
                                                 <a href="{{route('white-label-practice-management')}}">White Label Practice Management Application</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('dialysis-management')}}">Dialysis Management System</a>
+                                                <a href="{{route('dialysis-management')}}">Dialysis Management Software</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('enterprise-support-management')}}">Enterprise Support Management System</a>
+                                                <a href="{{route('enterprise-support-management')}}">Enterprise Support Management Software</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('digital-signage-solutions')}}">Digital Signages</a>
+                                                <a href="{{route('digital-signage-solutions')}}">Digital Signage Solutions</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('opd-management-system')}}">OPD Management System</a>
+                                                <a href="{{route('opd-management-system')}}">OPD Management Software</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('industrial-asset-management')}}">Industrial Asset Management System</a>
+                                                <a href="{{route('industrial-asset-management')}}">Industrial Asset Management Software</a>
                                             </li>
                                         </ul>
                                     </li>
 
 
                                     <li>
-                                        <a href="#">Partners</a>
+                                        <a href="{{ route('partners') }}">Partners</a>
                                     </li>
 
                                     <!-- <li>

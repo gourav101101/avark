@@ -25,11 +25,7 @@
 
 <section class="service-details section-spacing">
   <div class="container rr-container-1350">
-    <div class="service-details__top">
-      <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img">
-      </div>
-    </div>
+    
     <div class="row">
       <div class="col-lg-4 col-12">
         <div class="service-details-sidebar" data-aos="fade-up" data-aos-duration="900">
@@ -51,91 +47,107 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-8 col-12">
+            <div class="col-lg-8 col-12">
         <div class="service-details__content">
-          <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Turn Patient Feedback into Actionable Insights</h2>
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Improve service quality and strengthen patient trust with Avark Feedback Management. Collect, monitor, and analyze real-time feedback to enhance patient experience and operational performance.</p>
+            <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Feedback Management System</h2>
+            <h2 class="title rr-title-anim-1 mt-4" data-aos="fade-up" data-aos-duration="900">Turn Patient Feedback into Actionable Insights</h2>
 
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Understand what your patients truly feel — and take smarter decisions backed by data.</p>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Improve service quality and strengthen patient trust with Avark Feedback Management. Collect, monitor, and analyze real-time feedback to enhance patient experience and operational performance.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Understand what your patients truly feel — and take smarter decisions backed by data.</p>
 
-          <div class="service-details__top">
-            <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-              <img src="assets/imgs/inner/service-detils/p2.png" alt="img">
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Why Choose Feedback Management?</h2>
+            
+            <div class="row row-cols-1 row-cols-md-3 g-3 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-primary bg-opacity-10">
+                        <div class="mb-3 text-primary fs-1"><i class="fa-solid fa-face-smile"></i></div>
+                        <h5 class="card-title text-dark">Improve Experience</h5>
+                        <p class="card-text desc small">Directly capture and address patient concerns to boost satisfaction.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-success bg-opacity-10">
+                        <div class="mb-3 text-success fs-1"><i class="fa-solid fa-chart-pie"></i></div>
+                        <h5 class="card-title text-dark">Data-Driven</h5>
+                        <p class="card-text desc small">Make smarter operational decisions backed by real patient feedback data.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-info bg-opacity-10">
+                        <div class="mb-3 text-info fs-1"><i class="fa-solid fa-users-gear"></i></div>
+                        <h5 class="card-title text-dark">Accountability</h5>
+                        <p class="card-text desc small">Increase staff accountability through department and doctor-wise ratings.</p>
+                    </div>
+                </div>
             </div>
-          </div>
 
-          <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Product Overview</h2>
-          <p data-aos="fade-up" data-aos-duration="900">Avark Feedback Management helps hospitals and healthcare centers capture structured feedback digitally across departments.</p>
-
-          <p data-aos="fade-up" data-aos-duration="900">Whether it’s OPD, IPD, pharmacy, laboratory, or billing — you can measure satisfaction levels and identify improvement areas instantly.</p>
-          <p data-aos="fade-up" data-aos-duration="900">Move beyond paper forms and manual surveys. Get real-time responses, instant alerts, and performance insights — all in one smart dashboard.</p>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="service-details">
-  <div class="container rr-container-1350">
-    <div class="row">
-
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-12 col-12">
-      <div class="service-details__content">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Key Features </h2>
-
-            <ul data-aos="fade-up" data-aos-duration="900">
-              <li><i class="fa-solid fa-angles-right"></i>Digital Feedback Collection (QR Code, Kiosk, SMS, Web Link)</li>
-              <li><i class="fa-solid fa-angles-right"></i>Department-Wise Feedback Tracking</li>
-              <li><i class="fa-solid fa-angles-right"></i>Doctor & Staff Rating Insights</li>
-              <li><i class="fa-solid fa-angles-right"></i>Real-Time Dashboard & Analytics</li>
-              <li><i class="fa-solid fa-angles-right"></i>Customizable Feedback Templates</li>
-              <li><i class="fa-solid fa-angles-right"></i>Multi-Language Support</li>
-              <li><i class="fa-solid fa-angles-right"></i>Instant Alerts for Low Ratings</li>
-              <li><i class="fa-solid fa-angles-right"></i>Monthly & Department Performance Reports</li>
-              <li><i class="fa-solid fa-angles-right"></i>Secure Data Handling</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <div>
-              <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">How It Helps Your Organization</h2>
-              <ul>
-                <li> <i class="fa-regular fa-angle-right"></i> Improve Patient Experience</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Data-Driven Decisions</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Increase Staff Accountability</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Enhance Brand Reputation</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Continuous Service Improvement</li>
-              </ul>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Core Capabilities</h2>
+            
+            <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/user_management_1783400202674.png" class="card-img-top" alt="Digital Collection" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-mobile-screen-button me-2"></i> Digital Collection</h5>
+                            <p class="card-text desc small">Collect feedback seamlessly via QR Codes, Kiosks, SMS, or Web Links. Move entirely beyond paper forms.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/analytics_dashboard_1783400138562.png" class="card-img-top" alt="Real-Time Analytics" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-chart-line me-2"></i> Real-Time Analytics</h5>
+                            <p class="card-text desc small">Get real-time responses, instant alerts for low ratings, and comprehensive performance insights in a smart dashboard.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
 
-        </div>
+            <h2 class="title rr-title-anim-1 mt-5 mb-3" data-aos="fade-up" data-aos-duration="900">Comprehensive Features</h2>
+            <div class="d-flex flex-wrap gap-2 mb-4" data-aos="fade-up" data-aos-duration="900">
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-qrcode me-2"></i>QR / Kiosk / SMS</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-building me-2"></i>Dept-Wise Tracking</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-user-doctor me-2"></i>Doctor Ratings</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-chart-pie me-2"></i>Live Dashboard</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-file-pen me-2"></i>Custom Templates</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-language me-2"></i>Multi-Language</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-bell me-2"></i>Instant Alerts</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-shield-halved me-2"></i>Secure Data</span>
+            </div>
+            
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Whether it’s OPD, IPD, pharmacy, laboratory, or billing — measure satisfaction levels and identify improvement areas instantly.</p>
+        
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
+            
+            <div class="card border-0 shadow-sm p-4 bg-light bg-opacity-50" data-aos="fade-up" data-aos-duration="900">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-phone me-2"></i> Contact Information</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Mobile:</strong> <a href="tel:+917400920717" class="text-decoration-none">+91-7400920717</a>, <a href="tel:+919977699982" class="text-decoration-none">+91-9977699982</a></li>
+                            <li><strong>Sales:</strong> <a href="mailto:sales@avark.in" class="text-decoration-none">sales@avark.in</a></li>
+                            <li><strong>Support:</strong> <a href="mailto:support@avark.in" class="text-decoration-none">support@avark.in</a></li>
+                        </ul>
+                        
+                        <h5 class="text-primary mt-4"><i class="fa-solid fa-share-nodes me-2"></i> Connect With Us</h5>
+                        <div class="d-flex gap-3 mt-3">
+                            <a href="#" class="fs-4 text-primary"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="fs-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-4 text-info"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-4 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+</div>
       </div>
     </div>
   </div>
@@ -231,7 +243,37 @@
             </div>
           </div>
 
-        </div>
+        
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
+            
+            <div class="card border-0 shadow-sm p-4 bg-light bg-opacity-50" data-aos="fade-up" data-aos-duration="900">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-phone me-2"></i> Contact Information</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Mobile:</strong> <a href="tel:+917400920717" class="text-decoration-none">+91-7400920717</a>, <a href="tel:+919977699982" class="text-decoration-none">+91-9977699982</a></li>
+                            <li><strong>Sales:</strong> <a href="mailto:sales@avark.in" class="text-decoration-none">sales@avark.in</a></li>
+                            <li><strong>Support:</strong> <a href="mailto:support@avark.in" class="text-decoration-none">support@avark.in</a></li>
+                        </ul>
+                        
+                        <h5 class="text-primary mt-4"><i class="fa-solid fa-share-nodes me-2"></i> Connect With Us</h5>
+                        <div class="d-flex gap-3 mt-3">
+                            <a href="#" class="fs-4 text-primary"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="fs-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-4 text-info"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-4 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+</div>
 
       </div>
     </div>

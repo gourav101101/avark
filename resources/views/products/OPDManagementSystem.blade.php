@@ -25,11 +25,7 @@
 
 <section class="service-details section-spacing">
   <div class="container rr-container-1350">
-    <div class="service-details__top">
-      <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
-      </div>
-    </div>
+    
     <div class="row">
       <div class="col-lg-4 col-12">
         <div class="service-details-sidebar" data-aos="fade-up" data-aos-duration="900">
@@ -52,233 +48,163 @@
       <div class="col-lg-8 col-12">
         <div class="service-details__content">
             <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">OPD Management System</h2>
-            
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our OPD Management Solution?</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2"><i class="fa-solid fa-bolt text-warning me-2"></i> Fast Services</h4>
-                <p class="desc">Our OPD Management System streamlines outpatient operations, enabling healthcare organizations to provide faster and more efficient patient services.</p>
+            <h2 class="title rr-title-anim-1 mt-4" data-aos="fade-up" data-aos-duration="900">Why Choose Our OPD Management Solution?</h2>
 
-                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-magnifying-glass text-info me-2"></i> Transparency</h4>
-                <p class="desc">Gain complete visibility into patient flow, appointments, consultations, and operational activities through a centralized platform.</p>
-
-                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-handshake text-success me-2"></i> Trustable</h4>
-                <p class="desc">Trusted by hospitals and healthcare providers, our OPD Management System ensures secure, reliable, and efficient outpatient care management.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-3 mt-3" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-warning bg-opacity-10">
+                        <div class="mb-3 text-warning fs-1"><i class="fa-solid fa-bolt"></i></div>
+                        <h5 class="card-title text-dark">Fast Services</h5>
+                        <p class="card-text desc small">Streamlines outpatient operations to provide faster and more efficient patient services.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-info bg-opacity-10">
+                        <div class="mb-3 text-info fs-1"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h5 class="card-title text-dark">Transparency</h5>
+                        <p class="card-text desc small">Gain complete visibility into patient flow, appointments, and operational activities.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-success bg-opacity-10">
+                        <div class="mb-3 text-success fs-1"><i class="fa-solid fa-handshake"></i></div>
+                        <h5 class="card-title text-dark">Trustable</h5>
+                        <p class="card-text desc small">Trusted by hospitals to ensure secure, reliable, and efficient outpatient care.</p>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">OPD Management System</h2>
-            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">An OPD (Outpatient Department) Management System is a specialized healthcare software solution designed to automate and streamline the various processes and workflows within a healthcare facility's outpatient department.</p>
+            <p class="desc mt-5" data-aos="fade-up" data-aos-duration="900">An OPD (Outpatient Department) Management System is a specialized healthcare software solution designed to automate and streamline the various processes and workflows within a healthcare facility's outpatient department.</p>
             <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">The system simplifies patient registration, appointment scheduling, consultation management, billing, and overall patient flow management. It helps healthcare organizations deliver efficient, high-quality outpatient services while minimizing waiting times and reducing administrative workload.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">By digitizing outpatient operations, healthcare providers can improve patient experiences, optimize resource utilization, and enhance operational efficiency.</p>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Features</h2>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Key Features</h2>
             
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Patient Registration</h4>
-                <p class="desc">Enable quick, accurate, and seamless patient registration.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>New Patient Registration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Demographic Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Medical History Recording</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Unique Patient Identification</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Digital Patient Profiles</span></li>
-                </ul>
-                <p class="desc mt-2">This ensures accurate patient information management and improved service delivery.</p>
-
-                <h4 class="title mt-4 mb-2">Appointment Scheduling</h4>
-                <p class="desc">Manage appointments efficiently across multiple specialties and healthcare professionals.</p>
-                <p class="desc mt-2">Capabilities include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Online Appointment Booking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Doctor-Wise Scheduling</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Specialty-Wise Appointment Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Appointment Rescheduling & Cancellation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Calendar Management</span></li>
-                </ul>
-                <p class="desc mt-2">Optimized scheduling reduces patient waiting times and improves resource utilization.</p>
-
-                <h4 class="title mt-4 mb-2">Queue Management</h4>
-                <p class="desc">Organize patient queues effectively to ensure smooth outpatient operations.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Digital Token Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Queue Monitoring</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Queue Status</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Priority-Based Queue Handling</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Waiting Time Reduction</span></li>
-                </ul>
-                <p class="desc mt-2">This enhances patient experiences and improves departmental efficiency.</p>
-
-                <h4 class="title mt-4 mb-2">Doctor & Resource Scheduling</h4>
-                <p class="desc">Efficiently schedule and allocate healthcare resources.</p>
-                <p class="desc mt-2">Manage:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Doctor Availability</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Staff Scheduling</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consultation Rooms</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Examination Rooms</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Departmental Resources</span></li>
-                </ul>
-                <p class="desc mt-2">Optimized resource allocation ensures maximum utilization and operational efficiency.</p>
-
-                <h4 class="title mt-4 mb-2">EMR Integration</h4>
-                <p class="desc">Integrate seamlessly with Electronic Medical Record (EMR) systems to access complete patient medical histories during consultations.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Access to Clinical Records</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Previous Diagnoses</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Treatment History</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Laboratory Results</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Prescription History</span></li>
-                </ul>
-                <p class="desc mt-2">Comprehensive patient information supports better clinical decision-making.</p>
-
-                <h4 class="title mt-4 mb-2">Billing & Payment Management</h4>
-                <p class="desc">Automate OPD billing and payment processes.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consultation Fee Calculation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Billing Generation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Payment Collection</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Receipt Generation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Insurance Billing Support</span></li>
-                </ul>
-                <p class="desc mt-2">Streamlined billing improves financial operations and patient convenience.</p>
-
-                <h4 class="title mt-4 mb-2">Prescription Management</h4>
-                <p class="desc">Enable doctors to digitally record and manage prescriptions.</p>
-                <p class="desc mt-2">Capabilities include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Electronic Prescriptions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Medication History</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Drug Interaction Checks</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Prescription Printing</span></li>
-                </ul>
-                <p class="desc mt-2">Digital prescriptions improve accuracy and reduce medication errors.</p>
-
-                <h4 class="title mt-4 mb-2">Automated Alerts & Reminders</h4>
-                <p class="desc">Send automated notifications to patients regarding:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Appointment Reminders</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Follow-Up Visits</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Payment Notifications</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Health Alerts</span></li>
-                </ul>
-                <p class="desc mt-2">Automated communication improves patient engagement and reduces missed appointments.</p>
-
-                <h4 class="title mt-4 mb-2">Reporting & Analytics</h4>
-                <p class="desc">Generate detailed reports and analytical insights related to OPD operations.</p>
-                <p class="desc mt-2">Reports include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Flow Reports</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Doctor Performance Reports</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Appointment Reports</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Revenue Reports</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Operational Analytics</span></li>
-                </ul>
-                <p class="desc mt-2">Data-driven insights support informed decision-making.</p>
-
-                <h4 class="title mt-4 mb-2">Patient Communication</h4>
-                <p class="desc">Enhance communication with patients through:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>SMS Notifications</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Email Alerts</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Appointment Confirmations</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Follow-Up Reminders</span></li>
-                </ul>
-                <p class="desc mt-2">Improved communication increases patient satisfaction and engagement.</p>
-
-                <h4 class="title mt-4 mb-2">Security & Data Privacy</h4>
-                <p class="desc">Protect sensitive healthcare information through advanced security measures.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Role-Based Access Control</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Data Encryption</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Secure Authentication</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Audit Trails</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Regulatory Compliance</span></li>
-                </ul>
-                <p class="desc mt-2">Patient confidentiality and data protection remain top priorities.</p>
+            <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/healthcare_tech_1783400169534.png" class="card-img-top" alt="Patient Management" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-users me-2"></i> Patient & Queue Management</h5>
+                            <p class="card-text desc small">Seamless patient registration, demographics, and digital profiles. Organize patient queues with digital tokens to ensure smooth operations and reduced wait times.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/user_management_1783400202674.png" class="card-img-top" alt="Scheduling" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-calendar-check me-2"></i> Appointments & Resources</h5>
+                            <p class="card-text desc small">Doctor-wise scheduling, online booking, and calendar management. Efficiently allocate doctors, staff, and consultation rooms.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/emr_prescription_1783402183658.png" class="card-img-top" alt="EMR" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-file-medical me-2"></i> EMR & Prescriptions</h5>
+                            <p class="card-text desc small">Integrate with EMR for clinical records, previous diagnoses, and lab results. Manage electronic prescriptions and drug interactions securely.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/hospital_building_1783400255519.png" class="card-img-top" alt="Billing" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-file-invoice-dollar me-2"></i> Billing & Analytics</h5>
+                            <p class="card-text desc small">Automate consultation fee calculation, receipts, and insurance billing. Generate detailed reports on patient flow and doctor performance.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Benefits</h2>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Benefits & Automation</h2>
+            <div class="accordion" id="accordionBenefits" data-aos="fade-up" data-aos-duration="900">
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB1">
+                        <button class="accordion-button rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB1" aria-expanded="true" aria-controls="collapseB1">
+                            Operational Efficiency
+                        </button>
+                    </h2>
+                    <div id="collapseB1" class="accordion-collapse collapse show" aria-labelledby="headingB1" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Streamlined Workflow:</strong> Automate routine administrative processes, reducing paperwork.<br><br>
+                            <strong>Resource Allocation:</strong> Efficiently allocate doctors and consultation rooms based on demand.<br><br>
+                            <strong>Increased Productivity:</strong> Automation significantly improves staff productivity and departmental efficiency.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB2">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB2" aria-expanded="false" aria-controls="collapseB2">
+                            Patient Experience & Communication
+                        </button>
+                    </h2>
+                    <div id="collapseB2" class="accordion-collapse collapse" aria-labelledby="headingB2" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Improved Experience:</strong> Reduce waiting times and provide a well-organized outpatient journey.<br><br>
+                            <strong>Automated Alerts:</strong> Send SMS and Email notifications for appointments, follow-ups, and payments.<br><br>
+                            <strong>Appointment Management:</strong> Optimize schedules to maximize efficiency and reduce conflicts.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB3">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB3" aria-expanded="false" aria-controls="collapseB3">
+                            Accuracy, Security & Insights
+                        </button>
+                    </h2>
+                    <div id="collapseB3" class="accordion-collapse collapse" aria-labelledby="headingB3" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Data Accuracy:</strong> Digital data entry reduces manual errors in clinical documentation.<br><br>
+                            <strong>Security & Privacy:</strong> Protect PHI with role-based access, encryption, and secure authentication.<br><br>
+                            <strong>Real-Time Insights:</strong> Access operational analytics to monitor performance and optimize costs.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5 mb-3" data-aos="fade-up" data-aos-duration="900">Additional Features</h2>
+            <div class="d-flex flex-wrap gap-2 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-laptop-medical me-2"></i>Online Appointment Portal</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-ticket me-2"></i>OPD Token Management</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-user-doctor me-2"></i>Doctor Dashboard</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-mobile-screen me-2"></i>Mobile App Support</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-file-contract me-2"></i>Insurance & TPA Integration</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-hospital me-2"></i>Multi-Specialty Support</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-cloud me-2"></i>Cloud & On-Premise</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-sitemap me-2"></i>Multi-Branch Management</span>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
             
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Improved Patient Experience</h4>
-                <p class="desc">Provide a well-organized and efficient outpatient experience by reducing waiting times and streamlining service delivery.</p>
-
-                <h4 class="title mt-4 mb-2">Enhanced Appointment Management</h4>
-                <p class="desc">Optimize doctor schedules and healthcare resources to maximize service efficiency and reduce appointment conflicts.</p>
-
-                <h4 class="title mt-4 mb-2">Streamlined Workflow</h4>
-                <p class="desc">Automate routine administrative processes, allowing healthcare staff to focus more on patient care.</p>
-
-                <h4 class="title mt-4 mb-2">Reduced Paperwork</h4>
-                <p class="desc">Move toward a paperless environment by digitizing patient records, prescriptions, and operational workflows.</p>
-
-                <h4 class="title mt-4 mb-2">Better Resource Allocation</h4>
-                <p class="desc">Efficiently allocate doctors, staff, consultation rooms, and other resources based on patient demand.</p>
-
-                <h4 class="title mt-4 mb-2">Improved Data Accuracy</h4>
-                <p class="desc">Digital data entry and automated workflows reduce manual errors in patient information and clinical documentation.</p>
-
-                <h4 class="title mt-4 mb-2">Increased Productivity</h4>
-                <p class="desc">Automation and streamlined workflows significantly improve staff productivity and overall departmental efficiency.</p>
-
-                <h4 class="title mt-4 mb-2">Real-Time Insights</h4>
-                <p class="desc">Access real-time operational data and analytics to monitor performance and make informed decisions.</p>
-
-                <h4 class="title mt-4 mb-2">Cost Savings</h4>
-                <p class="desc">Improve operational efficiency, reduce administrative costs, and optimize revenue generation.</p>
+            <div class="card border-0 shadow-sm p-4 bg-light bg-opacity-50" data-aos="fade-up" data-aos-duration="900">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-phone me-2"></i> Contact Information</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Mobile:</strong> <a href="tel:+917400920717" class="text-decoration-none">+91-7400920717</a>, <a href="tel:+919977699982" class="text-decoration-none">+91-9977699982</a></li>
+                            <li><strong>Sales:</strong> <a href="mailto:sales@avark.in" class="text-decoration-none">sales@avark.in</a></li>
+                            <li><strong>Support:</strong> <a href="mailto:support@avark.in" class="text-decoration-none">support@avark.in</a></li>
+                        </ul>
+                        
+                        <h5 class="text-primary mt-4"><i class="fa-solid fa-share-nodes me-2"></i> Connect With Us</h5>
+                        <div class="d-flex gap-3 mt-3">
+                            <a href="#" class="fs-4 text-primary"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="fs-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-4 text-info"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-4 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Additional Features</h2>
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <ul>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Online Appointment Portal</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>OPD Token Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Doctor Dashboard</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Portal</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Mobile Application Support</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Dashboard & MIS Reports</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Insurance & TPA Integration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Specialty Support</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Cloud & On-Premise Deployment</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Branch Management</span></li>
-                </ul>
-            </div>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our OPD Management System?</h2>
-            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">OPD Management Systems play a vital role in hospitals, clinics, and healthcare centers by simplifying outpatient operations and improving patient satisfaction.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Our solution enables healthcare organizations to streamline patient journeys, optimize resource utilization, improve clinical efficiency, and deliver exceptional outpatient care experiences.</p>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Connect With Us</h4>
-                <ul class="mt-2">
-                    <li><i class="fa-brands fa-facebook text-primary me-2"></i><span>Facebook</span></li>
-                    <li><i class="fa-brands fa-instagram text-danger me-2"></i><span>Instagram</span></li>
-                    <li><i class="fa-brands fa-linkedin text-info me-2"></i><span>LinkedIn</span></li>
-                    <li><i class="fa-brands fa-whatsapp text-success me-2"></i><span>WhatsApp</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Contact Information</h4>
-                <p class="desc"><strong>Mobile:</strong> <a href="tel:+917400920717">+91-7400920717</a>, <a href="tel:+919977699982">+91-9977699982</a></p>
-                <p class="desc mt-2"><strong>Sales Enquiry:</strong> <a href="mailto:sales@avark.in">sales@avark.in</a></p>
-                <p class="desc mt-2"><strong>Support:</strong> <a href="mailto:support@avark.in">support@avark.in</a></p>
-
-                <h4 class="title mt-4 mb-2">Office Addresses</h4>
-                <p class="desc mt-2"><strong>Indore Office:</strong> A-81, Vistara City, Indore - 452001, Madhya Pradesh, India</p>
-                <p class="desc mt-2"><strong>Bangalore Office:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</p>
-
-                <h4 class="title mt-4 mb-2">Book a Demo</h4>
-                <p class="desc">Transform your outpatient services with our intelligent OPD Management System. Schedule a personalized demo today.</p>
-                <p class="desc mt-4"><strong>Copyright &copy; 2026 Avark Healthcare Technology Pvt. Ltd.</strong></p>
-                <p class="desc mt-2"><strong>Powered by Avark Healthcare Technology Pvt. Ltd.</strong></p>
-            </div>
-        </div>
       </div>
     </div>
   </div>

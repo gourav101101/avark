@@ -13,7 +13,7 @@
 <!-- breadcrumb-section -->
 <section class="breadcrumb-section__area ">
     <div class=" container rr-container-1900">
-        <div class="breadcrumb-section__wrapper" data-background="assets/imgs/home-1/hero/breadcrumb-bg-thumb.png">
+        <div class="breadcrumb-section__wrapper" data-background="{{ asset('assets/imgs/home-1/hero/breadcrumb-bg-thumb.png') }}">
             <div class="breadcrumb-section__content text_center breadcrumb-section__space">
                 <h3 class="breadcrumb-section__title">Blogs</h3>
                 <ul class="breadcrumb-section__page">
@@ -36,9 +36,9 @@
                       <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
                     </ul>
 
-                    <h3 class="title"><a href="{{ route('blog-details') }}">The Future of ERP Systems: Trends to Watch in <br> 2026</a></h3>
+                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}">The Future of ERP Systems: Trends to Watch in <br> 2026</a></h3>
                     <div class="blog-3__media">
-                      <a href="{{ route('blog-details') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}"><img src="{{ asset('assets/imgs/inner/features/analytics_dashboard_1783400138562.png') }}" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Agency</li>
                         <li class="date">Oct 04,2026</li>
@@ -55,9 +55,9 @@
                       <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
                     </ul>
 
-                    <h3 class="title"><a href="{{ route('blog-details') }}">How to Choose the Right ERP or Inventory System for Your Business</a></h3>
+                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'choose-right-erp-inventory-system']) }}">How to Choose the Right ERP or Inventory System for Your Business</a></h3>
                     <div class="blog-3__media">
-                      <a href="{{ route('blog-details') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blog-details', ['slug' => 'choose-right-erp-inventory-system']) }}"><img src="{{ asset('assets/imgs/inner/features/inventory_box_1783400245007.png') }}" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Avark</li>
                         <li class="date">Oct 04,2026</li>
@@ -74,9 +74,9 @@
                       <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
                     </ul>
 
-                    <h3 class="title"><a href="{{ route('blog-details') }}">How CRM Helps <br> Startups Scale<br> Faster</a></h3>
+                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'crm-helps-startups-scale-faster']) }}">How CRM Helps <br> Startups Scale<br> Faster</a></h3>
                     <div class="blog-3__media">
-                      <a href="{{ route('blog-details') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blog-details', ['slug' => 'crm-helps-startups-scale-faster']) }}"><img src="{{ asset('assets/imgs/inner/features/digital_marketing_1783400265688.png') }}" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Avark</li>
                         <li class="date">Oct 04,6</li>
@@ -94,9 +94,9 @@
                       <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
                     </ul>
 
-                    <h3 class="title"><a href="{{ route('blogs') }}">The Future of ERP Systems: Trends to Watch in <br> 2026</a></h3>
+                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}">The Future of ERP Systems: Trends to Watch in <br> 2026</a></h3>
                     <div class="blog-3__media">
-                      <a href="{{ route('blogs') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}"><img src="{{ asset('assets/imgs/inner/features/cloud_server_1783400149336.png') }}" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Agency</li>
                         <li class="date">Oct 04,2026</li>
@@ -113,9 +113,9 @@
                       <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
                     </ul>
 
-                    <h3 class="title"><a href="{{ route('blog-details') }}">How to Choose the Right ERP or Inventory System for Your Business</a></h3>
+                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'choose-right-erp-inventory-system']) }}">How to Choose the Right ERP or Inventory System for Your Business</a></h3>
                     <div class="blog-3__media">
-                      <a href="{{ route('blogs') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blog-details', ['slug' => 'choose-right-erp-inventory-system']) }}"><img src="{{ asset('assets/imgs/inner/features/barcode_scanner_1783402194262.png') }}" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Avark</li>
                         <li class="date">Oct 04,2026</li>
@@ -132,9 +132,9 @@
                       <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
                     </ul>
 
-                    <h3 class="title"><a href="{{ route('blogs') }}">How CRM Helps <br> Startups Scale<br> Faster</a></h3>
+                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'crm-helps-startups-scale-faster']) }}">How CRM Helps <br> Startups Scale<br> Faster</a></h3>
                     <div class="blog-3__media">
-                      <a href="{{ route('blogs') }}"><img src="assets/imgs/home-1/blog/kpm-blog02.png" alt="image"></a>
+                      <a href="{{ route('blog-details', ['slug' => 'crm-helps-startups-scale-faster']) }}"><img src="{{ asset('assets/imgs/inner/features/user_management_1783400202674.png') }}" alt="image"></a>
                       <ul class="blog-3__meta-list">
                         <li class="tag">Avark</li>
                         <li class="date">Oct 04,6</li>
@@ -145,27 +145,16 @@
               </div>
               
             </div>
-            <div class="page-nav-wrap d-flex justify-content-center">
-              <ul>
-                <li><a class="page-numbers style-2" href="#">PREV <i class="fa-solid fa-arrow-left"></i></a></li>
-                <li class="active"><a class="page-numbers" href="#">01</a></li>
-                <li><a class="page-numbers" href="#">02</a></li>
-                <li><a class="page-numbers" href="#">03</a></li>
-                <li><a class="page-numbers style-2" href="#">NEXT <i class="fa-solid fa-arrow-left"></i></a></li>
-              </ul>
-            </div>
           </div>
         </section>
 
-
-
         <section class="cta-section__area">
           <div class="container rr-container-1350">
-            <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
+            <div class="cta-section__wrapper" data-background="{{ asset('assets/imgs/home-3/shape/cta-3-bg.png') }}">
               <div class="section-title-3__wrapper tx-center">
-                <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
+                <h2 class="sub-title white"><img class="left-shape" src="{{ asset('assets/imgs/home-3/shape/shape-left-white.png') }}"
                     alt="image">Connect With Us <img class="right-shape"
-                    src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
+                    src="{{ asset('assets/imgs/home-3/shape/shape-right-white.png') }}" alt="image"></h2>
                 <h2 class="title rr-title-anim-1 white">Freedom Without Commitments.</h2>
                 <p class="cta-section__dec">Start your 30-day free trial. Cancel anytime.</p>
               </div>

@@ -147,6 +147,40 @@
 
                             </div>
                         </form>
+
+                        <!-- WhatsApp Redirection Script -->
+                        <script>
+                            document.getElementById('contact-form').addEventListener('submit', function(e) {
+                                e.preventDefault(); // Prevent default form submission to contact.php
+                                
+                                // Gather form data
+                                var name = document.getElementById('name').value;
+                                var mobile = document.getElementById('mobile').value;
+                                var email = document.getElementById('email').value;
+                                var service = document.getElementById('service').value;
+                                var message = document.getElementById('message').value;
+                                
+                                // Format the message for WhatsApp
+                                var text = "Hello Avark IT Services,\n\nI have a new inquiry:\n\n" +
+                                           "*Name:* " + name + "\n" +
+                                           "*Mobile:* " + mobile + "\n" +
+                                           "*Email:* " + email + "\n" +
+                                           "*Service/Product:* " + service + "\n" +
+                                           "*Message:* " + message;
+                                           
+                                // Target WhatsApp number
+                                var whatsappNumber = "917400920717";
+                                
+                                // URL encode the message text
+                                var encodedText = encodeURIComponent(text);
+                                
+                                // Construct the WhatsApp API URL
+                                var whatsappUrl = "https://wa.me/" + whatsappNumber + "?text=" + encodedText;
+                                
+                                // Open the WhatsApp chat in a new tab
+                                window.open(whatsappUrl, '_blank');
+                            });
+                        </script>
                     </div>
                 </div>
 
@@ -206,11 +240,26 @@
     </div>
 </section>
 
-<div class="map">
-    <div class="map-box">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.5796739631414!2d75.92894427587633!3d22.78097502529988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631dec5b794003%3A0x61c3f111e90a752d!2sAvark%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1771241199009!5m2!1sen!2sin"
-            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div class="map mb-5 pb-5">
+    <div class="container-fluid px-0">
+        <div class="row g-0">
+            <!-- Indore Office Map -->
+            <div class="col-lg-6">
+                <div class="map-box">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.5796739631414!2d75.92894427587633!3d22.78097502529988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631dec5b794003%3A0x61c3f111e90a752d!2sAvark%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1771241199009!5m2!1sen!2sin"
+                        style="border:0; width: 100%; height: 450px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- Bangalore Office Map -->
+            <div class="col-lg-6">
+                <div class="map-box">
+                    <iframe
+                        src="https://maps.google.com/maps?q=No.%20124,%202nd%20Cross,%20Nethravathi%20Street,%20Uday%20Nagar,%20Bengaluru%20%E2%80%93%20560016,%20Karnataka,%20India&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        style="border:0; width: 100%; height: 450px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -25,11 +25,7 @@
 
 <section class="service-details section-spacing">
   <div class="container rr-container-1350">
-    <div class="service-details__top">
-      <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
-      </div>
-    </div>
+    
     <div class="row">
       <div class="col-lg-4 col-12">
         <div class="service-details-sidebar" data-aos="fade-up" data-aos-duration="900">
@@ -52,246 +48,163 @@
       <div class="col-lg-8 col-12">
         <div class="service-details__content">
             <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Pathology & Diagnostic Management System</h2>
-            
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our Diagnostic Management Solution?</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2"><i class="fa-solid fa-bolt text-warning me-2"></i> Fast Services</h4>
-                <p class="desc">We provide rapid implementation and seamless deployment to ensure uninterrupted laboratory operations and faster diagnostic workflows.</p>
+            <h2 class="title rr-title-anim-1 mt-4" data-aos="fade-up" data-aos-duration="900">Why Choose Our Diagnostic Management Solution?</h2>
 
-                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-magnifying-glass text-info me-2"></i> Transparency</h4>
-                <p class="desc">Our system offers complete visibility into laboratory processes, sample tracking, reporting, and operational performance.</p>
-
-                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-handshake text-success me-2"></i> Trustable</h4>
-                <p class="desc">Trusted by healthcare organizations and diagnostic centers, our platform delivers accurate, secure, and reliable laboratory management.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-3 mt-3" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-warning bg-opacity-10">
+                        <div class="mb-3 text-warning fs-1"><i class="fa-solid fa-bolt"></i></div>
+                        <h5 class="card-title text-dark">Fast Services</h5>
+                        <p class="card-text desc small">Rapid implementation to ensure uninterrupted laboratory operations and faster workflows.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-info bg-opacity-10">
+                        <div class="mb-3 text-info fs-1"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h5 class="card-title text-dark">Transparency</h5>
+                        <p class="card-text desc small">Complete visibility into processes, sample tracking, reporting, and performance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-success bg-opacity-10">
+                        <div class="mb-3 text-success fs-1"><i class="fa-solid fa-handshake"></i></div>
+                        <h5 class="card-title text-dark">Trustable</h5>
+                        <p class="card-text desc small">Trusted by healthcare organizations for accurate, secure, and reliable lab management.</p>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Pathology & Diagnostic Management System</h2>
-            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">A Pathology or Diagnostic Management System is a specialized software solution designed to streamline, automate, and optimize various processes and workflows within pathology laboratories and diagnostic centers.</p>
+            <p class="desc mt-5" data-aos="fade-up" data-aos-duration="900">A Pathology or Diagnostic Management System is a specialized software solution designed to streamline, automate, and optimize various processes and workflows within pathology laboratories and diagnostic centers.</p>
             <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">The system improves efficiency, accuracy, and productivity in diagnostic testing and reporting, enabling healthcare professionals to deliver timely and reliable diagnostic results.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">As modern laboratories handle large volumes of patient data, samples, and test results, a robust diagnostic management system becomes essential for ensuring operational excellence and superior patient care.</p>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Features</h2>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Key Features</h2>
             
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Patient Registration & Sample Collection</h4>
-                <p class="desc">Efficiently register patients and record all sample collection details through a centralized digital platform.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Registration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Unique Patient Identification</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Sample Collection Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Barcode Generation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Collection History Tracking</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Laboratory Test Ordering & Scheduling</h4>
-                <p class="desc">Healthcare providers can easily order laboratory tests and schedule sample processing.</p>
-                <p class="desc mt-2">Capabilities include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Test Order Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Test Scheduling</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Priority Test Handling</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Doctor-Wise Test Requests</span></li>
-                </ul>
-                <p class="desc mt-2">This improves laboratory coordination and workflow management.</p>
-
-                <h4 class="title mt-4 mb-2">Sample Tracking & Management</h4>
-                <p class="desc">Track the complete lifecycle of samples from collection to disposal.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Barcode-Based Sample Tracking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Sample Status</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Storage Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Chain of Custody Tracking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Sample Disposal Management</span></li>
-                </ul>
-                <p class="desc mt-2">This ensures traceability and minimizes sample loss.</p>
-
-                <h4 class="title mt-4 mb-2">Automated Test Analysis</h4>
-                <p class="desc">Automate test processing, analysis, and result interpretation to improve accuracy and reduce manual intervention.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Faster Test Processing</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Reduced Human Errors</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Improved Productivity</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consistent Results</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Integration with Laboratory Instruments</h4>
-                <p class="desc">The system integrates directly with laboratory analyzers and instruments to automatically capture test results.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Automated Data Collection</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Reduced Manual Data Entry</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Improved Accuracy</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Faster Reporting</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Quality Control & Assurance</h4>
-                <p class="desc">Ensure diagnostic excellence through integrated quality management features.</p>
-                <p class="desc mt-2">Capabilities include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Internal Quality Control</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Quality Assurance Monitoring</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Calibration Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Error Tracking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Compliance Reporting</span></li>
-                </ul>
-                <p class="desc mt-2">This helps laboratories maintain high standards of accuracy and reliability.</p>
-
-                <h4 class="title mt-4 mb-2">Electronic Health Records (EHR) Integration</h4>
-                <p class="desc">Seamlessly integrate with Electronic Health Record systems to access patient history and clinical information.</p>
-                <p class="desc mt-2">Integration enables:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Better Clinical Decision Making</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Complete Patient View</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Improved Care Coordination</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Report Generation & Delivery</h4>
-                <p class="desc">Generate detailed, customizable, and professional laboratory reports.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Automated Report Generation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Digital Report Delivery</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Email & SMS Notifications</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Customized Report Templates</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Online Report Access</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Billing & Accounting</h4>
-                <p class="desc">Automate laboratory billing and financial operations.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Test Billing</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Package Billing</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Insurance Billing</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Revenue Tracking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Financial Reporting</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Security & Compliance</h4>
-                <p class="desc">Protect sensitive healthcare information through robust security mechanisms.</p>
-                <p class="desc mt-2">Security features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Role-Based Access Control</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Data Encryption</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Audit Trails</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Secure Authentication</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Regulatory Compliance</span></li>
-                </ul>
-                <p class="desc mt-2">This ensures confidentiality and compliance with healthcare standards such as HIPAA and other applicable regulations.</p>
-
-                <h4 class="title mt-4 mb-2">User Roles & Permissions</h4>
-                <p class="desc">Define and manage user access based on roles and responsibilities.</p>
-                <p class="desc mt-2">Typical user roles include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Pathologists</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Laboratory Technicians</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Reception Staff</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Billing Personnel</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Administrators</span></li>
-                </ul>
-                <p class="desc mt-2">Role-based access improves security and workflow efficiency.</p>
-
-                <h4 class="title mt-4 mb-2">Workflow Automation</h4>
-                <p class="desc">Automate routine laboratory processes to reduce manual effort and operational delays.</p>
-                <p class="desc mt-2">Automated workflows improve:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Productivity</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Turnaround Time</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Accuracy</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Resource Utilization</span></li>
-                </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/healthcare_tech_1783400169534.png" class="card-img-top" alt="Sample Collection" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-vial-virus me-2"></i> Registration & Samples</h5>
+                            <p class="card-text desc small">Efficient patient registration and sample collection management with barcode generation and complete lifecycle tracking.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/analytics_dashboard_1783400138562.png" class="card-img-top" alt="Test Analysis" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-microscope me-2"></i> Tests & Integration</h5>
+                            <p class="card-text desc small">Order and schedule lab tests seamlessly. Automate test analysis and integrate directly with laboratory instruments to capture results.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/quality_report_1783402173893.png" class="card-img-top" alt="Quality" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-file-medical-alt me-2"></i> Quality & Reporting</h5>
+                            <p class="card-text desc small">Maintain diagnostic excellence with quality control mechanisms. Automate report generation, digital delivery, and notifications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/hospital_building_1783400255519.png" class="card-img-top" alt="Billing" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-file-invoice-dollar me-2"></i> Billing & Compliance</h5>
+                            <p class="card-text desc small">Automate lab billing, insurance, and financial reports. Protect healthcare information with robust security and role-based access.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Benefits</h2>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Benefits & Workflow Automation</h2>
+            <div class="accordion" id="accordionBenefits" data-aos="fade-up" data-aos-duration="900">
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB1">
+                        <button class="accordion-button rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB1" aria-expanded="true" aria-controls="collapseB1">
+                            Accuracy & Efficiency
+                        </button>
+                    </h2>
+                    <div id="collapseB1" class="accordion-collapse collapse show" aria-labelledby="headingB1" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Enhanced Accuracy:</strong> Automation reduces human errors and ensures reliable diagnostic results.<br><br>
+                            <strong>Improved Efficiency:</strong> Streamlines operations, reduces paperwork, and minimizes manual processes.<br><br>
+                            <strong>Fast Turnaround:</strong> Accelerates test processing and report generation for faster diagnosis.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB2">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB2" aria-expanded="false" aria-controls="collapseB2">
+                            Patient Care & Communication
+                        </button>
+                    </h2>
+                    <div id="collapseB2" class="accordion-collapse collapse" aria-labelledby="headingB2" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Improved Patient Care:</strong> Timely reports support clinicians in making informed treatment decisions.<br><br>
+                            <strong>Customer Satisfaction:</strong> Better experience through faster services and accurate reporting.<br><br>
+                            <strong>Effective Communication:</strong> Seamless communication between lab teams and healthcare providers.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB3">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB3" aria-expanded="false" aria-controls="collapseB3">
+                            Resource & Data Management
+                        </button>
+                    </h2>
+                    <div id="collapseB3" class="accordion-collapse collapse" aria-labelledby="headingB3" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Data Centralization:</strong> Consolidates patient records, samples, and results into a centralized platform.<br><br>
+                            <strong>Resource Management:</strong> Optimizes utilization of reagents, instruments, staff, and consumables.<br><br>
+                            <strong>Compliance & Security:</strong> Ensures secure management of data while maintaining healthcare regulations.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5 mb-3" data-aos="fade-up" data-aos-duration="900">Additional Features</h2>
+            <div class="d-flex flex-wrap gap-2 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-barcode me-2"></i>Barcode Integration</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-laptop-medical me-2"></i>Online Patient Portal</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-mobile-screen me-2"></i>Mobile Access App</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-boxes-stacked me-2"></i>Inventory Management</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-user-doctor me-2"></i>Doctor Referral</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-building me-2"></i>Multi-Location Support</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-cloud me-2"></i>Cloud & On-Premise</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-link me-2"></i>Third-Party Integrations</span>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
             
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Improved Efficiency</h4>
-                <p class="desc">Streamlines laboratory operations, reduces paperwork, and minimizes manual processes, resulting in greater operational efficiency.</p>
-
-                <h4 class="title mt-4 mb-2">Enhanced Accuracy</h4>
-                <p class="desc">Automation reduces human errors and ensures accurate, consistent, and reliable diagnostic results.</p>
-
-                <h4 class="title mt-4 mb-2">Fast Turnaround Times</h4>
-                <p class="desc">Accelerates test processing and report generation, enabling faster diagnosis and treatment decisions.</p>
-
-                <h4 class="title mt-4 mb-2">Data Centralization</h4>
-                <p class="desc">Consolidates patient records, sample information, and test results into a centralized and easily accessible platform.</p>
-
-                <h4 class="title mt-4 mb-2">Improved Patient Care</h4>
-                <p class="desc">Timely and accurate diagnostic reports support clinicians in making informed treatment decisions and improving patient outcomes.</p>
-
-                <h4 class="title mt-4 mb-2">Effective Communication</h4>
-                <p class="desc">Facilitates seamless communication between laboratory teams, clinicians, and healthcare providers.</p>
-
-                <h4 class="title mt-4 mb-2">Compliance & Security</h4>
-                <p class="desc">Ensures secure management of patient information while maintaining compliance with healthcare regulations and standards.</p>
-
-                <h4 class="title mt-4 mb-2">Better Resource Management</h4>
-                <p class="desc">Optimizes the utilization of laboratory resources, including:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Reagents</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Instruments</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Staff</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consumables</span></li>
-                </ul>
-                <p class="desc mt-2">This reduces wastage and operational costs.</p>
-
-                <h4 class="title mt-4 mb-2">Data Analysis & Reporting</h4>
-                <p class="desc">Advanced analytics and reporting tools provide valuable insights into laboratory performance and operational trends.</p>
-
-                <h4 class="title mt-4 mb-2">Customer Satisfaction</h4>
-                <p class="desc">Improves overall patient and healthcare provider experience through faster services, accurate reporting, and better communication.</p>
+            <div class="card border-0 shadow-sm p-4 bg-light bg-opacity-50" data-aos="fade-up" data-aos-duration="900">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-phone me-2"></i> Contact Information</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Mobile:</strong> <a href="tel:+917400920717" class="text-decoration-none">+91-7400920717</a>, <a href="tel:+919977699982" class="text-decoration-none">+91-9977699982</a></li>
+                            <li><strong>Sales:</strong> <a href="mailto:sales@avark.in" class="text-decoration-none">sales@avark.in</a></li>
+                            <li><strong>Support:</strong> <a href="mailto:support@avark.in" class="text-decoration-none">support@avark.in</a></li>
+                        </ul>
+                        
+                        <h5 class="text-primary mt-4"><i class="fa-solid fa-share-nodes me-2"></i> Connect With Us</h5>
+                        <div class="d-flex gap-3 mt-3">
+                            <a href="#" class="fs-4 text-primary"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="fs-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-4 text-info"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-4 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Additional Features</h2>
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <ul>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Barcode & QR Code Integration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Online Patient Portal</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Mobile Access</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>SMS & Email Notifications</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Location Laboratory Support</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Dashboard & MIS Reports</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Inventory Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Doctor Referral Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Cloud & On-Premise Deployment</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Third-Party System Integration</span></li>
-                </ul>
-            </div>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Available on Mobile App</h2>
-            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Access laboratory information anytime and anywhere through our mobile-enabled diagnostic management platform.</p>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Connect With Us</h4>
-                <ul class="mt-2">
-                    <li><i class="fa-brands fa-facebook text-primary me-2"></i><span>Facebook</span></li>
-                    <li><i class="fa-brands fa-instagram text-danger me-2"></i><span>Instagram</span></li>
-                    <li><i class="fa-brands fa-linkedin text-info me-2"></i><span>LinkedIn</span></li>
-                    <li><i class="fa-brands fa-whatsapp text-success me-2"></i><span>WhatsApp</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Contact Information</h4>
-                <p class="desc"><strong>Mobile:</strong> <a href="tel:+917400920717">+91-7400920717</a>, <a href="tel:+919977699982">+91-9977699982</a></p>
-                <p class="desc mt-2"><strong>Sales Enquiry:</strong> <a href="mailto:sales@avark.in">sales@avark.in</a></p>
-                <p class="desc mt-2"><strong>Support:</strong> <a href="mailto:support@avark.in">support@avark.in</a></p>
-
-                <h4 class="title mt-4 mb-2">Office Addresses</h4>
-                <p class="desc mt-2"><strong>Indore Office:</strong> A-81, Vistara City, Indore - 452001, Madhya Pradesh, India</p>
-                <p class="desc mt-2"><strong>Bangalore Office:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</p>
-
-                <h4 class="title mt-4 mb-2">Book a Demo</h4>
-                <p class="desc">Transform your laboratory operations with our intelligent Pathology & Diagnostic Management System. Schedule a personalized demo today.</p>
-                <p class="desc mt-4"><strong>Copyright &copy; 2026 Avark Healthcare Technology Pvt. Ltd.</strong></p>
-                <p class="desc mt-2"><strong>Powered by Avark Healthcare Technology Pvt. Ltd.</strong></p>
-            </div>
-        </div>
       </div>
     </div>
   </div>

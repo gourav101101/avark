@@ -25,11 +25,7 @@
 
 <section class="service-details section-spacing">
   <div class="container rr-container-1350">
-    <div class="service-details__top">
-      <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img">
-      </div>
-    </div>
+    
     <div class="row">
       <div class="col-lg-4 col-12">
         <div class="service-details-sidebar" data-aos="fade-up" data-aos-duration="900">
@@ -51,90 +47,107 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-8 col-12">
+            <div class="col-lg-8 col-12">
         <div class="service-details__content">
-          <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Smart Self-Service for Faster Patient Experience</h2>
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Transform your hospital or clinic with our advanced KIOSK Management System. Enable patients to register, book appointments, make payments, and check reports through an easy-to-use self-service kiosk — reducing queues and improving operational efficiency.</p>
+            <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">KIOSK Management System</h2>
+            <h2 class="title rr-title-anim-1 mt-4" data-aos="fade-up" data-aos-duration="900">Smart Self-Service for Faster Patient Experience</h2>
 
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Deliver faster service, minimize manual workload, and enhance patient satisfaction with intelligent automation.</p>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Transform your hospital or clinic with our advanced KIOSK Management System. Enable patients to register, book appointments, make payments, and check reports through an easy-to-use self-service kiosk — reducing queues and improving operational efficiency.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Deliver faster service, minimize manual workload, and enhance patient satisfaction with intelligent automation.</p>
 
-          <div class="service-details__top">
-            <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-              <img src="assets/imgs/inner/service-detils/p2.png" alt="img">
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Why Use Kiosks?</h2>
+            
+            <div class="row row-cols-1 row-cols-md-3 g-3 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-primary bg-opacity-10">
+                        <div class="mb-3 text-primary fs-1"><i class="fa-solid fa-stopwatch"></i></div>
+                        <h5 class="card-title text-dark">Reduce Wait Time</h5>
+                        <p class="card-text desc small">Patients bypass front desk lines for routine tasks.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-success bg-opacity-10">
+                        <div class="mb-3 text-success fs-1"><i class="fa-solid fa-users-gear"></i></div>
+                        <h5 class="card-title text-dark">Improve Productivity</h5>
+                        <p class="card-text desc small">Staff can focus on critical healthcare responsibilities.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-info bg-opacity-10">
+                        <div class="mb-3 text-info fs-1"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                        <h5 class="card-title text-dark">Faster Payments</h5>
+                        <p class="card-text desc small">Secure and rapid self-service billing and payments.</p>
+                    </div>
+                </div>
             </div>
-          </div>
 
-          <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Detailed Description</h2>
-          <p data-aos="fade-up" data-aos-duration="900">Our KIOSK Management System is designed to digitize front-desk operations and reduce dependency on manual processes. Patients can independently complete routine tasks, while your staff focuses on critical healthcare responsibilities.</p>
-
-          <p data-aos="fade-up" data-aos-duration="900">From OPD registrations to bill payments, token generation to report downloads — everything becomes smooth, quick, and paperless.</p>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="service-details">
-  <div class="container rr-container-1350">
-    <div class="row">
-
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-12 col-12">
-      <div class="service-details__content">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Key Features </h2>
-
-            <ul data-aos="fade-up" data-aos-duration="900">
-              <li><i class="fa-solid fa-angles-right"></i>Self Patient Registration</li>
-              <li><i class="fa-solid fa-angles-right"></i>Appointment Booking & Token Generation</li>
-              <li><i class="fa-solid fa-angles-right"></i>OPD/IPD Bill Payments</li>
-              <li><i class="fa-solid fa-angles-right"></i>Lab Report Access & Printing</li>
-              <li><i class="fa-solid fa-angles-right"></i>Multi-Language Support</li>
-              <li><i class="fa-solid fa-angles-right"></i>Touch-Screen Friendly Interface</li>
-              <li><i class="fa-solid fa-angles-right"></i>Real-Time Integration with HMS</li>
-              <li><i class="fa-solid fa-angles-right"></i>Secure Payment Gateway Integration</li>
-              <li><i class="fa-solid fa-angles-right"></i>QR Code & Aadhaar-Based Identification (Optional)</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <div>
-              <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">How It Benefits Your Hospital</h2>
-              <ul>
-                <li> <i class="fa-regular fa-angle-right"></i> Reduce Waiting Time</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Improve Staff Productivity</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Faster Billing & Payments</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Real-Time Data Sync</li>
-                <li> <i class="fa-regular fa-angle-right"></i> Better Patient Experience</li>
-              </ul>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Core Capabilities</h2>
+            
+            <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/machine_kiosk_1783400298207.png" class="card-img-top" alt="Digital Collection" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-clipboard-user me-2"></i> Registration & Booking</h5>
+                            <p class="card-text desc small">Self patient registration, appointment booking, and token generation. Digitizes front-desk operations entirely.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/security_lock_1783400190184.png" class="card-img-top" alt="Real-Time Analytics" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-file-invoice-dollar me-2"></i> Billing & Reports</h5>
+                            <p class="card-text desc small">Handle OPD/IPD bill payments with secure gateway integration and provide instant access to lab report printing.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
 
-        </div>
+            <h2 class="title rr-title-anim-1 mt-5 mb-3" data-aos="fade-up" data-aos-duration="900">Comprehensive Features</h2>
+            <div class="d-flex flex-wrap gap-2 mb-4" data-aos="fade-up" data-aos-duration="900">
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-user-plus me-2"></i>Self Registration</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-calendar-check me-2"></i>Token & Booking</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-credit-card me-2"></i>Secure Payments</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-print me-2"></i>Report Printing</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-language me-2"></i>Multi-Language</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-hand-pointer me-2"></i>Touch Interface</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-server me-2"></i>Real-Time HMS Sync</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-id-card me-2"></i>Aadhaar/QR Login</span>
+            </div>
+            
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">From OPD registrations to bill payments, token generation to report downloads — everything becomes smooth, quick, and paperless.</p>
+        
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
+            
+            <div class="card border-0 shadow-sm p-4 bg-light bg-opacity-50" data-aos="fade-up" data-aos-duration="900">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-phone me-2"></i> Contact Information</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Mobile:</strong> <a href="tel:+917400920717" class="text-decoration-none">+91-7400920717</a>, <a href="tel:+919977699982" class="text-decoration-none">+91-9977699982</a></li>
+                            <li><strong>Sales:</strong> <a href="mailto:sales@avark.in" class="text-decoration-none">sales@avark.in</a></li>
+                            <li><strong>Support:</strong> <a href="mailto:support@avark.in" class="text-decoration-none">support@avark.in</a></li>
+                        </ul>
+                        
+                        <h5 class="text-primary mt-4"><i class="fa-solid fa-share-nodes me-2"></i> Connect With Us</h5>
+                        <div class="d-flex gap-3 mt-3">
+                            <a href="#" class="fs-4 text-primary"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="fs-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-4 text-info"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-4 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+</div>
       </div>
     </div>
   </div>
@@ -230,7 +243,37 @@
             </div>
           </div>
 
-        </div>
+        
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
+            
+            <div class="card border-0 shadow-sm p-4 bg-light bg-opacity-50" data-aos="fade-up" data-aos-duration="900">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-phone me-2"></i> Contact Information</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Mobile:</strong> <a href="tel:+917400920717" class="text-decoration-none">+91-7400920717</a>, <a href="tel:+919977699982" class="text-decoration-none">+91-9977699982</a></li>
+                            <li><strong>Sales:</strong> <a href="mailto:sales@avark.in" class="text-decoration-none">sales@avark.in</a></li>
+                            <li><strong>Support:</strong> <a href="mailto:support@avark.in" class="text-decoration-none">support@avark.in</a></li>
+                        </ul>
+                        
+                        <h5 class="text-primary mt-4"><i class="fa-solid fa-share-nodes me-2"></i> Connect With Us</h5>
+                        <div class="d-flex gap-3 mt-3">
+                            <a href="#" class="fs-4 text-primary"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="fs-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-4 text-info"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-4 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+</div>
 
       </div>
     </div>

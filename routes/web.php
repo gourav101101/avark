@@ -19,6 +19,7 @@ Route::get('/cloud-and-data-migration', [PageController::class, 'CloudandDataMig
 Route::get('/enterprise-integration-services', [PageController::class, 'enterpriseIntegrationServices'])->name('enterprise-integration-services');
 Route::get('/digital-healthcare-solution', [PageController::class, 'DigitalHealthcareSolution'])->name('digital-healthcare-solution');
 Route::get('/tele-consultation', [PageController::class, 'TeleConsultation'])->name('tele-consultation');
+Route::get('/cms', [PageController::class, 'cms'])->name('cms');
 // service details page  Kp End
 
 
@@ -44,5 +45,6 @@ Route::get('/industrial-asset-management', [PageController::class, 'industrialAs
 
 
 Route::get('/contact-us', [PageController::class, 'ContactUs'])->name('contact-us');
+Route::get('/partners', [PageController::class, 'Partners'])->name('partners');
 Route::get('/blogs', [PageController::class, 'Blogs'])->name('blogs');
-Route::get('/blog-details', [PageController::class, 'BlogDetails'])->name('blog-details');
+Route::get('/blog-details/{slug}', [PageController::class, 'BlogDetails'])->name('blog-details');

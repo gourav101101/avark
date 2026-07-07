@@ -54,209 +54,291 @@
         <div class="service-details__content">
             <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Content Management System (CMS)</h2>
 
-            <h2 class="title rr-title-anim-1 mt-4" data-aos="fade-up" data-aos-duration="900">Why Choose Our CMS Solutions?</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">⚡ Fast Services</h4>
-                <p class="desc">We provide rapid deployment and implementation of CMS solutions, enabling organizations to manage digital content efficiently and effectively.</p>
-
-                <h4 class="title mt-4 mb-2">🔍 Transparency</h4>
-                <p class="desc">Our CMS platforms offer complete transparency in content creation, publishing workflows, and user management, ensuring streamlined operations.</p>
-
-                <h4 class="title mt-4 mb-2">🤝 Trustable</h4>
-                <p class="desc">Trusted by businesses across industries, our CMS solutions are secure, scalable, and designed to simplify website and content management.</p>
+            <!-- Why Choose Us - Card Grid -->
+            <h2 class="service-compact-title mt-4" data-aos="fade-up" data-aos-duration="900">Why Choose Our CMS Solutions?</h2>
+            <div class="service-why-cards" data-aos="fade-up" data-aos-duration="900">
+                <div class="service-why-card">
+                    <span class="why-icon">⚡</span>
+                    <h4 class="why-title">Fast Services</h4>
+                    <p class="why-desc">We provide rapid deployment and implementation of CMS solutions, enabling organizations to manage digital content efficiently and effectively.</p>
+                </div>
+                <div class="service-why-card">
+                    <span class="why-icon">🔍</span>
+                    <h4 class="why-title">Transparency</h4>
+                    <p class="why-desc">Our CMS platforms offer complete transparency in content creation, publishing workflows, and user management, ensuring streamlined operations.</p>
+                </div>
+                <div class="service-why-card">
+                    <span class="why-icon">🤝</span>
+                    <h4 class="why-title">Trustable</h4>
+                    <p class="why-desc">Trusted by businesses across industries, our CMS solutions are secure, scalable, and designed to simplify website and content management.</p>
+                </div>
             </div>
 
-            <p class="desc mt-5" data-aos="fade-up" data-aos-duration="900">A Content Management System (CMS) is a software application that allows users to create, manage, and publish digital content on the web without requiring advanced technical expertise.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">CMS platforms simplify website and web application management by providing an intuitive interface for content creation, editing, and publishing. By separating content from design and functionality, CMS solutions make it easier to update, maintain, and scale digital platforms efficiently.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Content Management Systems are widely used for blogs, corporate websites, e-commerce portals, news platforms, educational websites, and many other digital experiences.</p>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Components of a CMS</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Content Creation & Editing</h4>
-                <p class="desc">CMS platforms provide a user-friendly <strong>WYSIWYG (What You See Is What You Get)</strong> editor that allows users to create and edit content without coding knowledge.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Rich Text Editing</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Drag-and-Drop Content Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Content Formatting Tools</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Preview</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Multimedia Content Integration</span></li>
-                </ul>
-                <p class="desc mt-2">This enables non-technical users to manage website content independently.</p>
-
-                <h4 class="title mt-4 mb-2">Content Organization</h4>
-                <p class="desc">Efficient content organization helps manage large volumes of information.</p>
-                <p class="desc mt-2">CMS solutions provide:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Categories</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Tags</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Content Hierarchies</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Custom Taxonomies</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Search and Filtering Capabilities</span></li>
-                </ul>
-                <p class="desc mt-2">These features ensure content remains structured and easy to access.</p>
-
-                <h4 class="title mt-4 mb-2">User Roles & Permissions</h4>
-                <p class="desc">Role-based access control allows administrators to define permissions for different users.</p>
-                <p class="desc mt-2">Typical user roles include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Administrator</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Editor</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Author</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Contributor</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Subscriber</span></li>
-                </ul>
-                <p class="desc mt-2">This ensures that only authorized users can create, modify, approve, or publish content.</p>
-
-                <h4 class="title mt-4 mb-2">Media Management</h4>
-                <p class="desc">CMS platforms include centralized media libraries for managing digital assets such as:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Images</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Videos</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Documents</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Audio Files</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>PDFs</span></li>
-                </ul>
-                <p class="desc mt-2">Media management features improve content consistency and simplify asset organization.</p>
-
-                <h4 class="title mt-4 mb-2">Themes & Templates</h4>
-                <p class="desc">CMS platforms support customizable themes and templates that allow organizations to modify website design and layout without affecting the underlying content.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consistent Branding</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Flexible Design Customization</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Faster Website Development</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Easy Design Updates</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Version Control</h4>
-                <p class="desc">Version control functionality maintains a history of content revisions and modifications.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Content History Tracking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Revision Comparison</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Rollback to Previous Versions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Audit Trails</span></li>
-                </ul>
-                <p class="desc mt-2">This ensures content accuracy and accountability.</p>
+            <!-- Intro Text -->
+            <div class="service-intro-text" data-aos="fade-up" data-aos-duration="900">
+                <p>A Content Management System (CMS) is a software application that allows users to create, manage, and publish digital content on the web without requiring advanced technical expertise.</p>
+                <p>CMS platforms simplify website and web application management by providing an intuitive interface for content creation, editing, and publishing. By separating content from design and functionality, CMS solutions make it easier to update, maintain, and scale digital platforms efficiently.</p>
+                <p>Content Management Systems are widely used for blogs, corporate websites, e-commerce portals, news platforms, educational websites, and many other digital experiences.</p>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Features of CMS</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Scheduling & Publishing</h4>
-                <p class="desc">Users can schedule content publication for specific dates and times, enabling efficient content planning and automated publishing workflows.</p>
+            <hr class="service-section-divider">
 
-                <h4 class="title mt-4 mb-2">Responsive Design</h4>
-                <p class="desc">Modern CMS platforms support responsive design principles, ensuring websites deliver optimal experiences across:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Desktops</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Tablets</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Smartphones</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Multiple Screen Sizes</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Plugins & Extensions</h4>
-                <p class="desc">CMS platforms support plugins and extensions that enable organizations to add new features and functionalities without custom development.</p>
-                <p class="desc mt-2">Examples include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>SEO Tools</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Contact Forms</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Security Enhancements</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Analytics Integrations</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>E-Commerce Modules</span></li>
-                </ul>
+            <!-- Key Components - Accordion -->
+            <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Key Components of a CMS</h2>
+            <div class="accordion service-accordion" id="cmsComponents" data-aos="fade-up" data-aos-duration="900">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#comp1" aria-expanded="true">Content Creation & Editing</button></h2>
+                    <div id="comp1" class="accordion-collapse collapse show" data-bs-parent="#cmsComponents">
+                        <div class="accordion-body">
+                            <p>CMS platforms provide a user-friendly <strong>WYSIWYG (What You See Is What You Get)</strong> editor that allows users to create and edit content without coding knowledge.</p>
+                            <p>Features include:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Rich Text Editing</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Drag-and-Drop Content Management</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Content Formatting Tools</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Preview</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Multimedia Content Integration</span></li>
+                            </ul>
+                            <p>This enables non-technical users to manage website content independently.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#comp2">Content Organization</button></h2>
+                    <div id="comp2" class="accordion-collapse collapse" data-bs-parent="#cmsComponents">
+                        <div class="accordion-body">
+                            <p>Efficient content organization helps manage large volumes of information.</p>
+                            <p>CMS solutions provide:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Categories</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Tags</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Content Hierarchies</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Custom Taxonomies</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Search and Filtering Capabilities</span></li>
+                            </ul>
+                            <p>These features ensure content remains structured and easy to access.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#comp3">User Roles & Permissions</button></h2>
+                    <div id="comp3" class="accordion-collapse collapse" data-bs-parent="#cmsComponents">
+                        <div class="accordion-body">
+                            <p>Role-based access control allows administrators to define permissions for different users.</p>
+                            <p>Typical user roles include:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Administrator</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Editor</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Author</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Contributor</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Subscriber</span></li>
+                            </ul>
+                            <p>This ensures that only authorized users can create, modify, approve, or publish content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#comp4">Media Management</button></h2>
+                    <div id="comp4" class="accordion-collapse collapse" data-bs-parent="#cmsComponents">
+                        <div class="accordion-body">
+                            <p>CMS platforms include centralized media libraries for managing digital assets such as:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Images</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Videos</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Documents</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Audio Files</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>PDFs</span></li>
+                            </ul>
+                            <p>Media management features improve content consistency and simplify asset organization.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#comp5">Themes & Templates</button></h2>
+                    <div id="comp5" class="accordion-collapse collapse" data-bs-parent="#cmsComponents">
+                        <div class="accordion-body">
+                            <p>CMS platforms support customizable themes and templates that allow organizations to modify website design and layout without affecting the underlying content.</p>
+                            <p>Benefits include:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Consistent Branding</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Flexible Design Customization</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Faster Website Development</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Easy Design Updates</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#comp6">Version Control</button></h2>
+                    <div id="comp6" class="accordion-collapse collapse" data-bs-parent="#cmsComponents">
+                        <div class="accordion-body">
+                            <p>Version control functionality maintains a history of content revisions and modifications.</p>
+                            <p>Benefits include:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Content History Tracking</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Revision Comparison</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Rollback to Previous Versions</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Audit Trails</span></li>
+                            </ul>
+                            <p>This ensures content accuracy and accountability.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Types of CMS Platforms</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Traditional CMS</h4>
-                <p class="desc">Traditional CMS platforms manage both content and presentation layers.</p>
-                <p class="desc mt-2">Suitable for:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Corporate Websites</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Blogs</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Informational Websites</span></li>
-                </ul>
-                <p class="desc mt-2">Popular examples include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>WordPress</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Joomla</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Drupal</span></li>
-                </ul>
+            <hr class="service-section-divider">
 
-                <h4 class="title mt-4 mb-2">Headless CMS</h4>
-                <p class="desc">Headless CMS separates the content management backend from the front-end presentation layer.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Greater Flexibility</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Omnichannel Content Delivery</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>API-Based Content Distribution</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Improved Scalability</span></li>
-                </ul>
-                <p class="desc mt-2">Headless CMS is ideal for delivering content across websites, mobile apps, IoT devices, and digital platforms.</p>
-
-                <h4 class="title mt-4 mb-2">Enterprise CMS</h4>
-                <p class="desc">Enterprise CMS solutions are designed for large organizations with complex content management requirements.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Advanced Workflows</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Site Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Enterprise Integrations</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Content Governance</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Scalability</span></li>
-                </ul>
-                <p class="desc mt-2">Enterprise CMS platforms often integrate with systems such as CRM and ERP.</p>
-
-                <h4 class="title mt-4 mb-2">E-Commerce CMS</h4>
-                <p class="desc">E-Commerce CMS platforms are specifically designed for managing online stores and product catalogs.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Product Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Shopping Cart Functionality</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Order Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Payment Gateway Integration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Inventory Management</span></li>
-                </ul>
-                <p class="desc mt-2">Popular examples include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Magento</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Shopify</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>WooCommerce</span></li>
-                </ul>
+            <!-- Key Features - Accordion -->
+            <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Key Features of CMS</h2>
+            <div class="accordion service-accordion" id="cmsFeatures" data-aos="fade-up" data-aos-duration="900">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#feat1" aria-expanded="true">Scheduling & Publishing</button></h2>
+                    <div id="feat1" class="accordion-collapse collapse show" data-bs-parent="#cmsFeatures">
+                        <div class="accordion-body">
+                            <p>Users can schedule content publication for specific dates and times, enabling efficient content planning and automated publishing workflows.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#feat2">Responsive Design</button></h2>
+                    <div id="feat2" class="accordion-collapse collapse" data-bs-parent="#cmsFeatures">
+                        <div class="accordion-body">
+                            <p>Modern CMS platforms support responsive design principles, ensuring websites deliver optimal experiences across:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Desktops</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Tablets</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Smartphones</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Multiple Screen Sizes</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#feat3">Plugins & Extensions</button></h2>
+                    <div id="feat3" class="accordion-collapse collapse" data-bs-parent="#cmsFeatures">
+                        <div class="accordion-body">
+                            <p>CMS platforms support plugins and extensions that enable organizations to add new features and functionalities without custom development.</p>
+                            <p>Examples include:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>SEO Tools</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Contact Forms</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Security Enhancements</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Analytics Integrations</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>E-Commerce Modules</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Benefits of CMS</h2>
-            <ul data-aos="fade-up" data-aos-duration="900" class="mt-3">
-                <li><i class="fa-solid fa-angles-right"></i><strong>Easy Content Creation and Management</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Reduced Dependency on Technical Teams</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Faster Website Updates</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Improved Collaboration</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Better Content Organization</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Enhanced User Experience</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Scalable Website Management</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Consistent Branding</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>SEO-Friendly Content Management</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Cost-Effective Website Maintenance</strong></li>
-            </ul>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Content Management Systems have transformed web development by enabling organizations and individuals to manage their digital presence efficiently without extensive programming knowledge.</p>
+            <hr class="service-section-divider">
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Additional CMS Features</h2>
-            <ul data-aos="fade-up" data-aos-duration="900" class="mt-3">
-                <li><i class="fa-solid fa-angles-right"></i><strong>Multi-Language Support</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Search Engine Optimization (SEO)</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Workflow Management</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Analytics Integration</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Security Management</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Backup & Recovery</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>API Integration</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Cloud Deployment</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Multi-Site Management</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Content Approval Workflows</strong></li>
-            </ul>
+            <!-- Types of CMS - Accordion -->
+            <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Types of CMS Platforms</h2>
+            <div class="accordion service-accordion" id="cmsTypes" data-aos="fade-up" data-aos-duration="900">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#type1" aria-expanded="true">Traditional CMS</button></h2>
+                    <div id="type1" class="accordion-collapse collapse show" data-bs-parent="#cmsTypes">
+                        <div class="accordion-body">
+                            <p>Traditional CMS platforms manage both content and presentation layers.</p>
+                            <p>Suitable for:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Corporate Websites</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Blogs</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Informational Websites</span></li>
+                            </ul>
+                            <p>Popular examples include: WordPress, Joomla, Drupal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#type2">Headless CMS</button></h2>
+                    <div id="type2" class="accordion-collapse collapse" data-bs-parent="#cmsTypes">
+                        <div class="accordion-body">
+                            <p>Headless CMS separates the content management backend from the front-end presentation layer.</p>
+                            <p>Benefits include:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Greater Flexibility</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Omnichannel Content Delivery</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>API-Based Content Distribution</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Improved Scalability</span></li>
+                            </ul>
+                            <p>Headless CMS is ideal for delivering content across websites, mobile apps, IoT devices, and digital platforms.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#type3">Enterprise CMS</button></h2>
+                    <div id="type3" class="accordion-collapse collapse" data-bs-parent="#cmsTypes">
+                        <div class="accordion-body">
+                            <p>Enterprise CMS solutions are designed for large organizations with complex content management requirements.</p>
+                            <p>Features include:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Advanced Workflows</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Multi-Site Management</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Enterprise Integrations</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Content Governance</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Scalability</span></li>
+                            </ul>
+                            <p>Enterprise CMS platforms often integrate with systems such as CRM and ERP.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#type4">E-Commerce CMS</button></h2>
+                    <div id="type4" class="accordion-collapse collapse" data-bs-parent="#cmsTypes">
+                        <div class="accordion-body">
+                            <p>E-Commerce CMS platforms are specifically designed for managing online stores and product catalogs.</p>
+                            <p>Features include:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Product Management</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Shopping Cart Functionality</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Order Management</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Payment Gateway Integration</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Inventory Management</span></li>
+                            </ul>
+                            <p>Popular examples include: Magento, Shopify, WooCommerce</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="service-section-divider">
+
+            <!-- Benefits - Badge Grid -->
+            <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Benefits of CMS</h2>
+            <div class="service-features-grid" data-aos="fade-up" data-aos-duration="900">
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Easy Content Creation and Management</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Reduced Dependency on Technical Teams</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Faster Website Updates</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Improved Collaboration</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Better Content Organization</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Enhanced User Experience</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Scalable Website Management</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Consistent Branding</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> SEO-Friendly Content Management</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Cost-Effective Website Maintenance</span>
+            </div>
+            <div class="service-intro-text" data-aos="fade-up" data-aos-duration="900">
+                <p>Content Management Systems have transformed web development by enabling organizations and individuals to manage their digital presence efficiently without extensive programming knowledge.</p>
+            </div>
+
+            <hr class="service-section-divider">
+
+            <!-- Additional Features - Badge Grid -->
+            <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Additional CMS Features</h2>
+            <div class="service-features-grid" data-aos="fade-up" data-aos-duration="900">
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Multi-Language Support</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Search Engine Optimization (SEO)</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Workflow Management</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Analytics Integration</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Security Management</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Backup & Recovery</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> API Integration</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Cloud Deployment</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Multi-Site Management</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Content Approval Workflows</span>
+            </div>
 
         </div>
     </div>

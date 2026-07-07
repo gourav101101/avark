@@ -25,11 +25,7 @@
 
 <section class="service-details section-spacing">
   <div class="container rr-container-1350">
-    <div class="service-details__top">
-      <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
-      </div>
-    </div>
+    
     <div class="row">
       <div class="col-lg-4 col-12">
         <div class="service-details-sidebar" data-aos="fade-up" data-aos-duration="900">
@@ -50,240 +46,166 @@
         </div>
       </div>
       <div class="col-lg-8 col-12">
-        <div class="service-details__content">
-            <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Dialysis Management System</h2>
+        <div class="service-details__content">            <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Dialysis Management System</h2>
             
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our Dialysis Management Solution?</h2>
+            <h2 class="title rr-title-anim-1 mt-4" data-aos="fade-up" data-aos-duration="900">Why Choose Our Dialysis Management Solution?</h2>
             
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2"><i class="fa-solid fa-bolt text-warning me-2"></i> Fast Services</h4>
-                <p class="desc">We provide rapid implementation and seamless deployment to ensure uninterrupted dialysis operations and improved patient care.</p>
-
-                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-magnifying-glass text-info me-2"></i> Transparency</h4>
-                <p class="desc">Our system offers complete visibility into dialysis treatments, patient progress, clinical workflows, and operational performance.</p>
-
-                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-handshake text-success me-2"></i> Trustable</h4>
-                <p class="desc">Trusted by hospitals and dialysis centers, our platform delivers secure, accurate, and reliable dialysis care management.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-3 mt-3" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-warning bg-opacity-10">
+                        <div class="mb-3 text-warning fs-1"><i class="fa-solid fa-bolt"></i></div>
+                        <h5 class="card-title text-dark">Fast Services</h5>
+                        <p class="card-text desc small">Rapid implementation and seamless deployment to ensure uninterrupted dialysis operations.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-info bg-opacity-10">
+                        <div class="mb-3 text-info fs-1"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h5 class="card-title text-dark">Transparency</h5>
+                        <p class="card-text desc small">Complete visibility into treatments, patient progress, clinical workflows, and performance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-success bg-opacity-10">
+                        <div class="mb-3 text-success fs-1"><i class="fa-solid fa-handshake"></i></div>
+                        <h5 class="card-title text-dark">Trustable</h5>
+                        <p class="card-text desc small">Trusted by hospitals and centers for secure, accurate, and reliable care management.</p>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Dialysis Management System</h2>
-            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">A Dialysis Management System is a specialized healthcare software solution designed to streamline and automate the various processes involved in managing dialysis treatment for patients suffering from kidney failure or chronic kidney disease (CKD).</p>
+            <p class="desc mt-5" data-aos="fade-up" data-aos-duration="900">A Dialysis Management System is a specialized healthcare software solution designed to streamline and automate the various processes involved in managing dialysis treatment for patients suffering from kidney failure or chronic kidney disease (CKD).</p>
             <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">The system is widely used in hospitals, nephrology departments, and dialysis centers to improve operational efficiency, ensure accurate treatment administration, and enhance the quality of patient care.</p>
             <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">By digitizing dialysis workflows, healthcare providers can effectively monitor treatment progress, improve patient safety, and deliver high-quality dialysis services.</p>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Features</h2>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Key Features</h2>
             
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Patient Management</h4>
-                <p class="desc">Efficiently register and manage patient information through a centralized digital platform.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Registration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Demographic Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Medical History Tracking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Treatment Planning</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Clinical Documentation</span></li>
-                </ul>
-                <p class="desc mt-2">A centralized patient database ensures comprehensive and accurate patient records.</p>
-
-                <h4 class="title mt-4 mb-2">Medical Charting</h4>
-                <p class="desc">Capture and monitor critical patient parameters during dialysis sessions.</p>
-                <p class="desc mt-2">Parameters include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Vital Signs</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Weight Monitoring</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Blood Pressure</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Temperature</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Clinical Observations</span></li>
-                </ul>
-                <p class="desc mt-2">Real-time charting improves treatment accuracy and patient safety.</p>
-
-                <h4 class="title mt-4 mb-2">Dialysis Prescription Management</h4>
-                <p class="desc">Store and manage dialysis prescriptions electronically while ensuring adherence to prescribed treatment protocols.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Prescription Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Treatment Parameter Monitoring</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Treatment History Tracking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Protocol Compliance Monitoring</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Fluid Balance Monitoring</h4>
-                <p class="desc">Track patient fluid intake and output throughout dialysis treatment.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Improved Fluid Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Better Clinical Decision-Making</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Reduced Risk of Complications</span></li>
-                </ul>
-                <p class="desc mt-2">Accurate fluid monitoring is essential for effective dialysis care.</p>
-
-                <h4 class="title mt-4 mb-2">Medication Management</h4>
-                <p class="desc">Manage medications administered during dialysis sessions, including:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Intravenous Medications</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Medication Scheduling</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Dosage Tracking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Medication Administration Records</span></li>
-                </ul>
-                <p class="desc mt-2">This ensures safe and accurate medication administration.</p>
-
-                <h4 class="title mt-4 mb-2">Treatment Documentation</h4>
-                <p class="desc">Capture real-time documentation of dialysis procedures and patient responses.</p>
-                <p class="desc mt-2">Documentation includes:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Treatment Notes</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Session Details</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Clinical Events</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Adverse Reactions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Nursing Documentation</span></li>
-                </ul>
-                <p class="desc mt-2">Digital documentation reduces paperwork and improves efficiency.</p>
-
-                <h4 class="title mt-4 mb-2">Laboratory Integration</h4>
-                <p class="desc">Integrate seamlessly with laboratory systems to access and store dialysis-related diagnostic results.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Automatic Test Result Import</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Centralized Laboratory Data</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Faster Clinical Decisions</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Treatment Calculations</h4>
-                <p class="desc">Automate dialysis-specific clinical calculations, including:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Kt/V Calculation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Urea Reduction Ratio (URR)</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Dialysis Adequacy Monitoring</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Treatment Dose Assessment</span></li>
-                </ul>
-                <p class="desc mt-2">Automation improves clinical accuracy and reduces manual errors.</p>
-
-                <h4 class="title mt-4 mb-2">Patient Portal</h4>
-                <p class="desc">Provide patients with secure access to:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Treatment Schedules</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Laboratory Reports</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Clinical Summaries</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Educational Resources</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Appointment Information</span></li>
-                </ul>
-                <p class="desc mt-2">Patient engagement contributes significantly to treatment success.</p>
-
-                <h4 class="title mt-4 mb-2">Clinical Decision Support</h4>
-                <p class="desc">Built-in alerts and reminders help clinicians identify:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Critical Patient Conditions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Treatment Deviations</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Missed Procedures</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Clinical Risks</span></li>
-                </ul>
-                <p class="desc mt-2">This supports evidence-based and proactive patient care.</p>
-
-                <h4 class="title mt-4 mb-2">Reporting & Analytics</h4>
-                <p class="desc">Generate detailed reports and performance analytics for:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Outcomes</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Dialysis Sessions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Resource Utilization</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Clinical Performance</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Operational Efficiency</span></li>
-                </ul>
-                <p class="desc mt-2">Advanced analytics help improve quality of care and center performance.</p>
+            <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/hospital_building_1783400255519.png" class="card-img-top" alt="Patient Management" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-bed-pulse me-2"></i> Patient & Treatment Management</h5>
+                            <p class="card-text desc small">Centralized patient registry, prescription tracking, and protocol adherence monitoring. Easily track medical history, demographics, and clinical documentation in one place.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/healthcare_tech_1783400169534.png" class="card-img-top" alt="Medical Charting" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-chart-line me-2"></i> Medical Charting & Fluid Balance</h5>
+                            <p class="card-text desc small">Real-time charting of vital signs, weight, BP, and temperature. Track fluid intake and output for effective fluid management and risk reduction.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/analytics_dashboard_1783400138562.png" class="card-img-top" alt="Medication Management" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-pills me-2"></i> Medication & Documentation</h5>
+                            <p class="card-text desc small">Safely manage IV medications, schedules, and dosages. Digitally document real-time clinical events, nursing observations, and adverse reactions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/user_management_1783400202674.png" class="card-img-top" alt="Lab & Decision Support" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-flask me-2"></i> Labs, Calculations & CDS</h5>
+                            <p class="card-text desc small">Automate Kt/V and URR calculations, seamlessly integrate lab results, and utilize clinical decision support alerts for critical patient conditions.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Benefits</h2>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Benefits & Security</h2>
+            <div class="accordion" id="accordionBenefits" data-aos="fade-up" data-aos-duration="900">
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB1">
+                        <button class="accordion-button rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB1" aria-expanded="true" aria-controls="collapseB1">
+                            Patient Safety & Care Quality
+                        </button>
+                    </h2>
+                    <div id="collapseB1" class="accordion-collapse collapse show" aria-labelledby="headingB1" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Improved Safety:</strong> Accurate treatment administration and timely intervention.<br><br>
+                            <strong>Higher Quality of Care:</strong> Standardized protocols and evidence-based clinical decisions improve patient outcomes.<br><br>
+                            <strong>Patient Empowerment:</strong> Patient portals for accessing schedules, lab reports, and educational materials.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB2">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB2" aria-expanded="false" aria-controls="collapseB2">
+                            Operational Efficiency
+                        </button>
+                    </h2>
+                    <div id="collapseB2" class="accordion-collapse collapse" aria-labelledby="headingB2" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Enhanced Efficiency:</strong> Automates routine workflows, significantly reducing documentation time.<br><br>
+                            <strong>Real-Time Monitoring:</strong> Instant visibility into patient conditions across the center.<br><br>
+                            <strong>Resource Management:</strong> Optimize the usage of dialysis machines, staff, consumables, and treatment resources.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB3">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB3" aria-expanded="false" aria-controls="collapseB3">
+                            Compliance & Data Security
+                        </button>
+                    </h2>
+                    <div id="collapseB3" class="accordion-collapse collapse" aria-labelledby="headingB3" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Clinical Compliance:</strong> Supports adherence to regulatory standards and nephrology best practices.<br><br>
+                            <strong>Data Security:</strong> Role-based access, data encryption, audit trails, and secure authentication protect sensitive PHI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5 mb-3" data-aos="fade-up" data-aos-duration="900">Additional Features</h2>
+            <div class="d-flex flex-wrap gap-2 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-calendar-check me-2"></i>Scheduling</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-clock-rotate-left me-2"></i>Session Planning</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-server me-2"></i>Machine Allocation</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-user-nurse me-2"></i>Nursing Workflow</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-box-open me-2"></i>Inventory</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-laptop-medical me-2"></i>EMR Integration</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-file-invoice-dollar me-2"></i>Billing & Finance</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-building me-2"></i>Multi-Center Support</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-cloud me-2"></i>Cloud & On-Premise</span>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
             
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Improved Patient Safety</h4>
-                <p class="desc">Ensures accurate treatment administration, continuous monitoring, and timely intervention, reducing the risk of treatment-related complications.</p>
-
-                <h4 class="title mt-4 mb-2">Enhanced Treatment Efficiency</h4>
-                <p class="desc">Automates routine dialysis workflows, reducing documentation time and improving operational productivity.</p>
-
-                <h4 class="title mt-4 mb-2">Compliance with Clinical Guidelines</h4>
-                <p class="desc">Supports adherence to established clinical protocols, regulatory standards, and best practices in nephrology care.</p>
-
-                <h4 class="title mt-4 mb-2">Better Data Access</h4>
-                <p class="desc">Centralizes patient information, enabling healthcare professionals to access complete treatment histories anytime and anywhere.</p>
-
-                <h4 class="title mt-4 mb-2">Patient Empowerment</h4>
-                <p class="desc">Engages patients by providing access to their treatment information, schedules, and educational resources.</p>
-
-                <h4 class="title mt-4 mb-2">Real-Time Monitoring</h4>
-                <p class="desc">Provides clinicians with real-time visibility into patient conditions and dialysis treatment progress.</p>
-
-                <h4 class="title mt-4 mb-2">Improved Quality of Care</h4>
-                <p class="desc">Supports evidence-based clinical decisions and standardized treatment protocols to improve patient outcomes.</p>
-
-                <h4 class="title mt-4 mb-2">Efficient Resource Management</h4>
-                <p class="desc">Optimizes the utilization of:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Dialysis Machines</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Healthcare Staff</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Treatment Resources</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consumables</span></li>
-                </ul>
-                <p class="desc mt-2">This improves operational efficiency and reduces costs.</p>
-
-                <h4 class="title mt-4 mb-2">Data Security & Privacy</h4>
-                <p class="desc">Protects sensitive patient information through:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Role-Based Access Control</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Data Encryption</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Secure Authentication</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Audit Trails</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Regulatory Compliance</span></li>
-                </ul>
-                <p class="desc mt-2">Ensuring patient confidentiality and data protection remains a top priority.</p>
-            </div>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Additional Features</h2>
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <ul>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Appointment Scheduling</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Dialysis Session Planning</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Machine Allocation Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Nursing Workflow Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Inventory Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Electronic Medical Records (EMR) Integration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Billing & Financial Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Center Support</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Cloud & On-Premise Deployment</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Dashboard & MIS Reports</span></li>
-                </ul>
-            </div>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our Dialysis Management System?</h2>
-            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Dialysis Management Systems play a critical role in the effective and safe delivery of dialysis treatment.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">By automating workflows, ensuring accurate treatment administration, enabling real-time monitoring, and improving patient engagement, our solution helps healthcare providers deliver superior dialysis care while enhancing operational efficiency.</p>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Connect With Us</h4>
-                <ul class="mt-2">
-                    <li><i class="fa-brands fa-facebook text-primary me-2"></i><span>Facebook</span></li>
-                    <li><i class="fa-brands fa-instagram text-danger me-2"></i><span>Instagram</span></li>
-                    <li><i class="fa-brands fa-linkedin text-info me-2"></i><span>LinkedIn</span></li>
-                    <li><i class="fa-brands fa-whatsapp text-success me-2"></i><span>WhatsApp</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Contact Information</h4>
-                <p class="desc"><strong>Mobile:</strong> <a href="tel:+917400920717">+91-7400920717</a>, <a href="tel:+919977699982">+91-9977699982</a></p>
-                <p class="desc mt-2"><strong>Sales Enquiry:</strong> <a href="mailto:sales@avark.in">sales@avark.in</a></p>
-                <p class="desc mt-2"><strong>Support:</strong> <a href="mailto:support@avark.in">support@avark.in</a></p>
-
-                <h4 class="title mt-4 mb-2">Office Addresses</h4>
-                <p class="desc mt-2"><strong>Indore Office:</strong> A-81, Vistara City, Indore - 452001, Madhya Pradesh, India</p>
-                <p class="desc mt-2"><strong>Bangalore Office:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</p>
-
-                <h4 class="title mt-4 mb-2">Book a Demo</h4>
-                <p class="desc">Enhance dialysis care, improve patient outcomes, and optimize dialysis center operations with our comprehensive Dialysis Management System. Schedule a personalized demo today.</p>
-                <p class="desc mt-4"><strong>Copyright &copy; 2026 Avark Healthcare Technology Pvt. Ltd.</strong></p>
-                <p class="desc mt-2"><strong>Powered by Avark Healthcare Technology Pvt. Ltd.</strong></p>
-            </div>
-        </div>
+            <div class="card border-0 shadow-sm p-4 bg-light bg-opacity-50" data-aos="fade-up" data-aos-duration="900">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-phone me-2"></i> Contact Information</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Mobile:</strong> <a href="tel:+917400920717" class="text-decoration-none">+91-7400920717</a>, <a href="tel:+919977699982" class="text-decoration-none">+91-9977699982</a></li>
+                            <li><strong>Sales:</strong> <a href="mailto:sales@avark.in" class="text-decoration-none">sales@avark.in</a></li>
+                            <li><strong>Support:</strong> <a href="mailto:support@avark.in" class="text-decoration-none">support@avark.in</a></li>
+                        </ul>
+                        
+                        <h5 class="text-primary mt-4"><i class="fa-solid fa-share-nodes me-2"></i> Connect With Us</h5>
+                        <div class="d-flex gap-3 mt-3">
+                            <a href="#" class="fs-4 text-primary"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="fs-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-4 text-info"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-4 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div></div>
       </div>
     </div>
   </div>

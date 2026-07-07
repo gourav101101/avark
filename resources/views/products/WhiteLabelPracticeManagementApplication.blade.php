@@ -25,11 +25,7 @@
 
 <section class="service-details section-spacing">
   <div class="container rr-container-1350">
-    <div class="service-details__top">
-      <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
-      </div>
-    </div>
+    
     <div class="row">
       <div class="col-lg-4 col-12">
         <div class="service-details-sidebar" data-aos="fade-up" data-aos-duration="900">
@@ -52,253 +48,165 @@
       <div class="col-lg-8 col-12">
         <div class="service-details__content">
             <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">White Label Doctor Consultation Mobile Application</h2>
-            
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our White Label Telemedicine Solution?</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2"><i class="fa-solid fa-bolt text-warning me-2"></i> Fast Services</h4>
-                <p class="desc">Launch your branded telemedicine platform quickly with our ready-to-deploy and fully customizable white label solution.</p>
+            <h2 class="title rr-title-anim-1 mt-4" data-aos="fade-up" data-aos-duration="900">Why Choose Our Telemedicine Solution?</h2>
 
-                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-magnifying-glass text-info me-2"></i> Transparency</h4>
-                <p class="desc">Gain complete visibility into consultations, appointments, payments, and patient interactions through a centralized management platform.</p>
-
-                <h4 class="title mt-4 mb-2"><i class="fa-solid fa-handshake text-success me-2"></i> Trustable</h4>
-                <p class="desc">Trusted by healthcare providers and organizations, our platform is secure, scalable, and designed to deliver seamless virtual healthcare experiences.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-3 mt-3" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-warning bg-opacity-10">
+                        <div class="mb-3 text-warning fs-1"><i class="fa-solid fa-bolt"></i></div>
+                        <h5 class="card-title text-dark">Fast Services</h5>
+                        <p class="card-text desc small">Launch your branded platform quickly with our ready-to-deploy solution.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-info bg-opacity-10">
+                        <div class="mb-3 text-info fs-1"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h5 class="card-title text-dark">Transparency</h5>
+                        <p class="card-text desc small">Gain complete visibility into consultations, appointments, and payments.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-success bg-opacity-10">
+                        <div class="mb-3 text-success fs-1"><i class="fa-solid fa-handshake"></i></div>
+                        <h5 class="card-title text-dark">Trustable</h5>
+                        <p class="card-text desc small">Secure, scalable, and designed to deliver seamless virtual healthcare experiences.</p>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">White Label Doctor Consultation Mobile Application</h2>
-            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">A White Label Doctor Consultation Mobile Application is a customizable and ready-to-deploy telemedicine solution that enables healthcare providers, hospitals, clinics, and telemedicine organizations to offer virtual consultation services under their own brand identity.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">The platform can be fully customized to meet specific business requirements, allowing healthcare organizations to rapidly enter the telemedicine market without investing in extensive application development.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Our white label telemedicine solution empowers healthcare providers to deliver secure, convenient, and accessible healthcare services anytime and anywhere.</p>
+            <p class="desc mt-5" data-aos="fade-up" data-aos-duration="900">A White Label Doctor Consultation Mobile Application is a customizable and ready-to-deploy telemedicine solution that enables healthcare providers to offer virtual consultation services under their own brand identity.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">The platform can be fully customized, allowing healthcare organizations to rapidly enter the telemedicine market without investing in extensive application development.</p>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Features</h2>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Key Features</h2>
             
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">User Registration & Profile Creation</h4>
-                <p class="desc">Enable patients and healthcare professionals to securely register and create personalized profiles.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Registration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Doctor Registration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Profile Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Secure Authentication</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Role-Based User Access</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Doctor Availability & Appointment Scheduling</h4>
-                <p class="desc">Patients can easily view doctor availability and schedule appointments based on preferred time slots.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Online Appointment Booking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Calendar Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Time Slot Management</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Appointment Rescheduling</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consultation History</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Real-Time Video & Audio Consultations</h4>
-                <p class="desc">Facilitate secure and high-quality virtual consultations through integrated video and audio communication.</p>
-                <p class="desc mt-2">Capabilities include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>HD Video Consultation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Audio Consultation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Secure Communication Channels</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Real-Time Interaction</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Device Support</span></li>
-                </ul>
-                <p class="desc mt-2">The platform is designed to comply with healthcare security and privacy standards.</p>
-
-                <h4 class="title mt-4 mb-2">Chat & Messaging</h4>
-                <p class="desc">Enable secure communication between patients and doctors through integrated messaging features.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Instant Messaging</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Secure Chat</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>File Sharing</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consultation Follow-Up Messages</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Offline Messaging</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Electronic Health Records (EHR) Integration</h4>
-                <p class="desc">Integrate seamlessly with Electronic Health Record systems to provide healthcare professionals with complete patient information during consultations.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Access to Medical History</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Laboratory Reports</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Prescriptions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Treatment Plans</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Clinical Notes</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Prescription & Medication Management</h4>
-                <p class="desc">Doctors can create and issue digital prescriptions directly through the platform.</p>
-                <p class="desc mt-2">Features include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>E-Prescription Generation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Medication History</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Prescription Tracking</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Pharmacy Integration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Medication Management</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Payment Integration</h4>
-                <p class="desc">Provide secure and convenient online payment options for patients.</p>
-                <p class="desc mt-2">Supported capabilities include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Online Payment Gateway Integration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consultation Fee Collection</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Payment History</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Invoicing & Billing</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Multiple Payment Methods</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Notifications & Reminders</h4>
-                <p class="desc">Automated notifications help improve patient engagement and reduce missed appointments.</p>
-                <p class="desc mt-2">Notifications include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Appointment Reminders</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consultation Alerts</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Payment Notifications</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Prescription Updates</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>System Announcements</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Multilingual Support</h4>
-                <p class="desc">Support multiple languages to serve diverse patient populations and improve accessibility.</p>
-                <p class="desc mt-2">This helps healthcare organizations expand their reach across different regions and demographics.</p>
-
-                <h4 class="title mt-4 mb-2">Rating & Feedback System</h4>
-                <p class="desc">Allow patients to share their consultation experiences through ratings and feedback.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Service Quality Improvement</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Satisfaction Monitoring</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Performance Evaluation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Continuous Improvement</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Analytics & Reports</h4>
-                <p class="desc">Comprehensive dashboards and reports provide valuable insights into platform performance.</p>
-                <p class="desc mt-2">Analytics include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Consultation Statistics</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Revenue Reports</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Engagement Metrics</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Doctor Performance Reports</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Operational Analytics</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Security & Data Privacy</h4>
-                <p class="desc">Patient information security is a top priority.</p>
-                <p class="desc mt-2">Our platform incorporates advanced security measures, including:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Data Encryption</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Secure Authentication</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Role-Based Access Control</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Audit Trails</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Automated Backup</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Compliance with Healthcare Regulations</span></li>
-                </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/mobile_app_1783400159842.png" class="card-img-top" alt="User Management" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-user-doctor me-2"></i> Users & Appointments</h5>
+                            <p class="card-text desc small">Secure registration for patients and doctors. Easily schedule appointments, view availability, and manage time slots dynamically.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/healthcare_tech_1783400169534.png" class="card-img-top" alt="Consultations" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-video me-2"></i> Virtual Consultations</h5>
+                            <p class="card-text desc small">High-quality, secure HD video and audio consultations with integrated messaging, chat, and offline follow-ups.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/customer_support_1783400277859.png" class="card-img-top" alt="EHR Integration" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-file-prescription me-2"></i> EHR & Prescriptions</h5>
+                            <p class="card-text desc small">Seamlessly integrate with EHRs for patient history. Doctors can instantly generate and manage digital e-prescriptions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/payment_finance_1783400215318.png" class="card-img-top" alt="Payments & Analytics" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-credit-card me-2"></i> Payments & Analytics</h5>
+                            <p class="card-text desc small">Integrated payment gateways for seamless fee collection. Comprehensive dashboards for revenue and performance analytics.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Benefits</h2>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Benefits & Security</h2>
+            <div class="accordion" id="accordionBenefits" data-aos="fade-up" data-aos-duration="900">
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB1">
+                        <button class="accordion-button rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB1" aria-expanded="true" aria-controls="collapseB1">
+                            Branding & Cost Efficiency
+                        </button>
+                    </h2>
+                    <div id="collapseB1" class="accordion-collapse collapse show" aria-labelledby="headingB1" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Quick Market Entry:</strong> Launch rapidly without the need for extensive software development.<br><br>
+                            <strong>Complete Customization:</strong> Use your own brand name, logo, domain, and colors.<br><br>
+                            <strong>Cost Savings:</strong> Eliminate the need to build an application from scratch.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB2">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB2" aria-expanded="false" aria-controls="collapseB2">
+                            Patient Access & Engagement
+                        </button>
+                    </h2>
+                    <div id="collapseB2" class="accordion-collapse collapse" aria-labelledby="headingB2" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Improved Access:</strong> Deliver care directly to patients in remote and underserved areas.<br><br>
+                            <strong>Patient Engagement:</strong> Interactive features and secure communication build lasting relationships.<br><br>
+                            <strong>Multilingual Support:</strong> Serve diverse patient populations easily.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 mb-2 shadow-sm">
+                    <h2 class="accordion-header" id="headingB3">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB3" aria-expanded="false" aria-controls="collapseB3">
+                            Security & Business Models
+                        </button>
+                    </h2>
+                    <div id="collapseB3" class="accordion-collapse collapse" aria-labelledby="headingB3" data-bs-parent="#accordionBenefits">
+                        <div class="accordion-body desc bg-light rounded-bottom">
+                            <strong>Robust Security:</strong> End-to-end encryption, secure authentication, and compliance with healthcare regulations.<br><br>
+                            <strong>Flexible Models:</strong> Support Pay-Per-Consultation, Subscriptions, Memberships, or Corporate plans.<br><br>
+                            <strong>Scalability:</strong> Designed to grow effortlessly with your patient base.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="title rr-title-anim-1 mt-5 mb-3" data-aos="fade-up" data-aos-duration="900">Additional Features</h2>
+            <div class="d-flex flex-wrap gap-2 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-brands fa-apple me-2"></i>iOS & Android Apps</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-earth-americas me-2"></i>Web Portals</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-user-doctor me-2"></i>Doctor Dashboard</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-hospital-user me-2"></i>Patient Portal</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-notes-medical me-2"></i>EHR Integration</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-file-prescription me-2"></i>Digital Prescriptions</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-credit-card me-2"></i>Online Payments</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-bell me-2"></i>Push Notifications</span>
+            </div>
+
+
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
             
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Quick Market Entry</h4>
-                <p class="desc">Launch your telemedicine services rapidly without the need for extensive software development.</p>
-
-                <h4 class="title mt-4 mb-2">Branding & Customization</h4>
-                <p class="desc">Customize the platform with your organization's:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Brand Name</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Logo</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Color Scheme</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Custom Features</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Domain Name</span></li>
-                </ul>
-                <p class="desc mt-2">Deliver a consistent and professional brand experience.</p>
-
-                <h4 class="title mt-4 mb-2">Time & Cost Savings</h4>
-                <p class="desc">White labeling eliminates the need to build an application from scratch, significantly reducing development costs and implementation time.</p>
-
-                <h4 class="title mt-4 mb-2">Scalability</h4>
-                <p class="desc">The platform is designed to scale effortlessly as your patient base and consultation volume grow.</p>
-
-                <h4 class="title mt-4 mb-2">Improved Patient Access</h4>
-                <p class="desc">Patients can conveniently access healthcare services directly from their smartphones or tablets, improving accessibility and convenience.</p>
-
-                <h4 class="title mt-4 mb-2">Enhanced Patient Engagement</h4>
-                <p class="desc">Interactive features, personalized experiences, and continuous communication foster stronger patient engagement.</p>
-
-                <h4 class="title mt-4 mb-2">Better Healthcare Accessibility</h4>
-                <p class="desc">Telemedicine services extend healthcare access to patients located in:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Rural Areas</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Remote Regions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Underserved Communities</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Flexible Business Models</h4>
-                <p class="desc">Support multiple business models, including:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Pay-Per-Consultation</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Subscription-Based Services</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Membership Plans</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Corporate Healthcare Programs</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Efficient Consultation Management</h4>
-                <p class="desc">Automated appointment scheduling, consultation workflows, and digital documentation improve operational efficiency.</p>
+            <div class="card border-0 shadow-sm p-4 bg-light bg-opacity-50" data-aos="fade-up" data-aos-duration="900">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-phone me-2"></i> Contact Information</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Mobile:</strong> <a href="tel:+917400920717" class="text-decoration-none">+91-7400920717</a>, <a href="tel:+919977699982" class="text-decoration-none">+91-9977699982</a></li>
+                            <li><strong>Sales:</strong> <a href="mailto:sales@avark.in" class="text-decoration-none">sales@avark.in</a></li>
+                            <li><strong>Support:</strong> <a href="mailto:support@avark.in" class="text-decoration-none">support@avark.in</a></li>
+                        </ul>
+                        
+                        <h5 class="text-primary mt-4"><i class="fa-solid fa-share-nodes me-2"></i> Connect With Us</h5>
+                        <div class="d-flex gap-3 mt-3">
+                            <a href="#" class="fs-4 text-primary"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="fs-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-4 text-info"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-4 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Additional Features</h2>
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <ul>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Mobile Applications (Android & iOS)</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Web Portal for Doctors & Administrators</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Patient Portal</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Appointment Calendar</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Doctor Dashboard</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Admin Dashboard</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>EHR Integration</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Digital Prescriptions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Online Payments</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Push Notifications</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Cloud & On-Premise Deployment</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Multi-Clinic & Multi-Branch Support</span></li>
-                </ul>
-            </div>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Why Choose Our White Label Solution?</h2>
-            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">White label doctor consultation applications have become increasingly popular because they offer a cost-effective, secure, and efficient way for healthcare organizations to expand their services and reach more patients.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Our solution enables healthcare providers to deliver high-quality virtual care while maintaining complete control over branding, patient experience, and business operations.</p>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Connect With Us</h4>
-                <ul class="mt-2">
-                    <li><i class="fa-brands fa-facebook text-primary me-2"></i><span>Facebook</span></li>
-                    <li><i class="fa-brands fa-instagram text-danger me-2"></i><span>Instagram</span></li>
-                    <li><i class="fa-brands fa-linkedin text-info me-2"></i><span>LinkedIn</span></li>
-                    <li><i class="fa-brands fa-whatsapp text-success me-2"></i><span>WhatsApp</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Contact Information</h4>
-                <p class="desc"><strong>Mobile:</strong> <a href="tel:+917400920717">+91-7400920717</a>, <a href="tel:+919977699982">+91-9977699982</a></p>
-                <p class="desc mt-2"><strong>Sales Enquiry:</strong> <a href="mailto:sales@avark.in">sales@avark.in</a></p>
-                <p class="desc mt-2"><strong>Support:</strong> <a href="mailto:support@avark.in">support@avark.in</a></p>
-
-                <h4 class="title mt-4 mb-2">Office Addresses</h4>
-                <p class="desc mt-2"><strong>Indore Office:</strong> A-81, Vistara City, Indore - 452001, Madhya Pradesh, India</p>
-                <p class="desc mt-2"><strong>Bangalore Office:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</p>
-
-                <h4 class="title mt-4 mb-2">Book a Demo</h4>
-                <p class="desc">Launch your branded telemedicine platform with our White Label Doctor Consultation Solution. Schedule a personalized demo today.</p>
-                <p class="desc mt-4"><strong>Copyright &copy; 2026 Avark Healthcare Technology Pvt. Ltd.</strong></p>
-                <p class="desc mt-2"><strong>Powered by Avark Healthcare Technology Pvt. Ltd.</strong></p>
-            </div>
-        </div>
+</div>
       </div>
     </div>
   </div>

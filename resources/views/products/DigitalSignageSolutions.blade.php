@@ -25,11 +25,7 @@
 
 <section class="service-details section-spacing">
   <div class="container rr-container-1350">
-    <div class="service-details__top">
-      <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/p1.jpg" alt="img">
-      </div>
-    </div>
+    
     <div class="row">
       <div class="col-lg-4 col-12">
         <div class="service-details-sidebar" data-aos="fade-up" data-aos-duration="900">
@@ -51,91 +47,106 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-8 col-12">
+            <div class="col-lg-8 col-12">
         <div class="service-details__content">
-          <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Engage. Inform. Inspire — In Real Time.</h2>
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Transform the way you communicate with customers, employees, and visitors through powerful Digital Signage Solutions. Manage and display dynamic content across screens, locations, and devices from a centralized cloud-based platform.</p>
+            <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Digital Signage Solutions</h2>
+            <h2 class="title rr-title-anim-1 mt-4" data-aos="fade-up" data-aos-duration="900">Engage. Inform. Inspire — In Real Time.</h2>
 
-          <p class="desc" data-aos="fade-up" data-aos-duration="900">Deliver impactful visual communication anytime, anywhere.</p>
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Transform the way you communicate with customers, employees, and visitors through powerful Digital Signage Solutions. Manage and display dynamic content across screens, locations, and devices from a centralized cloud-based platform.</p>
+            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Deliver impactful visual communication anytime, anywhere.</p>
 
-          <div class="service-details__top">
-            <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-              <img src="assets/imgs/inner/service-detils/p2.png" alt="img">
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Why Digital Signage?</h2>
+            
+            <div class="row row-cols-1 row-cols-md-3 g-3 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-primary bg-opacity-10">
+                        <div class="mb-3 text-primary fs-1"><i class="fa-solid fa-bullhorn"></i></div>
+                        <h5 class="card-title text-dark">Enhanced Visibility</h5>
+                        <p class="card-text desc small">Capture attention and strengthen brand recall with dynamic visuals.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-success bg-opacity-10">
+                        <div class="mb-3 text-success fs-1"><i class="fa-solid fa-satellite-dish"></i></div>
+                        <h5 class="card-title text-dark">Real-Time Comms</h5>
+                        <p class="card-text desc small">Instantly broadcast announcements, news, or emergency alerts.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center p-3 feature-card bg-info bg-opacity-10">
+                        <div class="mb-3 text-info fs-1"><i class="fa-solid fa-gamepad"></i></div>
+                        <h5 class="card-title text-dark">Measurable Engagement</h5>
+                        <p class="card-text desc small">Drive interactivity and keep audiences engaged effortlessly.</p>
+                    </div>
+                </div>
             </div>
-          </div>
 
-          <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Product Overview</h2>
-          <p data-aos="fade-up" data-aos-duration="900">Our Digital Signage Solutions enable businesses to display real-time content such as announcements, promotions, dashboards, menus, advertisements, internal communications, and multimedia broadcasts on digital screens.</p>
-
-          <p data-aos="fade-up" data-aos-duration="900">With centralized control and automated scheduling, you can manage content across multiple locations without manual intervention.</p>
-          <p data-aos="fade-up" data-aos-duration="900">Whether for marketing, information display, or corporate communication — the platform ensures seamless content delivery and high visibility. </p>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="service-details">
-  <div class="container rr-container-1350">
-    <div class="row">
-
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="service-details__top">
-          <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/p3.png" alt="img">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-12 col-12">
-      <div class="service-details__content">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">Key Features </h2>
-
-            <ul data-aos="fade-up" data-aos-duration="900">
-              <li><i class="fa-solid fa-angles-right"></i>Cloud-Based Content Management</li>
-              <li><i class="fa-solid fa-angles-right"></i>Real-Time Content Updates</li>
-              <li><i class="fa-solid fa-angles-right"></i>Multi-Screen & Multi-Location Support</li>
-              <li><i class="fa-solid fa-angles-right"></i>Media Scheduling & Automation</li>
-              <li><i class="fa-solid fa-angles-right"></i>Image, Video & Live Feed Support</li>
-              <li><i class="fa-solid fa-angles-right"></i>Centralized Admin Dashboard</li>
-              <li><i class="fa-solid fa-angles-right"></i>Role-Based Access Control</li>
-              <li><i class="fa-solid fa-angles-right"></i>Performance & Display Analytics</li>
-              <li><i class="fa-solid fa-angles-right"></i>Remote Device Monitoring</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <div>
-              <h2 class="title rr-title-anim-1" data-aos="fade-up" data-aos-duration="900">How It Helps Your Organization</h2>
-              <ul>
-                <li> <i class="fa-regular fa-angle-right"></i> Enhanced Brand Visibility </li>
-                <li> <i class="fa-regular fa-angle-right"></i> Real-Time Communication </li>
-                <li> <i class="fa-regular fa-angle-right"></i> Centralized Control </li>
-                <li> <i class="fa-regular fa-angle-right"></i> Measurable Engagement </li>
-                <li> <i class="fa-regular fa-angle-right"></i> Scalable for Growth </li>
-              </ul>
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Core Capabilities</h2>
+            
+            <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/machine_kiosk_1783400298207.png" class="card-img-top" alt="Cloud Management" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-cloud-arrow-up me-2"></i> Cloud-Based Management</h5>
+                            <p class="card-text desc small">Centralized control and automated scheduling. Manage content across multiple locations without manual intervention.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <img src="assets/imgs/inner/features/cloud_server_1783400149336.png" class="card-img-top" alt="Media Automation" style="height: 180px; object-fit: cover;">
+                        <div class="card-body bg-light rounded-bottom">
+                            <h5 class="card-title text-primary"><i class="fa-solid fa-photo-film me-2"></i> Media Scheduling & Automation</h5>
+                            <p class="card-text desc small">Supports image, video, and live feed scheduling. Display the right message at the right time seamlessly.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
 
-        </div>
+            <h2 class="title rr-title-anim-1 mt-5 mb-3" data-aos="fade-up" data-aos-duration="900">Comprehensive Features</h2>
+            <div class="d-flex flex-wrap gap-2 mb-4" data-aos="fade-up" data-aos-duration="900">
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-cloud me-2"></i>Cloud-Based CM</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-bolt me-2"></i>Real-Time Updates</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-tv me-2"></i>Multi-Screen Support</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-video me-2"></i>Video & Live Feeds</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-chart-line me-2"></i>Display Analytics</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-shield-halved me-2"></i>Role-Based Access</span>
+                <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle p-2 fs-6"><i class="fa-solid fa-satellite-dish me-2"></i>Remote Monitoring</span>
+            </div>
+            
+            <p class="desc mt-4" data-aos="fade-up" data-aos-duration="900">Whether for marketing, information display, or corporate communication — our platform ensures seamless content delivery and high visibility.</p>
+        
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
+            
+            <div class="card border-0 shadow-sm p-4 bg-light bg-opacity-50" data-aos="fade-up" data-aos-duration="900">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-phone me-2"></i> Contact Information</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Mobile:</strong> <a href="tel:+917400920717" class="text-decoration-none">+91-7400920717</a>, <a href="tel:+919977699982" class="text-decoration-none">+91-9977699982</a></li>
+                            <li><strong>Sales:</strong> <a href="mailto:sales@avark.in" class="text-decoration-none">sales@avark.in</a></li>
+                            <li><strong>Support:</strong> <a href="mailto:support@avark.in" class="text-decoration-none">support@avark.in</a></li>
+                        </ul>
+                        
+                        <h5 class="text-primary mt-4"><i class="fa-solid fa-share-nodes me-2"></i> Connect With Us</h5>
+                        <div class="d-flex gap-3 mt-3">
+                            <a href="#" class="fs-4 text-primary"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="fs-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-4 text-info"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-4 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+</div>
       </div>
     </div>
   </div>
@@ -231,7 +242,37 @@
             </div>
           </div>
 
-        </div>
+        
+            <h2 class="title rr-title-anim-1 mt-5 mb-4" data-aos="fade-up" data-aos-duration="900">Let's Talk</h2>
+            
+            <div class="card border-0 shadow-sm p-4 bg-light bg-opacity-50" data-aos="fade-up" data-aos-duration="900">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-phone me-2"></i> Contact Information</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Mobile:</strong> <a href="tel:+917400920717" class="text-decoration-none">+91-7400920717</a>, <a href="tel:+919977699982" class="text-decoration-none">+91-9977699982</a></li>
+                            <li><strong>Sales:</strong> <a href="mailto:sales@avark.in" class="text-decoration-none">sales@avark.in</a></li>
+                            <li><strong>Support:</strong> <a href="mailto:support@avark.in" class="text-decoration-none">support@avark.in</a></li>
+                        </ul>
+                        
+                        <h5 class="text-primary mt-4"><i class="fa-solid fa-share-nodes me-2"></i> Connect With Us</h5>
+                        <div class="d-flex gap-3 mt-3">
+                            <a href="#" class="fs-4 text-primary"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="fs-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-4 text-info"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-4 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
+                        <ul class="list-unstyled mt-3 lh-lg desc">
+                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+</div>
 
       </div>
     </div>

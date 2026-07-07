@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Tele-Consultation')
-@section('meta_description', 'Tele-Consultation Solutions')
-@section('meta_keywords', 'home, Tele-Consultation')
+@section('meta_description', 'Tele-Consultation Services')
+@section('meta_keywords', 'home, Tele-Consultation, Telemedicine')
 
 @section('content')
 
@@ -42,9 +42,10 @@
             <li><a href="{{ route('web-application-development') }}">Web Development</a><span><i class="fa-solid fa-angles-right"></i></span></li>
             <li><a href="{{ route('mobile-app-development') }}">Application Development</a><span><i class="fa-solid fa-angles-right"></i></span></li>
             <li><a href="{{ route('cloud-and-data-migration') }}">Cloud & Data Migration</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-            <li><a href="{{ route('enterprise-integration-services') }}">Enterprise Integration Services </a><span><i class="fa-solid fa-angles-right"></i></span></li>
+            <li><a href="{{ route('enterprise-integration-services') }}">Enterprise Integration Services</a><span><i class="fa-solid fa-angles-right"></i></span></li>
             <li><a href="{{ route('digital-healthcare-solution') }}">Digital Healthcare Solutions</a><span><i class="fa-solid fa-angles-right"></i></span></li>
             <li><a href="{{ route('tele-consultation') }}">Tele-Consultation</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+            <li><a href="{{ route('cms') }}">Content Management System (CMS)</a><span><i class="fa-solid fa-angles-right"></i></span></li>
             </ul>
         </div>
         </div>
@@ -53,160 +54,227 @@
         <div class="service-details__content">
             <h2 class="title rr-title-anim-1 " data-aos="fade-up" data-aos-duration="900">Tele-Consultation</h2>
 
-            <h2 class="title rr-title-anim-1 mt-4" data-aos="fade-up" data-aos-duration="900">Why Choose Our Tele-Consultation Solutions?</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">⚡ Fast Services</h4>
-                <p class="desc">We provide quick and seamless implementation of tele-consultation platforms, enabling healthcare organizations to deliver virtual care efficiently.</p>
-
-                <h4 class="title mt-4 mb-2">🔍 Transparency</h4>
-                <p class="desc">Our telehealth solutions ensure transparent communication between patients and healthcare providers while maintaining complete consultation records.</p>
-
-                <h4 class="title mt-4 mb-2">🤝 Trustable</h4>
-                <p class="desc">Trusted by healthcare professionals, our secure tele-consultation platform delivers reliable, patient-centric, and compliant virtual healthcare services.</p>
+            <!-- Why Choose Us - Card Grid -->
+            <h2 class="service-compact-title mt-4" data-aos="fade-up" data-aos-duration="900">Why Choose Our Tele-Consultation Solutions?</h2>
+            <div class="service-why-cards" data-aos="fade-up" data-aos-duration="900">
+                <div class="service-why-card">
+                    <span class="why-icon">⚡</span>
+                    <h4 class="why-title">Fast Services</h4>
+                    <p class="why-desc">We provide quick and seamless implementation of tele-consultation platforms, enabling healthcare organizations to deliver virtual care efficiently.</p>
+                </div>
+                <div class="service-why-card">
+                    <span class="why-icon">🔍</span>
+                    <h4 class="why-title">Transparency</h4>
+                    <p class="why-desc">Our telehealth solutions ensure transparent communication between patients and healthcare providers while maintaining complete consultation records.</p>
+                </div>
+                <div class="service-why-card">
+                    <span class="why-icon">🤝</span>
+                    <h4 class="why-title">Trustable</h4>
+                    <p class="why-desc">Trusted by healthcare professionals, our secure tele-consultation platform delivers reliable, patient-centric, and compliant virtual healthcare services.</p>
+                </div>
             </div>
 
-            <p class="desc mt-5" data-aos="fade-up" data-aos-duration="900">Tele-consultation, also known as telemedicine or virtual consultation, is a healthcare service that enables patients to consult healthcare professionals remotely using digital technologies such as video calls, audio calls, and secure messaging platforms.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">It allows patients and doctors to interact without requiring physical visits, providing convenient access to medical advice, diagnosis, treatment, and follow-up care from virtually anywhere.</p>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Tele-consultation bridges the gap between patients and healthcare providers, making healthcare more accessible, efficient, and patient-focused.</p>
-
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Key Features of Tele-Consultation</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Real-Time Communication</h4>
-                <p class="desc">Tele-consultation platforms facilitate real-time communication between patients and healthcare professionals through:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Video Consultations</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Audio Calls</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Secure Chat Messaging</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Virtual Follow-Up Sessions</span></li>
-                </ul>
-                <p class="desc mt-2">Real-time interactions enable timely medical advice and improved patient engagement.</p>
-
-                <h4 class="title mt-4 mb-2">Convenience & Accessibility</h4>
-                <p class="desc">Patients can access healthcare services from any location, reducing the need to travel to hospitals or clinics.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Anytime, Anywhere Access</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Reduced Travel Time</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Increased Healthcare Accessibility</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Improved Access for Rural Areas</span></li>
-                </ul>
-                <p class="desc mt-2">This enhances patient convenience and ensures continuity of care.</p>
-
-                <h4 class="title mt-4 mb-2">Privacy & Security</h4>
-                <p class="desc">Patient data confidentiality and security are fundamental components of tele-consultation platforms.</p>
-                <p class="desc mt-2">Security measures include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Secure Video Sessions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Data Encryption</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Role-Based Access Control</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Secure Authentication</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Compliance with Healthcare Regulations</span></li>
-                </ul>
-                <p class="desc mt-2">These measures ensure that sensitive patient information remains protected.</p>
-
-                <h4 class="title mt-4 mb-2">Reduced Waiting Times</h4>
-                <p class="desc">Tele-consultation significantly reduces patient waiting times by allowing appointments to be scheduled according to patient and physician availability.</p>
-                <p class="desc mt-2">Benefits include:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Faster Access to Healthcare</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Reduced Appointment Delays</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Improved Resource Utilization</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Better Patient Satisfaction</span></li>
-                </ul>
-
-                <h4 class="title mt-4 mb-2">Prescription & Referrals</h4>
-                <p class="desc">Healthcare professionals can:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Issue Digital Prescriptions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Provide Medical Advice</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Recommend Diagnostic Tests</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Refer Patients to Specialists</span></li>
-                </ul>
-                <p class="desc mt-2">This streamlines the healthcare journey and improves care coordination.</p>
-
-                <h4 class="title mt-4 mb-2">Follow-Up Appointments</h4>
-                <p class="desc">Patients can conveniently attend follow-up consultations after treatment, hospitalization, or surgery without visiting healthcare facilities physically.</p>
-                <p class="desc mt-2">This ensures:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Continuous Care</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Better Treatment Adherence</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Improved Recovery Monitoring</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Enhanced Patient Convenience</span></li>
-                </ul>
+            <!-- Intro Text -->
+            <div class="service-intro-text" data-aos="fade-up" data-aos-duration="900">
+                <p>Tele-consultation, also known as telemedicine or virtual consultation, is a healthcare service that enables patients to consult healthcare professionals remotely using digital technologies such as video calls, audio calls, and secure messaging platforms.</p>
+                <p>It allows patients and doctors to interact without requiring physical visits, providing convenient access to medical advice, diagnosis, treatment, and follow-up care from virtually anywhere.</p>
+                <p>Tele-consultation bridges the gap between patients and healthcare providers, making healthcare more accessible, efficient, and patient-focused.</p>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Tele-Consultation Use Cases</h2>
-            
-            <div class="features mt-4" data-aos="fade-up" data-aos-duration="900">
-                <h4 class="title mb-2">Primary Care Consultations</h4>
-                <p class="desc">Routine health check-ups, medication reviews, preventive care, and minor health concerns can be effectively managed through virtual consultations.</p>
+            <hr class="service-section-divider">
 
-                <h4 class="title mt-4 mb-2">Follow-Up Appointments</h4>
-                <p class="desc">Post-treatment and post-surgery follow-ups can be conducted remotely, improving patient convenience and reducing unnecessary hospital visits.</p>
-
-                <h4 class="title mt-4 mb-2">Chronic Disease Management</h4>
-                <p class="desc">Tele-consultation supports continuous monitoring and management of chronic diseases such as:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Diabetes</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Hypertension</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Heart Disease</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Asthma</span></li>
-                </ul>
-                <p class="desc mt-2">Regular virtual consultations help improve patient outcomes and treatment compliance.</p>
-
-                <h4 class="title mt-4 mb-2">Mental Health Support</h4>
-                <p class="desc">Tele-consultation provides an accessible and comfortable platform for:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Mental Health Counseling</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Therapy Sessions</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Psychological Support</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Behavioral Health Management</span></li>
-                </ul>
-                <p class="desc mt-2">Virtual mental healthcare improves accessibility and reduces stigma.</p>
-
-                <h4 class="title mt-4 mb-2">Remote Areas & Emergencies</h4>
-                <p class="desc">Tele-consultation is particularly beneficial in:</p>
-                <ul class="mt-2">
-                    <li><i class="fa-solid fa-angles-right"></i><span>Rural and Remote Locations</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Areas with Limited Healthcare Access</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Public Health Emergencies</span></li>
-                    <li><i class="fa-solid fa-angles-right"></i><span>Natural Disasters</span></li>
-                </ul>
-                <p class="desc mt-2">It ensures uninterrupted healthcare delivery when physical access is limited.</p>
+            <!-- Key Features - Accordion -->
+            <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Key Features of Tele-Consultation</h2>
+            <div class="accordion service-accordion" id="tcFeatures" data-aos="fade-up" data-aos-duration="900">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tc1" aria-expanded="true">Real-Time Communication</button></h2>
+                    <div id="tc1" class="accordion-collapse collapse show" data-bs-parent="#tcFeatures">
+                        <div class="accordion-body">
+                            <p>Tele-consultation platforms facilitate real-time communication between patients and healthcare professionals through:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Video Consultations</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Audio Calls</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Secure Chat Messaging</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Virtual Follow-Up Sessions</span></li>
+                            </ul>
+                            <p>Real-time interactions enable timely medical advice and improved patient engagement.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tc2">Convenience & Accessibility</button></h2>
+                    <div id="tc2" class="accordion-collapse collapse" data-bs-parent="#tcFeatures">
+                        <div class="accordion-body">
+                            <p>Patients can access healthcare services from any location, reducing the need to travel to hospitals or clinics.</p>
+                            <p>Benefits include:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Anytime, Anywhere Access</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Reduced Travel Time</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Increased Healthcare Accessibility</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Improved Access for Rural Areas</span></li>
+                            </ul>
+                            <p>This enhances patient convenience and ensures continuity of care.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tc3">Privacy & Security</button></h2>
+                    <div id="tc3" class="accordion-collapse collapse" data-bs-parent="#tcFeatures">
+                        <div class="accordion-body">
+                            <p>Patient data confidentiality and security are fundamental components of tele-consultation platforms.</p>
+                            <p>Security measures include:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Secure Video Sessions</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Data Encryption</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Role-Based Access Control</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Secure Authentication</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Compliance with Healthcare Regulations</span></li>
+                            </ul>
+                            <p>These measures ensure that sensitive patient information remains protected.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tc4">Reduced Waiting Times</button></h2>
+                    <div id="tc4" class="accordion-collapse collapse" data-bs-parent="#tcFeatures">
+                        <div class="accordion-body">
+                            <p>Tele-consultation significantly reduces patient waiting times by allowing appointments to be scheduled according to patient and physician availability.</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Faster Access to Healthcare</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Reduced Appointment Delays</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Improved Resource Utilization</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Better Patient Satisfaction</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tc5">Prescription & Referrals</button></h2>
+                    <div id="tc5" class="accordion-collapse collapse" data-bs-parent="#tcFeatures">
+                        <div class="accordion-body">
+                            <p>Healthcare professionals can:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Issue Digital Prescriptions</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Provide Medical Advice</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Recommend Diagnostic Tests</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Refer Patients to Specialists</span></li>
+                            </ul>
+                            <p>This streamlines the healthcare journey and improves care coordination.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tc6">Follow-Up Appointments</button></h2>
+                    <div id="tc6" class="accordion-collapse collapse" data-bs-parent="#tcFeatures">
+                        <div class="accordion-body">
+                            <p>Patients can conveniently attend follow-up consultations after treatment, hospitalization, or surgery without visiting healthcare facilities physically.</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Continuous Care</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Better Treatment Adherence</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Improved Recovery Monitoring</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Enhanced Patient Convenience</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Benefits of Tele-Consultation</h2>
-            <ul data-aos="fade-up" data-aos-duration="900" class="mt-3">
-                <li><i class="fa-solid fa-angles-right"></i><strong>Improved Access to Healthcare Services</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Enhanced Patient Convenience</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Reduced Travel and Waiting Times</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Better Care Continuity</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Increased Patient Engagement</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Efficient Chronic Disease Management</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Improved Healthcare Accessibility for Rural Areas</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Reduced Operational Costs</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Secure and Convenient Virtual Care</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Enhanced Patient Satisfaction</strong></li>
-            </ul>
-            <p class="desc mt-3" data-aos="fade-up" data-aos-duration="900">Tele-consultation complements traditional healthcare delivery by enabling efficient, accessible, and patient-centered care while reducing barriers to healthcare access.</p>
+            <hr class="service-section-divider">
 
-            <h2 class="title rr-title-anim-1 mt-5" data-aos="fade-up" data-aos-duration="900">Platform Features</h2>
-            <ul data-aos="fade-up" data-aos-duration="900" class="mt-3">
-                <li><i class="fa-solid fa-angles-right"></i><strong>Secure Video Consultation</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Audio Consultation</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Chat-Based Consultation</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Online Appointment Scheduling</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Electronic Prescription Management</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Patient Health Records Access</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Follow-Up Management</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Notification & Reminder System</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Doctor Availability Management</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Multi-Device Accessibility</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Secure Data Storage</strong></li>
-                <li><i class="fa-solid fa-angles-right"></i><strong>Analytics & Reporting</strong></li>
-            </ul>
+            <!-- Use Cases - Accordion -->
+            <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Tele-Consultation Use Cases</h2>
+            <div class="accordion service-accordion" id="tcUseCases" data-aos="fade-up" data-aos-duration="900">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tcu1" aria-expanded="true">Primary Care Consultations</button></h2>
+                    <div id="tcu1" class="accordion-collapse collapse show" data-bs-parent="#tcUseCases">
+                        <div class="accordion-body"><p>Routine health check-ups, medication reviews, preventive care, and minor health concerns can be effectively managed through virtual consultations.</p></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tcu2">Chronic Disease Management</button></h2>
+                    <div id="tcu2" class="accordion-collapse collapse" data-bs-parent="#tcUseCases">
+                        <div class="accordion-body">
+                            <p>Tele-consultation supports continuous monitoring and management of chronic diseases such as:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Diabetes</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Hypertension</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Heart Disease</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Asthma</span></li>
+                            </ul>
+                            <p>Regular virtual consultations help improve patient outcomes and treatment compliance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tcu3">Mental Health Support</button></h2>
+                    <div id="tcu3" class="accordion-collapse collapse" data-bs-parent="#tcUseCases">
+                        <div class="accordion-body">
+                            <p>Tele-consultation provides an accessible and comfortable platform for:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Mental Health Counseling</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Therapy Sessions</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Psychological Support</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Behavioral Health Management</span></li>
+                            </ul>
+                            <p>Virtual mental healthcare improves accessibility and reduces stigma.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tcu4">Remote Areas & Emergencies</button></h2>
+                    <div id="tcu4" class="accordion-collapse collapse" data-bs-parent="#tcUseCases">
+                        <div class="accordion-body">
+                            <p>Tele-consultation is particularly beneficial in:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Rural and Remote Locations</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Areas with Limited Healthcare Access</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Public Health Emergencies</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><span>Natural Disasters</span></li>
+                            </ul>
+                            <p>It ensures uninterrupted healthcare delivery when physical access is limited.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="service-section-divider">
+
+            <!-- Benefits - Badge Grid -->
+            <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Benefits of Tele-Consultation</h2>
+            <div class="service-features-grid" data-aos="fade-up" data-aos-duration="900">
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Improved Access to Healthcare</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Enhanced Patient Convenience</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Reduced Travel and Waiting Times</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Better Care Continuity</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Increased Patient Engagement</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Efficient Chronic Disease Management</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Healthcare Accessibility for Rural Areas</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Reduced Operational Costs</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Secure Virtual Care</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Enhanced Patient Satisfaction</span>
+            </div>
+            <div class="service-intro-text" data-aos="fade-up" data-aos-duration="900">
+                <p>Tele-consultation complements traditional healthcare delivery by enabling efficient, accessible, and patient-centered care while reducing barriers to healthcare access.</p>
+            </div>
+
+            <hr class="service-section-divider">
+
+            <!-- Platform Features - Badge Grid -->
+            <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Platform Features</h2>
+            <div class="service-features-grid" data-aos="fade-up" data-aos-duration="900">
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Secure Video Consultation</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Audio Consultation</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Chat-Based Consultation</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Online Appointment Scheduling</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Electronic Prescription Management</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Patient Health Records Access</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Follow-Up Management</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Notification & Reminder System</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Doctor Availability Management</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Multi-Device Accessibility</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Secure Data Storage</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-angles-right"></i> Analytics & Reporting</span>
+            </div>
 
         </div>
     </div>
