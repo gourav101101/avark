@@ -6128,7 +6128,7 @@ section {
   bottom: 0;
   right: -234px;
   z-index: 1;
-  animation-duration: 8s;
+  transform: rotate(-75deg);
 }
 @media (max-width: 575px) {
   .hero__media .shape-5 {

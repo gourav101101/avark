@@ -9,7 +9,7 @@
         <span>V</span>
         <span>A</span>
         <span>R</span>
-        <span>k</span>
+        <span>K</span>
       </div>
     </div>
   </div>
@@ -168,7 +168,7 @@
                                                 <a href="{{route('ark-cloud-cast')}}">Business Marketing Tool</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('inventory-stock management')}}">Inventory or Stock Management Software</a>
+                                                <a href="{{route('inventory-stock-management')}}">Inventory or Stock Management Software</a>
                                             </li>
                                             <li>
                                                 <a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management Software</a>

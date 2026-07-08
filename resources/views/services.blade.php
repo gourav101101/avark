@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'Services')
-@section('meta_description', 'Welcome to our homepage')
-@section('meta_keywords', 'home, laravel website')
+@section('title', 'Our Services | Digital Transformation')
+@section('meta_description', 'Explore our comprehensive range of services including Custom Software Development, ERP Systems, CRM Solutions, Cloud Migration, and Enterprise Integration.')
+@section('meta_keywords', 'Avark Services, ERP Development, CRM Solutions, Custom Software, Cloud Migration, Enterprise IT Services')
+@section('og_title', 'IT & Digital Transformation Services | Avark')
 
 @section('content')
 
@@ -260,94 +261,6 @@
                     class="fa-regular fa-angle-left"></i></div>
                 <div class="testimonial-section__arrow testimonial-section__arrow-next"><i
                     class="fa-regular fa-angle-right"></i></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="pricing-plans-3__area section-spacing-120" style="display: none;">
-          <div class="container rr-container-1350">
-            <div class="pricing-plans-3__top">
-              <div class="section-title-3__wrapper">
-                <h2 class="sub-title"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left.png"
-                    alt="image">Pricing Plans</h2>
-                <h2 class="title rr-title-anim-1">Flexible Plans, Maximum Value</h2>
-              </div>
-              <div class="pricing-plans-3__right">
-                <div class="pricing-plans-3__toggle-button">
-                  <span class="pricing-plans-3__toggler active" id="Monthly">monthly</span>
-                  <label class="pricing-plans-3__toggle">
-                    <input type="checkbox" id="checkbox" onclick="check()">
-                    <span class="switcher toggle"></span>
-                  </label>
-                  <span class="pricing-plans-3__toggler" id="Annually">yearly</span>
-                </div>
-              </div>
-            </div>
-            <div class="row mb-minus-30">
-              <div class="col-lg-6">
-                <div class="pricing-plans-3__card mb-30">
-                  <div class="pricing-plans-3__wrap">
-                    <div class="pricing-plans-3__content">
-                      <h3 class="pricing-plans-3__title">Professional Plan</h3>
-                      <p class="pricing-plans-3__dec">Advanced CRM Tools with automation, insights, and priority
-                        support."</p>
-                      <div class="pricing-plans-3__price">
-                        <h2 data-Annually="$<span>29</span> <span>/yearly</span>"
-                          data-Monthly="$<span>19</span> <span>/month</span>">
-                          $<span>19</span> <span>/month</span>
-                        </h2>
-                      </div>
-                    </div>
-                    <ul class="pricing-plans-3__list">
-                      <li><i class="fa-regular fa-angles-right"></i> 07 Users</li>
-                      <li><i class="fa-regular fa-angles-right"></i> Basic CRM Features</li>
-                      <li><i class="fa-regular fa-angles-right"></i> Sales Automation</li>
-                      <li><i class="fa-regular fa-angles-right"></i> Advanced CRM</li>
-                      <li><i class="fa-regular fa-angles-right"></i> Standard Support</li>
-                    </ul>
-                  </div>
-                  <div class="pricing-plans-3__btn">
-                    <a href="{{ route('contact-us') }}" class="rr-btn">
-                      <span class="btn-wrap">
-                        <span class="text-one">Contact Sales</span>
-                        <span class="text-two">Contact Sales</span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="pricing-plans-3__card mb-30">
-                  <div class="pricing-plans-3__wrap">
-                    <div class="pricing-plans-3__content">
-                      <h3 class="pricing-plans-3__title">Enterprise Plan</h3>
-                      <p class="pricing-plans-3__dec">Advanced CRM Tools with automation, insights, and priority
-                        support."</p>
-                      <div class="pricing-plans-3__price">
-                        <h2 data-Annually="$<span>79</span> <span>/yearly</span>"
-                          data-Monthly="$<span>49</span> <span>/month</span>">
-                          $<span>49</span> <span>/month</span>
-                        </h2>
-                      </div>
-                    </div>
-                    <ul class="pricing-plans-3__list">
-                      <li><i class="fa-regular fa-angles-right"></i> 10 Users</li>
-                      <li><i class="fa-regular fa-angles-right"></i> Sales Automation</li>
-                      <li><i class="fa-regular fa-angles-right"></i> Full Customization</li>
-                      <li><i class="fa-regular fa-angles-right"></i> Integrations</li>
-                      <li><i class="fa-regular fa-angles-right"></i> Dedicated Account Manager</li>
-                    </ul>
-                  </div>
-                  <div class="pricing-plans-3__btn">
-                    <a href="{{ route('contact-us') }}" class="rr-btn">
-                      <span class="btn-wrap">
-                        <span class="text-one">Contact Sales</span>
-                        <span class="text-two">Contact Sales</span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

@@ -49,7 +49,7 @@
                          <div class="footer-4__top">
                              <div class="footer-4__info">
                                  <div class="footer-4__logo">
-                                     <a href="avark.in"><img src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="Kuldeep Meena " style="filter: brightness(0);"></a>
+                                     <a href="{{ route('home') }}"><img src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="Avark Healthcare Technology" style="filter: brightness(0);"></a>
                                  </div>
                                  <p class="footer-4__dec">Avark Healthcare Technology Pvt. Ltd. — Transforming healthcare through technology since 2019.
                                  </p>
@@ -64,35 +64,23 @@
                                  </ul>
                              </div>
                          </div>
-                         <div class="footer-4__widget widget-col_1" >
+                         <div class="footer-4__widget" >
                              <div class="footer-4__menu">
-                                 <h3 class="footer-4__title">Our Company</h3>
+                                 <h3 class="footer-4__title">Quick Links</h3>
                                  <ul>
                                      <li><a href="{{ route('about') }}">About Us</a></li>
                                      <li><a href="{{ route('services') }}">Services</a></li>
-                                     <li><a href="{{ route('products') }}">Products </a></li>
-                                     <li><a href="{{ route('contact-us') }}">Pricing</a></li>
+                                     <li><a href="{{ route('products') }}">Products</a></li>
                                      <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
-                                 </ul>
-                             </div>
-                             <div class="footer-4__menu">
-                                 <h3 class="footer-4__title">Resources</h3>
-                                 <ul>
-                                     <li><a href="#">PMJY</a></li>
-                                     <li><a href="#">Collaboration</a></li>
-                                     <li><a href="#">Technical Partner</a></li>
-                                     <li><a href="#">Marketing Partner</a></li>
                                      <li><a href="{{ route('blogs') }}">Blogs</a></li>
                                  </ul>
                              </div>
                              <div class="footer-4__menu">
-                                 <h3 class="footer-4__title">Features</h3>
+                                 <h3 class="footer-4__title">Get in Touch</h3>
                                  <ul>
-                                     <li><a href="#">Support</a></li>
-                                     <li><a href="#">Hosting</a></li>
-                                     <li><a href="#">Domains</a></li>
-                                     <li><a href="#">Payment Gateway</a></li>
-                                     <li><a href="#">AWS</a></li>
+                                     <li><a href="mailto:support@avark.in"><i class="fa-regular fa-envelope" style="margin-right: 8px;"></i>support@avark.in</a></li>
+                                     <li><a href="tel:+917400920717"><i class="fa-regular fa-phone" style="margin-right: 8px;"></i>+91-7400920717</a></li>
+                                     <li><a href="{{ route('partners') }}"><i class="fa-regular fa-handshake" style="margin-right: 8px;"></i>Partners</a></li>
                                  </ul>
                              </div>
                          </div>

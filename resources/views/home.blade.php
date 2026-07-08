@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
+@section('title', 'Smart Healthcare & Enterprise Solutions')
+@section('meta_description', 'Avark provides cutting-edge Hospital Management Systems (HMS), ERP, CRM, and digital transformation solutions to empower modern businesses and healthcare institutions.')
+@section('meta_keywords', 'Avark, Hospital Management System, ERP, CRM, Digital Healthcare, Custom Software Development, India')
+@section('og_title', 'Avark Healthcare & Enterprise Technology')
+
 @section('content')
 
 
@@ -42,7 +47,7 @@
                         <img class="shape-2 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/shape-2.png') }}" alt="">
                         <img class="shape-3 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/kp03.png') }}" alt="">
                         <img class="shape-4 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/kp02.png') }}" alt="">
-                        <img class="shape-5 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/card.png') }}" alt="">
+                        <img class="shape-5" src="{{ asset('assets/imgs/home-1/hero/card3.png') }}" alt="">
                     </div>
                 </div>
 
@@ -313,12 +318,12 @@
                     <h3 class="title"><a href="{{route('hms')}}">Advance Hospital Management System</a></h3>
                 </div>
             </div>
-            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('inventory-stock management')}}'">
+            <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('inventory-stock-management')}}'">
                 <div class="icon">
                     <img loading="lazy" src="assets/imgs/icon/ai-features-icon-6.png" alt="icon">
                 </div>
                 <div class="content">
-                    <h3 class="title"><a href="{{route('inventory-stock management')}}">Inventory or Stock Management System</a></h3>
+                    <h3 class="title"><a href="{{route('inventory-stock-management')}}">Inventory or Stock Management System</a></h3>
                 </div>
             </div>
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-left" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('pathology-diagnostic-management')}}'">
@@ -427,143 +432,8 @@
     </div>
 </section>
 
-<section class="control-plan section-spacing-top-120" style="display: none;">
-    <div class="container rr-container-1350">
-        <div class="row">
-            <div class="col-xl-3">
-                <div class="control-plan__left" data-aos="fade-right" data-aos-duration="900">
-                    <div class="control-plan__left-icon">
-                        <h2 class="title">We mentioned your business on Instagram </h2>
-                        <a href="https://www.facebook.com/"><i class="fa-solid fa-s"></i></a>
-                        <img loading="lazy" class="line-1" src="assets/imgs/home-1/control-plan/line-1.png" alt="image">
-                    </div>
 
-                    <div class="control-plan__left-icon icon-2">
-                        <img loading="lazy" class="dot-shape" src="assets/imgs/home-1/control-plan/dot-shape.png" alt="image">
-                        <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
-                        <img loading="lazy" class="line-2" src="assets/imgs/home-1/control-plan/line-2.png" alt="image">
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="section-title__wrapper text-center" data-aos="fade-up" data-aos-duration="700">
-                    <h2 class="sub-title">Client Testimonials</h2>
-                    <h2 class="title rr-title-anim-1">Trusted by Businesses Across Industries</h2>
-                </div>
-                <div class="control-plan__wrapper" data-aos="fade-up" data-aos-duration="900">
-                    <div class="control-plan__item">
-                        <h6 class=""> Enterprise-Grade <br> Security </h6>
-                        <p>Advanced protection to safeguard business data.</p>
-                    </div>
-                    <div class="control-plan__item">
-                        <h6 class="">Scalable & Customizable Systems </h6>
-                        <p> Solutions designed to grow with your business. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3">
-                <div class="control-plan__right" data-aos="fade-left" data-aos-duration="900">
 
-                    <div class="control-plan__right-icon icon-3">
-                        <img loading="lazy" class="dot-shape" src="assets/imgs/home-1/control-plan/dot-shape.png" alt="image">
-                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                        <img loading="lazy" class="line-3" src="assets/imgs/home-1/control-plan/line-3.png" alt="image">
-                    </div>
-
-                    <div class="control-plan__right-icon has--4">
-                        <h2 class="title">We metioned your business on facebook</h2>
-                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                        <img loading="lazy" class="line-4" src="assets/imgs/home-1/control-plan/line-4.png" alt="image">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="media" data-aos="fade-up" data-aos-duration="900">
-            <img loading="lazy" src="assets/imgs/home-1/control-plan/control-plan.png" alt="image ">
-
-            <!-- Elfsight Google Reviews | Untitled Google Reviews
-            <script src="https://elfsightcdn.com/platform.js" async></script>
-            <div class="elfsight-app-d82de514-8f7a-4d93-84b9-0fbf2ea30114" data-elfsight-app-lazy></div> -->
-
-        </div>
-    </div>
-</section>
-
-<!-- pricing__area start -->
-<section class="pricing rr-bg-gray section-spacing" style="display: none;">
-    <div class="container rr-container-1350">
-        <div class="pricing__wrapper">
-            <div class="pricing__card " data-aos="fade-right" data-aos-duration="900">
-                <h3 class="pricing__card__title"> Industrial Inventory Management System </h3>
-                <div class="pricing__card__price">
-                    <h2 data-Monthly="<span>$49</span> <span>/per month</span>"
-                        data-Annually="<span>$100</span> <span>/per yearly</span>">
-                        <span> ₹6,999 </span> <span>/per month</span>
-                    </h2>
-                </div>
-                <div class="pricing__body">
-                    <ul>
-                        <li><span><i class="fa-solid fa-check"></i></span>Stock & Warehouse Management</li>
-                        <li><span><i class="fa-solid fa-check"></i></span>Real-Time Inventory Tracking </li>
-                        <li><span><i class="fa-solid fa-check"></i></span>Multi-User Access </li>
-                        <li><span><i class="fa-solid fa-check"></i></span>Reporting & Analytics </li>
-                        <li><span><i class="fa-solid fa-check"></i></span>Email Support </li>
-                    </ul>
-                </div>
-                <div class="pricing__price__btn">
-                    <a href="{{ route('contact-us') }}" class="rr-btn-green">
-                        <span class="btn-wrap">
-                            <span class="text-one">Request Demo</span>
-                            <span class="text-two">Request Demo</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="pricing__card" data-aos="fade-up" data-aos-duration="900">
-                <h3 class="pricing__card__title">ERP System</h3>
-                <div class="pricing__card__price ">
-                    <h2 data-Monthly="<span>$49</span> <span>/per month</span>"
-                        data-Annually="<span>$100</span> <span>/per yearly</span>">
-                        <span>₹12,999</span> <span>/per month</span>
-                    </h2>
-                </div>
-                <div class="pricing__body">
-                    <ul>
-                        <li><span><i class="fa-solid fa-check"></i></span> Finance & Accounts Module</li>
-                        <li><span><i class="fa-solid fa-check"></i></span>HR & Payroll Management</li>
-                        <li><span><i class="fa-solid fa-check"></i></span>Sales & Purchase Management</li>
-                        <li><span><i class="fa-solid fa-check"></i></span>Advanced Reports & Dashboard</li>
-                        <li><span><i class="fa-solid fa-check"></i></span>Role-Based Access Control</li>
-                    </ul>
-                </div>
-                <div class="pricing__price__btn">
-                    <a href="{{ route('contact-us') }}" class="rr-btn-green">
-                        <span class="btn-wrap">
-                            <span class="text-one">Get ERP Demo</span>
-                            <span class="text-two">Get ERP Demo</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="pricing__content" data-aos="fade-left" data-aos-duration="900">
-                <div class="section-title__wrapper">
-                    <h2 class="sub-title">Product Pricing Plans</h2>
-                    <h2 class="title rr-title-anim-1">Flexible Pricing for Powerful Business Solutions</h2>
-                    <p class="desc">Choose the right software solution based on your business size and operational needs. Scalable, secure, and performance-driven systems built for growth.</p>
-                </div>
-                <div class="pricing__toggle-button ">
-                    <span class="pricing__toggler" id="Monthly">monthly</span>
-                    <label class="pricing__toggle">
-                        <input type="checkbox" id="checkbox" onclick="check()">
-                        <span class="switcher toggle"></span>
-                    </label>
-                    <span class="pricing__toggler" id="Annually">yearly</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- pricing__area start -->
 
 <section class="testimonial">
     <div class="testimonial__inner section-spacing rr-pos-rel">

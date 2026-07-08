@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'About Page')
-@section('meta_description', 'Welcome to our homepage')
-@section('meta_keywords', 'home, laravel website')
+@section('title', 'About Us')
+@section('meta_description', 'Learn about Avark Healthcare Technology, our mission to empower businesses with agile solutions, and our journey in digital healthcare and IT transformation.')
+@section('meta_keywords', 'About Avark, Healthcare Technology Company, IT Company Indore, Digital Transformation, Software Development')
+@section('og_title', 'About Avark Healthcare Technology')
 
 @section('content')
 
@@ -55,13 +56,13 @@
       <div class="about-section-2__box" data-aos="fade-right" data-aos-duration="900">
         <div class="shapes">
           <div class="shape-1">
-            <img src="assets/imgs/home-3/about/about-page.jpeg" alt="img not found">
+            <img src="assets/imgs/home-3/about/about1.png" alt="img not found">
           </div>
           <div class="shape-2 shape-animaiton1">
-            <img src="assets/imgs/shape/about-shape-2.png" alt="img not found">
+            <img src="assets/imgs/home-3/about/about2.png" alt="img not found">
           </div>
           <div class="shape-3 shape-animaiton1">
-            <img src="assets/imgs/shape/about-shape-3.png" alt="img not found">
+            <img src="assets/imgs/home-3/about/about3.png" alt="img not found">
           </div>
         </div>
       </div>
@@ -100,7 +101,7 @@
 <section class="brand-3 " data-aos="fade-up" data-aos-duration="900">
   <div class="container rr-container-1350">
     <div class="section-title-3__wrapper">
-      <h2 class="title rr-title-anim-1">Avark Trusted By18+M Peoples</h2>
+      <h2 class="title rr-title-anim-1">Avark Trusted By 18M+ People</h2>
     </div>
     <div class="swiper brand-3__active">
       <div class="swiper-wrapper">
@@ -287,34 +288,6 @@
 
 
 
-<section class="funfact section-spacing-top-120 " style="display: none;">
-  <div class="container rr-container-1350">
-    <div class="funfact__inner">
-      <div class="row">
-        <div class="col-lg-8 d-flex" data-aos="fade-right" data-aos-duration="900">
-          <div class="funfact__media">
-            <img src="assets/imgs/funfact/funfact.jpg" alt="image">
-          </div>
-        </div>
-        <div class="col-lg-4 d-flex" data-aos="fade-left" data-aos-duration="900">
-          <div class="funfact__content" data-background="assets/imgs/funfact/bg.png">
-            <h2 class="title">“We don’t build products build partnerships. Mission is empower businesses with
-              solutions that
-              are
-              agile and ambitious.”</h2>
-            <div class="author">
-              <div class="media">
-                <img src="assets/imgs/funfact/author.png" alt="image">
-              </div>
-              <h3 class="name">Sarah Johnson</h3>
-              <span>Marketing Manager, Growthly</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="counter section-spacing-top-60">
   <div class="container rr-container-1350 ">
@@ -347,7 +320,7 @@
   <div class="container rr-container-1350">
     <div class="service-details__top">
       <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/home-3/about/about-page.jpeg" alt="img">
+        <img src="assets/imgs/home-3/about/about1.png" alt="img">
       </div>
     </div>
   </div>
@@ -432,111 +405,6 @@
   </div>
 </section>
 
-<section class="control-plan section-spacing-top-120" style="display: none;">
-  <div class="container rr-container-1350">
-    <div class="row">
-      <div class="col-xl-3">
-        <div class="control-plan__left" data-aos="fade-right" data-aos-duration="900">
-
-          <div class="control-plan__left-icon">
-            <h2 class="title">We Mentioned your business on X</h2>
-            <a href="https://twitter.com/" target="_blank" rel="noopener">
-              <i class="fa-brands fa-x-twitter"></i>
-            </a>
-            <img class="line-1" src="assets/imgs/home-1/control-plan/line-1.png" alt="image">
-          </div>
-
-          <div class="control-plan__left-icon icon-2">
-            <img class="dot-shape" src="assets/imgs/home-1/control-plan/dot-shape.png" alt="image">
-            <a href="https://twitter.com/" target="_blank" rel="noopener">
-              <i class="fa-brands fa-x-twitter"></i>
-            </a>
-            <img class="line-2" src="assets/imgs/home-1/control-plan/line-2.png" alt="image">
-          </div>
-
-        </div>
-      </div>
-
-      <div class="col-xl-6">
-        <div class="section-title__wrapper text-center" data-aos="fade-up" data-aos-duration="700">
-          <h2 class="sub-title">Take Control in Real Time</h2>
-          <h2 class="title rr-title-anim-1">Real-Time Dashboard for Smarter Payments</h2>
-        </div>
-
-        <div class="control-plan__wrapper" data-aos="fade-up" data-aos-duration="900">
-          <div class="control-plan__item">
-            <h2 class="title">50%</h2>
-            <p>Transaction cost savings</p>
-          </div>
-          <div class="control-plan__item">
-            <h2 class="title">25%</h2>
-            <p>Higher conversion rate</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-3">
-        <div class="control-plan__right" data-aos="fade-left" data-aos-duration="900">
-
-          <div class="control-plan__right-icon icon-3">
-            <img class="dot-shape" src="assets/imgs/home-1/control-plan/dot-shape.png" alt="image">
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <img class="line-3" src="assets/imgs/home-1/control-plan/line-3.png" alt="image">
-          </div>
-
-          <div class="control-plan__right-icon has--4">
-            <h2 class="title">We mentioned your business on Facebook</h2>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            <img class="line-4" src="assets/imgs/home-1/control-plan/line-4.png" alt="image">
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="media" data-aos="fade-up" data-aos-duration="900">
-      <img src="assets/imgs/home-1/control-plan/control-plan.png" alt="image">
-    </div>
-  </div>
-</section>
-
-<section class="cta-section__area" style="display: none;">
-  <div class="container rr-container-1350">
-    <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
-      <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-            alt="image">Connect With Us <img class="right-shape"
-            src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
-        <h2 class="title rr-title-anim-1 white">Freedom Without Commitments.</h2>
-        <p class="cta-section__dec">Start your 30-day free trial. Cancel anytime.</p>
-      </div>
-      <div class="cta-section__btn">
-        <a href="#" class="rr-btn">
-          <span class="btn-wrap">
-            <span class="text-one">view our demo</span>
-            <span class="text-two">view our demo</span>
-          </span>
-        </a>
-        <a href="{{ route ('contact-us') }}" class="rr-btn rr-btn-3">
-          <span class="btn-wrap">
-            <span class="text-one">start free trial now</span>
-            <span class="text-two">start free trial now</span>
-          </span>
-        </a>
-      </div>
-      <div class="cta-section__list">
-        <ul>
-          <li><i class="fa-regular fa-angles-right"></i> 14-day free trial</li>
-          <li><i class="fa-regular fa-angles-right"></i> No credit card required</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 <section class="our-integrations__area section-spacing-120 rr-bg-gray">

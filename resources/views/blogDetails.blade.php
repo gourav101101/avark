@@ -268,38 +268,4 @@
     </div>
 </section>
 
-<section class="cta-section__area" style="display: none;">
-    <div class="container rr-container-1350">
-        <div class="cta-section__wrapper" data-background="{{ asset('assets/imgs/home-3/shape/cta-3-bg.png') }}">
-            <div class="section-title-3__wrapper tx-center">
-                <h3 class="sub-title white"><img class="left-shape" src="{{ asset('assets/imgs/home-3/shape/shape-left-white.png') }}"
-                        alt="image">Connect With Us <img class="right-shape"
-                        src="{{ asset('assets/imgs/home-3/shape/shape-right-white.png') }}" alt="image"></h3>
-                <h2 class="title rr-title-anim-1 white">Freedom Without Commitments.</h2>
-                <p class="cta-section__dec">Start your 30-day free trial. Cancel anytime.</p>
-            </div>
-            <div class="cta-section__btn">
-                <a href="#" class="rr-btn">
-                    <span class="btn-wrap">
-                        <span class="text-one">view our demo</span>
-                        <span class="text-two">view our demo</span>
-                    </span>
-                </a>
-                <a href="{{ route('contact-us') }}" class="rr-btn rr-btn-3">
-                    <span class="btn-wrap">
-                        <span class="text-one">start free trial now</span>
-                        <span class="text-two">start free trial now</span>
-                    </span>
-                </a>
-            </div>
-            <div class="cta-section__list">
-                <ul>
-                    <li><i class="fa-regular fa-angles-right"></i> 14-day free trial</li>
-                    <li><i class="fa-regular fa-angles-right"></i> No credit card required</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
 @endsection

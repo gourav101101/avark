@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
 @section('title', 'Contact Us')
-@section('meta_description', 'Contact Avark Healthcare Technology Pvt. Ltd. for ARK Hospital Management Software')
-@section('meta_keywords', 'contact, Avark Healthcare Technology, ARK HIMS, hospital software')
+@section('meta_description', 'Get in touch with Avark Healthcare Technology Pvt. Ltd. for enterprise software solutions, hospital management systems, or general inquiries.')
+@section('meta_keywords', 'Contact Avark, Healthcare Technology, ARK HIMS, IT Support, Software Sales')
+@section('og_title', 'Contact Avark Healthcare Technology')
 
 @section('content')
 

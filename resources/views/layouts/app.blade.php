@@ -5,9 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="description" content="Stackly - App Landing, Ai & Software Business Html Template" />
+  <meta name="description" content="@yield('meta_description', 'Avark Healthcare Technology provides advanced Hospital Management Systems (HMS), ERP, CRM, and digital transformation solutions.')" />
+  <meta name="keywords" content="@yield('meta_keywords', 'Healthcare Technology, HMS, ERP System, CRM Solutions, Avark, Digital Healthcare')" />
 
-  <title>@yield('title', 'Avark Pvt. Ltd.')</title>
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="@yield('og_title', 'Avark Healthcare Technology | Digital Solutions')" />
+  <meta property="og:description" content="@yield('meta_description', 'Avark Healthcare Technology provides advanced Hospital Management Systems (HMS), ERP, CRM, and digital transformation solutions.')" />
+  <meta property="og:image" content="@yield('og_image', asset('assets/imgs/logo/kp-avark-logo.png'))" />
+  <meta property="og:type" content="website" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title>@yield('title', 'Home') | Avark Pvt. Ltd.</title>
 
   <!-- Fav Icon -->
   <link rel="icon" type="image/x-icon" href="{{ asset('assets/imgs/logo/fevi-icon.png') }}">

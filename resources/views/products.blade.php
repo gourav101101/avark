@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'Products')
-@section('meta_description', 'Welcome to our Products Page')
-@section('meta_keywords', 'home, Avark Products')
+@section('title', 'Our Products | Healthcare & Enterprise Solutions')
+@section('meta_description', 'Discover Avark\'s suite of enterprise products including Hospital Management Systems (HMS), KIOSK Management, Digital Signage, and Inventory solutions.')
+@section('meta_keywords', 'Avark Products, Hospital Management Software, KIOSK System, Inventory Management, Digital Signage, Enterprise Products')
+@section('og_title', 'Enterprise Software Products | Avark')
 
 @section('content')
 
@@ -63,14 +64,14 @@
             <!-- 02 -->
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
-                     <a href="{{route('inventory-stock management')}}">
+                     <a href="{{route('inventory-stock-management')}}">
                     <img src="assets/imgs/icon/ai-features-icon-6.png" alt="icon">
                      </a>
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
-                    <h3 class="title">  <a href="{{route('inventory-stock management')}}"> Inventory or Stock Management Software </a> </h3>
+                    <h3 class="title">  <a href="{{route('inventory-stock-management')}}"> Inventory or Stock Management Software </a> </h3>
                     <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">ARK Inventory Management Software helps organizations streamline inventory control, stock tracking, purchase management, and warehouse operations through a centralized digital platform. With real-time monitoring, automated alerts, and detailed analytics, businesses can improve efficiency, reduce costs, and maintain accurate inventory records.</p>
-                    <a href="{{route('inventory-stock management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="{{route('inventory-stock-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
