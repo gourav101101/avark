@@ -132,17 +132,16 @@
 <!-- Partner Logos Section -->
 <section class="brand-section pt-5 pb-5 bg-light">
     <div class="container">
-        <div class="text-center mb-4">
+        <div class="text-center mb-5">
             <h3 class="section-title">Partner Logos</h3>
-            <p class="text-muted"><em>(Partner logos will be displayed here.)</em></p>
         </div>
-        <div class="row justify-content-center align-items-center opacity-50">
-            <!-- Placeholders for logos -->
-            <div class="col-lg-2 col-md-4 col-6 text-center mb-4"><i class="fa-brands fa-aws fa-3x text-muted"></i></div>
-            <div class="col-lg-2 col-md-4 col-6 text-center mb-4"><i class="fa-brands fa-microsoft fa-3x text-muted"></i></div>
-            <div class="col-lg-2 col-md-4 col-6 text-center mb-4"><i class="fa-brands fa-google fa-3x text-muted"></i></div>
-            <div class="col-lg-2 col-md-4 col-6 text-center mb-4"><i class="fa-brands fa-docker fa-3x text-muted"></i></div>
-            <div class="col-lg-2 col-md-4 col-6 text-center mb-4"><i class="fa-brands fa-digital-ocean fa-3x text-muted"></i></div>
+        <div class="row justify-content-center align-items-center">
+            <!-- 5 Main Partner Logos -->
+            <div class="col-lg-2 col-md-4 col-6 text-center mb-4"><img src="{{ asset('assets/imgs/home-1/brand/amazonwebservices.png') }}" class="img-fluid" alt="Amazon Web Services" style="max-height: 60px;"></div>
+            <div class="col-lg-2 col-md-4 col-6 text-center mb-4"><img src="{{ asset('assets/imgs/home-1/brand/oracle.png') }}" class="img-fluid" alt="Oracle" style="max-height: 60px;"></div>
+            <div class="col-lg-2 col-md-4 col-6 text-center mb-4"><img src="{{ asset('assets/imgs/home-1/brand/makd.png') }}" class="img-fluid" alt="MAKD" style="max-height: 60px;"></div>
+            <div class="col-lg-2 col-md-4 col-6 text-center mb-4"><img src="{{ asset('assets/imgs/home-1/brand/bigrock.png') }}" class="img-fluid" alt="BigRock" style="max-height: 60px;"></div>
+            <div class="col-lg-2 col-md-4 col-6 text-center mb-4"><img src="{{ asset('assets/imgs/home-1/brand/emegh-logo.png') }}" class="img-fluid" alt="eMegh" style="max-height: 60px;"></div>
         </div>
     </div>
 </section>

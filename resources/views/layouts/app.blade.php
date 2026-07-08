@@ -95,5 +95,68 @@
 
 <!-- Main JS -->
 <script src="{{ asset('assets/js/main.js') }}"></script>
+
+<!-- Chatway Live Chat Widget -->
+<script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=P2SKmkhANlTc"></script>
+<!-- Floating Social Buttons -->
+<div id="floating-socials" style="
+    position: fixed;
+    bottom: 90px;
+    right: 24px;
+    z-index: 9998;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+">
+    <!-- Phone Call -->
+    <a href="tel:+917400920717" title="Call Us" class="float-btn" style="background: #25D366;">
+        <i class="fa-solid fa-phone" style="color: #fff; font-size: 22px;"></i>
+    </a>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/avaboraoffice/" target="_blank" title="Instagram" class="float-btn" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);">
+        <i class="fa-brands fa-instagram" style="color: #fff; font-size: 24px;"></i>
+    </a>
+    <!-- WhatsApp -->
+    <a href="https://wa.me/917400920717" target="_blank" title="Chat on WhatsApp" class="float-btn" style="background: #25D366;">
+        <i class="fa-brands fa-whatsapp" style="color: #fff; font-size: 26px;"></i>
+    </a>
+
+</div>
+<style>
+    .float-btn {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+    }
+    .float-btn:hover {
+        transform: scale(1.15);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+    }
+    .float-btn::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: inherit;
+        animation: float-pulse 2.5s infinite;
+        z-index: -1;
+    }
+    @keyframes float-pulse {
+        0% { transform: scale(1); opacity: 0.4; }
+        70% { transform: scale(1.4); opacity: 0; }
+        100% { transform: scale(1.4); opacity: 0; }
+    }
+</style>
+
+
 </body>
 </html>
