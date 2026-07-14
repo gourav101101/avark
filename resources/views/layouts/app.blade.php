@@ -106,7 +106,7 @@
 <script src="{{ asset('assets/js/main.js') }}"></script>
 
 <!-- Chatway Live Chat Widget -->
-<script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=P2SKmkhANlTc"></script>
+<script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=RE2YD4LgsZ9M"></script>
 <!-- Floating Social Buttons -->
 <div id="floating-socials" style="
     position: fixed;

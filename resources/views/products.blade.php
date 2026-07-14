@@ -8,16 +8,121 @@
 @section('content')
 
 <style>
-    .ai-features-2__item .icon {
-        background: linear-gradient(90deg, #d0fc9c 0%, #198754 100%);
+    /* Product Cards */
+    .ai-features-2 {
+        background: linear-gradient(180deg, #f8faf6 0%, #fff 100%);
     }
-
+    .ai-features-2__item {
+        position: relative;
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+        border: 1px solid rgba(0,0,0,0.06) !important;
+        border-radius: 16px !important;
+        background: #fff;
+    }
     .ai-features-2__item:hover {
-        background: linear-gradient(90deg, #d0fc9c 0%, #a0ea71 100%);
+        transform: translateY(-6px) !important;
+        box-shadow: 0 16px 48px rgba(34, 197, 94, 0.15) !important;
+        border-color: rgba(34, 197, 94, 0.2) !important;
+        background: #fff;
     }
-
+    .ai-features-2__item .product-desc {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #666;
+        transition: color 0.3s ease;
+    }
+    .ai-features-2__item:hover .product-desc {
+        color: #1a3a0a;
+    }
+    .ai-features-2__item .product-arrow {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: rgba(34, 197, 94, 0.08);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 0.3s ease;
+    }
+    .ai-features-2__item .product-arrow i {
+        font-size: 12px;
+        color: #16a34a;
+    }
+    .ai-features-2__item:hover .product-arrow {
+        opacity: 1;
+        transform: translateX(0);
+    }
     .ai-features-2__item .content .title {
         font-size: 18px;
+    }
+    .ai-features-2__item:hover .content .title a {
+        color: #16a34a !important;
+    }
+
+    /* Integrations */
+    .our-integrations__area {
+        background: linear-gradient(180deg, #f0f4ed 0%, #f8faf6 100%) !important;
+    }
+    .our-integrations__btn .rr-btn {
+        background: #16a34a !important;
+    }
+    .our-integrations__btn .rr-btn::before, .our-integrations__btn .rr-btn::after {
+        background: #15803d !important;
+    }
+    
+    /* Testimonials */
+    .testimonial-section__area {
+        background: linear-gradient(135deg, #e8f5e1 0%, #f0f9eb 100%) !important;
+    }
+    .testimonial-section__top .sub-title {
+        color: #16a34a !important;
+    }
+    .testimonial-section__top .title {
+        color: #222 !important;
+    }
+    .testimonial-section__author .text p {
+        color: #333 !important;
+    }
+    .testimonial-section__item {
+        background: #fff;
+        border: 1px solid rgba(34, 197, 94, 0.1);
+        border-radius: 16px;
+        box-shadow: 0 12px 40px rgba(34, 197, 94, 0.05);
+    }
+    .testimonial-section__arrow {
+        background: rgba(34, 197, 94, 0.1) !important;
+        color: #16a34a !important;
+    }
+    .testimonial-section__arrow:hover {
+        background: #16a34a !important;
+        color: #fff !important;
+    }
+    
+    /* CTA */
+    .cta-section__wrapper {
+        background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+        border-radius: 20px;
+    }
+    .cta-section__btn .rr-btn {
+        background: #fff !important;
+        color: #16a34a !important;
+    }
+    .cta-section__btn .rr-btn::before, .cta-section__btn .rr-btn::after {
+        background: #f0fdf4 !important;
+    }
+    .cta-section__btn .rr-btn-3 {
+        background: rgba(255, 255, 255, 0.1) !important;
+        color: #fff !important;
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    }
+    .cta-section__btn .rr-btn-3::before, .cta-section__btn .rr-btn-3::after {
+        background: rgba(255, 255, 255, 0.2) !important;
     }
 </style>
 
@@ -56,8 +161,8 @@
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
                     <h3 class="title"> <a href="{{route('hms')}}"> Advance Hospital Management Software </a> </h3>
-                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">ARK HIMS is a next-generation Hospital Management System built to connect people, processes, and technology on a unified platform. By automating critical workflows and providing real-time visibility across departments, ARK HIMS enables healthcare organizations to improve patient outcomes, increase operational efficiency, and drive sustainable growth.</p>
-                    <a href="{{route('hms')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mt-3 mb-0 product-desc">ARK HIMS is a next-generation Hospital Management System built to connect people, processes, and technology on a unified platform. By automating critical workflows and providing real-time visibility across departments, ARK HIMS enables healthcare organizations to improve patient outcomes, increase operational efficiency, and drive sustainable growth.</p>
+                    <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>
             </div>
 
@@ -70,8 +175,8 @@
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
                     <h3 class="title">  <a href="{{route('inventory-stock-management')}}"> Inventory or Stock Management Software </a> </h3>
-                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">ARK Inventory Management Software helps organizations streamline inventory control, stock tracking, purchase management, and warehouse operations through a centralized digital platform. With real-time monitoring, automated alerts, and detailed analytics, businesses can improve efficiency, reduce costs, and maintain accurate inventory records.</p>
-                    <a href="{{route('inventory-stock-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mt-3 mb-0 product-desc">ARK Inventory Management Software helps organizations streamline inventory control, stock tracking, purchase management, and warehouse operations through a centralized digital platform. With real-time monitoring, automated alerts, and detailed analytics, businesses can improve efficiency, reduce costs, and maintain accurate inventory records.</p>
+                    <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>
             </div>
 
@@ -84,8 +189,8 @@
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
                     <h3 class="title">  <a href="{{route('pathology-diagnostic-management')}}"> Pathology & Diagnostic Management Software </a> </h3>
-                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">Empower your laboratory with intelligent diagnostics management. ARK Pathology & Diagnostic Management System connects patients, clinicians, and laboratory teams through a unified platform, enabling faster test processing, automated workflows, real-time tracking, and accurate reporting for superior diagnostic excellence.</p>
-                    <a href="{{route('pathology-diagnostic-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mt-3 mb-0 product-desc">Empower your laboratory with intelligent diagnostics management. ARK Pathology & Diagnostic Management System connects patients, clinicians, and laboratory teams through a unified platform, enabling faster test processing, automated workflows, real-time tracking, and accurate reporting for superior diagnostic excellence.</p>
+                    <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>
             </div>
 
@@ -98,8 +203,8 @@
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
                     <h3 class="title"> <a href="{{route('white-label-practice-management')}}"> White Label Practice Management Application </a> </h3>
-                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">Launch your own healthcare app in weeks, not months. ARK White Label Practice Management Solution empowers healthcare providers with a fully branded mobile platform for teleconsultation, patient management, appointment scheduling, digital health records, and online healthcare delivery—all under your organization’s identity.</p>
-                    <a href="{{route('white-label-practice-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mt-3 mb-0 product-desc">Launch your own healthcare app in weeks, not months. ARK White Label Practice Management Solution empowers healthcare providers with a fully branded mobile platform for teleconsultation, patient management, appointment scheduling, digital health records, and online healthcare delivery—all under your organization’s identity.</p>
+                    <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>
             </div>
 
@@ -112,8 +217,8 @@
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
                     <h3 class="title">  <a href="{{route('dialysis-management')}}"> Dialysis Management Software </a> </h3>
-                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">A Dialysis Management System is a specialized software solution designed to streamline and automate the various processes involved in managing dialysis treatment for patients with kidney failure or chronic kidney disease.</p>
-                    <a href="{{route('dialysis-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mt-3 mb-0 product-desc">A Dialysis Management System is a specialized software solution designed to streamline and automate the various processes involved in managing dialysis treatment for patients with kidney failure or chronic kidney disease.</p>
+                    <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>
             </div>
 
@@ -126,8 +231,8 @@
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
                     <h3 class="title">  <a href="{{route('enterprise-support-management')}}"> Enterprise Support Management Software </a> </h3>
-                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">An Enterprise Support Management System (ESMS) is a comprehensive software solution designed to facilitate and streamline the management of customer support and service requests within an organization.</p>
-                    <a href="{{route('enterprise-support-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mt-3 mb-0 product-desc">An Enterprise Support Management System (ESMS) is a comprehensive software solution designed to facilitate and streamline the management of customer support and service requests within an organization.</p>
+                    <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>
             </div>
 
@@ -140,8 +245,8 @@
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
                     <h3 class="title"> <a href="{{route('ark-cloud-cast')}}"> Business Marketing Tool </a> </h3>
-                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">Our unique marketing tool is a cloud based solution to makes your marekting activity flawless with less efforts.</p>
-                    <a href="{{route('ark-cloud-cast')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mt-3 mb-0 product-desc">Our unique marketing tool is a cloud based solution to makes your marekting activity flawless with less efforts.</p>
+                    <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>
             </div>
 
@@ -154,8 +259,8 @@
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
                     <h3 class="title">  <a href="{{route('opd-management-system')}}"> OPD Management Software </a></h3>
-                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">An OPD (Outpatient Department) Management System is a specialized software solution designed to manage and automate the processes and workflows in a healthcare facility’s outpatient department.</p>
-                    <a href="{{route('opd-management-system')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mt-3 mb-0 product-desc">An OPD (Outpatient Department) Management System is a specialized software solution designed to manage and automate the processes and workflows in a healthcare facility’s outpatient department.</p>
+                    <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>
             </div>
 
@@ -168,8 +273,8 @@
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
                     <h3 class="title"> <a href="{{route('industrial-asset-management')}}"> Industrial Asset Management Software </a> </h3>
-                    <p class="mt-3 mb-0" style="font-size: 14px; line-height: 1.6;">Asset management refers to the systematic and strategic management of an organization’s assets to optimize their value, performance, and lifecycle.</p>
-                    <a href="{{route('industrial-asset-management')}}" class="mt-auto pt-3 d-inline-block font-weight-bold" style="color: #198754;">Click here <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mt-3 mb-0 product-desc">Asset management refers to the systematic and strategic management of an organization’s assets to optimize their value, performance, and lifecycle.</p>
+                    <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>
             </div>
 
@@ -266,13 +371,11 @@
                                     <img src="assets/imgs/home-1/testimonial/kptestimonails01.png" alt="image not found">
                                 </div>
                                 <div class="testimonial-section__content">
-                                    <p class="testimonial-section__dec">"This CRM has transformed how we manage campaigns. Simple,
-                                        effective, and a game-changer for our CRM team’s
-                                        productivity."</p>
+                                    <p class="testimonial-section__dec">“The inventory and pharmacy management module alone saved us lakhs every month. Stock wastage dropped by 40%, and we now have complete visibility across all departments. Truly a game-changer for our hospital chain.”</p>
                                     <div class="testimonial-section__admin">
                                         <div class="info">
-                                            <h3 class="name">Sarah Johnson</h3>
-                                            <p class="position">Marketing Manager, Growthly</p>
+                                            <h3 class="name">Operations Director</h3>
+                                            <p class="position">Hospital Chain, Central India</p>
                                         </div>
                                         <div class="quote">
                                             <img src="assets/imgs/home-3/testimonial/testimonial-quote.png" alt="quote not found">
@@ -287,13 +390,11 @@
                                     <img src="assets/imgs/home-1/testimonial/kptestimonails02.png" alt="image not found">
                                 </div>
                                 <div class="testimonial-section__content">
-                                    <p class="testimonial-section__dec">"This CRM has transformed how we manage campaigns. Simple,
-                                        effective, and a game-changer for our CRM team’s
-                                        productivity."</p>
+                                    <p class="testimonial-section__dec">“Implementing ARK was seamless. The Avark team understood our clinical workflows perfectly. From OPD scheduling to discharge summaries, every module works exactly the way a doctor needs it. The mobile app is an added bonus for on-the-go access.”</p>
                                     <div class="testimonial-section__admin">
                                         <div class="info">
-                                            <h3 class="name">Sarah Johnson</h3>
-                                            <p class="position">Marketing Manager, Growthly</p>
+                                            <h3 class="name">Chief Medical Officer</h3>
+                                            <p class="position">Private Hospital, Maharashtra</p>
                                         </div>
                                         <div class="quote">
                                             <img src="assets/imgs/home-3/testimonial/testimonial-quote.png" alt="quote not found">

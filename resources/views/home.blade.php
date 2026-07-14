@@ -25,69 +25,912 @@
         width: 120px;
     }
 
-    .hero__media .shape-1 {
-        width: 465px;
-        max-width: 100%;
-        height: auto;
+    /* =============================================
+       SECTION 2: SERVICES — Enhanced Cards
+       ============================================= */
+    .service.rr-bg-gray {
+        background: linear-gradient(180deg, #f0f4ed 0%, #f8faf6 100%) !important;
+        position: relative;
     }
+    .service .section-title__wrapper .sub-title {
+        display: inline-block;
+        padding: 6px 18px;
+        background: rgba(34, 197, 94, 0.08);
+        border: 1px solid rgba(34, 197, 94, 0.15);
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #16a34a;
+        letter-spacing: 0.5px;
+    }
+    .service__item {
+        border-left: 3px solid transparent;
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+        position: relative;
+        overflow: hidden;
+    }
+    .service__item::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(34,197,94,0.04), transparent);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+    .service__item:hover {
+        border-left-color: #22c55e !important;
+        transform: translateY(-4px);
+        box-shadow: 0 12px 40px rgba(34, 197, 94, 0.12) !important;
+    }
+    .service__item:hover::before {
+        opacity: 1;
+    }
+    .service__item .icon {
+        transition: transform 0.3s ease;
+    }
+    .service__item:hover .icon {
+        transform: scale(1.1);
+    }
+    .service__arrow {
+        margin-top: 40px;
+    }
+    .service__arrow button {
+        transition: all 0.3s ease !important;
+    }
+    .service__arrow button:hover {
+        background: #22c55e !important;
+        color: #fff !important;
+        transform: scale(1.1);
+    }
+
+    /* =============================================
+       SECTION 3: PARTNERS — Trust Enhancement
+       ============================================= */
+    .brand-1 {
+        position: relative;
+        padding-bottom: 40px;
+    }
+    .brand-1::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(34,197,94,0.2), transparent);
+    }
+    .brand-1 .section-title__wrapper {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    .brand-1 .section-title__wrapper .title {
+        font-size: 16px !important;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #666 !important;
+        font-weight: 600 !important;
+        position: relative;
+        display: inline-block;
+    }
+    .brand-1 .section-title__wrapper .title::before,
+    .brand-1 .section-title__wrapper .title::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        width: 40px;
+        height: 1px;
+        background: #ccc;
+    }
+    .brand-1 .section-title__wrapper .title::before {
+        left: -55px;
+    }
+    .brand-1 .section-title__wrapper .title::after {
+        right: -55px;
+    }
+    .brand-1__item {
+        transition: all 0.3s ease !important;
+        filter: grayscale(100%) opacity(0.5);
+    }
+    .brand-1__item:hover {
+        filter: grayscale(0%) opacity(1) !important;
+        transform: scale(1.1);
+    }
+
+    /* =============================================
+       SECTION 4: ABOUT/FEATURES — Polish
+       ============================================= */
+    .features-1 .section-title__wrapper .sub-title {
+        display: inline-block;
+        padding: 6px 18px;
+        background: rgba(34, 197, 94, 0.08);
+        border: 1px solid rgba(34, 197, 94, 0.15);
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #16a34a;
+        letter-spacing: 0.5px;
+    }
+    .features-1__item {
+        transition: all 0.3s ease !important;
+    }
+    .features-1__item:hover {
+        transform: translateX(8px);
+    }
+    .features-1__item span {
+        transition: transform 0.3s ease;
+    }
+    .features-1__item:hover span {
+        transform: scale(1.15);
+    }
+
+    /* =============================================
+       SECTION 5: PRODUCTS — Enhanced Cards
+       ============================================= */
+    .ai-features-2 {
+        background: linear-gradient(180deg, #f8faf6 0%, #fff 100%);
+    }
+    .ai-features-2 .section-title__wrapper .sub-title {
+        display: inline-block;
+        padding: 6px 18px;
+        background: rgba(34, 197, 94, 0.08);
+        border: 1px solid rgba(34, 197, 94, 0.15);
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #16a34a;
+        letter-spacing: 0.5px;
+    }
+    .ai-features-2__item {
+        position: relative;
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+        border: 1px solid rgba(0,0,0,0.06) !important;
+        border-radius: 16px !important;
+    }
+    .ai-features-2__item:hover {
+        transform: translateY(-6px) !important;
+        box-shadow: 0 16px 48px rgba(34, 197, 94, 0.15) !important;
+        border-color: rgba(34, 197, 94, 0.2) !important;
+    }
+    .ai-features-2__item .product-desc {
+        font-size: 13px;
+        color: #666;
+        line-height: 1.5;
+        margin-top: 6px;
+        transition: color 0.3s ease;
+    }
+    .ai-features-2__item:hover .product-desc {
+        color: #1a3a0a;
+    }
+    .ai-features-2__item .product-arrow {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: rgba(34, 197, 94, 0.08);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 0.3s ease;
+    }
+    .ai-features-2__item .product-arrow i {
+        font-size: 12px;
+        color: #16a34a;
+    }
+    .ai-features-2__item:hover .product-arrow {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    /* =============================================
+       SECTION 6: WHY CHOOSE ARK — Color Harmony
+       ============================================= */
+    .choose-us__inner {
+        background: linear-gradient(135deg, #e8f5e1 0%, #f0f9eb 40%, #e5f2de 100%) !important;
+    }
+    .choose-us__content .sub-title.has--green {
+        display: inline-block !important;
+        padding: 6px 18px;
+        background: rgba(34, 197, 94, 0.12);
+        border: 1px solid rgba(34, 197, 94, 0.2);
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #16a34a;
+        letter-spacing: 0.5px;
+    }
+    .choose-us__item {
+        background: rgba(255, 255, 255, 0.7) !important;
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(34, 197, 94, 0.1) !important;
+        border-radius: 16px !important;
+        transition: all 0.4s ease !important;
+    }
+    .choose-us__item:hover {
+        background: rgba(255, 255, 255, 0.95) !important;
+        transform: translateY(-4px) !important;
+        box-shadow: 0 12px 40px rgba(34, 197, 94, 0.1) !important;
+        border-color: rgba(34, 197, 94, 0.2) !important;
+    }
+
+    /* =============================================
+       SECTION 7: TESTIMONIALS — Enhanced Styling
+       ============================================= */
+    .testimonial__inner {
+        background: linear-gradient(135deg, #e8f5e1 0%, #f0f9eb 100%) !important;
+    }
+    .testimonial__content .sub-title.has--green {
+        display: inline-block !important;
+        padding: 6px 18px;
+        background: rgba(34, 197, 94, 0.12);
+        border: 1px solid rgba(34, 197, 94, 0.2);
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #16a34a;
+    }
+    .testimonial__item {
+        transition: all 0.3s ease !important;
+    }
+    .testimonial__item .desc {
+        font-size: 17px !important;
+        line-height: 1.7 !important;
+        color: #333 !important;
+    }
+
+    /* =============================================
+       SECTION 8: TECHNOLOGY — Polish
+       ============================================= */
+    .technology__card {
+        border-radius: 20px !important;
+        overflow: hidden;
+    }
+    .technology__wrapper {
+        border-radius: 20px !important;
+        overflow: hidden;
+    }
+
+    /* =============================================
+       SECTION 9: FAQ — Enhanced Styling
+       ============================================= */
+    .faq.rr-bg-gray {
+        background: linear-gradient(180deg, #f0f4ed 0%, #f8faf6 100%) !important;
+    }
+    .faq .section-title__wrapper .sub-title {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 18px;
+        background: rgba(34, 197, 94, 0.08);
+        border: 1px solid rgba(34, 197, 94, 0.15);
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #16a34a;
+    }
+    .global-accordion-item {
+        transition: all 0.3s ease !important;
+        border-radius: 12px !important;
+        overflow: hidden;
+        margin-bottom: 12px !important;
+    }
+    .global-accordion-item:hover {
+        transform: translateX(4px);
+    }
+    .global-accordion-header {
+        transition: background 0.3s ease;
+    }
+    .global-accordion-button.style .question {
+        font-weight: 600 !important;
+        font-size: 16px !important;
+    }
+    .global-accordion-body.style p {
+        line-height: 1.7 !important;
+        color: #555 !important;
+    }
+
+    /* =============================================
+       HERO REDESIGN — Premium Healthcare Hero
+       ============================================= */
+
+    .hero-redesigned .hero__inner {
+        padding-top: 180px;
+        padding-bottom: 100px;
+        position: relative;
+        overflow: hidden;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Animated Grid Overlay */
+    .hero-grid-overlay {
+        position: absolute;
+        inset: 0;
+        background-image: 
+            linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+        background-size: 60px 60px;
+        animation: gridShift 20s linear infinite;
+        z-index: 0;
+    }
+    @keyframes gridShift {
+        0% { transform: translate(0, 0); }
+        100% { transform: translate(60px, 60px); }
+    }
+
+    /* Floating Particles */
+    .hero-particle {
+        position: absolute;
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 1;
+    }
+    .hero-particle--1 {
+        width: 6px; height: 6px;
+        background: #22c55e;
+        top: 20%; left: 10%;
+        animation: particleFloat 6s ease-in-out infinite;
+        box-shadow: 0 0 12px #22c55e;
+    }
+    .hero-particle--2 {
+        width: 4px; height: 4px;
+        background: #3b82f6;
+        top: 60%; left: 5%;
+        animation: particleFloat 8s ease-in-out infinite 1s;
+        box-shadow: 0 0 10px #3b82f6;
+    }
+    .hero-particle--3 {
+        width: 5px; height: 5px;
+        background: #a855f7;
+        top: 30%; right: 15%;
+        animation: particleFloat 7s ease-in-out infinite 2s;
+        box-shadow: 0 0 10px #a855f7;
+    }
+    .hero-particle--4 {
+        width: 3px; height: 3px;
+        background: #d0fc9c;
+        top: 75%; right: 25%;
+        animation: particleFloat 9s ease-in-out infinite 0.5s;
+        box-shadow: 0 0 8px #d0fc9c;
+    }
+    .hero-particle--5 {
+        width: 5px; height: 5px;
+        background: #22c55e;
+        bottom: 15%; left: 40%;
+        animation: particleFloat 7s ease-in-out infinite 3s;
+        box-shadow: 0 0 10px #22c55e;
+    }
+    @keyframes particleFloat {
+        0%, 100% { transform: translateY(0) translateX(0); opacity: 0.4; }
+        25% { transform: translateY(-30px) translateX(15px); opacity: 1; }
+        50% { transform: translateY(-10px) translateX(-10px); opacity: 0.6; }
+        75% { transform: translateY(-40px) translateX(5px); opacity: 0.9; }
+    }
+
+    /* --- Hero Content (Left Side) --- */
+    .hero-redesigned .hero__content {
+        margin-right: 0;
+        position: relative;
+        z-index: 5;
+    }
+
+    /* Badge */
+    .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 20px;
+        border-radius: 100px;
+        background: rgba(34, 197, 94, 0.1);
+        border: 1px solid rgba(34, 197, 94, 0.25);
+        backdrop-filter: blur(10px);
+        margin-bottom: 28px;
+    }
+    .hero-badge__dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #22c55e;
+        animation: dotPulse 2s ease-in-out infinite;
+    }
+    @keyframes dotPulse {
+        0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(34,197,94,0.4); }
+        50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(34,197,94,0); }
+    }
+    .hero-badge__text {
+        font-size: 14px;
+        font-weight: 600;
+        color: #d0fc9c;
+        letter-spacing: 0.3px;
+    }
+
+    /* Title */
+    .hero-title {
+        font-size: 58px;
+        font-weight: 800;
+        line-height: 1.15;
+        color: #fff;
+        margin-bottom: 24px;
+        letter-spacing: -0.5px;
+    }
+    .hero-title__gradient {
+        color: #7dd956;
+        display: inline;
+    }
+    .hero-title__gradient div,
+    .hero-title__gradient span {
+        color: #7dd956 !important;
+    }
+
+    @media (max-width: 1399px) {
+        .hero-title { font-size: 48px; }
+    }
+    @media (max-width: 991px) {
+        .hero-title { font-size: 42px; }
+    }
+    @media (max-width: 575px) {
+        .hero-title { font-size: 32px; line-height: 1.2; }
+        .hero-redesigned .hero__inner { padding-top: 140px; padding-bottom: 60px; min-height: auto; }
+    }
+
+    /* Description */
+    .hero-desc {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.75);
+        margin-bottom: 36px;
+        max-width: 560px;
+    }
+
+    /* Inline Stats */
+    .hero-stats {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        margin-bottom: 40px;
+        padding: 20px 28px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 16px;
+        backdrop-filter: blur(12px);
+        max-width: fit-content;
+    }
+    .hero-stats__item {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    .hero-stats__number {
+        font-size: 28px;
+        font-weight: 800;
+        color: #d0fc9c;
+        line-height: 1;
+    }
+    .hero-stats__label {
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.55);
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .hero-stats__divider {
+        width: 1px;
+        height: 40px;
+        background: rgba(255, 255, 255, 0.12);
+    }
+    @media (max-width: 575px) {
+        .hero-stats {
+            gap: 20px;
+            padding: 16px 20px;
+            flex-wrap: wrap;
+        }
+        .hero-stats__number { font-size: 22px; }
+    }
+
+    /* Buttons */
+    .hero-redesigned .hero__content-wrap {
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        flex-wrap: wrap;
+        margin-bottom: 36px;
+    }
+    .hero-btn-primary {
+        display: inline-flex !important;
+        align-items: center;
+        gap: 10px;
+    }
+    .hero-btn-icon {
+        font-size: 14px;
+        transition: transform 0.3s ease;
+    }
+    .hero-btn-primary:hover .hero-btn-icon {
+        transform: translateX(4px);
+    }
+
+    .hero-btn-secondary {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        padding: 10px 0;
+    }
+    .hero-btn-secondary:hover {
+        color: #d0fc9c;
+    }
+    .hero-btn-secondary__icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(255,255,255,0.2);
+        transition: all 0.3s ease;
+        font-size: 12px;
+        color: #fff;
+        position: relative;
+    }
+    .hero-btn-secondary__icon::before {
+        content: '';
+        position: absolute;
+        inset: -4px;
+        border-radius: 50%;
+        border: 2px solid transparent;
+        border-top-color: #22c55e;
+        animation: iconSpin 3s linear infinite;
+    }
+    @keyframes iconSpin {
+        to { transform: rotate(360deg); }
+    }
+    .hero-btn-secondary:hover .hero-btn-secondary__icon {
+        background: rgba(34,197,94,0.15);
+        border-color: rgba(34,197,94,0.4);
+    }
+
+    /* Trust Section */
+    .hero-trust {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .hero-trust__avatars {
+        display: flex;
+        align-items: center;
+    }
+    .hero-trust__avatars img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: 2px solid #1a3a0a;
+        margin-left: -10px;
+        object-fit: cover;
+    }
+    .hero-trust__avatars img:first-child {
+        margin-left: 0;
+    }
+    .hero-trust__more {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: rgba(34, 197, 94, 0.2);
+        border: 2px solid rgba(34, 197, 94, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -10px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #d0fc9c;
+    }
+    .hero-trust__text {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    .hero-trust__stars {
+        display: flex;
+        gap: 2px;
+    }
+    .hero-trust__stars i {
+        color: #facc15;
+        font-size: 12px;
+    }
+    .hero-trust__text span {
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .hero-trust__text strong {
+        color: #fff;
+    }
+    @media (max-width: 575px) {
+        .hero-trust { flex-direction: column; align-items: flex-start; gap: 8px; }
+    }
+
+    /* --- Phone Mockup (Right Side) --- */
+    .hero-phone {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+    }
+    @media (max-width: 991px) {
+        .hero-phone {
+            margin-top: 60px;
+        }
+    }
+
+    .hero-phone__img {
+        max-width: 340px;
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 3;
+        filter: drop-shadow(0 30px 60px rgba(0,0,0,0.4));
+        animation: phoneFloat 5s ease-in-out infinite;
+    }
+    @keyframes phoneFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-15px); }
+    }
+
+    /* Glow effects */
+    .hero-phone__glow {
+        position: absolute;
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(34, 197, 94, 0.25), transparent 70%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        animation: glowPulse 4s ease-in-out infinite;
+    }
+    .hero-phone__glow--secondary {
+        width: 420px;
+        height: 420px;
+        background: radial-gradient(circle, rgba(34, 197, 94, 0.08), transparent 70%);
+        animation: glowPulse 6s ease-in-out infinite 1s;
+    }
+    @keyframes glowPulse {
+        0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
+        50% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+    }
+
+    /* Floating Cards around phone */
+    .hero-float-card {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 18px;
+        background: rgba(20, 30, 15, 0.75);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 14px;
+        z-index: 5;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        animation: cardFloat 5s ease-in-out infinite;
+        min-width: 190px;
+    }
+    .hero-float-card__icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .hero-float-card__icon i {
+        color: #fff;
+        font-size: 16px;
+    }
+    .hero-float-card__info {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-float-card__value {
+        font-size: 18px;
+        font-weight: 800;
+        color: #fff;
+        line-height: 1.2;
+    }
+    .hero-float-card__label {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.55);
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    /* Card positions */
+    .hero-float-card--1 {
+        top: 8%;
+        left: -30px;
+        animation-delay: 0s;
+    }
+    .hero-float-card--2 {
+        bottom: 30%;
+        right: -40px;
+        animation-delay: 1.5s;
+    }
+    .hero-float-card--3 {
+        bottom: 5%;
+        left: -20px;
+        animation-delay: 3s;
+    }
+
+    @keyframes cardFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
+    }
+
+    @media (max-width: 1399px) {
+        .hero-float-card--1 { left: -10px; }
+        .hero-float-card--2 { right: -10px; }
+        .hero-float-card--3 { left: 0; }
+    }
+    @media (max-width: 991px) {
+        .hero-float-card { display: none; }
+        .hero-phone__img { max-width: 280px; }
+    }
+    @media (max-width: 575px) {
+        .hero-phone__img { max-width: 240px; }
+        .hero-phone__glow { width: 220px; height: 220px; }
+        .hero-phone__glow--secondary { width: 300px; height: 300px; }
+    }
+
 </style>
 
-<section class="hero">
+
+<section class="hero hero-redesigned">
     <div class="hero__inner" data-background="{{ asset('assets/imgs/home-1/hero/bg.png') }}">
-        <img class="shape-6" src="{{ asset('assets/imgs/home-1/hero/shape.png') }}" alt="image">
+        <!-- Animated background grid -->
+        <div class="hero-grid-overlay"></div>
+        <!-- Floating particles -->
+        <div class="hero-particle hero-particle--1"></div>
+        <div class="hero-particle hero-particle--2"></div>
+        <div class="hero-particle hero-particle--3"></div>
+        <div class="hero-particle hero-particle--4"></div>
+        <div class="hero-particle hero-particle--5"></div>
 
         <div class="container rr-container-1350">
-            <div class="row">
+            <div class="row align-items-center">
 
-                <div class="col-xl-6">
-                    <div class="hero__media">
-                        <img class="shape-1" data-aos="zoom-in" data-aos-duration="900"
-                            src="{{ asset('assets/imgs/home-1/hero/new3-kp01.png') }}" alt="image">
+                <!-- Left: Text Content -->
+                <div class="col-xl-7 col-lg-7">
+                    <div class="hero__content" data-aos="fade-right" data-aos-duration="900">
 
-                        <img class="shape-2 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/shape-2.png') }}" alt="">
-                        <img class="shape-3 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/kp03.png') }}" alt="">
-                        <img class="shape-4 shape-animaiton1" src="{{ asset('assets/imgs/home-1/hero/kp02.png') }}" alt="">
-                        <img class="shape-5" src="{{ asset('assets/imgs/home-1/hero/card3.png') }}" alt="">
+                        <div class="hero-badge" data-aos="fade-down" data-aos-delay="200">
+                            <span class="hero-badge__dot"></span>
+                            <span class="hero-badge__text">🚀 #1 Healthcare Technology Platform in India</span>
+                        </div>
+
+                        <h1 class="hero-title rr-title-anim-2">
+                            Transform Your Hospital with
+                            <span class="hero-title__gradient">ARK Hospital Management</span>
+                            Software
+                        </h1>
+
+                        <p class="hero-desc">
+                            Avark Healthcare Technology empowers hospitals, clinics, and healthcare organizations to operate smarter, faster, and more efficiently with cutting-edge digital solutions.
+                        </p>
+
+                        <!-- Inline Stats -->
+                        <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+                            <div class="hero-stats__item">
+                                <span class="hero-stats__number" data-count="500">500+</span>
+                                <span class="hero-stats__label">Hospitals</span>
+                            </div>
+                            <div class="hero-stats__divider"></div>
+                            <div class="hero-stats__item">
+                                <span class="hero-stats__number" data-count="10000">10K+</span>
+                                <span class="hero-stats__label">Active Users</span>
+                            </div>
+                            <div class="hero-stats__divider"></div>
+                            <div class="hero-stats__item">
+                                <span class="hero-stats__number">99.9%</span>
+                                <span class="hero-stats__label">Uptime</span>
+                            </div>
+                        </div>
+
+                        <div class="hero__content-wrap" data-aos="fade-up" data-aos-delay="500">
+                            <a href="{{ route('contact-us') }}" class="rr-btn-green hero-btn-primary">
+                                <span class="btn-wrap">
+                                    <span class="text-one">Book a Free Demo</span>
+                                    <span class="text-two">Book a Free Demo</span>
+                                </span>
+                                <i class="fa-solid fa-arrow-right hero-btn-icon"></i>
+                            </a>
+
+                            <a href="{{ route('products') }}" class="hero-btn-secondary">
+                                <span class="hero-btn-secondary__icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </span>
+                                <span>Explore Products</span>
+                            </a>
+                        </div>
+
+                        <!-- Trust Avatars -->
+                        <div class="hero-trust" data-aos="fade-up" data-aos-delay="600">
+                            <div class="hero-trust__avatars">
+                                <img src="{{ asset('assets/imgs/home-1/hero/author-1.png') }}" alt="User">
+                                <img src="{{ asset('assets/imgs/home-1/hero/author-2.png') }}" alt="User">
+                                <img src="{{ asset('assets/imgs/home-1/hero/author-3.png') }}" alt="User">
+                                <span class="hero-trust__more">+</span>
+                            </div>
+                            <div class="hero-trust__text">
+                                <div class="hero-trust__stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <span>Trusted by <strong>10,000+</strong> healthcare professionals</span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-                <div class="col-xl-6">
-                    <div class="hero__content" data-aos="fade-right" data-aos-duration="900">
+                <!-- Right: Phone Mockup -->
+                <div class="col-xl-5 col-lg-5">
+                    <div class="hero-phone" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                        <!-- Glow effect behind phone -->
+                        <div class="hero-phone__glow"></div>
+                        <div class="hero-phone__glow hero-phone__glow--secondary"></div>
 
-                        <div class="hero__content__author">
-                            <ul>
-                                <li><img src="{{ asset('assets/imgs/home-1/hero/author-1.png') }}" alt=""></li>
-                                <li><img src="{{ asset('assets/imgs/home-1/hero/author-2.png') }}" alt=""></li>
-                                <li><img src="{{ asset('assets/imgs/home-1/hero/author-3.png') }}" alt=""></li>
-                            </ul>
+                        <!-- Main phone image -->
+                        <img class="hero-phone__img" src="{{ asset('assets/imgs/home-1/hero/kp-mobile.png') }}" alt="ARK HMS Dashboard">
 
-                            <p>Trusted by 10,000+ Users Across the World</p>
+                        <!-- Floating stat cards -->
+                        <div class="hero-float-card hero-float-card--1" data-aos="fade-left" data-aos-delay="800">
+                            <div class="hero-float-card__icon" style="background: linear-gradient(135deg, #22c55e, #16a34a);">
+                                <i class="fa-solid fa-hospital"></i>
+                            </div>
+                            <div class="hero-float-card__info">
+                                <span class="hero-float-card__value">500+</span>
+                                <span class="hero-float-card__label">Hospitals Connected</span>
+                            </div>
                         </div>
 
-                        <h1 class="title rr-title-anim-2">
-                            Transform Your Hospital with ARK Hospital Management Software
-                        </h1>
-
-                        <p class="desc">
-                            Avark Healthcare Technology Pvt. Ltd. is a healthcare-focused technology company committed to helping hospitals, clinics, and healthcare organizations operate smarter, faster, and more efficiently.
-                        </p>
-
-                        <div class="hero__content-wrap">
-                            <a href="{{ route('contact-us') }}" class="rr-btn-green">
-                                <span class="btn-wrap">
-                                    <span class="text-one">Book a Demo</span>
-                                    <span class="text-two">Book a Demo</span>
-                                </span>
-                            </a>
-
-                            <a href="{{ route('products') }}" class="rr-btn-green green-2">
-                                <span class="btn-wrap">
-                                    <span class="text-one">Explore Our Products</span>
-                                    <span class="text-two">Explore Our Products</span>
-                                </span>
-                            </a>
+                        <div class="hero-float-card hero-float-card--2" data-aos="fade-right" data-aos-delay="1000">
+                            <div class="hero-float-card__icon" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <div class="hero-float-card__info">
+                                <span class="hero-float-card__value">₹18.5L</span>
+                                <span class="hero-float-card__label">Monthly Revenue Tracked</span>
+                            </div>
                         </div>
 
+                        <div class="hero-float-card hero-float-card--3" data-aos="fade-left" data-aos-delay="1200">
+                            <div class="hero-float-card__icon" style="background: linear-gradient(135deg, #a855f7, #7c3aed);">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div class="hero-float-card__info">
+                                <span class="hero-float-card__value">99.9%</span>
+                                <span class="hero-float-card__label">Secure & Reliable</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -95,6 +938,7 @@
         </div>
     </div>
 </section>
+
 
 
 <section class="service rr-bg-gray section-spacing rr-ov-hidden">
@@ -316,7 +1160,9 @@
                 </div>
                 <div class="content">
                     <h3 class="title"><a href="{{route('hms')}}">Advance Hospital Management System</a></h3>
+                    <p class="product-desc">End-to-end OPD, IPD, billing, pharmacy & lab management</p>
                 </div>
+                <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
             </div>
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('inventory-stock-management')}}'">
                 <div class="icon">
@@ -324,7 +1170,9 @@
                 </div>
                 <div class="content">
                     <h3 class="title"><a href="{{route('inventory-stock-management')}}">Inventory or Stock Management System</a></h3>
+                    <p class="product-desc">Real-time stock tracking, purchase orders & alerts</p>
                 </div>
+                <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
             </div>
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-left" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('pathology-diagnostic-management')}}'">
                 <div class="icon">
@@ -332,7 +1180,9 @@
                 </div>
                 <div class="content">
                     <h3 class="title"><a href="{{route('pathology-diagnostic-management')}}">Pathology & Diagnostic Management System</a></h3>
+                    <p class="product-desc">Automated lab workflows, test tracking & report generation</p>
                 </div>
+                <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
             </div>
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-right" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('white-label-practice-management')}}'">
                 <div class="icon">
@@ -340,7 +1190,9 @@
                 </div>
                 <div class="content">
                     <h3 class="title"><a href="{{route('white-label-practice-management')}}">White Label Practice Management Application</a></h3>
+                    <p class="product-desc">Branded clinic apps with appointments & records</p>
                 </div>
+                <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
             </div>
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="cursor: pointer;" onclick="window.location.href='{{route('dialysis-management')}}'">
                 <div class="icon">
@@ -348,7 +1200,9 @@
                 </div>
                 <div class="content">
                     <h3 class="title"><a href="{{route('dialysis-management')}}">Dialysis Management System</a></h3>
+                    <p class="product-desc">Specialized dialysis scheduling & patient tracking</p>
                 </div>
+                <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
             </div>
 
 
@@ -358,7 +1212,9 @@
                 </div>
                 <div class="content">
                     <h3 class="title"><a href="{{route('enterprise-support-management')}}">Enterprise Support Management System</a></h3>
+                    <p class="product-desc">Ticketing, SLA management & support automation</p>
                 </div>
+                <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
             </div>
         </div>
     </div>
@@ -489,30 +1345,28 @@
                         </div>
                         <div class="testimonial__item item-2" data-index="1">
                             <div class="logo"><img loading="lazy" src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
-                            <p class="desc">“On the Windows talking painted pasture yet its express parties use. Sure last
-                                upon he same as knew next. Of believed or diverted no.”</p>
+                            <p class="desc">“The inventory and pharmacy management module alone saved us lakhs every month. Stock wastage dropped by 40%, and we now have complete visibility across all departments. Truly a game-changer for our hospital chain.”</p>
                             <div class="testimonial__info">
                                 <div class="testimonial__info__media">
                                     <img loading="lazy" src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
                                 </div>
                                 <div class="testimonial__info__content">
-                                    <h2 class="title">Kevin Martin</h2>
-                                    <span class="sub-title">Web Designer</span>
+                                    <h2 class="title">Operations Director</h2>
+                                    <span class="sub-title">Hospital Chain, Central India</span>
                                 </div>
                             </div>
                             <div class="shape"><img loading="lazy" src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
                         </div>
                         <div class="testimonial__item item-3" data-index="2">
                             <div class="logo"><img loading="lazy" src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
-                            <p class="desc">“On the Windows talking painted pasture yet its express parties use. Sure last
-                                upon he same as knew next. Of believed or diverted no.”</p>
+                            <p class="desc">“Implementing ARK was seamless. The Avark team understood our clinical workflows perfectly. From OPD scheduling to discharge summaries, every module works exactly the way a doctor needs it. The mobile app is an added bonus for on-the-go access.”</p>
                             <div class="testimonial__info">
                                 <div class="testimonial__info__media">
                                     <img loading="lazy" src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
                                 </div>
                                 <div class="testimonial__info__content">
-                                    <h2 class="title">Kevin Martin</h2>
-                                    <span class="sub-title">Web Designer</span>
+                                    <h2 class="title">Chief Medical Officer</h2>
+                                    <span class="sub-title">Private Hospital, Maharashtra</span>
                                 </div>
                             </div>
                             <div class="shape"><img loading="lazy" src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>

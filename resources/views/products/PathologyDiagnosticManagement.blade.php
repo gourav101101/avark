@@ -82,7 +82,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/healthcare_tech_1783400169534.png" class="card-img-top" alt="Sample Collection" style="height: 180px; object-fit: cover;">
+                        <img src="assets/imgs/inner/features/pathology_registration_samples.png?v=2" class="card-img-top" alt="Sample Collection" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-vial-virus me-2"></i> Registration & Samples</h5>
                             <p class="card-text desc small">Efficient patient registration and sample collection management with barcode generation and complete lifecycle tracking.</p>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/analytics_dashboard_1783400138562.png" class="card-img-top" alt="Test Analysis" style="height: 180px; object-fit: cover;">
+                        <img src="assets/imgs/inner/features/pathology_tests_integration.png?v=2" class="card-img-top" alt="Test Analysis" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-microscope me-2"></i> Tests & Integration</h5>
                             <p class="card-text desc small">Order and schedule lab tests seamlessly. Automate test analysis and integrate directly with laboratory instruments to capture results.</p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/hospital_building_1783400255519.png" class="card-img-top" alt="Billing" style="height: 180px; object-fit: cover;">
+                        <img src="assets/imgs/inner/features/pathology_billing_compliance.png?v=2" class="card-img-top" alt="Billing" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-file-invoice-dollar me-2"></i> Billing & Compliance</h5>
                             <p class="card-text desc small">Automate lab billing, insurance, and financial reports. Protect healthcare information with robust security and role-based access.</p>
