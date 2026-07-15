@@ -28,7 +28,7 @@ Route::get('/products', [PageController::class, 'products'])->name('products');
 Route::get('/hms', [PageController::class, 'hms'])->name('hms');
 Route::get('/kiosk-management-system', [PageController::class, 'KIOSKManagementSystem'])->name('kiosk-management-system');
 Route::get('/feedback-management', [PageController::class, 'FeedbackManagement'])->name('feedback-management');
-Route::get('/ark-cloud-cast', [PageController::class, 'ArkCloudCast'])->name('ark-cloud-cast');
+Route::get('/business-marketing-tool', [PageController::class, 'ArkCloudCast'])->name('business-marketing-tool');
 Route::get('/inventory-stock-management', [PageController::class, 'inventoryStockManagement'])->name('inventory-stock-management');
 Route::get('/pathology-diagnostic-management', [PageController::class, 'PathologyDiagnosticManagement'])->name('pathology-diagnostic-management');
 Route::get('/white-label-practice-management', [PageController::class, 'WhiteLabelPracticeManagementApplication'])->name('white-label-practice-management');

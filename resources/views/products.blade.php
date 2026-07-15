@@ -239,12 +239,12 @@
             <!-- 07 -->
             <div class="ai-features-2__item aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="height: 100%; display: flex; flex-direction: column;">
                 <div class="icon">
-                     <a href="{{route('ark-cloud-cast')}}">
+                     <a href="{{route('business-marketing-tool')}}">
                     <img src="assets/imgs/icon/ai-features-icon-5.png" alt="icon">
                      </a>
                 </div>
                 <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
-                    <h3 class="title"> <a href="{{route('ark-cloud-cast')}}"> Business Marketing Tool </a> </h3>
+                    <h3 class="title"> <a href="{{route('business-marketing-tool')}}"> Business Marketing Tool </a> </h3>
                     <p class="mt-3 mb-0 product-desc">Our unique marketing tool is a cloud based solution to makes your marekting activity flawless with less efforts.</p>
                     <span class="product-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>

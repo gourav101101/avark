@@ -165,7 +165,7 @@
                                                 <a href="{{route('feedback-management')}}">Feedback Management Software</a>
                                             </li>
                                             <li>
-                                                <a href="{{route('ark-cloud-cast')}}">Business Marketing Tool</a>
+                                                <a href="{{route('business-marketing-tool')}}">Business Marketing Tool</a>
                                             </li>
                                             <li>
                                                 <a href="{{route('inventory-stock-management')}}">Inventory or Stock Management Software</a>

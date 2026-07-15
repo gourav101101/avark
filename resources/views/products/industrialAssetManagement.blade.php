@@ -38,7 +38,7 @@
               <li><a href="{{route('white-label-practice-management')}}">White Label Practice Management Application</a><span><i class="fa-solid fa-angles-right"></i></span></li>
               <li><a href="{{route('dialysis-management')}}">Dialysis Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
               <li><a href="{{route('enterprise-support-management')}}">Enterprise Support Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
-              <li><a href="{{route('ark-cloud-cast')}}">Business Marketing Tool</a><span><i class="fa-solid fa-angles-right"></i></span></li>
+              <li><a href="{{route('business-marketing-tool')}}">Business Marketing Tool</a><span><i class="fa-solid fa-angles-right"></i></span></li>
               <li><a href="{{route('opd-management-system')}}">OPD Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
               <li><a href="{{route('industrial-asset-management')}}">Industrial Asset Management Software</a><span><i class="fa-solid fa-angles-right"></i></span></li>
             </ul>
@@ -82,7 +82,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/inventory_box_1783400245007.png" class="card-img-top" alt="Tracking" style="height: 180px; object-fit: cover;">
+                        <img src="assets/imgs/inner/features/iam_inventory_tracking.png?v=2" class="card-img-top" alt="Tracking" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-map-location-dot me-2"></i> Inventory & Tracking</h5>
                             <p class="card-text desc small">Comprehensive inventory with real-time location, status, and usage monitoring for all organizational assets.</p>
