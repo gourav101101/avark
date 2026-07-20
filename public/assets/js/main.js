@@ -121,6 +121,8 @@
   if (document.querySelector(".service-slide__active")) {
     new Swiper(".service-slide__active", {
       loop: true,
+      slidesPerGroup: 1,
+      speed: 600,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
@@ -130,8 +132,8 @@
         clickable: true,
       },
       navigation: {
-        nextEl: ".service__arrow-prev",
-        prevEl: ".service__arrow-next",
+        prevEl: ".service__arrow-prev",
+        nextEl: ".service__arrow-next",
       },
       breakpoints: {
         320: {

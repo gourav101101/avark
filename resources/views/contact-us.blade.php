@@ -109,17 +109,47 @@
                                     </div>
                                 </div>
 
+                                <!-- Hospital Name -->
+                                <div class="col-lg-6">
+                                    <div class="form-clt">
+                                        <input type="text"
+                                            name="hospital"
+                                            id="hospital"
+                                            placeholder="Hospital Name (Optional)">
+                                    </div>
+                                </div>
+
                                 <!-- Service / Product -->
                                 <div class="col-lg-6">
                                     <div class="form-clt">
                                         <select name="service" id="service" class="kp-select-field" required>
                                             <option value="" selected disabled>Select Service / Product</option>
-                                            <option value="ERP Solutions">ERP Solutions</option>
-                                            <option value="CRM Software">CRM Software</option>
-                                            <option value="Custom Software Development">Custom Software Development</option>
-                                            <option value="Website Development">Website Development</option>
-                                            <option value="Mobile App Development">Mobile App Development</option>
-                                            <option value="Cloud Solutions">Cloud Solutions</option>
+                                            <optgroup label="Products">
+                                                <option value="ArkCloudCast">ArkCloudCast</option>
+                                                <option value="Dialysis Management System">Dialysis Management System</option>
+                                                <option value="Digital Signage Solutions">Digital Signage Solutions</option>
+                                                <option value="Enterprise Support Management">Enterprise Support Management</option>
+                                                <option value="Feedback Management">Feedback Management</option>
+                                                <option value="HMS">HMS (Hospital Management System)</option>
+                                                <option value="Industrial Asset Management">Industrial Asset Management</option>
+                                                <option value="Inventory Stock Management">Inventory Stock Management</option>
+                                                <option value="KIOSK Management System">KIOSK Management System</option>
+                                                <option value="OPD Management System">OPD Management System</option>
+                                                <option value="Pathology Diagnostic Management">Pathology Diagnostic Management</option>
+                                                <option value="White Label Practice Management Application">White Label Practice Management Application</option>
+                                            </optgroup>
+                                            <optgroup label="Services">
+                                                <option value="Cloud and Data Migration">Cloud and Data Migration</option>
+                                                <option value="CMS">CMS</option>
+                                                <option value="CRM Solutions">CRM Solutions</option>
+                                                <option value="Custom Software Development">Custom Software Development</option>
+                                                <option value="Digital Healthcare Solution">Digital Healthcare Solution</option>
+                                                <option value="Enterprise Integration Services">Enterprise Integration Services</option>
+                                                <option value="ERP System">ERP System</option>
+                                                <option value="Mobile App Development">Mobile App Development</option>
+                                                <option value="Tele Consultation">Tele Consultation</option>
+                                                <option value="Web Application Development">Web Application Development</option>
+                                            </optgroup>
                                         </select>
                                     </div>
                                 </div>
@@ -158,6 +188,7 @@
                                 var name = document.getElementById('name').value;
                                 var mobile = document.getElementById('mobile').value;
                                 var email = document.getElementById('email').value;
+                                var hospital = document.getElementById('hospital').value;
                                 var service = document.getElementById('service').value;
                                 var message = document.getElementById('message').value;
                                 
@@ -166,6 +197,7 @@
                                            "*Name:* " + name + "\n" +
                                            "*Mobile:* " + mobile + "\n" +
                                            "*Email:* " + email + "\n" +
+                                           (hospital ? "*Hospital:* " + hospital + "\n" : "") +
                                            "*Service/Product:* " + service + "\n" +
                                            "*Message:* " + message;
                                            
@@ -229,8 +261,8 @@
                                 <h3>
                                     Our Address
                                 </h3>
-                                <p><strong>Indore Office:</strong> A-81, Vistara City, Indore – 452001, Madhya Pradesh, India</p>
-                                <p><strong>Bangalore Office:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru – 560016, Karnataka, India</p>
+                                <p class="mb-3"><strong>Indore Office:</strong> A-81, Vistara City, <strong>Indore</strong> – 452001, Madhya Pradesh, India</p>
+                                <p><strong>Bangalore Office:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, <strong>Bengaluru</strong> – 560016, Karnataka, India</p>
                             </div>
                         </div>
                     </div>

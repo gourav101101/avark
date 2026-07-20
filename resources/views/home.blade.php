@@ -954,7 +954,7 @@
                         <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/erp.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('erp-system') }}">ERP System Development</a></h3>
                         <p class="desc">Streamline operations, manage resources efficiently, and gain real-time business insights with our scalable ERP solutions.</p>
-                        <span class="service">Service _ 01</span>
+                        <a href="{{ route('erp-system') }}" class="service-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -962,7 +962,7 @@
                         <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/crm-kp.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('crm-solutions') }}">CRM Solutions</a></h3>
                         <p class="desc">Improve customer relationships, automate sales processes, and boost engagement with intelligent CRM systems.</p>
-                        <span class="service">Service _ 02</span>
+                        <a href="{{ route('crm-solutions') }}" class="service-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -971,7 +971,7 @@
                         <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/CustomSoftwareDevelopment-kp.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('custom-software-development') }}">Custom Software Development</a></h3>
                         <p class="desc">Tailor-made software solutions designed specifically to match your business workflows and operational requirements.</p>
-                        <span class="service">Service _ 04</span>
+                        <a href="{{ route('custom-software-development') }}" class="service-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -980,7 +980,7 @@
                         <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/WebApplicationDevelopment-kp.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('web-application-development') }}">Web Application Development</a></h3>
                         <p class="desc">Secure, responsive, and high-performance web platforms built using modern technologies for scalable growth.</p>
-                        <span class="service">Service _ 05</span>
+                        <a href="{{ route('web-application-development') }}" class="service-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -989,7 +989,7 @@
                         <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/mobile-development.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('mobile-app-development') }}">Mobile App Development</a></h3>
                         <p class="desc">User-friendly Android & iOS applications that enhance customer experience and expand your digital reach.</p>
-                        <span class="service">Service _ 06</span>
+                        <a href="{{ route('mobile-app-development') }}" class="service-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -998,7 +998,7 @@
                         <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/cloud-computing-kpm.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('cloud-and-data-migration') }}">Cloud & Data Migration</a></h3>
                         <p class="desc">Smooth and secure migration of legacy systems and business data to modern cloud-based infrastructure.</p>
-                        <span class="service">Service _ 07</span>
+                        <a href="{{ route('cloud-and-data-migration') }}" class="service-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -1007,7 +1007,7 @@
                         <span class="icon"><img loading="lazy" src="assets/imgs/home-1/service/digital-transformation-kpm.png" alt="image"></span>
                         <h3 class="title"><a href="{{ route('enterprise-integration-services') }}">Enterprise Integration Services</a></h3>
                         <p class="desc">Seamlessly integrate ERP, CRM, third-party tools, and APIs into one unified digital ecosystem.</p>
-                        <span class="service">Service _ 08</span>
+                        <a href="{{ route('enterprise-integration-services') }}" class="service-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -1330,11 +1330,17 @@
                             </button>
                         </div>
                         <div class="testimonial__item" data-index="0">
-                            <div class="logo"><img loading="lazy" src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
+                            <div class="testimonial__stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
                             <p class="desc">“ARK HIMS has transformed our hospital operations. Patient registration, billing, pharmacy, and laboratory processes are now faster and more accurate. The real-time dashboard helps management make informed decisions every day.”</p>
                             <div class="testimonial__info">
                                 <div class="testimonial__info__media">
-                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-1.jpg" alt="Hospital Administrator">
                                 </div>
                                 <div class="testimonial__info__content">
                                     <h2 class="title">Hospital Administrator</h2>
@@ -1344,11 +1350,17 @@
                             <div class="shape"><img loading="lazy" src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
                         </div>
                         <div class="testimonial__item item-2" data-index="1">
-                            <div class="logo"><img loading="lazy" src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
+                            <div class="testimonial__stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
                             <p class="desc">“The inventory and pharmacy management module alone saved us lakhs every month. Stock wastage dropped by 40%, and we now have complete visibility across all departments. Truly a game-changer for our hospital chain.”</p>
                             <div class="testimonial__info">
                                 <div class="testimonial__info__media">
-                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-2.jpg" alt="Operations Director">
                                 </div>
                                 <div class="testimonial__info__content">
                                     <h2 class="title">Operations Director</h2>
@@ -1358,11 +1370,17 @@
                             <div class="shape"><img loading="lazy" src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
                         </div>
                         <div class="testimonial__item item-3" data-index="2">
-                            <div class="logo"><img loading="lazy" src="assets/imgs/home-1/testimonial/logo.png" alt="image"></div>
+                            <div class="testimonial__stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
                             <p class="desc">“Implementing ARK was seamless. The Avark team understood our clinical workflows perfectly. From OPD scheduling to discharge summaries, every module works exactly the way a doctor needs it. The mobile app is an added bonus for on-the-go access.”</p>
                             <div class="testimonial__info">
                                 <div class="testimonial__info__media">
-                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-4.jpg" alt="image">
+                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-3.jpg" alt="Chief Medical Officer">
                                 </div>
                                 <div class="testimonial__info__content">
                                     <h2 class="title">Chief Medical Officer</h2>
