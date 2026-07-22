@@ -26,22 +26,171 @@
         background: linear-gradient(90deg, #198754 0%, var(--Text-Primary, #c9c939) 100%), var(--BG-Sedentary, #F6F6F6);
     }
 
-    .kp-select-field {
-        width: 100% !important;
+    /* ── Form field improvements ── */
+    .contact-us-wrapper .comment-form-wrap .form-clt input,
+    .contact-us-wrapper .comment-form-wrap .form-clt textarea {
+        border: 1.5px solid #e0e0e0;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .contact-us-wrapper .comment-form-wrap .form-clt input:focus,
+    .contact-us-wrapper .comment-form-wrap .form-clt textarea:focus {
+        border-color: #198754;
+        box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.12);
         outline: none;
-        border: none;
-        border-radius: 12px;
-        background: #F6F6F6 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z'/%3E%3C/svg%3E") no-repeat calc(100% - 20px) center;
-        background-size: 12px;
-        padding: 0 20px;
-        font-weight: 400;
-        font-size: 16px;
-        color: var(--black);
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        height: 68px;
+    }
+    .contact-us-wrapper .comment-form-wrap .form-clt input::placeholder,
+    .contact-us-wrapper .comment-form-wrap .form-clt textarea::placeholder {
+        color: #999;
+    }
 
+    /* ── Custom Dropdown ── */
+    .custom-select-wrapper {
+        position: relative;
+        width: 100%;
+        user-select: none;
+    }
+
+    .custom-select-trigger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px 20px;
+        border-radius: 12px;
+        background: #F6F6F6;
+        border: 1.5px solid #e0e0e0;
+        font-size: 16px;
+        font-weight: 400;
+        color: #999;
+        cursor: pointer;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .custom-select-trigger.has-value {
+        color: var(--black, #1a1a1a);
+    }
+    .custom-select-trigger:hover {
+        border-color: #c0c0c0;
+    }
+    .custom-select-trigger.open {
+        border-color: #198754;
+        box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.12);
+    }
+    .custom-select-trigger .arrow {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
+        flex-shrink: 0;
+        margin-left: 12px;
+    }
+    .custom-select-trigger.open .arrow {
+        transform: rotate(180deg);
+    }
+    .custom-select-trigger .arrow svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .custom-select-dropdown {
+        position: absolute;
+        top: calc(100% + 6px);
+        left: 0;
+        right: 0;
+        background: #fff;
+        border: 1.5px solid #e0e0e0;
+        border-radius: 12px;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+        z-index: 100;
+        max-height: 320px;
+        overflow-y: auto;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-8px);
+        transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+        scrollbar-width: thin;
+        scrollbar-color: #c0c0c0 transparent;
+    }
+    .custom-select-dropdown.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+    .custom-select-dropdown::-webkit-scrollbar {
+        width: 6px;
+    }
+    .custom-select-dropdown::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .custom-select-dropdown::-webkit-scrollbar-thumb {
+        background: #c0c0c0;
+        border-radius: 3px;
+    }
+
+    .custom-select-group-label {
+        padding: 12px 20px 6px;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        color: #198754;
+        pointer-events: none;
+    }
+    .custom-select-group-label:not(:first-child) {
+        border-top: 1px solid #f0f0f0;
+        margin-top: 4px;
+    }
+
+    .custom-select-option {
+        padding: 11px 20px;
+        font-size: 15px;
+        color: #333;
+        cursor: pointer;
+        transition: background 0.15s ease, color 0.15s ease;
+    }
+    .custom-select-option:hover {
+        background: #f0faf5;
+        color: #198754;
+    }
+    .custom-select-option.selected {
+        background: #e8f5ef;
+        color: #198754;
+        font-weight: 500;
+    }
+    .custom-select-option:last-child {
+        border-radius: 0 0 12px 12px;
+    }
+
+    /* ── Responsive form ── */
+    @media only screen and (max-width: 991px) {
+        .contact-us-wrapper .comment-form-wrap .form-clt input,
+        .contact-us-wrapper .comment-form-wrap .form-clt textarea {
+            font-size: 15px;
+            padding: 16px 16px;
+        }
+        .custom-select-trigger {
+            padding: 16px 16px;
+            font-size: 15px;
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        .contact-us-wrapper .comment-form-wrap .form-clt input,
+        .contact-us-wrapper .comment-form-wrap .form-clt textarea {
+            font-size: 14px;
+            padding: 14px 14px;
+        }
+        .custom-select-trigger {
+            padding: 14px 14px;
+            font-size: 14px;
+        }
+    }
+
+    /* ── Bold office names ── */
+    .contact-us-wrapper .contact-us__info .contact-us-box h3 strong {
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 0.3px;
     }
 </style>
 
@@ -76,7 +225,7 @@
                             <div class="row">
 
                                 <!-- Name -->
-                                <div class="col-lg-6">
+                                <div class="col-md-6 col-lg-6">
                                     <div class="form-clt">
                                         <input type="text"
                                             name="name"
@@ -87,7 +236,7 @@
                                 </div>
 
                                 <!-- Mobile -->
-                                <div class="col-lg-6">
+                                <div class="col-md-6 col-lg-6">
                                     <div class="form-clt">
                                         <input type="tel"
                                             name="mobile"
@@ -99,7 +248,7 @@
                                 </div>
 
                                 <!-- Email -->
-                                <div class="col-lg-6">
+                                <div class="col-md-6 col-lg-6">
                                     <div class="form-clt">
                                         <input type="email"
                                             name="email"
@@ -110,7 +259,7 @@
                                 </div>
 
                                 <!-- Hospital Name -->
-                                <div class="col-lg-6">
+                                <div class="col-md-6 col-lg-6">
                                     <div class="form-clt">
                                         <input type="text"
                                             name="hospital"
@@ -119,44 +268,51 @@
                                     </div>
                                 </div>
 
-                                <!-- Service / Product -->
-                                <div class="col-lg-6">
+                                <!-- Service / Product - Custom Dropdown -->
+                                <div class="col-12">
                                     <div class="form-clt">
-                                        <select name="service" id="service" class="kp-select-field" required>
-                                            <option value="" selected disabled>Select Service / Product</option>
-                                            <optgroup label="Products">
-                                                <option value="ArkCloudCast">ArkCloudCast</option>
-                                                <option value="Dialysis Management System">Dialysis Management System</option>
-                                                <option value="Digital Signage Solutions">Digital Signage Solutions</option>
-                                                <option value="Enterprise Support Management">Enterprise Support Management</option>
-                                                <option value="Feedback Management">Feedback Management</option>
-                                                <option value="HMS">HMS (Hospital Management System)</option>
-                                                <option value="Industrial Asset Management">Industrial Asset Management</option>
-                                                <option value="Inventory Stock Management">Inventory Stock Management</option>
-                                                <option value="KIOSK Management System">KIOSK Management System</option>
-                                                <option value="OPD Management System">OPD Management System</option>
-                                                <option value="Pathology Diagnostic Management">Pathology Diagnostic Management</option>
-                                                <option value="White Label Practice Management Application">White Label Practice Management Application</option>
-                                            </optgroup>
-                                            <optgroup label="Services">
-                                                <option value="Cloud and Data Migration">Cloud and Data Migration</option>
-                                                <option value="CMS">CMS</option>
-                                                <option value="CRM Solutions">CRM Solutions</option>
-                                                <option value="Custom Software Development">Custom Software Development</option>
-                                                <option value="Digital Healthcare Solution">Digital Healthcare Solution</option>
-                                                <option value="Enterprise Integration Services">Enterprise Integration Services</option>
-                                                <option value="ERP System">ERP System</option>
-                                                <option value="Mobile App Development">Mobile App Development</option>
-                                                <option value="Tele Consultation">Tele Consultation</option>
-                                                <option value="Web Application Development">Web Application Development</option>
-                                            </optgroup>
-                                        </select>
+                                        <input type="hidden" name="service" id="service" required>
+                                        <div class="custom-select-wrapper" id="customSelectWrapper">
+                                            <div class="custom-select-trigger" id="customSelectTrigger">
+                                                <span id="customSelectText">Select Service / Product</span>
+                                                <span class="arrow">
+                                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="custom-select-dropdown" id="customSelectDropdown">
+                                                <div class="custom-select-group-label">Products</div>
+                                                <div class="custom-select-option" data-value="ArkCloudCast">ArkCloudCast</div>
+                                                <div class="custom-select-option" data-value="Dialysis Management System">Dialysis Management System</div>
+                                                <div class="custom-select-option" data-value="Digital Signage Solutions">Digital Signage Solutions</div>
+                                                <div class="custom-select-option" data-value="Enterprise Support Management">Enterprise Support Management</div>
+                                                <div class="custom-select-option" data-value="Feedback Management">Feedback Management</div>
+                                                <div class="custom-select-option" data-value="HMS">HMS (Hospital Management System)</div>
+                                                <div class="custom-select-option" data-value="Industrial Asset Management">Industrial Asset Management</div>
+                                                <div class="custom-select-option" data-value="Inventory Stock Management">Inventory Stock Management</div>
+                                                <div class="custom-select-option" data-value="KIOSK Management System">KIOSK Management System</div>
+                                                <div class="custom-select-option" data-value="OPD Management System">OPD Management System</div>
+                                                <div class="custom-select-option" data-value="Pathology Diagnostic Management">Pathology Diagnostic Management</div>
+                                                <div class="custom-select-option" data-value="White Label Practice Management Application">White Label Practice Management Application</div>
+                                                <div class="custom-select-group-label">Services</div>
+                                                <div class="custom-select-option" data-value="Cloud and Data Migration">Cloud and Data Migration</div>
+                                                <div class="custom-select-option" data-value="CMS">CMS</div>
+                                                <div class="custom-select-option" data-value="CRM Solutions">CRM Solutions</div>
+                                                <div class="custom-select-option" data-value="Custom Software Development">Custom Software Development</div>
+                                                <div class="custom-select-option" data-value="Digital Healthcare Solution">Digital Healthcare Solution</div>
+                                                <div class="custom-select-option" data-value="Enterprise Integration Services">Enterprise Integration Services</div>
+                                                <div class="custom-select-option" data-value="ERP System">ERP System</div>
+                                                <div class="custom-select-option" data-value="Mobile App Development">Mobile App Development</div>
+                                                <div class="custom-select-option" data-value="Tele Consultation">Tele Consultation</div>
+                                                <div class="custom-select-option" data-value="Web Application Development">Web Application Development</div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-
                                 <!-- Message -->
-                                <div class="col-lg-12">
+                                <div class="col-12">
                                     <div class="form-clt">
                                         <textarea name="message"
                                             id="message"
@@ -167,7 +323,7 @@
                                 </div>
 
                                 <!-- Submit Button -->
-                                <div class="col-lg-12">
+                                <div class="col-12">
                                     <button type="submit" class="rr-btn">
                                         <span class="btn-wrap">
                                             <span class="text-one">Send Message</span>
@@ -178,6 +334,47 @@
 
                             </div>
                         </form>
+
+                        <!-- Custom Dropdown Script -->
+                        <script>
+                        (function() {
+                            var trigger = document.getElementById('customSelectTrigger');
+                            var dropdown = document.getElementById('customSelectDropdown');
+                            var textEl = document.getElementById('customSelectText');
+                            var hiddenInput = document.getElementById('service');
+                            var options = dropdown.querySelectorAll('.custom-select-option');
+
+                            trigger.addEventListener('click', function(e) {
+                                e.stopPropagation();
+                                var isOpen = dropdown.classList.contains('show');
+                                if (isOpen) {
+                                    dropdown.classList.remove('show');
+                                    trigger.classList.remove('open');
+                                } else {
+                                    dropdown.classList.add('show');
+                                    trigger.classList.add('open');
+                                }
+                            });
+
+                            options.forEach(function(opt) {
+                                opt.addEventListener('click', function(e) {
+                                    e.stopPropagation();
+                                    options.forEach(function(o) { o.classList.remove('selected'); });
+                                    opt.classList.add('selected');
+                                    hiddenInput.value = opt.getAttribute('data-value');
+                                    textEl.textContent = opt.textContent;
+                                    trigger.classList.add('has-value');
+                                    dropdown.classList.remove('show');
+                                    trigger.classList.remove('open');
+                                });
+                            });
+
+                            document.addEventListener('click', function() {
+                                dropdown.classList.remove('show');
+                                trigger.classList.remove('open');
+                            });
+                        })();
+                        </script>
 
                         <!-- WhatsApp Redirection Script -->
                         <script>
@@ -253,16 +450,22 @@
                                 <p>Email us anytime for any query.</p>
                             </div>
                         </div>
+                        <div class="contact-us-box">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-us-content">
+                                <h3><strong>Indore Office</strong></h3>
+                                <p>A-81, Vistara City, Indore – 452001, Madhya Pradesh, India</p>
+                            </div>
+                        </div>
                         <div class="contact-us-box mb-0">
                             <div class="icon">
                                 <i class="fa-solid fa-location-dot"></i>
                             </div>
                             <div class="contact-us-content">
-                                <h3>
-                                    Our Address
-                                </h3>
-                                <p class="mb-3"><strong>Indore Office:</strong> A-81, Vistara City, <strong>Indore</strong> – 452001, Madhya Pradesh, India</p>
-                                <p><strong>Bangalore Office:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, <strong>Bengaluru</strong> – 560016, Karnataka, India</p>
+                                <h3><strong>Bangalore Office</strong></h3>
+                                <p>No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru – 560016, Karnataka, India</p>
                             </div>
                         </div>
                     </div>

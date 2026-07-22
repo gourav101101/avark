@@ -20,7 +20,7 @@
                              <h3 class="footer-4__main-title">Available on Mobile App — Access ARK Solutions Anytime, Anywhere</h3>
                          </div>
                          <div class="footer-4__thumb" style="text-align:center">
-                             <img src="{{ asset('assets/imgs/home-1/ARkpng.png') }}" alt="image not found" style="width:50%;">
+                             <img src="{{ asset('assets/imgs/home-1/footer_mobile3.png') }}" alt="image not found" style="width:50%;">
                          </div>
                          <div class="footer-4__button">
                                  <button>
