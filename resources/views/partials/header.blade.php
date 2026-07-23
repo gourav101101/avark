@@ -87,6 +87,55 @@
         body:has(.breadcrumb-section__area) .breadcrumb-section__wrapper {
           padding-top: 100px;
         }
+
+        /* ===== Enhanced Navbar Hover for All Pages ===== */
+
+        /* Smooth transition for all nav links */
+        .header-area-1 .main-menu li a {
+          transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Top-level nav hover — vivid white glow effect */
+        .header-area-1 .main-menu > ul > li:hover > a {
+          color: #fff !important;
+          text-shadow: 0 0 8px rgba(160, 234, 113, 0.9), 0 0 20px rgba(160, 234, 113, 0.5);
+        }
+
+        /* Top-level nav link — subtle underline animation on hover */
+        .header-area-1 .main-menu > ul > li > a {
+          position: relative;
+        }
+        .header-area-1 .main-menu > ul > li > a::after {
+          content: '';
+          position: absolute;
+          bottom: 28px;
+          left: 50%;
+          width: 0;
+          height: 2px;
+          background: #A0EA71;
+          transition: width 0.3s ease, left 0.3s ease;
+          border-radius: 2px;
+        }
+        .header-area-1 .main-menu > ul > li:hover > a::after {
+          width: 60%;
+          left: 20%;
+        }
+
+        /* Dropdown menu items — improved hover */
+        .header-area-1 .main-menu ul.dp-menu li:hover > a {
+          color: #A0EA71 !important;
+          text-shadow: 0 0 6px rgba(160, 234, 113, 0.4);
+          padding-left: 5px;
+        }
+        .header-area-1 .main-menu ul.dp-menu li a {
+          transition: color 0.3s ease, text-shadow 0.3s ease, padding-left 0.3s ease, letter-spacing 0.3s ease;
+        }
+
+        /* Mobile hamburger bar glow on hover */
+        .header-area-1 .header-right .side-toggle .bar-icon:hover span {
+          background: #fff;
+          box-shadow: 0 0 6px rgba(160, 234, 113, 0.8);
+        }
       </style>
       <header class="header-area-1">
             <div class="header-main">

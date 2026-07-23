@@ -199,8 +199,8 @@
                     <div class="col-md-6">
                         <h5 class="text-primary"><i class="fa-solid fa-location-dot me-2"></i> Office Addresses</h5>
                         <ul class="list-unstyled mt-3 lh-lg desc">
-                            <li><strong>Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
-                            <li><strong>Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
+                            <li><strong style="color: #000; font-weight: 700;">Indore:</strong> A-81, Vistara City, Indore - 452001, MP, India</li>
+                            <li><strong style="color: #000; font-weight: 700;">Bangalore:</strong> No. 124, 2nd Cross, Nethravathi Street, Uday Nagar, Bengaluru - 560016, Karnataka, India</li>
                         </ul>
                     </div>
                 </div>

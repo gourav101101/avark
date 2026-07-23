@@ -9,18 +9,6 @@
 
 
 <style>
-    .ai-features-2__item .icon {
-        background: linear-gradient(90deg, #d0fc9c 0%, #198754 100%);
-    }
-
-    .ai-features-2__item:hover {
-        background: linear-gradient(90deg, #d0fc9c 0%, #a0ea71 100%);
-    }
-
-    .ai-features-2__item .content .title {
-        font-size: 18px;
-    }
-    
     .brand-1__item img{
         width: 120px;
     }
@@ -141,48 +129,106 @@
     }
 
     /* =============================================
-       SECTION 4: ABOUT/FEATURES — Polish
+       SECTION 4: ABOUT/FEATURES — Enhanced Premium
        ============================================= */
+    .features-1 {
+        position: relative;
+    }
+    .features-1::before {
+        content: '';
+        position: absolute;
+        top: -60px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(21, 128, 61, 0.15), transparent);
+    }
     .features-1 .section-title__wrapper .sub-title {
         display: inline-block;
-        padding: 6px 18px;
-        background: rgba(34, 197, 94, 0.08);
-        border: 1px solid rgba(34, 197, 94, 0.15);
+        padding: 8px 20px;
+        background: linear-gradient(135deg, rgba(21, 128, 61, 0.08), rgba(34, 197, 94, 0.12));
+        border: 1px solid rgba(21, 128, 61, 0.18);
         border-radius: 100px;
         font-size: 14px;
-        font-weight: 600;
-        color: #16a34a;
-        letter-spacing: 0.5px;
+        font-weight: 700;
+        color: #15803d;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+    .features-1 .section-title__wrapper .title {
+        color: #0f172a;
+    }
+    .features-1 .section-title__wrapper .desc {
+        color: #475569;
+        line-height: 1.8;
     }
     .features-1__item {
-        transition: all 0.3s ease !important;
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+        border-left: 3px solid transparent;
+        padding-left: 16px !important;
     }
     .features-1__item:hover {
         transform: translateX(8px);
+        border-left-color: #16a34a;
     }
     .features-1__item span {
-        transition: transform 0.3s ease;
+        transition: all 0.4s ease;
+        border-radius: 12px;
     }
     .features-1__item:hover span {
-        transform: scale(1.15);
+        transform: scale(1.12);
+        box-shadow: 0 8px 24px rgba(22, 163, 74, 0.2);
+    }
+    .features-1__item .text .title {
+        font-weight: 700;
+        color: #1e293b;
+    }
+    .features-1__item .text p {
+        color: #64748b;
+        line-height: 1.6;
+    }
+    .features-1 .rr-btn-green {
+        background: linear-gradient(135deg, #16a34a, #15803d) !important;
+        box-shadow: 0 4px 16px rgba(22, 163, 74, 0.3);
+        transition: all 0.3s ease !important;
+    }
+    .features-1 .rr-btn-green:hover {
+        box-shadow: 0 8px 28px rgba(22, 163, 74, 0.4);
+        transform: translateY(-2px);
     }
 
     /* =============================================
-       SECTION 5: PRODUCTS — Enhanced Cards
+       SECTION 5: PRODUCTS — Premium Cards
        ============================================= */
     .ai-features-2 {
-        background: linear-gradient(180deg, #f8faf6 0%, #fff 100%);
+        background: linear-gradient(180deg, #f0fdf4 0%, #f8faf6 50%, #fff 100%);
+        position: relative;
+    }
+    .ai-features-2::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px;
+        height: 3px;
+        background: linear-gradient(90deg, #22c55e, #15803d);
+        border-radius: 3px;
     }
     .ai-features-2 .section-title__wrapper .sub-title {
         display: inline-block;
-        padding: 6px 18px;
-        background: rgba(34, 197, 94, 0.08);
-        border: 1px solid rgba(34, 197, 94, 0.15);
+        padding: 8px 20px;
+        background: linear-gradient(135deg, rgba(21, 128, 61, 0.08), rgba(34, 197, 94, 0.12));
+        border: 1px solid rgba(21, 128, 61, 0.18);
         border-radius: 100px;
         font-size: 14px;
-        font-weight: 600;
-        color: #16a34a;
-        letter-spacing: 0.5px;
+        font-weight: 700;
+        color: #15803d;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+    .ai-features-2 .section-title__wrapper .title {
+        color: #0f172a;
     }
     .ai-features-2__item {
         position: relative;
@@ -190,30 +236,73 @@
         transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
         border: 1px solid rgba(0,0,0,0.06) !important;
         border-radius: 16px !important;
+        border-left: 3px solid transparent !important;
+    }
+    .ai-features-2__item::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(21, 128, 61, 0.03), transparent 60%);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+        pointer-events: none;
     }
     .ai-features-2__item:hover {
         transform: translateY(-6px) !important;
-        box-shadow: 0 16px 48px rgba(34, 197, 94, 0.15) !important;
-        border-color: rgba(34, 197, 94, 0.2) !important;
+        box-shadow: 0 16px 48px rgba(21, 128, 61, 0.15) !important;
+        border-color: rgba(22, 163, 74, 0.25) !important;
+        border-left-color: #16a34a !important;
+        background: #ffffff !important; /* Overrides purple gradient in style.css */
+        border-radius: 16px !important;
+    }
+    .ai-features-2__item:hover::after {
+        opacity: 1;
+    }
+    .ai-features-2__item .icon {
+        background: linear-gradient(135deg, #16a34a 0%, #15803d 100%) !important;
+        box-shadow: 0 4px 12px rgba(22, 163, 74, 0.25);
+        transition: all 0.4s ease;
+    }
+    .ai-features-2__item:hover .icon {
+        transform: scale(1.08);
+        box-shadow: 0 6px 20px rgba(22, 163, 74, 0.35);
+    }
+    .ai-features-2__item .content .title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #1e293b;
+    }
+    .ai-features-2__item .content .title a {
+        color: #1e293b;
+        transition: color 0.3s ease;
+    }
+    .ai-features-2__item:hover .content .title {
+        color: #15803d !important; /* Overrides white text on hover from style.css */
+    }
+    .ai-features-2__item:hover .content .title a {
+        color: #15803d;
     }
     .ai-features-2__item .product-desc {
         font-size: 13px;
-        color: #666;
-        line-height: 1.5;
+        color: #64748b;
+        line-height: 1.6;
         margin-top: 6px;
         transition: color 0.3s ease;
     }
     .ai-features-2__item:hover .product-desc {
-        color: #1a3a0a;
+        color: #334155;
     }
     .ai-features-2__item .product-arrow {
         position: absolute;
         top: 20px;
         right: 20px;
-        width: 32px;
-        height: 32px;
+        width: 34px;
+        height: 34px;
         border-radius: 50%;
-        background: rgba(34, 197, 94, 0.08);
+        background: linear-gradient(135deg, rgba(22, 163, 74, 0.1), rgba(21, 128, 61, 0.15));
         display: flex;
         align-items: center;
         justify-content: center;
@@ -223,7 +312,7 @@
     }
     .ai-features-2__item .product-arrow i {
         font-size: 12px;
-        color: #16a34a;
+        color: #15803d;
     }
     .ai-features-2__item:hover .product-arrow {
         opacity: 1;
@@ -231,51 +320,114 @@
     }
 
     /* =============================================
-       SECTION 6: WHY CHOOSE ARK — Color Harmony
+       SECTION 6: WHY CHOOSE ARK — Premium Deep Green
        ============================================= */
     .choose-us__inner {
-        background: linear-gradient(135deg, #e8f5e1 0%, #f0f9eb 40%, #e5f2de 100%) !important;
+        background: linear-gradient(135deg, #dcfce7 0%, #f0fdf4 35%, #ecfdf5 65%, #d1fae5 100%) !important;
+        position: relative;
+        overflow: hidden;
+    }
+    .choose-us__inner::before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        right: -100px;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, rgba(22, 163, 74, 0.08), transparent 70%);
+        pointer-events: none;
     }
     .choose-us__content .sub-title.has--green {
         display: inline-block !important;
-        padding: 6px 18px;
-        background: rgba(34, 197, 94, 0.12);
-        border: 1px solid rgba(34, 197, 94, 0.2);
+        padding: 8px 20px;
+        background: linear-gradient(135deg, rgba(21, 128, 61, 0.12), rgba(22, 163, 74, 0.18)) !important;
+        border: 1px solid rgba(21, 128, 61, 0.25) !important;
         border-radius: 100px;
         font-size: 14px;
-        font-weight: 600;
-        color: #16a34a;
-        letter-spacing: 0.5px;
+        font-weight: 700;
+        color: #15803d !important;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+    .choose-us__content .title {
+        color: #0f172a;
+    }
+    .choose-us__content .desc {
+        color: #475569;
+        line-height: 1.8;
+    }
+    .choose-us__content .rr-btn-green.has--drk-gren {
+        background: linear-gradient(135deg, #16a34a, #15803d) !important;
+        box-shadow: 0 4px 16px rgba(22, 163, 74, 0.3);
+        transition: all 0.3s ease !important;
+    }
+    .choose-us__content .rr-btn-green.has--drk-gren:hover {
+        box-shadow: 0 8px 28px rgba(22, 163, 74, 0.4) !important;
+        transform: translateY(-2px);
     }
     .choose-us__item {
-        background: rgba(255, 255, 255, 0.7) !important;
-        backdrop-filter: blur(12px);
-        border: 1px solid rgba(34, 197, 94, 0.1) !important;
+        background: rgba(255, 255, 255, 0.8) !important;
+        backdrop-filter: blur(16px);
+        border: 1px solid rgba(22, 163, 74, 0.12) !important;
         border-radius: 16px !important;
-        transition: all 0.4s ease !important;
+        border-left: 3px solid rgba(22, 163, 74, 0.3) !important;
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+        position: relative;
+        overflow: hidden;
+    }
+    .choose-us__item::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(22, 163, 74, 0.03), transparent);
+        opacity: 0;
+        transition: opacity 0.4s ease;
     }
     .choose-us__item:hover {
         background: rgba(255, 255, 255, 0.95) !important;
-        transform: translateY(-4px) !important;
-        box-shadow: 0 12px 40px rgba(34, 197, 94, 0.1) !important;
-        border-color: rgba(34, 197, 94, 0.2) !important;
+        transform: translateY(-6px) !important;
+        box-shadow: 0 16px 48px rgba(22, 163, 74, 0.12) !important;
+        border-left-color: #16a34a !important;
+        border-color: rgba(22, 163, 74, 0.25) !important;
+    }
+    .choose-us__item:hover::before {
+        opacity: 1;
+    }
+    .choose-us__item .title {
+        color: #1e293b;
+        font-weight: 700;
+    }
+    .choose-us__item .title a {
+        color: #1e293b;
+        transition: color 0.3s ease;
+    }
+    .choose-us__item:hover .title a {
+        color: #15803d;
+    }
+    .choose-us__item p {
+        color: #475569;
+        line-height: 1.7;
     }
 
     /* =============================================
        SECTION 7: TESTIMONIALS — Enhanced Styling
        ============================================= */
     .testimonial__inner {
-        background: linear-gradient(135deg, #e8f5e1 0%, #f0f9eb 100%) !important;
+        background: linear-gradient(135deg, #dcfce7 0%, #f0fdf4 50%, #ecfdf5 100%) !important;
     }
     .testimonial__content .sub-title.has--green {
         display: inline-block !important;
-        padding: 6px 18px;
-        background: rgba(34, 197, 94, 0.12);
-        border: 1px solid rgba(34, 197, 94, 0.2);
+        padding: 8px 20px;
+        background: linear-gradient(135deg, rgba(21, 128, 61, 0.12), rgba(22, 163, 74, 0.18));
+        border: 1px solid rgba(21, 128, 61, 0.25);
         border-radius: 100px;
         font-size: 14px;
-        font-weight: 600;
-        color: #16a34a;
+        font-weight: 700;
+        color: #15803d;
+        letter-spacing: 0.8px;
     }
     .testimonial__item {
         transition: all 0.3s ease !important;
@@ -283,47 +435,107 @@
     .testimonial__item .desc {
         font-size: 17px !important;
         line-height: 1.7 !important;
-        color: #333 !important;
+        color: #334155 !important;
     }
 
     /* =============================================
-       SECTION 8: TECHNOLOGY — Polish
+       SECTION 8: TECHNOLOGY/SUPPORT — Premium Polish
        ============================================= */
+    .technology {
+        position: relative;
+    }
+    .technology::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(21, 128, 61, 0.15), transparent);
+    }
     .technology__card {
-        border-radius: 20px !important;
+        border-radius: 24px !important;
         overflow: hidden;
+        position: relative;
+    }
+    .technology__card::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, #22c55e, #15803d);
+    }
+    .technology__card .section-title__wrapper .sub-title {
+        color: #86efac;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+    }
+    .technology__card .rr-btn-green {
+        background: linear-gradient(135deg, #22c55e, #16a34a) !important;
+        box-shadow: 0 4px 16px rgba(34, 197, 94, 0.4);
+        transition: all 0.3s ease !important;
+    }
+    .technology__card .rr-btn-green:hover {
+        box-shadow: 0 8px 28px rgba(34, 197, 94, 0.5);
+        transform: translateY(-2px);
     }
     .technology__wrapper {
-        border-radius: 20px !important;
+        border-radius: 24px !important;
         overflow: hidden;
+        position: relative;
+    }
+    .technology__wrapper::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, #15803d, #22c55e);
+    }
+    .technology__wrapper .title {
+        color: #fff;
+    }
+    .technology .client-box {
+        transition: all 0.3s ease;
+    }
+    .technology .client-box:hover {
+        transform: scale(1.08);
+        box-shadow: 0 8px 24px rgba(22, 163, 74, 0.2);
     }
 
     /* =============================================
        SECTION 9: FAQ — Enhanced Styling
        ============================================= */
     .faq.rr-bg-gray {
-        background: linear-gradient(180deg, #f0f4ed 0%, #f8faf6 100%) !important;
+        background: linear-gradient(180deg, #f0fdf4 0%, #f8faf6 50%, #f0f4ed 100%) !important;
     }
     .faq .section-title__wrapper .sub-title {
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        padding: 6px 18px;
-        background: rgba(34, 197, 94, 0.08);
-        border: 1px solid rgba(34, 197, 94, 0.15);
+        padding: 8px 20px;
+        background: linear-gradient(135deg, rgba(21, 128, 61, 0.08), rgba(34, 197, 94, 0.12));
+        border: 1px solid rgba(21, 128, 61, 0.18);
         border-radius: 100px;
         font-size: 14px;
-        font-weight: 600;
-        color: #16a34a;
+        font-weight: 700;
+        color: #15803d;
+        letter-spacing: 0.8px;
     }
     .global-accordion-item {
         transition: all 0.3s ease !important;
         border-radius: 12px !important;
         overflow: hidden;
         margin-bottom: 12px !important;
+        border-left: 3px solid transparent !important;
     }
     .global-accordion-item:hover {
         transform: translateX(4px);
+        border-left-color: #16a34a !important;
     }
     .global-accordion-header {
         transition: background 0.3s ease;
@@ -331,10 +543,11 @@
     .global-accordion-button.style .question {
         font-weight: 600 !important;
         font-size: 16px !important;
+        color: #1e293b;
     }
     .global-accordion-body.style p {
         line-height: 1.7 !important;
-        color: #555 !important;
+        color: #475569 !important;
     }
 
     /* =============================================
@@ -914,11 +1127,11 @@
 
                         <div class="hero-float-card hero-float-card--2" data-aos="fade-right" data-aos-delay="1000">
                             <div class="hero-float-card__icon" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
-                                <i class="fa-solid fa-chart-line"></i>
+                                <i class="fa-solid fa-users"></i>
                             </div>
                             <div class="hero-float-card__info">
-                                <span class="hero-float-card__value">₹18.5L</span>
-                                <span class="hero-float-card__label">Monthly Revenue Tracked</span>
+                                <span class="hero-float-card__value">10,000+</span>
+                                <span class="hero-float-card__label">Active Users</span>
                             </div>
                         </div>
 
