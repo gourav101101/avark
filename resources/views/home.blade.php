@@ -12,6 +12,24 @@
     .brand-1__item img{
         width: 120px;
     }
+    
+    /* Improve Discover More button in About Us section */
+    .features-1 .rr-btn-green {
+        background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+        color: #fff !important;
+        border: none !important;
+        box-shadow: 0 8px 24px rgba(34, 197, 94, 0.3) !important;
+        padding: 16px 36px !important;
+    }
+    .features-1 .rr-btn-green * {
+        color: #fff !important;
+    }
+    .features-1 .rr-btn-green::before {
+        background: linear-gradient(135deg, #16a34a 0%, #15803d 100%) !important;
+    }
+    .features-1 .rr-btn-green:hover * {
+        color: #fff !important;
+    }
 
     /* =============================================
        SECTION 2: SERVICES — Enhanced Cards
@@ -245,30 +263,31 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(135deg, rgba(21, 128, 61, 0.03), transparent 60%);
+        background: linear-gradient(135deg, rgba(0, 79, 252, 0.03), transparent 60%);
         opacity: 0;
         transition: opacity 0.4s ease;
         pointer-events: none;
     }
     .ai-features-2__item:hover {
         transform: translateY(-6px) !important;
-        box-shadow: 0 16px 48px rgba(21, 128, 61, 0.15) !important;
-        border-color: rgba(22, 163, 74, 0.25) !important;
-        border-left-color: #16a34a !important;
-        background: #ffffff !important; /* Overrides purple gradient in style.css */
+        box-shadow: 0 16px 40px rgba(0, 79, 252, 0.12) !important;
+        border-color: rgba(0, 79, 252, 0.3) !important;
+        border-left-color: #004FFC !important;
+        background: rgba(255, 255, 255, 0.85) !important;
+        backdrop-filter: blur(24px) !important;
         border-radius: 16px !important;
     }
     .ai-features-2__item:hover::after {
         opacity: 1;
     }
     .ai-features-2__item .icon {
-        background: linear-gradient(135deg, #16a34a 0%, #15803d 100%) !important;
-        box-shadow: 0 4px 12px rgba(22, 163, 74, 0.25);
+        background: linear-gradient(135deg, #004FFC 0%, #003cc2 100%) !important;
+        box-shadow: 0 4px 12px rgba(0, 79, 252, 0.25);
         transition: all 0.4s ease;
     }
     .ai-features-2__item:hover .icon {
         transform: scale(1.08);
-        box-shadow: 0 6px 20px rgba(22, 163, 74, 0.35);
+        box-shadow: 0 6px 20px rgba(0, 79, 252, 0.35);
     }
     .ai-features-2__item .content .title {
         font-size: 18px;
@@ -280,10 +299,10 @@
         transition: color 0.3s ease;
     }
     .ai-features-2__item:hover .content .title {
-        color: #15803d !important; /* Overrides white text on hover from style.css */
+        color: #004FFC !important; /* Overrides white text on hover from style.css */
     }
     .ai-features-2__item:hover .content .title a {
-        color: #15803d;
+        color: #004FFC !important;
     }
     .ai-features-2__item .product-desc {
         font-size: 13px;
@@ -293,7 +312,7 @@
         transition: color 0.3s ease;
     }
     .ai-features-2__item:hover .product-desc {
-        color: #334155;
+        color: #334155 !important;
     }
     .ai-features-2__item .product-arrow {
         position: absolute;
@@ -302,7 +321,7 @@
         width: 34px;
         height: 34px;
         border-radius: 50%;
-        background: linear-gradient(135deg, rgba(22, 163, 74, 0.1), rgba(21, 128, 61, 0.15));
+        background: linear-gradient(135deg, rgba(0, 79, 252, 0.1), rgba(0, 79, 252, 0.15));
         display: flex;
         align-items: center;
         justify-content: center;
@@ -312,11 +331,15 @@
     }
     .ai-features-2__item .product-arrow i {
         font-size: 12px;
-        color: #15803d;
+        color: #004FFC;
     }
     .ai-features-2__item:hover .product-arrow {
         opacity: 1;
         transform: translateX(0);
+        background: rgba(0, 79, 252, 0.1) !important;
+    }
+    .ai-features-2__item:hover .product-arrow i {
+        color: #004FFC !important;
     }
 
     /* =============================================
@@ -1320,8 +1343,10 @@
                                 </span>
                             </a>
                         </div>
-                        <div class="features-1__shape-1 shape-animaiton1" data-aos="fade-down-left" data-aos-duration="900">
-                            <img loading="lazy" src="assets/imgs/home-1/features/hand-shape-kuldeep.png" alt="image">
+                        <div class="features-1__shape-1 shape-animaiton1" data-aos="fade-down-left" data-aos-duration="900" style="position: absolute; right: 20px; bottom: 100px; z-index: 2;">
+                            <div style="width: 320px; height: 320px; border-radius: 50%; overflow: hidden; box-shadow: 0 25px 50px rgba(0, 79, 252, 0.15); border: 10px solid #ffffff; background: #ffffff;">
+                                <img loading="lazy" src="assets/imgs/home-1/features/healthcare_tech.png" alt="Digital Healthcare Technology" style="width: 100%; height: 100%; object-fit: cover; object-position: center; transform: scale(1.1);">
+                            </div>
                         </div>
                         <div class="features-1__shape-2 rotate"><img loading="lazy" src="assets/imgs/home-1/features/line-shape.png"
                                 alt="image">
@@ -1456,8 +1481,8 @@
                 </div>
                 <div class="col-xl-6">
                     <div class="choose-us__media" data-aos="fade-up" data-aos-duration="900">
-                        <img loading="lazy" class="image-1" src="assets/imgs/home-1/choose-us/KPM-Choose02.png" alt="image">
-                        <img loading="lazy" class="image-2" src="assets/imgs/home-1/choose-us/KPM-Choose01.png" alt="image">
+                        <img loading="lazy" class="image-1" src="assets/imgs/home-3/about/about2.png" alt="Hospital Analytics" style="width: 484px; height: 303px; object-fit: cover; object-position: left; border-radius: 16px; box-shadow: 0 15px 40px rgba(0,0,0,0.15);">
+                        <img loading="lazy" class="image-2" src="assets/imgs/home-3/about/about-apointment.jpeg" alt="Hospital Automation" style="width: 424px; height: 307px; object-fit: cover; border-radius: 16px; box-shadow: 0 15px 40px rgba(0,0,0,0.15);">
                         <!-- <img loading="lazy" class="image-3" src="assets/imgs/home-1/choose-us/choose-3.png" alt="image"> -->
                         <img loading="lazy" class="image-4" src="assets/imgs/home-1/choose-us/icon-1.png" alt="image">
                         <img loading="lazy" class="image-5" src="assets/imgs/home-1/choose-us/icon-2.png" alt="image">

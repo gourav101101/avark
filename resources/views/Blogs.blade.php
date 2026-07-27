@@ -19,6 +19,27 @@
                 <ul class="breadcrumb-section__page">
                     <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                     <li>Blogs</li>
+@extends('layouts.app')
+
+@section('title', 'Blogs')
+@section('meta_description', 'Blogs')
+@section('meta_keywords', 'home, Blogs')
+
+@section('content')
+
+<style>
+
+</style>
+
+<!-- breadcrumb-section -->
+<section class="breadcrumb-section__area ">
+    <div class=" container rr-container-1900">
+        <div class="breadcrumb-section__wrapper" data-background="{{ asset('assets/imgs/home-1/hero/breadcrumb-bg-thumb.png') }}">
+            <div class="breadcrumb-section__content text_center breadcrumb-section__space">
+                <h3 class="breadcrumb-section__title">Blogs</h3>
+                <ul class="breadcrumb-section__page">
+                    <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
+                    <li>Blogs</li>
             </div>
         </div>
         <div class="breadcrumb-section__border"></div>
@@ -28,122 +49,42 @@
 <section class="blog-3 rr-bg-gray section-spacing">
           <div class="container rr-container-1350">
             <div class="row mb-minus-30">
-              <div class="col-lg-4 col-md-6">
-                <div class="blog-3__item mb-30">
-                  <div class="blog-3__content">
-                    <ul class="blog-3__meta">
-                      <li><span><i class="fa-light fa-circle-user"></i></span>By kuldeep Meena</li>
-                      <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
-                    </ul>
-
-                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}">The Future of ERP Systems: Trends to Watch in <br> 2026</a></h3>
-                    <div class="blog-3__media">
-                      <a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}"><img src="{{ asset('assets/imgs/inner/features/analytics_dashboard_1783400138562.png') }}" alt="image"></a>
-                      <ul class="blog-3__meta-list">
-                        <li class="tag">Agency</li>
-                        <li class="date">Oct 04,2026</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="blog-3__item mb-30">
-                  <div class="blog-3__content">
-                    <ul class="blog-3__meta">
-                      <li><span><i class="fa-light fa-circle-user"></i></span>By TusHar</li>
-                      <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
-                    </ul>
-
-                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'choose-right-erp-inventory-system']) }}">How to Choose the Right ERP or Inventory System for Your Business</a></h3>
-                    <div class="blog-3__media">
-                      <a href="{{ route('blog-details', ['slug' => 'choose-right-erp-inventory-system']) }}"><img src="{{ asset('assets/imgs/inner/features/inventory_box_1783400245007.png') }}" alt="image"></a>
-                      <ul class="blog-3__meta-list">
-                        <li class="tag">Avark</li>
-                        <li class="date">Oct 04,2026</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="blog-3__item mb-30">
-                  <div class="blog-3__content">
-                    <ul class="blog-3__meta">
-                      <li><span><i class="fa-light fa-circle-user"></i></span>By Kuldeep</li>
-                      <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
-                    </ul>
-
-                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'crm-helps-startups-scale-faster']) }}">How CRM Helps <br> Startups Scale<br> Faster</a></h3>
-                    <div class="blog-3__media">
-                      <a href="{{ route('blog-details', ['slug' => 'crm-helps-startups-scale-faster']) }}"><img src="{{ asset('assets/imgs/inner/features/digital_marketing_1783400265688.png') }}" alt="image"></a>
-                      <ul class="blog-3__meta-list">
-                        <li class="tag">Avark</li>
-                        <li class="date">Oct 04,6</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-                <div class="col-lg-4 col-md-6">
-                <div class="blog-3__item mb-30">
-                  <div class="blog-3__content">
-                    <ul class="blog-3__meta">
-                      <li><span><i class="fa-light fa-circle-user"></i></span>By kuldeep Meena</li>
-                      <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
-                    </ul>
-
-                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}">The Future of ERP Systems: Trends to Watch in <br> 2026</a></h3>
-                    <div class="blog-3__media">
-                      <a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}"><img src="{{ asset('assets/imgs/inner/features/cloud_server_1783400149336.png') }}" alt="image"></a>
-                      <ul class="blog-3__meta-list">
-                        <li class="tag">Agency</li>
-                        <li class="date">Oct 04,2026</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="blog-3__item mb-30">
-                  <div class="blog-3__content">
-                    <ul class="blog-3__meta">
-                      <li><span><i class="fa-light fa-circle-user"></i></span>By TusHar</li>
-                      <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
-                    </ul>
-
-                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'choose-right-erp-inventory-system']) }}">How to Choose the Right ERP or Inventory System for Your Business</a></h3>
-                    <div class="blog-3__media">
-                      <a href="{{ route('blog-details', ['slug' => 'choose-right-erp-inventory-system']) }}"><img src="{{ asset('assets/imgs/inner/features/barcode_scanner_1783402194262.png') }}" alt="image"></a>
-                      <ul class="blog-3__meta-list">
-                        <li class="tag">Avark</li>
-                        <li class="date">Oct 04,2026</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="blog-3__item mb-30">
-                  <div class="blog-3__content">
-                    <ul class="blog-3__meta">
-                      <li><span><i class="fa-light fa-circle-user"></i></span>By Kuldeep</li>
-                      <li><span><i class="fa-solid fa-envelope"></i></span>Comments (04)</li>
-                    </ul>
-
-                    <h3 class="title"><a href="{{ route('blog-details', ['slug' => 'crm-helps-startups-scale-faster']) }}">How CRM Helps <br> Startups Scale<br> Faster</a></h3>
-                    <div class="blog-3__media">
-                      <a href="{{ route('blog-details', ['slug' => 'crm-helps-startups-scale-faster']) }}"><img src="{{ asset('assets/imgs/inner/features/user_management_1783400202674.png') }}" alt="image"></a>
-                      <ul class="blog-3__meta-list">
-                        <li class="tag">Avark</li>
-                        <li class="date">Oct 04,6</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
               
+              @forelse($blogs as $blog)
+              <div class="col-lg-4 col-md-6">
+                <div class="blog-3__item mb-30">
+                  <div class="blog-3__content">
+                    <ul class="blog-3__meta">
+                      <li><span><i class="fa-light fa-circle-user"></i></span>By {{ $blog->author }}</li>
+                      <li><span><i class="fa-solid fa-envelope"></i></span>Comments (0)</li>
+                    </ul>
+
+                    <h3 class="title"><a href="{{ route('blog-details', $blog->slug) }}">{{ $blog->title }}</a></h3>
+                    <div class="blog-3__media">
+                      <a href="{{ route('blog-details', $blog->slug) }}">
+                        @if($blog->image)
+                            <img src="{{ asset($blog->image) }}" alt="{{ $blog->title }}">
+                        @else
+                            <img src="{{ asset('assets/imgs/inner/features/analytics_dashboard_1783400138562.png') }}" alt="{{ $blog->title }}">
+                        @endif
+                      </a>
+                      <ul class="blog-3__meta-list">
+                        @if($blog->tag)
+                            <li class="tag">{{ $blog->tag }}</li>
+                        @endif
+                        <li class="date">{{ $blog->published_at ? $blog->published_at->format('M d, Y') : $blog->created_at->format('M d, Y') }}</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              @empty
+              <div class="col-12 text-center py-5">
+                  <h4>No blogs found.</h4>
+                  <p>Check back later for exciting updates!</p>
+              </div>
+              @endforelse
+
             </div>
           </div>
         </section>

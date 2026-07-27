@@ -20,11 +20,16 @@
         border-radius: 16px !important;
         background: #fff;
     }
+    .ai-features-2__item .icon {
+        background: linear-gradient(135deg, #004FFC 0%, #003cc2 100%) !important;
+    }
     .ai-features-2__item:hover {
         transform: translateY(-6px) !important;
-        box-shadow: 0 16px 48px rgba(34, 197, 94, 0.15) !important;
-        border-color: rgba(34, 197, 94, 0.2) !important;
-        background: #fff;
+        box-shadow: 0 16px 40px rgba(0, 79, 252, 0.12) !important;
+        border-color: rgba(0, 79, 252, 0.3) !important;
+        background: rgba(255, 255, 255, 0.85) !important;
+        backdrop-filter: blur(24px) !important;
+        border-radius: 16px !important;
     }
     .ai-features-2__item .product-desc {
         font-size: 14px;
@@ -33,7 +38,7 @@
         transition: color 0.3s ease;
     }
     .ai-features-2__item:hover .product-desc {
-        color: #1a3a0a;
+        color: #334155 !important;
     }
     .ai-features-2__item .product-arrow {
         position: absolute;
@@ -42,7 +47,7 @@
         width: 32px;
         height: 32px;
         border-radius: 50%;
-        background: rgba(34, 197, 94, 0.08);
+        background: rgba(0, 79, 252, 0.08);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -52,36 +57,43 @@
     }
     .ai-features-2__item .product-arrow i {
         font-size: 12px;
-        color: #16a34a;
+        color: #004FFC;
     }
     .ai-features-2__item:hover .product-arrow {
         opacity: 1;
         transform: translateX(0);
+        background: rgba(0, 79, 252, 0.1) !important;
+    }
+    .ai-features-2__item:hover .product-arrow i {
+        color: #004FFC !important;
     }
     .ai-features-2__item .content .title {
         font-size: 18px;
     }
+    .ai-features-2__item:hover .content .title {
+        color: #004FFC !important;
+    }
     .ai-features-2__item:hover .content .title a {
-        color: #16a34a !important;
+        color: #004FFC !important;
     }
 
     /* Integrations */
     .our-integrations__area {
-        background: linear-gradient(180deg, #f0f4ed 0%, #f8faf6 100%) !important;
+        background: linear-gradient(180deg, #f0f4ff 0%, #f8faff 100%) !important;
     }
     .our-integrations__btn .rr-btn {
-        background: #16a34a !important;
+        background: #004FFC !important;
     }
     .our-integrations__btn .rr-btn::before, .our-integrations__btn .rr-btn::after {
-        background: #15803d !important;
+        background: #003cc2 !important;
     }
     
     /* Testimonials */
     .testimonial-section__area {
-        background: linear-gradient(135deg, #e8f5e1 0%, #f0f9eb 100%) !important;
+        background: linear-gradient(135deg, #e8f0ff 0%, #f0f4ff 100%) !important;
     }
     .testimonial-section__top .sub-title {
-        color: #16a34a !important;
+        color: #004FFC !important;
     }
     .testimonial-section__top .title {
         color: #222 !important;
@@ -91,38 +103,46 @@
     }
     .testimonial-section__item {
         background: #fff;
-        border: 1px solid rgba(34, 197, 94, 0.1);
+        border: 1px solid rgba(0, 79, 252, 0.1);
         border-radius: 16px;
-        box-shadow: 0 12px 40px rgba(34, 197, 94, 0.05);
+        box-shadow: 0 12px 40px rgba(0, 79, 252, 0.05);
     }
     .testimonial-section__arrow {
-        background: rgba(34, 197, 94, 0.1) !important;
-        color: #16a34a !important;
+        background: rgba(0, 79, 252, 0.1) !important;
+        color: #004FFC !important;
     }
     .testimonial-section__arrow:hover {
-        background: #16a34a !important;
+        background: #004FFC !important;
         color: #fff !important;
     }
     
     /* CTA */
     .cta-section__wrapper {
-        background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+        background: linear-gradient(135deg, #0E0E0C 0%, #1a1a1a 100%) !important;
         border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
     }
     .cta-section__btn .rr-btn {
-        background: #fff !important;
-        color: #16a34a !important;
+        background: #004FFC !important;
+        color: #fff !important;
+        border: none !important;
+    }
+    .cta-section__btn .rr-btn * {
+        color: #fff !important;
     }
     .cta-section__btn .rr-btn::before, .cta-section__btn .rr-btn::after {
-        background: #f0fdf4 !important;
+        background: #003cc2 !important;
     }
     .cta-section__btn .rr-btn-3 {
-        background: rgba(255, 255, 255, 0.1) !important;
-        color: #fff !important;
+        background: transparent !important;
         border: 1px solid rgba(255, 255, 255, 0.3) !important;
+        color: #fff !important;
+    }
+    .cta-section__btn .rr-btn-3 * {
+        color: #fff !important;
     }
     .cta-section__btn .rr-btn-3::before, .cta-section__btn .rr-btn-3::after {
-        background: rgba(255, 255, 255, 0.2) !important;
+        background: rgba(255, 255, 255, 0.1) !important;
     }
 </style>
 
@@ -365,17 +385,24 @@
             <div class="testimonial-section__wrap">
                 <div class="swiper testimonial-section__active">
                     <div class="swiper-wrapper">
+                        @forelse($testimonials as $testimonial)
                         <div class="swiper-slide">
                             <div class="testimonial-section__item">
                                 <div class="testimonial-section__thumb">
-                                    <img src="assets/imgs/home-1/testimonial/kptestimonails01.png" alt="image not found">
+                                    @if($testimonial->avatar)
+                                        <img src="{{ asset($testimonial->avatar) }}" alt="image not found">
+                                    @else
+                                        <div style="width: 60px; height: 60px; border-radius: 50%; background: #f0f4ff; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 600; color: #004FFC; border: 2px solid rgba(0, 79, 252, 0.2);">
+                                            {{ substr($testimonial->client_name, 0, 1) }}
+                                        </div>
+                                    @endif
                                 </div>
                                 <div class="testimonial-section__content">
-                                    <p class="testimonial-section__dec">“The inventory and pharmacy management module alone saved us lakhs every month. Stock wastage dropped by 40%, and we now have complete visibility across all departments. Truly a game-changer for our hospital chain.”</p>
+                                    <p class="testimonial-section__dec">"{{ strip_tags($testimonial->content) }}"</p>
                                     <div class="testimonial-section__admin">
                                         <div class="info">
-                                            <h3 class="name">Operations Director</h3>
-                                            <p class="position">Hospital Chain, Central India</p>
+                                            <h3 class="name">{{ $testimonial->client_name }}</h3>
+                                            <p class="position">{{ $testimonial->client_position ? $testimonial->client_position . ', ' : '' }}{{ $testimonial->client_company }}</p>
                                         </div>
                                         <div class="quote">
                                             <img src="assets/imgs/home-3/testimonial/testimonial-quote.png" alt="quote not found">
@@ -384,25 +411,11 @@
                                 </div>
                             </div>
                         </div>
+                        @empty
                         <div class="swiper-slide">
-                            <div class="testimonial-section__item">
-                                <div class="testimonial-section__thumb">
-                                    <img src="assets/imgs/home-1/testimonial/kptestimonails02.png" alt="image not found">
-                                </div>
-                                <div class="testimonial-section__content">
-                                    <p class="testimonial-section__dec">“Implementing ARK was seamless. The Avark team understood our clinical workflows perfectly. From OPD scheduling to discharge summaries, every module works exactly the way a doctor needs it. The mobile app is an added bonus for on-the-go access.”</p>
-                                    <div class="testimonial-section__admin">
-                                        <div class="info">
-                                            <h3 class="name">Chief Medical Officer</h3>
-                                            <p class="position">Private Hospital, Maharashtra</p>
-                                        </div>
-                                        <div class="quote">
-                                            <img src="assets/imgs/home-3/testimonial/testimonial-quote.png" alt="quote not found">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <p class="text-white">No testimonials available yet.</p>
                         </div>
+                        @endforelse
                     </div>
                 </div>
             </div>

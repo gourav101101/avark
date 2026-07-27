@@ -211,19 +211,24 @@
               <div class="testimonial-section__wrap">
                 <div class="swiper testimonial-section__active">
                   <div class="swiper-wrapper">
+                    @forelse($testimonials as $testimonial)
                     <div class="swiper-slide">
                       <div class="testimonial-section__item">
                         <div class="testimonial-section__thumb">
-                          <img src="{{ asset('assets/imgs/home-1/testimonial/kptestimonails01.png') }}" alt="image not found">
+                            @if($testimonial->avatar)
+                                <img src="{{ asset($testimonial->avatar) }}" alt="image not found">
+                            @else
+                                <div style="width: 60px; height: 60px; border-radius: 50%; background: #f0f4ed; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 600; color: #16a34a; border: 2px solid rgba(34, 197, 94, 0.2);">
+                                    {{ substr($testimonial->client_name, 0, 1) }}
+                                </div>
+                            @endif
                         </div>
                         <div class="testimonial-section__content">
-                          <p class="testimonial-section__dec">"This CRM has transformed how we manage campaigns. Simple,
-                            effective, and a game-changer for our CRM team’s
-                            productivity."</p>
+                          <p class="testimonial-section__dec">"{{ strip_tags($testimonial->content) }}"</p>
                           <div class="testimonial-section__admin">
                             <div class="info">
-                              <h3 class="name">Sarah Johnson</h3>
-                              <p class="position">Marketing Manager, Growthly</p>
+                              <h3 class="name">{{ $testimonial->client_name }}</h3>
+                              <p class="position">{{ $testimonial->client_position ? $testimonial->client_position . ', ' : '' }}{{ $testimonial->client_company }}</p>
                             </div>
                             <div class="quote">
                               <img src="assets/imgs/home-3/testimonial/testimonial-quote.png" alt="quote not found">
@@ -232,27 +237,11 @@
                         </div>
                       </div>
                     </div>
+                    @empty
                     <div class="swiper-slide">
-                      <div class="testimonial-section__item">
-                        <div class="testimonial-section__thumb">
-                          <img src="{{ asset('assets/imgs/home-1/testimonial/kptestimonails02.png') }}" alt="image not found">
-                        </div>
-                        <div class="testimonial-section__content">
-                          <p class="testimonial-section__dec">"This CRM has transformed how we manage campaigns. Simple,
-                            effective, and a game-changer for our CRM team’s
-                            productivity."</p>
-                          <div class="testimonial-section__admin">
-                            <div class="info">
-                              <h3 class="name">Sarah Johnson</h3>
-                              <p class="position">Marketing Manager, Growthly</p>
-                            </div>
-                            <div class="quote">
-                              <img src="assets/imgs/home-3/testimonial/testimonial-quote.png" alt="quote not found">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                        <p class="text-white">No testimonials available yet.</p>
                     </div>
+                    @endforelse
                   </div>
                 </div>
               </div>

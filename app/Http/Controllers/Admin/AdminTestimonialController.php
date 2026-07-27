@@ -1,0 +1,132 @@
+<?php
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\Testimonial;
+use Illuminate\Http\Request;
+
+class AdminTestimonialController extends Controller
+{
+    /**
+     * Display listing of testimonials.
+     */
+    public function index(Request $request)
+    {
+        $query = Testimonial::ordered();
+
+        if ($request->filled('search')) {
+            $search = $request->search;
+            $query->where(function ($q) use ($search) {
+                $q->where('client_name', 'like', "%{$search}%")
+                  ->orWhere('client_company', 'like', "%{$search}%")
+                  ->orWhere('content', 'like', "%{$search}%");
+            });
+        }
+
+        if ($request->filled('status')) {
+            if ($request->status === 'active') {
+                $query->where('is_active', true);
+            } elseif ($request->status === 'inactive') {
+                $query->where('is_active', false);
+            }
+        }
+
+        $testimonials = $query->paginate(10);
+        return view('admin.testimonials.index', compact('testimonials'));
+    }
+
+    /**
+     * Show create form.
+     */
+    public function create()
+    {
+        return view('admin.testimonials.create');
+    }
+
+    /**
+     * Store a new testimonial.
+     */
+    public function store(Request $request)
+    {
+        $validated = $request->validate([
+            'client_name' => 'required|string|max:255',
+            'client_position' => 'nullable|string|max:255',
+            'client_company' => 'nullable|string|max:255',
+            'avatar' => 'nullable|image|mimes:jpg,jpeg,png,webp,svg|max:2048',
+            'content' => 'required|string',
+            'rating' => 'nullable|integer|min:1|max:5',
+            'is_active' => 'nullable|boolean',
+            'sort_order' => 'nullable|integer|min:0',
+        ]);
+
+        // Handle avatar upload
+        if ($request->hasFile('avatar')) {
+            $path = $request->file('avatar')->store('testimonials', 'public');
+            $validated['avatar'] = 'storage/' . $path;
+        }
+
+        $validated['is_active'] = $request->boolean('is_active');
+        $validated['rating'] = $validated['rating'] ?? 5;
+        $validated['sort_order'] = $validated['sort_order'] ?? 0;
+
+        Testimonial::create($validated);
+
+        return redirect()->route('admin.testimonials.index')->with('success', 'Testimonial created successfully!');
+    }
+
+    /**
+     * Show edit form.
+     */
+    public function edit(Testimonial $testimonial)
+    {
+        return view('admin.testimonials.edit', compact('testimonial'));
+    }
+
+    /**
+     * Update testimonial.
+     */
+    public function update(Request $request, Testimonial $testimonial)
+    {
+        $validated = $request->validate([
+            'client_name' => 'required|string|max:255',
+            'client_position' => 'nullable|string|max:255',
+            'client_company' => 'nullable|string|max:255',
+            'avatar' => 'nullable|image|mimes:jpg,jpeg,png,webp,svg|max:2048',
+            'content' => 'required|string',
+            'rating' => 'nullable|integer|min:1|max:5',
+            'is_active' => 'nullable|boolean',
+            'sort_order' => 'nullable|integer|min:0',
+        ]);
+
+        // Handle avatar upload
+        if ($request->hasFile('avatar')) {
+            $path = $request->file('avatar')->store('testimonials', 'public');
+            $validated['avatar'] = 'storage/' . $path;
+        }
+
+        $validated['is_active'] = $request->boolean('is_active');
+
+        $testimonial->update($validated);
+
+        return redirect()->route('admin.testimonials.index')->with('success', 'Testimonial updated successfully!');
+    }
+
+    /**
+     * Delete testimonial.
+     */
+    public function destroy(Testimonial $testimonial)
+    {
+        $testimonial->delete();
+        return redirect()->route('admin.testimonials.index')->with('success', 'Testimonial deleted successfully!');
+    }
+
+    /**
+     * Toggle active status (AJAX).
+     */
+    public function toggleStatus(Testimonial $testimonial)
+    {
+        $testimonial->update(['is_active' => !$testimonial->is_active]);
+        return back()->with('success', 'Status updated!');
+    }
+}

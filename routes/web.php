@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\Admin\AdminAuthController;
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\AdminBlogController;
+use App\Http\Controllers\Admin\AdminTestimonialController;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 
@@ -40,7 +44,29 @@ Route::get('/industrial-asset-management', [PageController::class, 'industrialAs
 // Product details page  Kp End
 
 
+// ==========================================
+// Admin Panel Routes
+// ==========================================
+Route::prefix('admin')->group(function () {
+    // Auth routes (guest only)
+    Route::middleware('guest')->group(function () {
+        Route::get('/login', [AdminAuthController::class, 'showLogin'])->name('admin.login');
+        Route::post('/login', [AdminAuthController::class, 'login'])->name('admin.login.submit');
+    });
 
+    // Protected admin routes
+    Route::middleware('auth')->group(function () {
+        Route::post('/logout', [AdminAuthController::class, 'logout'])->name('admin.logout');
+        Route::get('/', [DashboardController::class, 'index'])->name('admin.dashboard');
+
+        // Blogs CRUD
+        Route::resource('blogs', AdminBlogController::class)->names('admin.blogs');
+
+        // Testimonials CRUD
+        Route::resource('testimonials', AdminTestimonialController::class)->names('admin.testimonials');
+        Route::patch('testimonials/{testimonial}/toggle-status', [AdminTestimonialController::class, 'toggleStatus'])->name('admin.testimonials.toggle-status');
+    });
+});
 
 
 

@@ -30,11 +30,13 @@
             <div class="row">
                 <div class="col-12 col-lg-8">
                     <div class="details-image">
-                        <img src="{{ asset($blog['image']) }}" alt="img" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
+                        @if($blog->image)
+                            <img src="{{ asset($blog->image) }}" alt="img" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
+                        @endif
                     </div>
                     <div class="news-details-content">
-                        <h3>{{ $blog['title'] }}</h3>
-                        {!! $blog['content'] !!}
+                        <h3>{{ $blog->title }}</h3>
+                        {!! $blog->content !!}
 
                         <!-- <div class="sideber">
                       <h3>
@@ -58,14 +60,12 @@
 
                         <div class="row tag-share-wrap mt-4 mb-5">
                             <div class="col-lg-8 col-12">
+                                @if($blog->tag)
                                 <div class="tagcloud">
-                                    <span>Tags:</span>
-                                    <a href="#">ERP Development</a>
-                                    <a href="#">Cloud ERP</a>
-                                    <a href="#">Business Automation</a>
-                                    <a href="#">Digital Transformation</a>
+                                    <span>Tag:</span>
+                                    <a href="#">{{ $blog->tag }}</a>
                                 </div>
-
+                                @endif
                             </div>
                             <div class="col-lg-4 col-12 mt-3 mt-lg-0 text-lg-end">
                                 <div class="social-share">
@@ -191,57 +191,31 @@
                                 <h3>Recent Post</h3>
                             </div>
                             <div class="recent-post-area">
+                                @forelse($recentPosts as $recent)
                                 <div class="recent-items">
                                     <div class="recent-thumb">
-                                        <img src="{{ asset('assets/imgs/inner/blog/blog-3.jpg') }}" alt="img">
+                                        @if($recent->image)
+                                            <img src="{{ asset($recent->image) }}" alt="img">
+                                        @else
+                                            <img src="{{ asset('assets/imgs/inner/blog/blog-3.jpg') }}" alt="img">
+                                        @endif
                                     </div>
                                     <div class="recent-content">
                                         <h3>
-                                            <a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}">
-                                                Why Your Business Needs a Custom ERP Solution
+                                            <a href="{{ route('blog-details', $recent->slug) }}">
+                                                {{ Str::limit($recent->title, 50) }}
                                             </a>
                                         </h3>
                                         <ul>
                                             <li>
-                                                March 26, 2026
+                                                {{ $recent->published_at ? $recent->published_at->format('M d, Y') : $recent->created_at->format('M d, Y') }}
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="recent-items">
-                                    <div class="recent-thumb">
-                                        <img src="{{ asset('assets/imgs/inner/blog/blog-1.jpg') }}" alt="img">
-                                    </div>
-                                    <div class="recent-content">
-                                        <h3>
-                                            <a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}">
-                                                Cloud Migration: A Complete Guide for Enterprises
-                                            </a>
-                                        </h3>
-                                        <ul>
-                                            <li>
-                                                March 26, 2026
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="recent-items">
-                                    <div class="recent-thumb">
-                                        <img src="{{ asset('assets/imgs/inner/blog/blog-2.jpg') }}" alt="img">
-                                    </div>
-                                    <div class="recent-content">
-                                        <h3>
-                                            <a href="{{ route('blog-details', ['slug' => 'future-of-erp-systems']) }}">
-                                                ERP vs CRM: Understanding the Key Differences
-                                            </a>
-                                        </h3>
-                                        <ul>
-                                            <li>
-                                                March 26, 2026
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                @empty
+                                    <p>No recent posts.</p>
+                                @endforelse
                             </div>
                         </div>
                         <div class="single-sidebar-widget mb-0">
