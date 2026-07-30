@@ -4,9 +4,9 @@
 echo "Creating database file..."
 touch /var/www/html/database/database.sqlite
 
-# Run migrations
-echo "Running migrations..."
-php /var/www/html/artisan migrate --force
+# Run migrations and seed required baseline data (including the admin user).
+echo "Running migrations and seeders..."
+php /var/www/html/artisan migrate --force --seed
 
 # Cache Laravel config & routes for performance
 echo "Caching config and routes..."
