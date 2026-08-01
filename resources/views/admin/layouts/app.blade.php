@@ -154,6 +154,26 @@
         </div>
     </main>
 
+    <div class="modal fade" id="deleteConfirmationModal" tabindex="-1" aria-labelledby="deleteConfirmationTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border: 0; border-radius: 16px; overflow: hidden;">
+                <div class="modal-body text-center p-4 p-sm-5">
+                    <div style="width: 58px; height: 58px; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; background: rgba(239, 68, 68, .12); color: #dc2626; font-size: 24px; margin-bottom: 18px;">
+                        <i class="fa-regular fa-trash-can"></i>
+                    </div>
+                    <h4 id="deleteConfirmationTitle" class="mb-2">Delete this item?</h4>
+                    <p class="text-muted mb-4">This action cannot be undone. The item will be permanently removed.</p>
+                    <div class="d-flex justify-content-center gap-2">
+                        <button type="button" class="btn btn-light px-4" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-danger px-4" id="confirmDeleteButton">
+                            <i class="fa-regular fa-trash-can me-1"></i> Delete
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script src="{{ asset('assets/vandor/jquery/jquery.js') }}"></script>
     <script src="{{ asset('assets/vandor/bootstrap/bootstrap.bundle.min.js') }}"></script>
@@ -189,13 +209,28 @@
             }
         }, 4000);
 
-        // Delete confirmation
-        document.querySelectorAll('.btn-delete').forEach(btn => {
-            btn.addEventListener('click', function(e) {
-                if (!confirm('Are you sure you want to delete this item? This action cannot be undone.')) {
-                    e.preventDefault();
-                }
+        // Delete confirmation modal
+        const deleteModalElement = document.getElementById('deleteConfirmationModal');
+        const deleteModal = new bootstrap.Modal(deleteModalElement);
+        const confirmDeleteButton = document.getElementById('confirmDeleteButton');
+        let pendingDeleteForm = null;
+
+        document.querySelectorAll('.btn-delete').forEach(button => {
+            button.addEventListener('click', event => {
+                event.preventDefault();
+                pendingDeleteForm = button.closest('form');
+                deleteModal.show();
             });
+        });
+
+        confirmDeleteButton.addEventListener('click', () => {
+            if (pendingDeleteForm) {
+                pendingDeleteForm.submit();
+            }
+        });
+
+        deleteModalElement.addEventListener('hidden.bs.modal', () => {
+            pendingDeleteForm = null;
         });
     </script>
     @stack('scripts')

@@ -1,129 +1,91 @@
 @extends('layouts.app')
 
 @section('title', 'Blogs')
-@section('meta_description', 'Blogs')
-@section('meta_keywords', 'home, Blogs')
+@section('meta_description', 'Insights, updates, and practical guides from Avark.')
+@section('meta_keywords', 'Avark, blogs, healthcare technology, HMS, ERP')
 
 @section('content')
-
 <style>
-
+    .blog-listing { background: #f6f8fb; }
+    .blog-listing__intro { max-width: 650px; margin: 0 auto 46px; text-align: center; }
+    .blog-listing__eyebrow { color: #16803d; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .blog-listing__intro h1 { color: #152b3c; font-size: clamp(32px, 4vw, 48px); margin: 10px 0 12px; }
+    .blog-listing__intro p { color: #64748b; font-size: 17px; margin: 0; }
+    .blog-card { height: 100%; overflow: hidden; border: 1px solid #e5eaf0; border-radius: 18px; background: #fff; box-shadow: 0 8px 25px rgba(21, 43, 60, .06); transition: transform .25s ease, box-shadow .25s ease; }
+    .blog-card:hover { transform: translateY(-6px); box-shadow: 0 18px 36px rgba(21, 43, 60, .13); }
+    .blog-card__image { position: relative; display: block; height: 225px; overflow: hidden; background: #e8eef1; }
+    .blog-card__image img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
+    .blog-card:hover .blog-card__image img { transform: scale(1.05); }
+    .blog-card__tag { position: absolute; top: 16px; left: 16px; display: inline-block; padding: 6px 12px; border-radius: 20px; background: #16803d; color: #fff; font-size: 12px; font-weight: 700; }
+    .blog-card__body { display: flex; height: calc(100% - 225px); flex-direction: column; padding: 25px; }
+    .blog-card__meta { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 14px; color: #718096; font-size: 13px; }
+    .blog-card__meta i { color: #16803d; margin-right: 5px; }
+    .blog-card__title { margin: 0 0 12px; font-size: 23px; line-height: 1.35; }
+    .blog-card__title a { color: #152b3c; transition: color .2s ease; }
+    .blog-card__title a:hover { color: #16803d; }
+    .blog-card__excerpt { color: #64748b; line-height: 1.7; }
+    .blog-card__link { margin-top: auto; padding-top: 18px; color: #16803d; font-weight: 700; }
+    .blog-card__link i { margin-left: 7px; transition: transform .2s ease; }
+    .blog-card__link:hover i { transform: translateX(4px); }
+    .blog-empty { padding: 60px 25px; border: 1px dashed #cbd5e1; border-radius: 18px; background: #fff; color: #64748b; text-align: center; }
+    .blog-empty i { display: block; margin-bottom: 16px; color: #16803d; font-size: 42px; }
+    @media (max-width: 575px) { .blog-card__image { height: 200px; } .blog-card__body { padding: 20px; } }
 </style>
 
-<!-- breadcrumb-section -->
-<section class="breadcrumb-section__area ">
-    <div class=" container rr-container-1900">
+<section class="breadcrumb-section__area">
+    <div class="container rr-container-1900">
         <div class="breadcrumb-section__wrapper" data-background="{{ asset('assets/imgs/home-1/hero/breadcrumb-bg-thumb.png') }}">
             <div class="breadcrumb-section__content text_center breadcrumb-section__space">
                 <h3 class="breadcrumb-section__title">Blogs</h3>
                 <ul class="breadcrumb-section__page">
                     <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                     <li>Blogs</li>
-@extends('layouts.app')
-
-@section('title', 'Blogs')
-@section('meta_description', 'Blogs')
-@section('meta_keywords', 'home, Blogs')
-
-@section('content')
-
-<style>
-
-</style>
-
-<!-- breadcrumb-section -->
-<section class="breadcrumb-section__area ">
-    <div class=" container rr-container-1900">
-        <div class="breadcrumb-section__wrapper" data-background="{{ asset('assets/imgs/home-1/hero/breadcrumb-bg-thumb.png') }}">
-            <div class="breadcrumb-section__content text_center breadcrumb-section__space">
-                <h3 class="breadcrumb-section__title">Blogs</h3>
-                <ul class="breadcrumb-section__page">
-                    <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
-                    <li>Blogs</li>
+                </ul>
             </div>
         </div>
         <div class="breadcrumb-section__border"></div>
     </div>
 </section>
 
-<section class="blog-3 rr-bg-gray section-spacing">
-          <div class="container rr-container-1350">
-            <div class="row mb-minus-30">
-              
-              @forelse($blogs as $blog)
-              <div class="col-lg-4 col-md-6">
-                <div class="blog-3__item mb-30">
-                  <div class="blog-3__content">
-                    <ul class="blog-3__meta">
-                      <li><span><i class="fa-light fa-circle-user"></i></span>By {{ $blog->author }}</li>
-                      <li><span><i class="fa-solid fa-envelope"></i></span>Comments (0)</li>
-                    </ul>
+<section class="blog-listing section-spacing">
+    <div class="container rr-container-1350">
+        <div class="blog-listing__intro">
+            <span class="blog-listing__eyebrow">Avark Insights</span>
+            <h1>Ideas that move healthcare forward</h1>
+            <p>Explore practical updates, product insights, and technology perspectives from the Avark team.</p>
+        </div>
 
-                    <h3 class="title"><a href="{{ route('blog-details', $blog->slug) }}">{{ $blog->title }}</a></h3>
-                    <div class="blog-3__media">
-                      <a href="{{ route('blog-details', $blog->slug) }}">
-                        @if($blog->image)
-                            <img src="{{ asset($blog->image) }}" alt="{{ $blog->title }}">
-                        @else
-                            <img src="{{ asset('assets/imgs/inner/features/analytics_dashboard_1783400138562.png') }}" alt="{{ $blog->title }}">
-                        @endif
-                      </a>
-                      <ul class="blog-3__meta-list">
-                        @if($blog->tag)
-                            <li class="tag">{{ $blog->tag }}</li>
-                        @endif
-                        <li class="date">{{ $blog->published_at ? $blog->published_at->format('M d, Y') : $blog->created_at->format('M d, Y') }}</li>
-                      </ul>
-                    </div>
-                  </div>
+        <div class="row g-4">
+            @forelse($blogs as $blog)
+                <div class="col-lg-4 col-md-6">
+                    <article class="blog-card">
+                        <a class="blog-card__image" href="{{ route('blog-details', $blog->slug) }}" aria-label="Read {{ $blog->title }}">
+                            <img src="{{ $blog->image ? asset($blog->image) : asset('assets/imgs/inner/features/analytics_dashboard_1783400138562.png') }}" alt="{{ $blog->title }}">
+                            @if($blog->tag)
+                                <span class="blog-card__tag">{{ $blog->tag }}</span>
+                            @endif
+                        </a>
+                        <div class="blog-card__body">
+                            <div class="blog-card__meta">
+                                <span><i class="fa-regular fa-user"></i>{{ $blog->author }}</span>
+                                <span><i class="fa-regular fa-calendar"></i>{{ ($blog->published_at ?? $blog->created_at)->format('M d, Y') }}</span>
+                            </div>
+                            <h2 class="blog-card__title"><a href="{{ route('blog-details', $blog->slug) }}">{{ $blog->title }}</a></h2>
+                            <p class="blog-card__excerpt">{{ Str::limit(trim(strip_tags($blog->content)), 135) }}</p>
+                            <a class="blog-card__link" href="{{ route('blog-details', $blog->slug) }}">Read article <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
                 </div>
-              </div>
-              @empty
-              <div class="col-12 text-center py-5">
-                  <h4>No blogs found.</h4>
-                  <p>Check back later for exciting updates!</p>
-              </div>
-              @endforelse
-
-            </div>
-          </div>
-        </section>
-
-        <section class="cta-section__area">
-          <div class="container rr-container-1350">
-            <div class="cta-section__wrapper" data-background="{{ asset('assets/imgs/home-3/shape/cta-3-bg.png') }}">
-              <div class="section-title-3__wrapper tx-center">
-                <h2 class="sub-title white"><img class="left-shape" src="{{ asset('assets/imgs/home-3/shape/shape-left-white.png') }}"
-                    alt="image">Connect With Us <img class="right-shape"
-                    src="{{ asset('assets/imgs/home-3/shape/shape-right-white.png') }}" alt="image"></h2>
-                <h2 class="title rr-title-anim-1 white">Freedom Without Commitments.</h2>
-                <p class="cta-section__dec">Start your 30-day free trial. Cancel anytime.</p>
-              </div>
-              <div class="cta-section__btn">
-                <a href="#" class="rr-btn">
-                  <span class="btn-wrap">
-                    <span class="text-one">view our demo</span>
-                    <span class="text-two">view our demo</span>
-                  </span>
-                </a>
-                <a href="{{ route('contact-us') }}" class="rr-btn rr-btn-3">
-                  <span class="btn-wrap">
-                    <span class="text-one">start free trial now</span>
-                    <span class="text-two">start free trial now</span>
-                  </span>
-                </a>
-              </div>
-              <div class="cta-section__list">
-                <ul>
-                  <li><i class="fa-regular fa-angles-right"></i> 14-day free trial</li>
-                  <li><i class="fa-regular fa-angles-right"></i> No credit card required</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
-
+            @empty
+                <div class="col-12">
+                    <div class="blog-empty">
+                        <i class="fa-regular fa-newspaper"></i>
+                        <h2>No articles published yet</h2>
+                        <p class="mb-0">Please check back soon for new insights and updates.</p>
+                    </div>
+                </div>
+            @endforelse
+        </div>
+    </div>
+</section>
 @endsection

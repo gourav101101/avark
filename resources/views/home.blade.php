@@ -1543,9 +1543,15 @@
 
                         <div class="testimonial__author">
                             <ul>
-                                <li><img loading="lazy" src="assets/imgs/home-1/testimonial/author-1.jpg" alt="image"></li>
-                                <li><img loading="lazy" src="assets/imgs/home-1/testimonial/author-2.jpg" alt="image"></li>
-                                <li><img loading="lazy" src="assets/imgs/home-1/testimonial/author-3.jpg" alt="image"></li>
+                                @foreach($testimonials->take(3) as $testimonial)
+                                    <li>
+                                        @if($testimonial->avatar)
+                                            <img loading="lazy" src="{{ asset($testimonial->avatar) }}" alt="{{ $testimonial->client_name }}">
+                                        @else
+                                            <span>{{ Str::upper(Str::substr($testimonial->client_name, 0, 1)) }}</span>
+                                        @endif
+                                    </li>
+                                @endforeach
                                 <li><i class="fa-solid fa-plus"></i></li>
                             </ul>
 
@@ -1567,66 +1573,34 @@
                                 <i class="fa-solid fa-angle-down"></i>
                             </button>
                         </div>
-                        <div class="testimonial__item" data-index="0">
-                            <div class="testimonial__stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <p class="desc">“ARK HIMS has transformed our hospital operations. Patient registration, billing, pharmacy, and laboratory processes are now faster and more accurate. The real-time dashboard helps management make informed decisions every day.”</p>
-                            <div class="testimonial__info">
-                                <div class="testimonial__info__media">
-                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-1.jpg" alt="Hospital Administrator">
+                        @forelse($testimonials as $testimonial)
+                            <div class="testimonial__item{{ $loop->iteration > 1 ? ' item-' . $loop->iteration : '' }}" data-index="{{ $loop->index }}">
+                                <div class="testimonial__stars">
+                                    @for($star = 1; $star <= 5; $star++)
+                                        <i class="fa-{{ $star <= $testimonial->rating ? 'solid' : 'regular' }} fa-star"></i>
+                                    @endfor
                                 </div>
-                                <div class="testimonial__info__content">
-                                    <h2 class="title">Hospital Administrator</h2>
-                                    <span class="sub-title">Multi-Specialty Hospital</span>
+                                <p class="desc">&ldquo;{{ strip_tags($testimonial->content) }}&rdquo;</p>
+                                <div class="testimonial__info">
+                                    <div class="testimonial__info__media">
+                                        @if($testimonial->avatar)
+                                            <img loading="lazy" src="{{ asset($testimonial->avatar) }}" alt="{{ $testimonial->client_name }}">
+                                        @else
+                                            <span>{{ Str::upper(Str::substr($testimonial->client_name, 0, 1)) }}</span>
+                                        @endif
+                                    </div>
+                                    <div class="testimonial__info__content">
+                                        <h2 class="title">{{ $testimonial->client_name }}</h2>
+                                        <span class="sub-title">{{ collect([$testimonial->client_position, $testimonial->client_company])->filter()->implode(', ') }}</span>
+                                    </div>
                                 </div>
+                                <div class="shape"><img loading="lazy" src="{{ asset('assets/imgs/home-1/testimonial/quite.png') }}" alt="image"></div>
                             </div>
-                            <div class="shape"><img loading="lazy" src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
-                        </div>
-                        <div class="testimonial__item item-2" data-index="1">
-                            <div class="testimonial__stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                        @empty
+                            <div class="testimonial__item" data-index="0">
+                                <p class="desc">No testimonials available yet.</p>
                             </div>
-                            <p class="desc">“The inventory and pharmacy management module alone saved us lakhs every month. Stock wastage dropped by 40%, and we now have complete visibility across all departments. Truly a game-changer for our hospital chain.”</p>
-                            <div class="testimonial__info">
-                                <div class="testimonial__info__media">
-                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-2.jpg" alt="Operations Director">
-                                </div>
-                                <div class="testimonial__info__content">
-                                    <h2 class="title">Operations Director</h2>
-                                    <span class="sub-title">Hospital Chain, Central India</span>
-                                </div>
-                            </div>
-                            <div class="shape"><img loading="lazy" src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
-                        </div>
-                        <div class="testimonial__item item-3" data-index="2">
-                            <div class="testimonial__stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <p class="desc">“Implementing ARK was seamless. The Avark team understood our clinical workflows perfectly. From OPD scheduling to discharge summaries, every module works exactly the way a doctor needs it. The mobile app is an added bonus for on-the-go access.”</p>
-                            <div class="testimonial__info">
-                                <div class="testimonial__info__media">
-                                    <img loading="lazy" src="assets/imgs/home-1/testimonial/author-3.jpg" alt="Chief Medical Officer">
-                                </div>
-                                <div class="testimonial__info__content">
-                                    <h2 class="title">Chief Medical Officer</h2>
-                                    <span class="sub-title">Private Hospital, Maharashtra</span>
-                                </div>
-                            </div>
-                            <div class="shape"><img loading="lazy" src="assets/imgs/home-1/testimonial/quite.png" alt="image"></div>
-                        </div>
+                        @endforelse
                     </div>
                 </div>
             </div>

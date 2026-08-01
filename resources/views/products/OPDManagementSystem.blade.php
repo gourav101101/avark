@@ -210,4 +210,6 @@
   </div>
 </section>
 
+@include('partials.brochure-download')
+
 @endsection

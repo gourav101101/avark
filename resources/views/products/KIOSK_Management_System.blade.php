@@ -285,5 +285,7 @@
 
 
 
+@include('partials.brochure-download')
+
 @endsection
 

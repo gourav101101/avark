@@ -12,7 +12,9 @@ class PageController extends Controller
 {
     public function home()
     {
-        return view('home');
+        $testimonials = Testimonial::active()->ordered()->get();
+
+        return view('home', compact('testimonials'));
     }
 
     public function about()
@@ -144,7 +146,7 @@ class PageController extends Controller
 
     public function BlogDetails($slug)
     {
-        $blog = Blog::where('slug', $slug)->firstOrFail();
+        $blog = Blog::published()->where('slug', $slug)->firstOrFail();
         
         // Find recent posts for sidebar
         $recentPosts = Blog::published()
@@ -157,4 +159,3 @@ class PageController extends Controller
     }
 
 }
-
