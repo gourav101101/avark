@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use MongoDB\BSON\ObjectId;
-use MongoDB\Client;
 
 class PublicMediaController extends Controller
 {
@@ -25,10 +25,9 @@ class PublicMediaController extends Controller
     /** Stream a blog image from MongoDB GridFS. */
     public function blogImage(string $fileId)
     {
-        abort_unless(ObjectId::isValid($fileId), 404);
+        abort_unless(preg_match('/^[a-f0-9]{24}$/i', $fileId) === 1, 404);
 
-        $database = (new Client(config('database.connections.mongodb.dsn')))
-            ->selectDatabase(config('database.connections.mongodb.database'));
+        $database = DB::connection('mongodb')->getDatabase();
         $objectId = new ObjectId($fileId);
         $file = $database->selectCollection('blog_images.files')->findOne(['_id' => $objectId]);
 

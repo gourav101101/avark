@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Blog;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use MongoDB\Client;
 use MongoDB\BSON\ObjectId;
 
 class AdminBlogController extends Controller
@@ -164,15 +164,26 @@ class AdminBlogController extends Controller
     {
         $fileId = Str::after((string) $image, 'gridfs:');
 
-        if (Str::startsWith((string) $image, 'gridfs:') && ObjectId::isValid($fileId)) {
-            $this->gridFsBucket()->delete(new ObjectId($fileId));
+        if (Str::startsWith((string) $image, 'gridfs:') && $this->isValidObjectId($fileId)) {
+            try {
+                $this->gridFsBucket()->delete(new ObjectId($fileId));
+            } catch (\Throwable $exception) {
+                // Do not prevent deleting a blog when an old image is already
+                // missing or cannot be removed from GridFS.
+                report($exception);
+            }
         }
     }
 
     private function gridFsBucket()
     {
-        return (new Client(config('database.connections.mongodb.dsn')))
-            ->selectDatabase(config('database.connections.mongodb.database'))
+        return DB::connection('mongodb')
+            ->getDatabase()
             ->selectGridFSBucket(['bucketName' => 'blog_images']);
+    }
+
+    private function isValidObjectId(string $value): bool
+    {
+        return preg_match('/^[a-f0-9]{24}$/i', $value) === 1;
     }
 }
