@@ -154,7 +154,9 @@ class BlogSeeder extends Seeder
         ];
 
         foreach ($blogs as $blog) {
-            Blog::create($blog);
+            // This seeder runs during deployment. Do not create duplicate
+            // MongoDB posts whenever Render restarts the service.
+            Blog::firstOrCreate(['slug' => $blog['slug']], $blog);
         }
     }
 }

@@ -52,7 +52,14 @@ class AdminBlogController extends Controller
     {
         $validated = $request->validate([
             'title' => 'required|string|max:255',
-            'slug' => 'nullable|string|max:255|unique:blogs,slug',
+            'slug' => [
+                'nullable', 'string', 'max:255',
+                function ($attribute, $value, $fail) {
+                    if ($value && Blog::where('slug', $value)->exists()) {
+                        $fail('This slug is already in use.');
+                    }
+                },
+            ],
             'author' => 'required|string|max:255',
             'tag' => 'nullable|string|max:100',
             'image' => 'nullable|image|mimes:jpg,jpeg,png,webp,svg|max:5120',
@@ -92,7 +99,14 @@ class AdminBlogController extends Controller
     {
         $validated = $request->validate([
             'title' => 'required|string|max:255',
-            'slug' => 'nullable|string|max:255|unique:blogs,slug,' . $blog->id,
+            'slug' => [
+                'nullable', 'string', 'max:255',
+                function ($attribute, $value, $fail) use ($blog) {
+                    if ($value && Blog::where('slug', $value)->where('_id', '!=', $blog->getKey())->exists()) {
+                        $fail('This slug is already in use.');
+                    }
+                },
+            ],
             'author' => 'required|string|max:255',
             'tag' => 'nullable|string|max:100',
             'image' => 'nullable|image|mimes:jpg,jpeg,png,webp,svg|max:5120',

@@ -3,6 +3,9 @@ FROM serversideup/php:8.3-fpm-nginx
 # Switch to root to configure file permissions
 USER root
 
+# The Laravel MongoDB integration requires the native PHP MongoDB extension.
+RUN install-php-extensions mongodb
+
 # Copy application files with correct ownership for www-data
 COPY --chown=www-data:www-data . /var/www/html
 

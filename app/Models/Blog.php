@@ -2,11 +2,17 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+use MongoDB\Laravel\Eloquent\Model;
 
 class Blog extends Model
 {
+    /**
+     * Blog posts are stored in the persistent MongoDB database. Other legacy
+     * Laravel tables may continue to use the default SQL/SQLite connection.
+     */
+    protected $connection = 'mongodb';
+
     protected $fillable = [
         'title',
         'slug',
