@@ -61,6 +61,12 @@
                         <span>Testimonials</span>
                     </a>
                 </li>
+                <li class="nav-item {{ request()->routeIs('admin.brochures.*') ? 'active' : '' }}">
+                    <a href="{{ route('admin.brochures.index') }}" class="nav-link-item">
+                        <i class="fa-regular fa-file-pdf"></i>
+                        <span>Brochure</span>
+                    </a>
+                </li>
             </ul>
 
             <div class="nav-section-title">Quick Links</div>

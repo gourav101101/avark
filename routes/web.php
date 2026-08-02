@@ -6,6 +6,7 @@ use App\Http\Controllers\PublicMediaController;
 use App\Http\Controllers\Admin\AdminAuthController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\AdminBlogController;
+use App\Http\Controllers\Admin\AdminBrochureController;
 use App\Http\Controllers\Admin\AdminTestimonialController;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
@@ -66,6 +67,11 @@ Route::prefix('admin')->group(function () {
 
         // Blogs CRUD
         Route::resource('blogs', AdminBlogController::class)->names('admin.blogs');
+
+        // Brochure management
+        Route::get('brochures', [AdminBrochureController::class, 'index'])->name('admin.brochures.index');
+        Route::post('brochures', [AdminBrochureController::class, 'store'])->name('admin.brochures.store');
+        Route::delete('brochures/{brochure}', [AdminBrochureController::class, 'destroy'])->name('admin.brochures.destroy');
 
         // Testimonials CRUD
         Route::resource('testimonials', AdminTestimonialController::class)->names('admin.testimonials');
