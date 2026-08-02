@@ -86,9 +86,6 @@
 <!-- Menu -->
 <script src="{{ asset('assets/vandor/menu/jquery.meanmenu.min.js') }}"></script>
 
-<!-- Back To Top -->
-<script src="{{ asset('assets/vandor/backtop/backToTop.js') }}"></script>
-
 <!-- Nice Select -->
 <script src="{{ asset('assets/vandor/nice-select/nice-select.js') }}"></script>
 

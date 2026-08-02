@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Models\Blog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use MongoDB\Client;
+use MongoDB\BSON\ObjectId;
 
 class AdminBlogController extends Controller
 {
@@ -70,10 +72,7 @@ class AdminBlogController extends Controller
 
         // Handle image upload
         if ($request->hasFile('image')) {
-            $image = $request->file('image');
-            $filename = $image->hashName();
-            $image->move(public_path('uploads/blogs'), $filename);
-            $validated['image'] = 'uploads/blogs/' . $filename;
+            $validated['image'] = $this->storeBlogImage($request->file('image'));
         }
 
         $validated['is_published'] = $request->boolean('is_published');
@@ -117,10 +116,8 @@ class AdminBlogController extends Controller
 
         // Handle image upload
         if ($request->hasFile('image')) {
-            $image = $request->file('image');
-            $filename = $image->hashName();
-            $image->move(public_path('uploads/blogs'), $filename);
-            $validated['image'] = 'uploads/blogs/' . $filename;
+            $this->deleteBlogImage($blog->getRawOriginal('image'));
+            $validated['image'] = $this->storeBlogImage($request->file('image'));
         }
 
         $validated['is_published'] = $request->boolean('is_published');
@@ -139,7 +136,43 @@ class AdminBlogController extends Controller
      */
     public function destroy(Blog $blog)
     {
+        $this->deleteBlogImage($blog->getRawOriginal('image'));
         $blog->delete();
         return redirect()->route('admin.blogs.index')->with('success', 'Blog deleted successfully!');
+    }
+
+    /** Store an uploaded blog image in MongoDB GridFS, not Render's temporary disk. */
+    private function storeBlogImage($image): string
+    {
+        $stream = fopen($image->getRealPath(), 'rb');
+
+        try {
+            $fileId = $this->gridFsBucket()->uploadFromStream(
+                $image->hashName(),
+                $stream,
+                ['metadata' => ['contentType' => $image->getMimeType()]]
+            );
+        } finally {
+            fclose($stream);
+        }
+
+        return 'gridfs:' . (string) $fileId;
+    }
+
+    /** Remove a replaced or deleted GridFS image so it does not consume storage. */
+    private function deleteBlogImage(?string $image): void
+    {
+        $fileId = Str::after((string) $image, 'gridfs:');
+
+        if (Str::startsWith((string) $image, 'gridfs:') && ObjectId::isValid($fileId)) {
+            $this->gridFsBucket()->delete(new ObjectId($fileId));
+        }
+    }
+
+    private function gridFsBucket()
+    {
+        return (new Client(config('database.connections.mongodb.dsn')))
+            ->selectDatabase(config('database.connections.mongodb.database'))
+            ->selectGridFSBucket(['bucketName' => 'blog_images']);
     }
 }

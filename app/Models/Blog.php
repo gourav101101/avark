@@ -34,6 +34,10 @@ class Blog extends Model
      */
     public function getImageAttribute($value)
     {
+        if (Str::startsWith($value, 'gridfs:')) {
+            return route('media.blog-image', ['fileId' => Str::after($value, 'gridfs:')]);
+        }
+
         if (Str::startsWith($value, 'storage/blogs/')) {
             return 'media/blogs/' . basename($value);
         }
