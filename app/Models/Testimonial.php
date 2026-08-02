@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Testimonial extends Model
 {
@@ -22,6 +23,18 @@ class Testimonial extends Model
         'rating' => 'integer',
         'sort_order' => 'integer',
     ];
+
+    /**
+     * Keep legacy storage-disk uploads working on hosts without a public/storage link.
+     */
+    public function getAvatarAttribute($value)
+    {
+        if (Str::startsWith($value, 'storage/testimonials/')) {
+            return 'media/testimonials/' . basename($value);
+        }
+
+        return $value;
+    }
 
     /**
      * Scope to get only active testimonials.

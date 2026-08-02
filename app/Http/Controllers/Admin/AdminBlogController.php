@@ -63,8 +63,10 @@ class AdminBlogController extends Controller
 
         // Handle image upload
         if ($request->hasFile('image')) {
-            $path = $request->file('image')->store('blogs', 'public');
-            $validated['image'] = 'storage/' . $path;
+            $image = $request->file('image');
+            $filename = $image->hashName();
+            $image->move(public_path('uploads/blogs'), $filename);
+            $validated['image'] = 'uploads/blogs/' . $filename;
         }
 
         $validated['is_published'] = $request->boolean('is_published');
@@ -101,8 +103,10 @@ class AdminBlogController extends Controller
 
         // Handle image upload
         if ($request->hasFile('image')) {
-            $path = $request->file('image')->store('blogs', 'public');
-            $validated['image'] = 'storage/' . $path;
+            $image = $request->file('image');
+            $filename = $image->hashName();
+            $image->move(public_path('uploads/blogs'), $filename);
+            $validated['image'] = 'uploads/blogs/' . $filename;
         }
 
         $validated['is_published'] = $request->boolean('is_published');

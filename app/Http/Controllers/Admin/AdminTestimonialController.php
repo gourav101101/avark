@@ -62,8 +62,10 @@ class AdminTestimonialController extends Controller
 
         // Handle avatar upload
         if ($request->hasFile('avatar')) {
-            $path = $request->file('avatar')->store('testimonials', 'public');
-            $validated['avatar'] = 'storage/' . $path;
+            $avatar = $request->file('avatar');
+            $filename = $avatar->hashName();
+            $avatar->move(public_path('uploads/testimonials'), $filename);
+            $validated['avatar'] = 'uploads/testimonials/' . $filename;
         }
 
         $validated['is_active'] = $request->boolean('is_active');
@@ -101,8 +103,10 @@ class AdminTestimonialController extends Controller
 
         // Handle avatar upload
         if ($request->hasFile('avatar')) {
-            $path = $request->file('avatar')->store('testimonials', 'public');
-            $validated['avatar'] = 'storage/' . $path;
+            $avatar = $request->file('avatar');
+            $filename = $avatar->hashName();
+            $avatar->move(public_path('uploads/testimonials'), $filename);
+            $validated['avatar'] = 'uploads/testimonials/' . $filename;
         }
 
         $validated['is_active'] = $request->boolean('is_active');

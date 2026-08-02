@@ -24,6 +24,18 @@ class Blog extends Model
     ];
 
     /**
+     * Keep legacy storage-disk uploads working on hosts without a public/storage link.
+     */
+    public function getImageAttribute($value)
+    {
+        if (Str::startsWith($value, 'storage/blogs/')) {
+            return 'media/blogs/' . basename($value);
+        }
+
+        return $value;
+    }
+
+    /**
      * Scope to get only published blogs.
      */
     public function scopePublished($query)

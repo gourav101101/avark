@@ -2,12 +2,17 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\PublicMediaController;
 use App\Http\Controllers\Admin\AdminAuthController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\AdminBlogController;
 use App\Http\Controllers\Admin\AdminTestimonialController;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
+Route::get('/media/{folder}/{filename}', [PublicMediaController::class, 'legacy'])
+    ->where('folder', 'blogs|testimonials')
+    ->where('filename', '[^/]+')
+    ->name('media.legacy');
 
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/services', [PageController::class, 'services'])->name('services');
