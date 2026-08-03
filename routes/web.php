@@ -13,6 +13,9 @@ Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/media/blog-images/{fileId}', [PublicMediaController::class, 'blogImage'])
     ->where('fileId', '[a-f0-9]{24}')
     ->name('media.blog-image');
+Route::get('/media/testimonial-avatars/{fileId}', [PublicMediaController::class, 'testimonialAvatar'])
+    ->where('fileId', '[a-f0-9]{24}')
+    ->name('media.testimonial-avatar');
 Route::get('/media/{folder}/{filename}', [PublicMediaController::class, 'legacy'])
     ->where('folder', 'blogs|testimonials')
     ->where('filename', '[^/]+')

@@ -46,7 +46,14 @@ class TestimonialSeeder extends Seeder
         ];
 
         foreach ($testimonials as $testimonial) {
-            Testimonial::create($testimonial);
+            // Render runs seeders at startup. Keep MongoDB seed data idempotent.
+            Testimonial::firstOrCreate(
+                [
+                    'client_name' => $testimonial['client_name'],
+                    'client_company' => $testimonial['client_company'],
+                ],
+                $testimonial
+            );
         }
     }
 }

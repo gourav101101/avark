@@ -5,6 +5,9 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Testimonial;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
+use MongoDB\BSON\ObjectId;
 
 class AdminTestimonialController extends Controller
 {
@@ -62,10 +65,7 @@ class AdminTestimonialController extends Controller
 
         // Handle avatar upload
         if ($request->hasFile('avatar')) {
-            $avatar = $request->file('avatar');
-            $filename = $avatar->hashName();
-            $avatar->move(public_path('uploads/testimonials'), $filename);
-            $validated['avatar'] = 'uploads/testimonials/' . $filename;
+            $validated['avatar'] = $this->storeAvatar($request->file('avatar'));
         }
 
         $validated['is_active'] = $request->boolean('is_active');
@@ -103,10 +103,8 @@ class AdminTestimonialController extends Controller
 
         // Handle avatar upload
         if ($request->hasFile('avatar')) {
-            $avatar = $request->file('avatar');
-            $filename = $avatar->hashName();
-            $avatar->move(public_path('uploads/testimonials'), $filename);
-            $validated['avatar'] = 'uploads/testimonials/' . $filename;
+            $this->deleteAvatar($testimonial->getRawOriginal('avatar'));
+            $validated['avatar'] = $this->storeAvatar($request->file('avatar'));
         }
 
         $validated['is_active'] = $request->boolean('is_active');
@@ -121,6 +119,7 @@ class AdminTestimonialController extends Controller
      */
     public function destroy(Testimonial $testimonial)
     {
+        $this->deleteAvatar($testimonial->getRawOriginal('avatar'));
         $testimonial->delete();
         return redirect()->route('admin.testimonials.index')->with('success', 'Testimonial deleted successfully!');
     }
@@ -132,5 +131,46 @@ class AdminTestimonialController extends Controller
     {
         $testimonial->update(['is_active' => !$testimonial->is_active]);
         return back()->with('success', 'Status updated!');
+    }
+
+    /** Store testimonial avatars in MongoDB GridFS, not Render's temporary disk. */
+    private function storeAvatar($avatar): string
+    {
+        $stream = fopen($avatar->getRealPath(), 'rb');
+
+        try {
+            $fileId = $this->gridFsBucket()->uploadFromStream(
+                $avatar->hashName(),
+                $stream,
+                ['metadata' => ['contentType' => $avatar->getMimeType()]]
+            );
+        } finally {
+            fclose($stream);
+        }
+
+        return 'gridfs-testimonial:' . (string) $fileId;
+    }
+
+    private function deleteAvatar(?string $avatar): void
+    {
+        $fileId = Str::after((string) $avatar, 'gridfs-testimonial:');
+
+        if (!Str::startsWith((string) $avatar, 'gridfs-testimonial:') || preg_match('/^[a-f0-9]{24}$/i', $fileId) !== 1) {
+            return;
+        }
+
+        try {
+            $this->gridFsBucket()->delete(new ObjectId($fileId));
+        } catch (\Throwable $exception) {
+            // A missing old avatar must not prevent an admin from deleting a testimonial.
+            report($exception);
+        }
+    }
+
+    private function gridFsBucket()
+    {
+        return DB::connection('mongodb')
+            ->getDatabase()
+            ->selectGridFSBucket(['bucketName' => 'testimonial_avatars']);
     }
 }

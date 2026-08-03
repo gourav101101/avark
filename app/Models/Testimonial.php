@@ -2,11 +2,14 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+use MongoDB\Laravel\Eloquent\Model;
 
 class Testimonial extends Model
 {
+    /** Store testimonials in the persistent MongoDB connection. */
+    protected $connection = 'mongodb';
+
     protected $fillable = [
         'client_name',
         'client_position',
@@ -29,6 +32,10 @@ class Testimonial extends Model
      */
     public function getAvatarAttribute($value)
     {
+        if (Str::startsWith($value, 'gridfs-testimonial:')) {
+            return route('media.testimonial-avatar', ['fileId' => Str::after($value, 'gridfs-testimonial:')]);
+        }
+
         if (Str::startsWith($value, 'storage/testimonials/')) {
             return 'media/testimonials/' . basename($value);
         }

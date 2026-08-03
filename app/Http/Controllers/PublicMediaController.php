@@ -45,4 +45,28 @@ class PublicMediaController extends Controller
             'Cache-Control' => 'public, max-age=31536000, immutable',
         ]);
     }
+
+    /** Stream a testimonial avatar from MongoDB GridFS. */
+    public function testimonialAvatar(string $fileId)
+    {
+        abort_unless(preg_match('/^[a-f0-9]{24}$/i', $fileId) === 1, 404);
+
+        $database = DB::connection('mongodb')->getDatabase();
+        $objectId = new ObjectId($fileId);
+        $file = $database->selectCollection('testimonial_avatars.files')->findOne(['_id' => $objectId]);
+
+        abort_unless($file, 404);
+
+        $contentType = $file['metadata']['contentType'] ?? 'application/octet-stream';
+        $stream = $database->selectGridFSBucket(['bucketName' => 'testimonial_avatars'])
+            ->openDownloadStream($objectId);
+
+        return response()->stream(function () use ($stream) {
+            fpassthru($stream);
+            fclose($stream);
+        }, 200, [
+            'Content-Type' => $contentType,
+            'Cache-Control' => 'public, max-age=31536000, immutable',
+        ]);
+    }
 }
